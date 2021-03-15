@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Generic" />
+		<folder name="Pages Navigations" />
+		<folder name="Modelling">
+			<folder name="Fact Type">
+				<folder name="General" />
+				<folder name="Pre-requisite" />
+				<folder name="Test Case Specific" />
+			</folder>
+			<folder name="Decision">
+				<folder name="Pre-requisite" />
+				<folder name="General" />
+				<folder name="Test Case Specifics" />
+			</folder>
+			<folder name="Decision Flow">
+				<folder name="General" />
+				<folder name="Pre-requisite" />
+				<folder name="Test Case Specific" />
+			</folder>
+			<folder name="Rule Family">
+				<folder name="General" />
+				<folder name="Test Case Specific" />
+				<folder name="Pre-requisite" />
+			</folder>
+			<folder name="Knowledge Source">
+				<folder name="General" />
+				<folder name="Test Case Specific" />
+				<folder name="Pre-requisite" />
+			</folder>
+		</folder>
+	</children>
+</Root>
