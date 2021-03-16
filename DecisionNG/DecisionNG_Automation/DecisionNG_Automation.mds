@@ -3,6 +3,7 @@
 	<children>
 		<child name="Script" key="{35933B79-FD97-4155-A851-87BFFBB640AF}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{901F32C8-F077-423F-B0F4-5DE7A2860210}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="NameMapping" key="{F1A901A7-947A-42C3-87E2-A545D5352026}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{87F182F7-AA82-47A5-A515-B46EB955171A}" version="14">
@@ -33,7 +34,24 @@
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{E94FA621-4497-42BA-B67F-37504B13DBEC}" />
+	<variables key="{E94FA621-4497-42BA-B67F-37504B13DBEC}">
+		<data Version="4">
+			<Items>
+				<Variable Name="URL_UAT" Type="String" Local="False" Descr="Env available on bdmsuat8">
+					<DefValue StrValue="http://bdmsuat8:8854/login.jsp" />
+				</Variable>
+				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
+					<DefValue StrValue="Vars" />
+				</Variable>
+				<Variable Name="Password" Type="String" Local="False" Descr="SuperUser">
+					<DefValue StrValue="Decision1" />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003300460034004400380046003300460034004500430039003800410037003900310044004100460043004500330031004600350043003000350035003400320034003800320032003100310041003600430034004400330031004400360035003200" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{08DB5FAE-2D1E-4A73-9F9C-56F22F8E9F46}">
 		<settingsVersion value="14.73" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

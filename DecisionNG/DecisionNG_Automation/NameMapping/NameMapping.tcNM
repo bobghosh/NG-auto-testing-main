@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{BDB96653-763E-474C-974C-DB4195D8E7BF}">
+				<TypeInfo Item0="{C0702D31-7D41-477F-B909-EF8A390BC8A2}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{AD0E1836-DB96-4B45-B4CF-AEDC82CD2F1E}">
+						<TypeInfo Item0="{72CFC360-2CBF-4393-A483-F216C1EB4FA8}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSapiensDecision" Key="{D6661D87-1B3E-410C-BAB2-9568C08B9576}">
+								<Image FileName="731533751" Left="8" Top="111" Right="1368" Bottom="736" />
+								<TypeInfo Item0="{646FEEDB-571A-4912-9D36-B1D96B5D3F8E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat8:8854/enterprise/index.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{6986D6FE-C55C-412D-A184-1FAA790DD79A}">
+										<Image FileName="731533751" Left="1289" Top="114" Right="1334" Bottom="169" />
+										<TypeInfo Item0="{64580919-C120-492D-A49C-6A7197EE70A7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Vars&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".wj-form-control:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{727D0D82-DDAD-484F-878A-78EC27451396}">
+										<Image FileName="-574109894" Left="1326" Top="106" Right="1360" Bottom="161" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="button[aria-label=&apos;Toggle Dropdown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Toggle Dropdown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogout" Key="{E479F63B-CC87-4ACA-A442-4B637F17C9F0}">
+										<Image FileName="-1034260390" Left="1205" Top="220" Right="1250" Bottom="239" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-user-menu-logout" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_dropdown&apos;]/div[3]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}">
+								<Image FileName="239622282" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePractitestTestLibraryList" Key="{7846B103-531D-4258-8B80-2067B2E68DE0}">
+								<Image FileName="239622282" Left="0" Top="103" Right="1360" Bottom="727" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://prod.practitest.com/p/1780/tests*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cell" Key="{790D85A8-B3B9-49B8-8235-36A59E0EF97E}">
+										<Image FileName="239622282" Left="375" Top="262" Right="411" Bottom="292" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(., &apos;Id&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".qsortdesc" />
+											</Selector>
+											<Selector>
+												<Value Value="//thead[@id=&apos;appcues_tour_common_entities_list_header&apos;]/tr/th[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{BB921663-8A40-48C5-9CCA-56D16993D4C8}">
+										<Image FileName="1094732746" Left="474" Top="412" Right="851" Bottom="457" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="tr:nth-child(5) &gt; .entity_name" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[5]/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(.,&apos;Task,assignee of task &amp; approver of MM are different user,verify the FT tabs and actions of MM with approval strategy Any&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeToggleNavigationDecision" Key="{F9918756-D525-4911-968A-5B008D459CD1}">
+										<Image FileName="1914681729" Left="0" Top="103" Right="1343" Bottom="1904" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Toggle navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="body" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{8135CC4A-2B09-4B35-9187-EDA20E37983A}">
+										<Image FileName="-1080615179" Left="474" Top="382" Right="851" Bottom="412" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="tr:nth-child(4) &gt; .entity_name" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[4]/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[4]/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//td[contains(.,&apos;Task, Fact type Tab, Approved Fact type, Unused, Edit, Unchanged Asset&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTaskAssigneeOfTaskApproverOf" Key="{A3E01AE1-CB26-4703-8DEE-FE1739E8CFE7}">
+										<Image FileName="-1890264467" Left="480" Top="511" Right="831" Bottom="539" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="tr:nth-child(7) &gt; .entity_name &gt; .link_med" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[7]/td[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;p&apos;)])[1382]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(.,&apos;Task,assignee of task &amp; approver of MM are different user,verify the FT tabs and actions of MM with approval strategy ALL&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
+										<Image FileName="-178514697" Left="480" Top="556" Right="843" Bottom="584" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="tr:nth-child(8) &gt; .entity_name &gt; .link_med" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[8]/td[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;p&apos;)])[1386]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[8]/td[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(.,&apos;Task,assignee of task &amp; approver of MM are same user,verify the FT tabs and actions of MM with approval strategy ALL&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{CBA02945-364A-4C31-9313-90ED89747D66}">
+								<Image FileName="-371667069" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSapiensDecision2" Key="{A3B9C31A-F209-44B5-A1EE-A1440D48E158}">
+								<Image FileName="-371667069" Left="0" Top="103" Right="1360" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat8:8854/login.jsp" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF" Key="{16505975-0C54-4FBF-AAC0-3C9612799758}">
+										<Image FileName="-371667069" Left="482" Top="370" Right="882" Bottom="626" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{8918C321-A497-4399-A5EE-B10535D83054}">
+										<Image FileName="-371667069" Left="522" Top="430" Right="842" Bottom="474" />
+										<TypeInfo Item0="{DAACA483-0474-4746-9C33-F245689F9281}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{B183A3B3-90C5-4A40-85B2-8351993DFAA5}">
+										<Image FileName="1642647658" Left="522" Top="496" Right="842" Bottom="540" />
+										<TypeInfo Item0="{DAACA483-0474-4746-9C33-F245689F9281}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;password&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{82D28E10-C376-4D95-9651-035B07237BAD}">
+										<Image FileName="128025046" Left="522" Top="550" Right="842" Bottom="586" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{AD0E1836-DB96-4B45-B4CF-AEDC82CD2F1E}">
+			<Child Name="pageSapiensDecision" Owner="{D6661D87-1B3E-410C-BAB2-9568C08B9576}">
+				<Child Name="panel" Owner="{6986D6FE-C55C-412D-A184-1FAA790DD79A}" />
+				<Child Name="button" Owner="{727D0D82-DDAD-484F-878A-78EC27451396}" />
+				<Child Name="linkLogout" Owner="{E479F63B-CC87-4ACA-A442-4B637F17C9F0}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
+			<Child Name="pagePractitestTestLibraryList" Owner="{7846B103-531D-4258-8B80-2067B2E68DE0}">
+				<Child Name="cell" Owner="{790D85A8-B3B9-49B8-8235-36A59E0EF97E}" />
+				<Child Name="cell2" Owner="{BB921663-8A40-48C5-9CCA-56D16993D4C8}" />
+				<Child Name="textnodeToggleNavigationDecision" Owner="{F9918756-D525-4911-968A-5B008D459CD1}" />
+				<Child Name="cell3" Owner="{8135CC4A-2B09-4B35-9187-EDA20E37983A}" />
+				<Child Name="linkTaskAssigneeOfTaskApproverOf" Owner="{A3E01AE1-CB26-4703-8DEE-FE1739E8CFE7}" />
+				<Child Name="linkTaskAssigneeOfTaskApproverOf2" Owner="{F20CF37D-6257-443C-9C9D-681726984AF0}" />
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{CBA02945-364A-4C31-9313-90ED89747D66}" />
+			<Child Name="pageSapiensDecision2" Owner="{A3B9C31A-F209-44B5-A1EE-A1440D48E158}">
+				<Child Name="formF" Owner="{16505975-0C54-4FBF-AAC0-3C9612799758}">
+					<Child Name="textboxUsername" Owner="{8918C321-A497-4399-A5EE-B10535D83054}" />
+					<Child Name="passwordboxPassword" Owner="{B183A3B3-90C5-4A40-85B2-8351993DFAA5}" />
+					<Child Name="submitbuttonLogin" Owner="{82D28E10-C376-4D95-9651-035B07237BAD}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

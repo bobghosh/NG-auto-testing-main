@@ -24,7 +24,23 @@
 				<Prp name="key" type="S" value="{8EBB3AD9-F6B8-47DD-8E26-A97CF43115EC}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
-			<Node name="variables"/>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Prp name="name" type="S" value="URL_UAT"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="UserName"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="Password"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="Password1"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
 	</Node>
