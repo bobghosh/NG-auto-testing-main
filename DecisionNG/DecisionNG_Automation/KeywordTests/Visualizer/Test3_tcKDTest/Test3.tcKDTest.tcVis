@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D065B68E-D70F-4F86-923C-3099F1622046}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44305.5120138889" objectName="Aliases.browser.pageSapiensDecision2.button2" objectLeft="1264" objectTop="452" objectRight="1296" objectBottom="485" clickPointX="1284" clickPointY="467" imageFileName="tcvi1129820396041.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44305.5120486111" objectName="Aliases.browser.pageSapiensDecision.form.buttonOk" objectLeft="975" objectTop="460" objectRight="1075" objectBottom="494" clickPointX="1040" clickPointY="484" imageFileName="tcvi1130112596042.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

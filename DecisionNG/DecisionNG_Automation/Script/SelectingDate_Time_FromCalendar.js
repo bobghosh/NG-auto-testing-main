@@ -1,4 +1,5 @@
-﻿function CalendarSelection()
+﻿var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
+function SelectingDateAndTime(time)
 {
   
 //    let browser = Aliases.browser;
@@ -109,9 +110,11 @@
   
   
   }
-  Delay(300);
+  Delay(500);
+  SelectingTimeFromDropDown.SelectingTimeFromDropdown(time);
+  Delay(500);
   Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
-  Delay(300);
+  Delay(500);
   }
 
-module.exports.CalendarSelection = CalendarSelection;
+module.exports.SelectingDateAndTime = SelectingDateAndTime;

@@ -5,6 +5,7 @@
 			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
+			<child name="SelectingItem_MatchSingleItem_MultipleRows_and_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_and_Pages.tcKDTest" />
 		</folder>
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
@@ -13,10 +14,13 @@
 		</folder>
 		<folder name="Modelling">
 			<folder name="Fact Type">
-				<folder name="General" />
+				<folder name="General">
+					<child name="FactTypeSummary_MoreDetailsLink_Click" key="{767BC81F-1D5E-41C3-B864-D2C489A15E92}" path="FactTypeSummary_MoreDetailsLink_Click.tcKDTest" />
+				</folder>
 				<folder name="Pre-requisite" />
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
+					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Decision">

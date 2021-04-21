@@ -12,11 +12,21 @@
 		</folder>
 		<folder name="Generic">
 			<child name="SelectingDateFromCalendar" key="{1C228B8F-429C-4585-993D-33F48E0A2C40}" path="SelectingDateFromCalendar.js" />
-			<child name="SelectingTimefromDropDown" key="{16C9A004-789F-45C0-8DDA-22255D4A6CCF}" path="SelectingTimefromDropDown.js" />
+			<child name="SelectingOptionfromDropDown_Only1DDexsists" key="{16C9A004-789F-45C0-8DDA-22255D4A6CCF}" path="SelectingOptionfromDropDown_Only1DDexsists.js" />
+			<child name="SelectingItem_SingleItem_Match_From_MultipleRows_and_Pages" key="{B9E11F6A-C297-4A3F-B2A8-7B05F1449819}" path="SelectingItem_SingleItem_Match_From_MultipleRows_and_Pages.js" />
+			<child name="SelectingTimeFromDropDown" key="{CC41117D-AD67-4632-B025-1B0D629294EE}" path="SelectingTimeFromDropDown.js" />
+			<child name="SelectingDate_Time_FromCalendar" key="{A1B2BB02-498E-4D76-A7FA-95C7D445253B}" path="SelectingDate_Time_FromCalendar.js" />
+			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
-				<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
+				<folder name="General">
+					<child name="DetailsTab_testValues_StringMultipleInput" key="{29130691-266F-441F-9EFC-F7842440A8FB}" path="DetailsTab_testValues_StringMultipleInput.js" />
+				</folder>
+				<folder name="Test Case Specific">
+					<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
+					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.js" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Tasks_Queue">

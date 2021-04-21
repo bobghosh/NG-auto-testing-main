@@ -32,6 +32,18 @@
 					<Node name="var1">
 						<Prp name="name" type="S" value="UserName"/>
 					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="Details_testValues_Dayoftheweeklong"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="Details_testValues_MonthLong"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="Details_testValues_Time"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="Details_TestValues_DayOfWeekShort"/>
+					</Node>
 					<Node name="var2">
 						<Prp name="name" type="S" value="Password"/>
 					</Node>
@@ -43,6 +55,18 @@
 					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="Var1"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="Details_TestValues_StringValues"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="Details_TestValues_NumericValues"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="Details_TestValues_DropDown_Numbers"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>
