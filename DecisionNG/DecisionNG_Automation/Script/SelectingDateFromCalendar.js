@@ -6,6 +6,7 @@
 //    let phoneInput = page.form.form2.form4;
 //    let phoneInput2 = phoneInput.textbox4;
     Aliases.browser.pageSapiensDecision.form.form2.button9.textnode4.Click();
+    Log.Message("Clicked on dropdownbutton")
     Delay(300);
     Aliases.browser.pageSapiensDecision.textnodeMarch2021.Click();
     Delay(300);
