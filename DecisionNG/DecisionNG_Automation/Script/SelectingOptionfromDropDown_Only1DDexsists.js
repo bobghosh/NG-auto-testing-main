@@ -24,6 +24,7 @@
         //Log.Message(Option.length)
         for(let i=0;i<=Option.length;i++)
         {
+            
             var Optiontext=Option[i].textContent;
             //Log.Message(Optiontext)
             if(Optiontext.includes(option))

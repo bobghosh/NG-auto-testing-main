@@ -4,6 +4,7 @@
 		<child name="Script" key="{35933B79-FD97-4155-A851-87BFFBB640AF}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{901F32C8-F077-423F-B0F4-5DE7A2860210}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{F1A901A7-947A-42C3-87E2-A545D5352026}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Events" key="{D7D5605F-EBD7-4135-91C8-BA6B7A736BE7}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{87F182F7-AA82-47A5-A515-B46EB955171A}" version="14">
@@ -14,17 +15,21 @@
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Test Case # - Tasks_FactTypeTab_Add_FactType" key="{6492876B-EBE5-450C-AAEF-ACFE2E3C2C22}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test Case # - Tasks_FactTypeTab_Add_FactType" key="{6492876B-EBE5-450C-AAEF-ACFE2E3C2C22}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login" key="{1C46DF6B-0AC2-4807-B61B-C3E231E65697}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
+													<testItem name="Login" key="{1C46DF6B-0AC2-4807-B61B-C3E231E65697}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
+															<param1 name="UserName" type="1" localVarName="" value="sgp" />
+															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+														</testParameters>
 														<environments testedURL="" />
 														<children />
 													</testItem>
@@ -38,7 +43,7 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{A8B84A60-B209-4620-8132-BA6C12F841AE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+													<testItem name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{A8B84A60-B209-4620-8132-BA6C12F841AE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -59,7 +64,11 @@
 												<testParameters />
 												<children>
 													<testItem name="Login_3" key="{BBA547AF-25A5-4B14-95E6-12F0EB9D5666}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
+														<testParameters>
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
+															<param1 name="UserName" type="1" localVarName="" value="sgp" />
+															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+														</testParameters>
 														<environments testedURL="" />
 														<children />
 													</testItem>
@@ -97,6 +106,36 @@
 													</testItem>
 												</children>
 											</testItem>
+											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
+															<param1 name="UserName" type="1" localVarName="" value="sgp" />
+															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Create_A_New_Task" key="{17233E4B-DBAA-400B-881D-14D65308C6EC}" group="False" parallel="False" enabled="True" testMoniker="{5A5E9887-B20B-427B-B993-80D96FF62C90}Create_A_New_Task" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="Community" type="3" localVarName="" varType="8" value="Sumant" />
+															<param1 name="TaskName" type="3" localVarName="" varType="8" value="Task" />
+															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Sample" />
+															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Simple Task Workflow" />
+															<param4 name="FactTypeApprovalProcess" type="3" localVarName="" varType="8" value="Standard Fact Type Workflow" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
 										</children>
 									</testItem>
 									<testItem name="Rule Family" key="{D27C930D-405F-47C6-8DAC-A7B0B4D1B8E3}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -122,6 +161,45 @@
 									</testItem>
 								</children>
 							</testItem>
+							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8899/login.jsp" />
+											<param1 name="UserName" type="1" localVarName="" value="Ritu" />
+											<param2 name="Password" type="1" localVarName="" value="D@cision@1" />
+										</testParameters>
+										<environments testedURL="" />
+										<children />
+									</testItem>
+									<testItem name="Navigate_Administration_Permission_Groups" key="{797F8CE1-4194-48E8-886C-66316D7021EE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DEE9830-895D-4A1D-85EB-F976106D7314}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments testedURL="" />
+										<children />
+									</testItem>
+									<testItem name="SelectingItemGetData" key="{5A79A434-E44D-4CB1-A275-7A8841FE1F1B}" group="False" parallel="False" enabled="True" testMoniker="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}SelectingItemGetData" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments testedURL="" />
+										<children />
+									</testItem>
+									<testItem name="Navigate_Administration_Roles" key="{B7BE1F9E-0D65-4A14-B75D-E9263E5ED949}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments testedURL="" />
+										<children />
+									</testItem>
+									<testItem name="SelectingItemGetData_2" key="{1E126817-6222-4F8B-B495-164E8A17819B}" group="False" parallel="False" enabled="True" testMoniker="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}SelectingItemGetData" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments testedURL="" />
+										<children />
+									</testItem>
+									<testItem name="Logout_2" key="{7F2ED4CA-8B98-4830-BC10-E3E1FC676746}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments testedURL="" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
 						</children>
 					</testItem>
 				</children>
@@ -132,10 +210,10 @@
 		<data Version="4">
 			<Items>
 				<Variable Name="URL_UAT" Type="String" Local="False" Descr="Env available on bdmsuat8">
-					<DefValue StrValue="http://bdmsuat8:8854/login.jsp" />
+					<DefValue StrValue="http://bdmsuat7:18821/login.jsp" />
 				</Variable>
 				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
-					<DefValue StrValue="sgp" />
+					<DefValue StrValue="sumant" />
 				</Variable>
 				<Variable Name="Password" Type="String" Local="False" Descr="SuperUser">
 					<DefValue StrValue="Decision1" />
@@ -205,6 +283,26 @@
 						<Columns ColumnName0="TestValues" />
 						<Row No="0" Cell0=" Wed " />
 						<Row No="1" Cell0=" Fri " />
+					</DefValue>
+				</Variable>
+				<Variable Name="Permission_Matrix" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Roles" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Roles$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="TestTable" Type="Table" Local="False">
+					<DefValue RowCount="200" ColumnCount="1">
+						<Columns ColumnName0="Column1" />
+					</DefValue>
+				</Variable>
+				<Variable Name="PermissionGroupsColumnNames" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\Downloads\Permissions Init V614.xlsx" Table="ColumnNames$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 			</Items>

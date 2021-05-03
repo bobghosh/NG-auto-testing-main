@@ -6,11 +6,14 @@
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_and_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_and_Pages.tcKDTest" />
+			<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{7AF76191-B92B-4D24-B644-2EFA018B3507}" path="Permission_Matrix_Set_Permission_PermissionGroups.tcKDTest" />
 		</folder>
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 			</folder>
+			<child name="Navigate_Administration_Permission_Groups" key="{2DEE9830-895D-4A1D-85EB-F976106D7314}" path="Navigate_Administration_Permission_Groups.tcKDTest" />
+			<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="Fact Type">
@@ -55,6 +58,9 @@
 		</folder>
 		<folder name="Tasks_Queue">
 			<child name="MyTasks_Tasks" key="{AA75FF4A-62AE-4A94-9F28-1E635458F976}" path="MyTasks_Tasks.tcKDTest" />
+		</folder>
+		<folder name="HomePage">
+			<child name="Create_A_New_Task" key="{CB484438-418D-4625-A65F-9871C147C003}" path="Create_A_New_Task.tcKDTest" />
 		</folder>
 	</children>
 </Root>

@@ -31,6 +31,7 @@ var Picture_To_Log = require("Picture_To_Log");
     
       Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName.SetText(Project.Variables.Create_New_FactType.Value("FactType Name")+" "+FactType_Name);
       //Delay(2000);
+      
       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.panel5, "contentText", cmpEqual, Project.Variables.Create_New_FactType.Value("FT Summary after FT entry")+" "+FactType_Name);
       Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Click();
     
@@ -42,8 +43,9 @@ var Picture_To_Log = require("Picture_To_Log");
       Aliases.browser.pageSapiensDecision.form.form2.form3.textnodeSingleValue.Click();
       }
       //Checks the input if user wants to select Single or Multiple List Indicator Enters the loops if its Multiple Value.
-      else {
-      Aliases.browser.pageSapiensDecision.form.form2.form3.textnodeMultipleValues.Click();
+      else 
+      {
+        Aliases.browser.pageSapiensDecision.form.form2.form3.textnodeMultipleValues.Click();
       }
     
       //Aliases.browser.pageSapiensDecision.form.form2.form4.textbox.Click();
@@ -54,10 +56,10 @@ var Picture_To_Log = require("Picture_To_Log");
       //Aliases.browser.pageSapiensDecision.form.form2.form4.textbox2.Click();
       //Delay(1000)
       Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='displayFormat']//button").Click();
-      Delay(1000)
+      //Delay(1000)
       SelectingOptionfromDropDown.SelectingOptionfromDropdown(Project.Variables.Create_New_FactType.Value("Display Format"),"No")
       //Aliases.browser.pageSapiensDecision.form.form2.form4.textbox2.SetText(Project.Variables.Create_New_FactType.Value("Display Format"));
-      Delay(1000)
+      //Delay(1000)
       //Aliases.browser.pageSapiensDecision.form.form2.form4.textbox3.Click();
       Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='allowedValues']//button").Click();
       SelectingOptionfromDropDown.SelectingOptionfromDropdown(Project.Variables.Create_New_FactType.Value("Allowed Values "),"No")
@@ -91,10 +93,12 @@ var Picture_To_Log = require("Picture_To_Log");
                 let browser = Aliases.browser;
                 let page = browser.pageSapiensDecision;
                 let button = page.form.form2.form4;
-                button.button10.ClickButton();
+                page.FindElement("//dcn-domain-input[@placeholder='from']//button").Click()
+                //button.button10.ClickButton();
                 SelectingOptionfromDropDown.SelectingOptionfromDropdown(fromData,"No");
                 page = browser.pageSapiensDecision2;
-                page.formF.form2.button3.ClickButton();
+                page.FindElement("//dcn-domain-input[@placeholder='to']//button").Click()
+               //page.formF.form2.button3.ClickButton();
                 SelectingOptionfromDropDown.SelectingOptionfromDropdown(toData,"No");
                 button.button5.ClickButton();      
                                 
@@ -158,6 +162,7 @@ var Picture_To_Log = require("Picture_To_Log");
         var str_array = str.split(',');
         for(var i = 0; i < str_array.length; i++) 
         { 
+          
         Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.Click();
       
         Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.SetText(str_array[i]);
@@ -200,22 +205,29 @@ var Picture_To_Log = require("Picture_To_Log");
         var str_array = str.split(',');
         for(var i = 0; i < str_array.length; i++) 
         { 
-        Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.SetText(str_array[i]);
-     
-        Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+        
+          Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.Click();
+          
+          Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.SetText(str_array[i]);
+          
+          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+          
+        }
+        
         }
         }
-        }
+        
           Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
        
-        Delay(2000)
+        Delay(1000)
       
         //Validating new FactType Created
-    
-        let FactTypeNameAfterCreation= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]").textContent;
-        Log.Message(FactTypeNameAfterCreation);
         let FactTypeDataToCompare=Project.Variables.Create_New_FactType.Value("FactType Name")+" "+FactType_Name+" "+"[V0]"+" ";
         Log.Message(FactTypeDataToCompare)
+        Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]").WaitElement(FactTypeDataToCompare,3000)
+        let FactTypeNameAfterCreation= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]").textContent;
+        Log.Message(FactTypeNameAfterCreation);
+        
      
         if (FactTypeNameAfterCreation == FactTypeDataToCompare )
         {
@@ -251,17 +263,19 @@ var Picture_To_Log = require("Picture_To_Log");
         {
           Log.Error("Unused field for this FactType is Empty");
         }
-      
-        if(Aliases.browser.pageSapiensDecision.panel7.Exists)
+        //Delay(2000)
+       let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[4]//dcn-validation-state//div").getAttribute('class')
+        Log.Message(errorIcon)
+        if(errorIcon.includes('icon-validation_error')) 
         {
 
-        Log.Checkpoint("Facttype is Invalid");
+        Log.Warning("Facttype is Invalid");
       
         Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]//td[1]").Click();
-      
+        
         let FTSummaryErrorMessage=Aliases.browser.pageSapiensDecision.form.form2.panel10.textContent;
        
-        Log.Checkpoint("Facttype is not valid. Error: " +FTSummaryErrorMessage);
+        Log.Warning("Facttype is not valid. Error: " +FTSummaryErrorMessage);
       
         let browser = Aliases.browser;
         let page = browser.pageSapiensDecision;
@@ -324,11 +338,8 @@ var Picture_To_Log = require("Picture_To_Log");
     
        Project.Variables.Create_New_FactType.Next();
   
- 
-
+    }
+    }
     
     
   
-    }
-    
-  }

@@ -51,3 +51,4 @@
     }while (hasNext==true)
 
 }
+module.exports.SelectingItem = SelectingItem;
