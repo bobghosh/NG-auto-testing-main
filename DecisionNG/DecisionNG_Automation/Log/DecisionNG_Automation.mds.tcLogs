@@ -23,51 +23,6 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44316.6877075463"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{7A64B782-0820-439D-AF5B-FBCDA456B132}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Permission_Matrix_Set_Permission_PermissionGroups\SelectingItemGetData]"/>
-				<Prp name="relpath" type="S" value="30-04-2021_16_30_17_932\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44316.6952976273"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{BDF7CC4B-15BD-4819-9EA7-4E9772295786}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Permission_Matrix_Set_Permission_PermissionGroups\SelectingItemGetData]"/>
-				<Prp name="relpath" type="S" value="30-04-2021_16_41_13_715\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44316.7030328356"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A26E8F3F-9F0A-44BC-B83B-BAD1EC8D7227}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Permission_Matrix_Set_Permission_PermissionGroups\SelectingItemGetData]"/>
-				<Prp name="relpath" type="S" value="30-04-2021_16_52_22_37\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44316.7050313773"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FE80B1B5-1DF1-40FD-9525-66C0A7832261}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Permission_Matrix_Set_Permission_PermissionGroups\SelectingItemGetData]"/>
-				<Prp name="relpath" type="S" value="30-04-2021_16_55_14_711\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44316.7109392361"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{E3E080BE-7DA3-4D27-8466-CC632FA0DA34}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Permission_Matrix_Set_Permission_PermissionGroups\SelectingItemGetData]"/>
-				<Prp name="relpath" type="S" value="30-04-2021_17_03_45_150\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0005">
-				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="44316.7148588194"/>
 				<Prp name="description" type="S" value=""/>
 				<Prp name="key" type="S" value="{1AD08BC8-C6FF-4884-A770-B62D9D716243}"/>
@@ -75,7 +30,7 @@
 				<Prp name="relpath" type="S" value="30-04-2021_17_09_23_802\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
-			<Node name="log idx=0006">
+			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="44316.7174702546"/>
 				<Prp name="description" type="S" value=""/>
@@ -84,7 +39,7 @@
 				<Prp name="relpath" type="S" value="30-04-2021_17_13_09_430\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
-			<Node name="log idx=0007">
+			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="44316.7194945139"/>
 				<Prp name="description" type="S" value=""/>
@@ -93,7 +48,7 @@
 				<Prp name="relpath" type="S" value="30-04-2021_17_16_04_326\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
-			<Node name="log idx=0008">
+			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="44316.7243866088"/>
 				<Prp name="description" type="S" value=""/>
@@ -102,13 +57,58 @@
 				<Prp name="relpath" type="S" value="30-04-2021_17_23_07_3\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
-			<Node name="log idx=0009">
+			<Node name="log idx=0004">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="44316.7251540972"/>
 				<Prp name="description" type="S" value=""/>
 				<Prp name="key" type="S" value="{F5D9924B-1B48-4B9E-AB29-D4C75A3F5B74}"/>
 				<Prp name="nameofroot" type="S" value="Script Test Log [Permission_Matrix_Set_PermissionGroups_Roles\SelectingItemGetData]"/>
 				<Prp name="relpath" type="S" value="30-04-2021_17_24_13_314\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44320.6132235532"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9769A4DF-1D3F-4280-9E37-9E909B976DA6}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="04-05-2021_14_43_02_516\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44320.6578861806"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5365F0E8-F4F0-4BF0-8544-BC2ABD86D4DF}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="04-05-2021_15_47_21_366\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44320.6610795486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6532F211-E38B-4225-A8E1-65B6E6E90ED3}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="04-05-2021_15_51_57_274\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44320.7093808449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F9631B96-B074-4348-8404-DD39D754E42A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="04-05-2021_17_01_30_505\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44320.7639425"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A7818F3B-2E81-4EBD-9670-7E3C28D92930}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="04-05-2021_18_20_04_632\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
