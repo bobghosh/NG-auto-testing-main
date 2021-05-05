@@ -19,6 +19,7 @@
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
 			<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}" path="Permission_Matrix_Set_Permission_PermissionGroups.js" />
 			<child name="Permission_Matrix_Set_PermissionGroups_Roles" key="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}" path="Permission_Matrix_Set_PermissionGroups_Roles.js" />
+			<child name="Repository_Total_FactTypes" key="{B784B666-199C-4349-950D-D20250C26AC5}" path="Repository_Total_FactTypes.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
