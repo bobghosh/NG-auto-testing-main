@@ -21,9 +21,13 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{2AD4F68C-7516-47CB-A441-956FC46F5D67}"/>
+				<Prp name="activity" type="S" value="{BDEA6E49-A750-4D1A-BE09-F83F37B4624B}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{35933b79-fd97-4155-a851-87bffbb640af}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
@@ -86,7 +90,11 @@
 						<Node name="editor">
 							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}"/>
-							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}"/>
+							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+								<Node name="main"/>
+								<Node name="tables"/>
+								<Node name="toolbox"/>
+							</Node>
 							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{A7E1B4D6-65F9-435E-983E-7117D8AA5DC2}"/>
 							<Prp name="focused" type="S" value="{C4145EF8-12D4-4F14-83D5-C4F7868C054C}"/>
@@ -177,6 +185,9 @@
 						<Node name="expanding">
 							<Prp name="expandlist" type="H" value="617162696E000000010000001400000078016364800046280DA20000340003"/>
 						</Node>
+					</Node>
+					<Node name="{5521381b-6593-413b-a01b-ccca7dceb93b}\testdata">
+						<Node name="expanding"/>
 					</Node>
 					<Node name="{65f543d2-2b65-46c2-954c-09bece87c3c9}\testdata">
 						<Node name="expanding">
@@ -711,14 +722,7 @@
 						<Node name="keywordtests">
 							<Node name="generic"/>
 						</Node>
-						<Node name="script">
-							<Node name="generic"/>
-							<Node name="modelling">
-								<Node name="facttype">
-									<Node name="test case specific"/>
-								</Node>
-							</Node>
-						</Node>
+						<Node name="script"/>
 					</Node>
 				</Node>
 				<Node name="decisionng logs"/>

@@ -17,8 +17,6 @@
 			<child name="SelectingTimeFromDropDown" key="{CC41117D-AD67-4632-B025-1B0D629294EE}" path="SelectingTimeFromDropDown.js" />
 			<child name="SelectingDate_Time_FromCalendar" key="{A1B2BB02-498E-4D76-A7FA-95C7D445253B}" path="SelectingDate_Time_FromCalendar.js" />
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
-			<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}" path="Permission_Matrix_Set_Permission_PermissionGroups.js" />
-			<child name="Permission_Matrix_Set_PermissionGroups_Roles" key="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}" path="Permission_Matrix_Set_PermissionGroups_Roles.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -36,6 +34,12 @@
 		</folder>
 		<folder name="HomePage">
 			<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
+		</folder>
+		<folder name="Administration">
+			<folder name="Security">
+				<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}" path="Permission_Matrix_Set_Permission_PermissionGroups.js" />
+				<child name="Permission_Matrix_Set_PermissionGroups_Roles" key="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}" path="Permission_Matrix_Set_PermissionGroups_Roles.js" />
+			</folder>
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 	</children>
