@@ -56,6 +56,9 @@
 					<Node name="var17">
 						<Prp name="name" type="S" value="PermissionGroupsColumnNames"/>
 					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="ImportGlossary"/>
+					</Node>
 					<Node name="var2">
 						<Prp name="name" type="S" value="Password"/>
 					</Node>
