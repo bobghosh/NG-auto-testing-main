@@ -2592,6 +2592,183 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeRepository" Key="{C7563544-0CCE-4EFB-8D77-8AC57077287F}">
+										<Image FileName="30274115" Left="591" Top="122" Right="671" Bottom="144" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Repository&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".navigation-menu__item__viewGroups &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/dcn-navigation-menu/div/span/div[3]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form4" Key="{AB89C6B7-9305-4F4B-A3F0-07BF9329E7F5}">
+										<Image FileName="340118018" Left="272" Top="314" Right="1072" Bottom="542" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .ng-untouched:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-import-glossary-dialog/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-import-glossary-dialog/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(.,&apos;Import Glossary to WORLD&#32;&#32;Glossary file : Browse Update System of Record:&#32;&#32;Cancel Start Import&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonBrowse" Key="{09D4A626-2643-4D7B-88F9-C3CBF0DD6E9B}">
+										<Image FileName="340118018" Left="982" Top="372" Right="1082" Bottom="408" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[text()=&apos;Browse&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".file-browser__file-input__button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[2]/div/fx-field/div/div/span/dcn-file-browser-input/span/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel9" Key="{E386580B-E457-4943-A8FB-5425E9ACE482}">
+										<Image FileName="970666807" Left="520" Top="428" Right="534" Bottom="442" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[name=&apos;systemOfRecord&apos;] .ui-chkbox-box" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[2]/div/div/fx-field/div/div/span/dcn-checkbox/p-checkbox/div/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/dcn-checkbox/p-checkbox/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonStartImport" Key="{D6317CA2-D8DE-404C-827D-3EF34C51C60A}">
+										<Image FileName="566493275" Left="966" Top="484" Right="1072" Bottom="518" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Start Import&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-confirmed" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[3]/div/button[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0" Key="{B58BF5FB-7526-4F2E-865A-6CF6B6AC2AC5}">
+										<Image FileName="441324819" Left="282" Top="618" Right="290" Bottom="637" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;0&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".import-glossary__analysis__fact-types-selection &gt; span:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[2]/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonImport" Key="{B1A36045-7CB7-404A-9644-4EAAEAC601FC}">
+										<Image FileName="1409460920" Left="980" Top="662" Right="1080" Bottom="696" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".spec-confirmed" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[contains(.,&apos;Import&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-7&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[3]/div/button[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNew1NewVersions0Changed0" Key="{248D4330-8B8A-4E06-9F2B-179ECDDAFF3F}">
+										<Image FileName="-887002237" Left="272" Top="245" Right="1055" Bottom="289" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;New (1)New Versions (0)Changed (0)Import Errors (0)Unchanged (0)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".import-glossary__analysis:nth-child(2) &gt; dcn-tab-view:nth-child(1) &gt; .u-flex-container:nth-child(1) &gt; .ui-tabview:nth-child(1) &gt; [role=&apos;tablist&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-9&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[2]/div/div/dcn-tab-view/p-tabview/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/dcn-tab-view/p-tabview/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNew1" Key="{1E146A06-19DC-4FAC-B24A-8CABFD67488C}">
+										<Image FileName="-887002237" Left="304" Top="246" Right="378" Bottom="287" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-45-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;New (1)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-45-label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-9&apos;]/dcn-import-glossary-dialog/form/dcn-dialog/div/div[2]/div/div/dcn-tab-view/p-tabview/div/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/dcn-tab-view/p-tabview/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNew1" Key="{9A3A39D6-5A6E-4C8B-B500-D4F36F97FE35}">
+										<Image FileName="-887002237" Left="315" Top="258" Right="366" Bottom="276" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;New (1)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ui-tabpanel-45-label &gt; .ui-tabview-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-45-label&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/dcn-tab-view/p-tabview/div/ul/li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -2699,6 +2876,59 @@
 									</Selector>
 								</Selectors>
 							</Child>
+							<Child Name="BrowserWindow3" Key="{5616654C-85DE-46AB-B5D9-66751EEFE62E}">
+								<Image FileName="30274115" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+										<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+												<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}">
+														<Image FileName="-520287055" Left="201" Top="410" Right="380" Bottom="425" />
+														<TypeInfo Item0="{F2536343-D4CF-4E0E-870A-60662DD60CFD}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
@@ -2774,6 +3004,18 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="wndMultitaskingViewFrame" Key="{F7DE9785-0FD5-4334-9F5E-E46E1DE89A1A}">
+								<Image FileName="-1466728641" Left="0" Top="0" Right="1360" Bottom="728" />
+								<TypeInfo Item0="{7B57B3B5-5154-4B9F-A07A-5698AAB30B17}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MultitaskingViewFrame" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Task Switching" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="WinSCP" Key="{5626AE60-37DA-4DD6-A435-689A6B6093E1}">
@@ -2802,6 +3044,103 @@
 										<Value Value="WinSCP" />
 									</Property>
 								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="notepad" Key="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
+								<Image FileName="1521776576" Left="0" Top="0" Right="456" Bottom="354" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{30F3E246-96E5-4ECC-8B27-96B1435BBDC8}">
+										<Image FileName="1521776576" Left="8" Top="51" Right="448" Bottom="323" />
+										<TypeInfo Item0="{F2536343-D4CF-4E0E-870A-60662DD60CFD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}">
+								<Image FileName="839582406" Left="0" Top="0" Right="683" Bottom="480" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{E236B9CE-5065-418E-8FC1-6F90332A9926}">
+										<Image FileName="839582406" Left="8" Top="66" Right="675" Bottom="420" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DirectUIHWND" Key="{B97E1871-2227-45A0-83C7-F29E3F51DEC6}">
+												<Image FileName="839582406" Left="8" Top="66" Right="675" Bottom="420" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DirectUIHWND" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FloatNotifySink" Key="{A93F3E9C-AE66-412B-B31D-DB894226E980}">
+														<Image FileName="839582406" Left="133" Top="366" Right="670" Bottom="389" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="FloatNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBox" Key="{EA5A8875-D39A-47C0-B12B-9643508135CA}">
+																<Image FileName="839582406" Left="133" Top="366" Right="670" Bottom="389" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="ComboBox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnSave" Key="{3946C1DF-5BFA-4A55-90D2-59D27623F765}">
+										<Image FileName="180435455" Left="470" Top="434" Right="558" Bottom="460" />
+										<TypeInfo Item0="{25D38587-7AFC-40CC-BB98-9019A7538E69}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Save" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -2985,6 +3324,27 @@
 				<Child Name="textnodeAdministration" Owner="{EBD386A6-0731-4578-B0D4-F9B4AECF0ADC}" />
 				<Child Name="linkPermissionGroups" Owner="{36CEDB34-9ED5-4414-A7D3-233D86B19721}" />
 				<Child Name="linkRoles" Owner="{B6D53D4E-87AB-4A1E-B7C7-54033702AE03}" />
+				<Child Name="textnodeRepository" Owner="{C7563544-0CCE-4EFB-8D77-8AC57077287F}" />
+				<Child Name="form4" Owner="{AB89C6B7-9305-4F4B-A3F0-07BF9329E7F5}">
+					<Child Name="buttonBrowse" Owner="{09D4A626-2643-4D7B-88F9-C3CBF0DD6E9B}" />
+					<Child Name="panel9" Owner="{E386580B-E457-4943-A8FB-5425E9ACE482}" />
+					<Child Name="buttonStartImport" Owner="{D6317CA2-D8DE-404C-827D-3EF34C51C60A}" />
+					<Child Name="textnode0" Owner="{B58BF5FB-7526-4F2E-865A-6CF6B6AC2AC5}" />
+					<Child Name="textnodeNew1NewVersions0Changed0" Owner="{248D4330-8B8A-4E06-9F2B-179ECDDAFF3F}">
+						<Child Name="linkNew1" Owner="{1E146A06-19DC-4FAC-B24A-8CABFD67488C}">
+							<Child Name="textnodeNew1" Owner="{9A3A39D6-5A6E-4C8B-B500-D4F36F97FE35}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="buttonImport" Owner="{B1A36045-7CB7-404A-9644-4EAAEAC601FC}" />
+			</Child>
+			<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
+			<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+				<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+					<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+						<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
@@ -2997,10 +3357,26 @@
 				</Child>
 			</Child>
 			<Child Name="wndTaskListThumbnailWnd" Owner="{36AD491F-49BE-44E9-8E0E-162C32125567}" />
+			<Child Name="wndMultitaskingViewFrame" Owner="{F7DE9785-0FD5-4334-9F5E-E46E1DE89A1A}" />
 		</Child>
 		<Child Name="WinSCP" Owner="{5626AE60-37DA-4DD6-A435-689A6B6093E1}">
 			<Child Name="wndMessageForm" Owner="{7976A11E-4C53-48F6-922F-6004A04D8504}" />
 			<Child Name="wndWinSCP" Owner="{77072565-BD8A-4219-919D-145C4C64B4B6}" />
+		</Child>
+		<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
+			<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
+				<Child Name="Edit" Owner="{30F3E246-96E5-4ECC-8B27-96B1435BBDC8}" />
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}">
+				<Child Name="DUIViewWndClassName" Owner="{E236B9CE-5065-418E-8FC1-6F90332A9926}">
+					<Child Name="DirectUIHWND" Owner="{B97E1871-2227-45A0-83C7-F29E3F51DEC6}">
+						<Child Name="FloatNotifySink" Owner="{A93F3E9C-AE66-412B-B31D-DB894226E980}">
+							<Child Name="ComboBox" Owner="{EA5A8875-D39A-47C0-B12B-9643508135CA}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnSave" Owner="{3946C1DF-5BFA-4A55-90D2-59D27623F765}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
