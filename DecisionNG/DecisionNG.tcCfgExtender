@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{B9E11F6A-C297-4A3F-B2A8-7B05F1449819}"/>
+				<Prp name="activity" type="S" value="{2AD4F68C-7516-47CB-A441-956FC46F5D67}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
@@ -708,7 +708,9 @@
 				<Node name="decisionng">
 					<Node name="decisionng_automation">
 						<Node name="events"/>
-						<Node name="keywordtests"/>
+						<Node name="keywordtests">
+							<Node name="generic"/>
+						</Node>
 						<Node name="script">
 							<Node name="generic"/>
 							<Node name="modelling">
