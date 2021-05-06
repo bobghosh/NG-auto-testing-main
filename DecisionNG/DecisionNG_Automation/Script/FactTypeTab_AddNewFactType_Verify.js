@@ -124,10 +124,13 @@ var Picture_To_Log = require("Picture_To_Log");
               Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.SetText(fromData);
               
               // Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='from']").SetText(fromData);
+              Aliases.browser.pageSapiensDecision.form.form2.form4.textbox5.Click();
      
-               Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='to']").Click();
+              Aliases.browser.pageSapiensDecision.form.form2.form4.textbox5.SetText(toData);
+  
+               //Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='to']").Click();
      
-               Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='to']").SetText(toData);
+               //Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='to']").SetText(toData);
       
               Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
               

@@ -15,7 +15,7 @@
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -109,7 +109,7 @@
 											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:18821/login.jsp" />
 															<param1 name="UserName" type="1" localVarName="" value="sumant" />
@@ -118,7 +118,7 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Create_A_New_Task" key="{17233E4B-DBAA-400B-881D-14D65308C6EC}" group="False" parallel="False" enabled="True" testMoniker="{5A5E9887-B20B-427B-B993-80D96FF62C90}Create_A_New_Task" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Create_A_New_Task" key="{17233E4B-DBAA-400B-881D-14D65308C6EC}" group="False" parallel="False" enabled="True" testMoniker="{5A5E9887-B20B-427B-B993-80D96FF62C90}Create_A_New_Task" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="Community" type="3" localVarName="" varType="8" value="Sumant" />
 															<param1 name="TaskName" type="3" localVarName="" varType="8" value="Task" />
@@ -129,7 +129,7 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -161,7 +161,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

@@ -57,6 +57,24 @@
 				<Prp name="relpath" type="S" value="06-05-2021_19_40_46_570\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.8247273727"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6744BBB2-8B54-494C-9918-E8EF3EB2C548}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="06-05-2021_19_47_36_445\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.8283026852"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BA35E1D5-2B66-4015-B397-CAF787ECA73B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="06-05-2021_19_52_45_352\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
