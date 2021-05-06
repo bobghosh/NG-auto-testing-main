@@ -20,7 +20,44 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.8139841319"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7C0B51A4-27C4-4536-96AB-02CB052D0311}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="06-05-2021_19_32_08_230\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.8159391782"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{27EAE828-CA57-4B10-BBDE-A78A5766CC75}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="06-05-2021_19_34_57_146\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.8185015509"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ECC53009-354A-456A-9B09-5D87A848C84B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="06-05-2021_19_38_38_534\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.8199834375"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3076463C-B28B-4D69-B798-4F9CF4536F19}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="06-05-2021_19_40_46_570\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

@@ -1758,6 +1758,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="label2" Key="{414433E8-16EA-4F8D-9EDC-2A8830ABCBA5}">
+										<Image FileName="-666927203" Left="324" Top="402" Right="359" Bottom="417" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".switch" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/user-form/div/form/fx-field/div/div/span/dcn-switch-button/div/div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -2592,6 +2607,87 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode7" Key="{0E5B8D3F-327E-4A40-A444-29186D1BCAA0}">
+										<Image FileName="136155897" Left="284" Top="237" Right="1065" Bottom="968" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;ARD Administrator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ui-listbox-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[3]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode8" Key="{CFCBBABC-A098-45BA-AEB9-815DF43DBE32}">
+										<Image FileName="-190755696" Left="284" Top="266" Right="1065" Bottom="295" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;ARD Requestor&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="li[aria-label=&apos;ARD Requestor&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;ARD Requestor&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[3]/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel9" Key="{4652BF8F-EC9C-43A2-BE4E-F51535D06AF7}">
+										<Image FileName="-190755696" Left="295" Top="274" Right="309" Bottom="288" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-label=&apos;ARD Requestor&apos;] .ui-chkbox-box" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[3]/ul/li[2]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{4992CEFD-AE2C-4D51-9D19-E8EBEC23761C}">
+										<Image FileName="-1545066551" Left="312" Top="394" Right="347" Bottom="409" />
+										<Selectors>
+											<Selector>
+												<Value Value=".switch" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/user-form/div/form/fx-field/div/div/span/dcn-switch-button/div/div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel10" Key="{60EBE71A-908D-47D7-A76F-D7C00633C289}">
+										<Image FileName="-1545066551" Left="312" Top="394" Right="347" Bottom="409" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".slider" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/user-form/div/form/fx-field/div/div/span/dcn-switch-button/div/div[2]/label/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -2865,6 +2961,7 @@
 					</Child>
 					<Child Name="buttonCancel" Owner="{4B2D37F7-E678-496F-B00F-A9D3D17D55CA}" />
 					<Child Name="textboxName2" Owner="{19C3B489-BBFA-4D18-97A3-214EA1192090}" />
+					<Child Name="label2" Owner="{414433E8-16EA-4F8D-9EDC-2A8830ABCBA5}" />
 				</Child>
 				<Child Name="panel2" Owner="{56CADA4F-3653-43DA-A3BD-9A729010ECE4}" />
 				<Child Name="panel3" Owner="{B4074330-8C03-41D7-A181-4A11B694B3FB}" />
@@ -2958,6 +3055,9 @@
 							<Child Name="panel8" Owner="{84AB165A-DD24-41D0-B811-0C5EE8FE0137}" />
 						</Child>
 					</Child>
+					<Child Name="label" Owner="{4992CEFD-AE2C-4D51-9D19-E8EBEC23761C}">
+						<Child Name="panel10" Owner="{60EBE71A-908D-47D7-A76F-D7C00633C289}" />
+					</Child>
 				</Child>
 				<Child Name="linkFacttypeName1111837V0" Owner="{8B22CAC4-731C-42B6-AC5E-43129CCEA0C1}" />
 				<Child Name="buttonValidate" Owner="{792C181D-E738-4B57-8E17-D1DA92E1CD73}" />
@@ -2985,6 +3085,11 @@
 				<Child Name="textnodeAdministration" Owner="{EBD386A6-0731-4578-B0D4-F9B4AECF0ADC}" />
 				<Child Name="linkPermissionGroups" Owner="{36CEDB34-9ED5-4414-A7D3-233D86B19721}" />
 				<Child Name="linkRoles" Owner="{B6D53D4E-87AB-4A1E-B7C7-54033702AE03}" />
+				<Child Name="textnode7" Owner="{0E5B8D3F-327E-4A40-A444-29186D1BCAA0}">
+					<Child Name="textnode8" Owner="{CFCBBABC-A098-45BA-AEB9-815DF43DBE32}">
+						<Child Name="panel9" Owner="{4652BF8F-EC9C-43A2-BE4E-F51535D06AF7}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">

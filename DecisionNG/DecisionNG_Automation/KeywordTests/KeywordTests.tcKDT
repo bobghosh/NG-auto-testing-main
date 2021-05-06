@@ -64,6 +64,7 @@
 		<folder name="Administration">
 			<folder name="Security">
 				<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{7AF76191-B92B-4D24-B644-2EFA018B3507}" path="Permission_Matrix_Set_Permission_PermissionGroups.tcKDTest" />
+				<child name="Administration_Security_AddUser" key="{A8892FD3-715F-40AD-9481-83C185953814}" path="Administration_Security_AddUser.tcKDTest" />
 			</folder>
 		</folder>
 	</children>
