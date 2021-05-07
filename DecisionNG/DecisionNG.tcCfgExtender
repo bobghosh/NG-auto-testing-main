@@ -23,20 +23,24 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{BDEA6E49-A750-4D1A-BE09-F83F37B4624B}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{35933b79-fd97-4155-a851-87bffbb640af}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{531ace08-e68e-400b-9eb9-e24763725fd8}">
-								<Prp name="key" type="S" value="{B01CC2F0-D4ED-4564-B56C-667C4BBA1E55}"/>
+								<Prp name="key" type="S" value="{1889C57A-B4C6-4C1C-B9B0-BDBCF98244F0}"/>
 							</Node>
-							<Prp name="editor" type="S" value="{4FED8BD8-30E6-48D3-8F0F-DA65F7A14A8D}"/>
-							<Prp name="focused" type="S" value="{A38ACA64-6F37-4018-A3A7-CA50F3FBF7A6}"/>
+							<Prp name="editor" type="S" value="{00FAE5D4-DB54-4DFE-8C1C-82DE69E5BC76}"/>
+							<Prp name="focused" type="S" value="{809F6E9D-ABAA-47A8-B11B-BC3B0EDEDB83}"/>
 						</Node>
 						<Prp name="edititem" type="S" value="{87F182F7-AA82-47A5-A515-B46EB955171A}"/>
 					</Node>
-					<Prp name="docking" type="H" value="617162696E00000001000000DA0100007801730C74F177F6E66680022920CDC9C2C060C40413C1474F6484C8DEF17EF6DEBDF5A3F3E2CEEB574ADFC87232460025988172825B65B5AA7E6A792C6AFD3FDD7CE77C5577A0F864A078002B03C36A4C2B8016E307FFA1E010D09C1340A5E87CBCBA1340B220176F053180E046F75BFF6706973DFAF96FA57E5FE8D50B721D480EC3757C404157860A8654866486528612864C867C863C06058600861C8644208B81810E2E07DA42120000E2B34DB5"/>
+					<Prp name="docking" type="H" value="617162696E00000001000000DA0100007801730C74F177F6E666800229207D849981C1880926828F9EC80891BDE3FDECBD7BEB47E7C59DD7AF94BE91E5648C004A004D61E0ADD0BC37F9DC44A796FD1D4667F2BB4EF700C52703C50358191856635AC182CF3290DC7F28380434E704163E5EFD092059908BB782184070E5E92F8690DBFF7C7B649AEE653EDD5306721D480EC3757C404157860A8654866486528612864C867C863C06058600861C8644208B81810E2E07DA4212000099F5507C"/>
 					<Prp name="editorscount" type="I" value="1"/>
 					<Prp name="enabled" type="B" value="-1"/>
 				</Node>
@@ -143,6 +147,11 @@
 					<Node name="{9d3e4b83-bbae-483e-b042-e6820600dc87}\testdata">
 						<Node name="expanding"/>
 					</Node>
+					<Node name="{a01f8e2d-8845-4e80-825f-b2cad4e631a8}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000001400000078016364800046280DA20000340003"/>
+						</Node>
+					</Node>
 					<Node name="{aa75ff4a-62ae-4a94-9f28-1e635458f976}\testdata">
 						<Node name="expanding"/>
 					</Node>
@@ -190,7 +199,15 @@
 					<Node name="{db9ce72f-9828-47e2-a457-f4bb74d16dd5}\testdata">
 						<Node name="expanding"/>
 					</Node>
+					<Node name="{ddb6e7a1-5dc4-4e53-9e55-b88f31d5631e}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000001400000078016364800046280DA20000340003"/>
+						</Node>
+					</Node>
 					<Node name="{dfc5be51-b536-40ac-abc6-65c9251fcc17}\testdata">
+						<Node name="expanding"/>
+					</Node>
+					<Node name="{f3cae40b-0df7-4d96-a628-fe12d05bf291}\testdata">
 						<Node name="expanding"/>
 					</Node>
 					<Node name="{f7d1f662-912c-4244-804f-59cf3e144bed}\testdata">
@@ -775,23 +792,14 @@
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="decisionng">
 					<Node name="decisionng_automation">
-						<Node name="events"/>
 						<Node name="keywordtests">
-							<Node name="repository">
-								<Node name="import glossary"/>
-							</Node>
-						</Node>
-						<Node name="script">
-							<Node name="generic"/>
-							<Node name="modelling">
-								<Node name="facttype">
-									<Node name="test case specific"/>
+							<Node name="administration">
+								<Node name="settings">
+									<Node name="model definition"/>
 								</Node>
 							</Node>
-							<Node name="repository">
-								<Node name="import glossary"/>
-							</Node>
 						</Node>
+						<Node name="script"/>
 						<Node name="testedapps"/>
 					</Node>
 				</Node>

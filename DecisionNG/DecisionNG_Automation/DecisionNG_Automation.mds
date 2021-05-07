@@ -179,7 +179,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -201,6 +201,29 @@
 														<children />
 													</testItem>
 													<testItem name="Import_Glossary_Verification" key="{FB11394E-F2A6-4BE0-855D-A91902E8E45A}" group="False" enabled="True" testMoniker="KDT\{393E21B7-120B-43C6-92C2-0D7655062D45}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+										</children>
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Administration" key="{A95458CF-ABA6-4826-91AE-51175129D96E}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Settings" key="{BF814CDB-CE6F-48C6-B323-1FD95B23C168}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children>
+											<testItem name="Model Definition" key="{5411E830-9097-4A03-A445-BCBF9B8C63A2}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Navigate_To_Administration" key="{AD672772-1705-485C-AF91-7D6D678C27B5}" group="False" enabled="True" testMoniker="KDT\{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children />
+													</testItem>
+													<testItem name="Navigate_Model_Definition" key="{3AD2F705-F5E6-44E4-828A-F881AA663571}" group="False" enabled="True" testMoniker="KDT\{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children />
 													</testItem>

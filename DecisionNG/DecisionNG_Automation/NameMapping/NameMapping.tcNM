@@ -2769,6 +2769,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkModelDefinition" Key="{ED49E7BE-7BDE-45BF-8169-DEA92A438C07}">
+										<Image FileName="-1652458434" Left="700" Top="466" Right="809" Bottom="485" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;#/admin/category/settings/model-definition&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Model Definition&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;#/admin/category/settings/model-definition&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-site-map/div/div[4]/div[2]/dcn-category-content/div/div[6]/div/div/dcn-site-map-sub-category-link/p/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;#/admin/category/settings/model-definition&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/div/dcn-site-map-sub-category-link/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode7" Key="{7329C332-9110-483B-9B5A-EA24C42ED99A}">
+										<Image FileName="-1892987899" Left="1167" Top="379" Right="1185" Bottom="397" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".icon-valid" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-model-definition-master/div/dcn-datagrid/div[2]/p-table/div/div/table/tbody/tr/td[2]/div/button/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/div/button/i" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -3388,6 +3427,8 @@
 					</Child>
 				</Child>
 				<Child Name="buttonImport" Owner="{B1A36045-7CB7-404A-9644-4EAAEAC601FC}" />
+				<Child Name="linkModelDefinition" Owner="{ED49E7BE-7BDE-45BF-8169-DEA92A438C07}" />
+				<Child Name="textnode7" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
 			<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
