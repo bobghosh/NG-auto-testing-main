@@ -119,8 +119,12 @@ function ImportGlossaryXMLVerification()
         
                     wndNotepad.MainMenu.Click("File|Save As...");
                     let dlgSaveAs = notepad.dlgSaveAs;
-                    dlgSaveAs.DUIViewWndClassName.DirectUIHWND.FloatNotifySink.ComboBox.SetText(("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name") + ".xml"));
+                    dlgSaveAs.DUIViewWndClassName.DirectUIHWND.FloatNotifySink.ComboBox.SetText(("E:\\jenkins\\workspace\\Import_Glossary_XML\\"+Project.Variables.ImportGlossary.Value("Import File Name") + ".xml"));
                     dlgSaveAs.btnSave.ClickButton();
+                    if((notepad.dlgConfirmSaveAs.DirectUIHWND.CtrlNotifySink.btnYes).Exists)
+                    {
+                        notepad.dlgConfirmSaveAs.DirectUIHWND.CtrlNotifySink.btnYes.ClickButton();
+                    }
                     wndNotepad.Close();
 
                 }                
@@ -130,7 +134,7 @@ function ImportGlossaryXMLVerification()
       
                 Aliases.browser.pageSapiensDecision2.form4.buttonBrowse.ClickButton();
       
-                Aliases.browser.dlgOpen.OpenFile(("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name")), "XML Document");
+                Aliases.browser.dlgOpen.OpenFile(("E:\\jenkins\\workspace\\Import_Glossary_XML\\"+Project.Variables.ImportGlossary.Value("Import File Name")), "XML Document");
   
                 if (Project.Variables.ImportGlossary.Value("AllowUpdateSOR") == "Yes")
                 {          

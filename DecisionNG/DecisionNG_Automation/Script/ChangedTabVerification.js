@@ -68,7 +68,7 @@
         Log.Error("Enabled");
     }
       
-    Log.Message(OCR.Recognize(ChangedFTAllowedValues).FullText);
+    Log.Message(ChangedFTAllowedValues.getAttribute("ng-reflect-model"));
       
   }
 }

@@ -82,8 +82,8 @@
         {
             Log.Error("Enabled");
         }
-    
-        Log.Message(OCR.Recognize(NewFTAllowedValues).FullText);  
+      
+        Log.Message(NewFTAllowedValues.getAttribute("ng-reflect-model"));  
     }
   }
   else if(TabName.charAt(TabName.length-2) == 0)
