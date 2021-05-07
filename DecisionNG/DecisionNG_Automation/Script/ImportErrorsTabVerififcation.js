@@ -11,7 +11,7 @@
                  
   let ErrorMessage = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Import Errors (')]//dcn-bullet//span");
                                 
-  Log.Message(ErrorFT.textContent + " Fact Type cannot be imported due to following error Message "+ ErrorMessage.textContent);
+  Log.Message(ErrorFactType.textContent + " Fact Type cannot be imported due to following error Message "+ ErrorMessage.textContent);
            
    }
 }

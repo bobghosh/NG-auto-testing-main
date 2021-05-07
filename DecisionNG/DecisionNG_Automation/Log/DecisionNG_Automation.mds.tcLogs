@@ -20,7 +20,98 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6426946296"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9561B43F-C2B3-42D0-9F24-19673C547B67}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_25 PM_28_816\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6438698495"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E8E6E6E8-4B99-4C58-A923-56B0B0331B83}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_27 PM_10_355\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6447810417"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EC97AD20-73CD-44BE-A93E-789AEC3800E3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_28 PM_29_82\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6455155093"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{07BA1248-D2A6-4EC4-A99C-444E467E171A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_29 PM_32_541\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.646262037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C524EAF0-B466-49CB-A34E-46692EE129E3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_30 PM_37_40\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6470451852"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A2F6152E-D301-4ACB-B35D-A05D5E21C4A7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_31 PM_44_705\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6482294676"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{675C749B-DC1F-4E5D-9316-5C9864EB27A1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test\SelectingOptionfromDropdown]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_33 PM_27_27\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6547492477"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0480FBAF-9AA8-4623-99FA-0EEB019073F4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\ImportGlossaryXMLVerification]"/>
+				<Prp name="relpath" type="S" value="5_6_2021_3_42 PM_50_335\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.6711706944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8CD79AA1-5332-473E-B4F6-A4EF33395D82}"/>
+				<Prp name="nameofroot" type="S" value="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify"/>
+				<Prp name="relpath" type="S" value="5_6_2021_4_06 PM_29_148\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44322.9289256481"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{65274DFE-E093-46D1-B2EE-D58BEE69F74A}"/>
+				<Prp name="nameofroot" type="S" value="Repository"/>
+				<Prp name="relpath" type="S" value="5_6_2021_10_17 PM_39_177\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

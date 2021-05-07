@@ -9,6 +9,15 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{F6C48CBD-1885-42D4-B9E8-F0FA9EAA5060}">
+			<config nodeName="EventControl3" lastOpenedTLB="" generatedCLSID="{403B0278-6A95-4CD9-98D5-410CC5B3D66C}" generatedTLBKey="{14F2FB00-61A1-4754-8F4B-D833FB10966B}" generatedEventsKey="{7E3C923D-7F85-4C5C-A1D5-3CB82036738F}" generatedTLBDesc="TestComplete EventControl3 Control - 5/5/2021 7:41:29 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
+				<handlerInfo handlerName="EventControl3_OnStopTest" handlerMoniker="{46F4EFBD-1698-41C6-836B-49D57B5D1BED}EventControl3_OnStopTest" handlerEventName="OnStopTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743809" />
+			</config>
+			<testData />
+			<data />
+		</child>
 		<child key="{D62E78AE-7CF6-48C2-9D97-38A8C3055942}">
 			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{85C731BA-E469-4D46-8F29-B56ED6FC9545}" generatedTLBKey="{3172C476-7860-4E9E-A4B3-728080BC7E50}" generatedEventsKey="{790A1787-12B1-4CB1-9F1E-798BD03C8767}" generatedTLBDesc="TestComplete EventControl1 Control - 22-04-2021 12:15:32">
 				<eventInfo infoTLBVer="version.dll" infoGUID="{9F037A78-98DE-4B7D-834A-8ACC7B42EC3F}" infoID="1610678272" infoControlName="Flash Events" infoEventName="OnActionScriptException" infoEventRealName="OnActionScriptException" infoDescription="Occurs after the ActionScript exception is raised." />

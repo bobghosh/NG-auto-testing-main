@@ -49,5 +49,6 @@
 			</folder>
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
+		<child name="Refresh_Screen" key="{46F4EFBD-1698-41C6-836B-49D57B5D1BED}" path="Refresh_Screen.js" />
 	</children>
 </Root>
