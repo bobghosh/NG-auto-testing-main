@@ -3142,6 +3142,57 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}">
+								<Image FileName="-1042702428" Left="0" Top="0" Right="366" Bottom="140" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Confirm Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DirectUIHWND" Key="{664A8447-2160-4B35-A5CA-885DCC4DBCAE}">
+										<Image FileName="-1042702428" Left="8" Top="31" Right="358" Bottom="132" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DirectUIHWND" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{2BE90AB3-F3FD-4B0E-A18A-76F2C9EBE274}">
+												<Image FileName="-1042702428" Left="206" Top="100" Right="274" Bottom="123" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnYes" Key="{804672F2-5A25-4500-B8D6-765CFCB3059A}">
+														<Image FileName="-1042702428" Left="206" Top="100" Right="274" Bottom="123" />
+														<TypeInfo Item0="{25D38587-7AFC-40CC-BB98-9019A7538E69}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="&amp;Yes" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -3376,6 +3427,13 @@
 					</Child>
 				</Child>
 				<Child Name="btnSave" Owner="{3946C1DF-5BFA-4A55-90D2-59D27623F765}" />
+			</Child>
+			<Child Name="dlgConfirmSaveAs" Owner="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}">
+				<Child Name="DirectUIHWND" Owner="{664A8447-2160-4B35-A5CA-885DCC4DBCAE}">
+					<Child Name="CtrlNotifySink" Owner="{2BE90AB3-F3FD-4B0E-A18A-76F2C9EBE274}">
+						<Child Name="btnYes" Owner="{804672F2-5A25-4500-B8D6-765CFCB3059A}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

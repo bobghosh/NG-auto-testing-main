@@ -14,6 +14,13 @@
             Option[i].click();
             break;
           }
+          
+        if(i == (Option.length-1))
+        {
+          Log.Error("Option doesn't exists/Wrong Input Data"); 
+          Option[0].click();
+          break;
+        }
  
   
       }
@@ -31,6 +38,13 @@
             {
               Option[i].click();
             break;
+            }
+            
+            if(i == (Option.length-1))
+            {
+              Log.Error("Option doesn't exists/Wrong Input Data"); 
+              Option[0].click();
+              break;
             }
  
   
