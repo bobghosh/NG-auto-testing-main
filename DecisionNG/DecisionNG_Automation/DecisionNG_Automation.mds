@@ -305,6 +305,11 @@
 						<ConnectionInfo FileName="..\..\..\..\Downloads\Permissions Init V614.xlsx" Table="ColumnNames$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+				<Variable Name="Create_NewUser_Details" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Users$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>

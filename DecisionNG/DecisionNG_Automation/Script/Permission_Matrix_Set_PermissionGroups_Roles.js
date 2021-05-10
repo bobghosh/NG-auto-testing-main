@@ -19,6 +19,10 @@ function SelectingItemGetData ()
       Aliases.browser.pageSapiensDecision.FindElement(".ui-dropdown-trigger").Click();
       Aliases.browser.pageSapiensDecision.FindElement("//li[contains(., '50')]").Click();
     }
+    else
+    {
+      Log.Message("There is no pagination for this page")
+    }
     
     
     TotalRows = Aliases.browser.pageSapiensDecision.FindElements("//tbody/tr");

@@ -2688,6 +2688,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeUsers" Key="{7E08CB61-38F2-485C-A151-996C8AF67B19}">
+										<Image FileName="-162048561" Left="111" Top="179" Right="148" Bottom="198" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".breadcrumb-holder__tooltip--label:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/dcn-breadcrumb/div/div[2]/a/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;#/admin/category/security/users&apos;)]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -3083,7 +3104,9 @@
 				<Child Name="panel6" Owner="{39D15F2A-7728-451B-A17E-C6F03741ABCE}" />
 				<Child Name="textnodeRecentlyViewed" Owner="{C8B22E34-A9E9-4A14-BE50-8899D69F11A8}" />
 				<Child Name="textnodeAdministration" Owner="{EBD386A6-0731-4578-B0D4-F9B4AECF0ADC}" />
-				<Child Name="linkPermissionGroups" Owner="{36CEDB34-9ED5-4414-A7D3-233D86B19721}" />
+				<Child Name="linkPermissionGroups" Owner="{36CEDB34-9ED5-4414-A7D3-233D86B19721}">
+					<Child Name="textnodeUsers" Owner="{7E08CB61-38F2-485C-A151-996C8AF67B19}" />
+				</Child>
 				<Child Name="linkRoles" Owner="{B6D53D4E-87AB-4A1E-B7C7-54033702AE03}" />
 				<Child Name="textnode7" Owner="{0E5B8D3F-327E-4A40-A444-29186D1BCAA0}">
 					<Child Name="textnode8" Owner="{CFCBBABC-A098-45BA-AEB9-815DF43DBE32}">
