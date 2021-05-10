@@ -29,7 +29,7 @@
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{531ace08-e68e-400b-9eb9-e24763725fd8}">
-								<Prp name="key" type="S" value="{B12A9936-7C91-4308-8BCF-07D35B46FEE0}"/>
+								<Prp name="key" type="S" value="{CB32130D-2450-4B72-86CD-5955362C190A}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{B20752BC-920F-42F7-BCA3-CCAEA5EFAB71}"/>
 							<Prp name="focused" type="S" value="{B12A9936-7C91-4308-8BCF-07D35B46FEE0}"/>
@@ -651,6 +651,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{add27bdb-2053-46a0-ade0-a5e6eb6053a3}"/>
 					<Node name="{b54f0bd9-4a70-43da-acae-8695a3aa43d8}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="29"/>
@@ -815,12 +816,29 @@
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="decisionng">
 					<Node name="decisionng_automation">
-						<Node name="keywordtests"/>
-						<Node name="script"/>
+						<Node name="keywordtests">
+							<Node name="administration">
+								<Node name="settings">
+									<Node name="model definition"/>
+								</Node>
+							</Node>
+						</Node>
+						<Node name="script">
+							<Node name="administration">
+								<Node name="settings">
+									<Node name="model definition"/>
+								</Node>
+							</Node>
+							<Node name="repository">
+								<Node name="import glossary"/>
+							</Node>
+						</Node>
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="decisionng logs"/>
+				<Node name="decisionng logs">
+					<Node name="decisionng_automation logs"/>
+				</Node>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>

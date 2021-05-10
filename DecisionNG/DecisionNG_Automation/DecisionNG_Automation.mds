@@ -238,6 +238,12 @@
 																<testParameters />
 																<children />
 															</testItem>
+															<testItem name="Add_New_Model_Definition" key="{B4B90E28-4140-44A6-8AA4-BE6BBFAACEB7}" group="False" enabled="True" testMoniker="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}Add_New_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionName" type="3" localVarName="" varType="8" value="TestVars02" />
+																</testParameters>
+																<children />
+															</testItem>
 														</children>
 													</testItem>
 												</children>

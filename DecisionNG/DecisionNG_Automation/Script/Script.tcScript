@@ -50,7 +50,9 @@
 		</folder>
 		<folder name="Administration">
 			<folder name="Settings">
-				<folder name="Model Definition" />
+				<folder name="Model Definition">
+					<child name="Add_New_Model_Definition" key="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}" path="Add_New_Model_Definition.js" />
+				</folder>
 			</folder>
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
