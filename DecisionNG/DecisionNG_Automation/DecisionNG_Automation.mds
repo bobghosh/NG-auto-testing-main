@@ -219,13 +219,26 @@
 											<testItem name="Model Definition" key="{5411E830-9097-4A03-A445-BCBF9B8C63A2}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Navigate_To_Administration" key="{AD672772-1705-485C-AF91-7D6D678C27B5}" group="False" enabled="True" testMoniker="KDT\{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Add Model Definition" key="{63630532-32BE-4417-9CD7-836538E2455D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<children />
-													</testItem>
-													<testItem name="Navigate_Model_Definition" key="{3AD2F705-F5E6-44E4-828A-F881AA663571}" group="False" enabled="True" testMoniker="KDT\{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<children />
+														<children>
+															<testItem name="Login_6" key="{352D8556-5FC0-41EF-81BC-C3015DEA182E}" group="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
+																	<param1 name="UserName" type="1" localVarName="" value="sgp" />
+																	<param2 name="Password" type="1" localVarName="" value="Decision1" />
+																</testParameters>
+																<children />
+															</testItem>
+															<testItem name="Navigate_To_Administration" key="{AD672772-1705-485C-AF91-7D6D678C27B5}" group="False" enabled="True" testMoniker="KDT\{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<children />
+															</testItem>
+															<testItem name="Navigate_Model_Definition" key="{3AD2F705-F5E6-44E4-828A-F881AA663571}" group="False" enabled="True" testMoniker="KDT\{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
 												</children>
 											</testItem>
