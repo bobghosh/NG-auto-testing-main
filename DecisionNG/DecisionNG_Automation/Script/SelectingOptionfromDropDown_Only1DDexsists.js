@@ -3,7 +3,7 @@
   if(flag=="Yes")
   {
     Aliases.browser.pageSapiensDecision.form.form2.form4.button10.ClickButton();
-    var Option=Aliases.browser.pageSapiensDecision.FindElements("//div[@role='option']");
+    var Option=Aliases.browser.pageSapiensDecision.FindElements("//*[@role='option']");
     //Log.Message(Option.length)
       for(let i=0;i<Option.length;i++)
       {
@@ -26,7 +26,7 @@
   }
   else
   {  
-        var Option=Aliases.browser.pageSapiensDecision.FindElements("//div[@role='option']");
+        var Option=Aliases.browser.pageSapiensDecision.FindElements("//*[@role='option']");
         //Log.Message(Option.length)
         for(let i=0;i<Option.length;i++)
         {

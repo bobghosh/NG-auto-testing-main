@@ -1,5 +1,5 @@
 ﻿ let app_array=[]; 
-   
+
 function SelectingItem(Item)
 {
   var ItemCount;
@@ -40,12 +40,13 @@ function SelectingItem(Item)
             for(var k=1;k <=CommunitiesForRoles.length; k++)
             { 
               let text=Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+j+"]//td[3]//div//div["+k+"]").textContent;
-              Log.Message(text);
+              //Log.Message(text);
               let roleText=text.toString().trim();
-              Log.Message(roleText)
-              app_subarray.push(roleText);              
+              //Log.Message(roleText)
+              app_subarray.push(roleText);  
+                       
 
-            }
+            }flag=1;
               app_array.push(app_subarray);
               let sub_array = [];
               let newarr= new Array();
@@ -56,8 +57,11 @@ function SelectingItem(Item)
               
                   let str = Project.Variables.Create_NewUser_Details.Value("Roles");
                   let str_array = str.split(',');
+                  let role_array = [];
+                  let missingrolearray=[];
                   for(var n = 0; n <str_array.length; n++) 
                   {  
+                    
                     let Role=str_array[n]+":".toString().trim();
                     //Log.Message(Role)
                     
@@ -68,13 +72,15 @@ function SelectingItem(Item)
                       }
                       else if (!newarr.includes(Role))
                       {
-                        Log.Message("The Role "+str_array[n]+" Does not Exist")
-                        HighlightedItemName.Click();
-     
-                        Aliases.browser.pageSapiensDecision.button6.ClickButton();
-                        Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+str_array[n]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();
-                        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
-                        Aliases.browser.pageSapiensDecision2.linkPermissionGroups.textnodeUsers.Click();
+                        
+                        Log.Message("The Role "+str_array[n]+" Does not Exist");
+                        role_array.push(str_array[n]);
+                        //Log.Message(role_array)
+//                        HighlightedItemName.Click();
+//                        Aliases.browser.pageSapiensDecision.button6.ClickButton();
+//                        Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+str_array[n]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();
+//                        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//                        Aliases.browser.pageSapiensDecision2.linkPermissionGroups.textnodeUsers.Click();
                         break;
         
                       }
@@ -82,9 +88,22 @@ function SelectingItem(Item)
                          {
                            Log.Message("Last one")
                           flag=1;  
+                    
                          }
                           
                   }
+                  missingrolearray.push(role_array)
+                  Log.Message("This is missing role array"+missingrolearray)
+                  HighlightedItemName.Click();
+                  for(let p=1; p<= missingrolearray.length;p++)
+                  {
+                    //HighlightedItemName.Click();
+                    Aliases.browser.pageSapiensDecision.button6.ClickButton();
+                    Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+str_array[n]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();
+                    Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+                    //Aliases.browser.pageSapiensDecision2.linkPermissionGroups.textnodeUsers.Click();
+                  }
+                  Aliases.browser.pageSapiensDecision2.linkPermissionGroups.textnodeUsers.Click();
               //
               
           

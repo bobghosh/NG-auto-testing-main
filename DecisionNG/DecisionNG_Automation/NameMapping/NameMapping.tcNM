@@ -2930,6 +2930,47 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkWorld" Key="{8B25A2CF-E4F6-44D1-82D2-1B54B3B011DD}">
+										<Image FileName="1679231716" Left="146" Top="179" Right="196" Bottom="198" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;WORLD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".breadcrumb-holder:nth-child(2) &gt; .breadcrumb-link" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/dcn-breadcrumb/div/div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#/admin/category/communities&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWorld" Key="{0FF74743-E5E9-4725-9B62-A4042D3B93BA}">
+										<Image FileName="1679231716" Left="146" Top="179" Right="196" Bottom="198" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;WORLD&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".breadcrumb-holder:nth-child(2) &gt; .breadcrumb-link:nth-child(1) &gt; .ng-star-inserted:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/dcn-breadcrumb/div/div[2]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#/admin/category/communities&apos;)])[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -3350,6 +3391,9 @@
 				<Child Name="textnode13" Owner="{1754348D-75B1-4DB9-BFA4-EC9EAFB96563}" />
 				<Child Name="panel13" Owner="{B89C29F5-1BA2-4336-981F-7C26708A6D9C}" />
 				<Child Name="panel14" Owner="{B9B194ED-84D5-4622-87EF-D7C7CB7155C9}" />
+				<Child Name="linkWorld" Owner="{8B25A2CF-E4F6-44D1-82D2-1B54B3B011DD}">
+					<Child Name="textnodeWorld" Owner="{0FF74743-E5E9-4725-9B62-A4042D3B93BA}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">

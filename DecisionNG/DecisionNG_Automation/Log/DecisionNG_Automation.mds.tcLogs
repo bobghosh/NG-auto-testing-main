@@ -23,92 +23,92 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7648909375"/>
+				<Prp name="datetime" type="D" value="44327.6855174421"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{DAC35BDE-FEF4-4968-9FD5-BD926329E80F}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_21_26_577\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{7646447B-2C39-425B-A0D3-3D549B16DE75}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_27_08_707\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7654167245"/>
+				<Prp name="datetime" type="D" value="44327.6900794792"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{433551A9-1D57-4679-8B7D-6E9E7D58549B}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_22_12_5\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{AF34C7CB-B01F-4355-924C-625A6B755953}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_33_42_867\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7661313542"/>
+				<Prp name="datetime" type="D" value="44327.692394838"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{90ED2330-A31A-45C7-8BC5-D6E4B6BB4A57}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Security_AddUser\Administration_Security_AddUser]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_23_13_749\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{907EBED8-B7BD-46C0-AD09-BA1851DA4032}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_37_02_914\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
 			</Node>
 			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7665690856"/>
+				<Prp name="datetime" type="D" value="44327.6938623264"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{3B0C43EF-AA66-485D-B233-73AC8E1B0E36}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Security_AddUser\Administration_Security_AddUser]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_23_51_569\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{10A8BF6F-E2BB-441E-93C8-0D76B0AA6075}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_39_09_705\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0004">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7735229282"/>
+				<Prp name="datetime" type="D" value="44327.7029850694"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{6B31DEDF-FC78-4D03-8F27-C0FF7CA298A4}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_33_52_381\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{FE1819C3-C8E5-4D02-B38E-EF701C637AE6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_52_17_910\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0005">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7759071296"/>
+				<Prp name="datetime" type="D" value="44327.7039405787"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FB74F5B7-7663-4EB7-AE86-E8880B3925A2}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_37_18_376\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{4390DAEC-6D71-42A0-975C-F0A962615B4C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_53_40_466\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0006">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7777519444"/>
+				<Prp name="datetime" type="D" value="44327.7073280093"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{63B6AEE4-DB02-4F1F-AC24-34466A087CCB}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_39_57_768\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{C9764F1E-2B2D-451D-93F6-03A2A437621C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_16_58_33_140\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0007">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7785766551"/>
+				<Prp name="datetime" type="D" value="44327.7089575347"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{F3B717B7-AE7C-47DA-81A8-F8C669CEE736}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_41_09_23\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
+				<Prp name="key" type="S" value="{EFD50D3D-8940-4906-B8D2-C4B0D8C27B96}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_17_00_53_931\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0008">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7788893171"/>
+				<Prp name="datetime" type="D" value="44327.7137609607"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{BDA5BFE4-BF84-4EAD-A5CE-D86528912207}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\test]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_41_36_37\Description.tcLog"/>
+				<Prp name="key" type="S" value="{2731978F-A772-4724-8F97-B19BA60F49AE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_17_07_48_947\Description.tcLog"/>
 				<Prp name="status" type="I" value="1"/>
 			</Node>
 			<Node name="log idx=0009">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44326.7807634375"/>
+				<Prp name="datetime" type="D" value="44327.7143050694"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{58D0CCD2-D316-4F1C-BCD1-339DE19AB13B}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Security_AddUser\Administration_Security_AddUser]"/>
-				<Prp name="relpath" type="S" value="10-05-2021_18_44_17_962\Description.tcLog"/>
+				<Prp name="key" type="S" value="{F001B258-B0C0-428F-A98F-18B006F7F116}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Administration_Community_AssignUser\Administration_Community_AssignUser]"/>
+				<Prp name="relpath" type="S" value="11-05-2021_17_08_35_958\Description.tcLog"/>
 				<Prp name="status" type="I" value="1"/>
 			</Node>
 		</Node>

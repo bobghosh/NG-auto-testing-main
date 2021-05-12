@@ -109,7 +109,7 @@
 											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:18821/login.jsp" />
 															<param1 name="UserName" type="1" localVarName="" value="sumant" />
@@ -129,7 +129,7 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="False" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments testedURL="" />
 														<children />

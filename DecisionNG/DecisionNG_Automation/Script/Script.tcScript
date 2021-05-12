@@ -41,6 +41,8 @@
 				<child name="Permission_Matrix_Set_PermissionGroups_Roles" key="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}" path="Permission_Matrix_Set_PermissionGroups_Roles.js" />
 				<child name="Administration_Security_AddUser" key="{5FEBE74D-714D-44D3-9E35-0139D92A150A}" path="Administration_Security_AddUser.js" />
 				<child name="Verify_UserCreated_And_Roles" key="{2C71E8D4-F64D-4140-BCAB-95C8019540A0}" path="Verify_UserCreated_And_Roles.js" />
+				<child name="Administration_Community_AssignUser" key="{94D8895E-DF68-44BA-BFCE-A4A44F35D211}" path="Administration_Community_AssignUser.js" />
+				<child name="VerifyUser_ManageRoles" key="{0ACC5E98-585D-46FB-B02A-CC33EE749620}" path="VerifyUser_ManageRoles.js" />
 			</folder>
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
