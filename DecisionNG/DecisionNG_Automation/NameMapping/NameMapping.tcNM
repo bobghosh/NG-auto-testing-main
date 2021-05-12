@@ -1773,6 +1773,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeWorld" Key="{81874251-B062-400F-9A98-6EA0FA34259A}">
+										<Image FileName="696544599" Left="104" Top="501" Right="390" Bottom="530" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;WORLD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[3]/ul/li[25]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[25]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -2709,6 +2730,206 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkUsers" Key="{AD441B6E-1C17-4D0F-AD4B-5978A0DC4C70}">
+										<Image FileName="9375299" Left="403" Top="361" Right="440" Bottom="380" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;#/admin/category/security/users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;#/admin/category/security/users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;Users&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-site-map/div/div[3]/div[2]/dcn-category-content/div/div[3]/div/div/dcn-site-map-sub-category-link/p/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;#/admin/category/security/users&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/dcn-site-map-sub-category-link/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUsers2" Key="{702F7614-AC87-4ACB-BA19-8825C89ADB5A}">
+										<Image FileName="-1210917348" Left="115" Top="581" Right="152" Bottom="600" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .Users a" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-site-map/div/div[2]/div[2]/dcn-category-content/div/div[2]/div/div[2]/div[7]/dcn-site-map-sub-category-link/p/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#/admin/category/communities&apos;)])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/dcn-site-map-sub-category-link/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode9" Key="{33B6B37D-4D06-44F3-82DF-C9E32B21E2EC}">
+										<Image FileName="427772845" Left="276" Top="-456" Right="1057" Bottom="1222" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Administrator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ui-listbox-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-6&apos;]/user-multi-select/dcn-dialog/div/div[2]/div/dcn-multi-select/div/p-listbox/div/div[3]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{DB21BC38-16BF-4280-929F-7464F911483A}">
+										<Image FileName="519612722" Left="276" Top="402" Right="1057" Bottom="430" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Com Admin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="li[aria-label=&apos;Com Admin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Com Admin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-6&apos;]/user-multi-select/dcn-dialog/div/div[2]/div/dcn-multi-select/div/p-listbox/div/div[3]/ul/li[14]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[14]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel11" Key="{93123012-F4DD-4437-B3DC-FE7DB9B23C5F}">
+										<Image FileName="519612722" Left="286" Top="408" Right="300" Bottom="422" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-label=&apos;Com Admin&apos;] .ui-chkbox-box" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-6&apos;]/user-multi-select/dcn-dialog/div/div[2]/div/dcn-multi-select/div/p-listbox/div/div[3]/ul/li[14]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[14]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode11" Key="{9C9935CF-5FB9-416F-AB3D-4DCD4F3D6AE2}">
+										<Image FileName="2103056699" Left="276" Top="391" Right="1074" Bottom="450" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Community Administrator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ui-listbox-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-7&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[3]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode12" Key="{BC3B4234-9ED8-4AB3-A189-4170CF146C78}">
+										<Image FileName="2103056699" Left="276" Top="391" Right="1074" Bottom="420" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Community Administrator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="li[aria-label=&apos;Community Administrator&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Community Administrator&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-7&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[3]/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel12" Key="{B42E1A3F-827B-4072-B1D9-16451E6934E3}">
+										<Image FileName="2103056699" Left="286" Top="400" Right="300" Bottom="414" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-label=&apos;Community Administrator&apos;] .ui-chkbox-box" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-7&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[3]/ul/li/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode13" Key="{1754348D-75B1-4DB9-BFA4-EC9EAFB96563}">
+										<Image FileName="862406756" Left="281" Top="370" Right="292" Bottom="383" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-chkbox-box:nth-child(2) &gt; .pi" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-7&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[2]/div/div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel13" Key="{B89C29F5-1BA2-4336-981F-7C26708A6D9C}">
+										<Image FileName="1443937902" Left="279" Top="369" Right="293" Bottom="383" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .ui-chkbox-box:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-7&apos;]/role-multi-select/dcn-dialog/div/div[2]/div/div/div/dcn-multi-select/div/p-listbox/div/div[2]/div/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{B9B194ED-84D5-4622-87EF-D7C7CB7155C9}">
+										<Image FileName="124183715" Left="567" Top="350" Right="782" Bottom="369" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-selectable-row:nth-child(2) .viewGroupCell" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;WORLD&apos;)])[12]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/community-users/div/dcn-datagrid/div[2]/p-table/div/div/table/tbody/tr[2]/td[3]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[3]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -3036,6 +3257,7 @@
 				<Child Name="panel16" Owner="{16B08955-BF06-440A-9F4E-3C5FEDC8CE76}" />
 				<Child Name="panel17" Owner="{1A28EA02-FAD6-4FC5-B7FD-38E2DE102DF1}" />
 				<Child Name="StartNewDecisionDropButton" Owner="{FB94A2C8-F571-4726-B432-79F846BAC5F1}" />
+				<Child Name="textnodeWorld" Owner="{81874251-B062-400F-9A98-6EA0FA34259A}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">
@@ -3113,6 +3335,21 @@
 						<Child Name="panel9" Owner="{4652BF8F-EC9C-43A2-BE4E-F51535D06AF7}" />
 					</Child>
 				</Child>
+				<Child Name="linkUsers" Owner="{AD441B6E-1C17-4D0F-AD4B-5978A0DC4C70}" />
+				<Child Name="linkUsers2" Owner="{702F7614-AC87-4ACB-BA19-8825C89ADB5A}" />
+				<Child Name="textnode9" Owner="{33B6B37D-4D06-44F3-82DF-C9E32B21E2EC}">
+					<Child Name="textnode10" Owner="{DB21BC38-16BF-4280-929F-7464F911483A}">
+						<Child Name="panel11" Owner="{93123012-F4DD-4437-B3DC-FE7DB9B23C5F}" />
+					</Child>
+				</Child>
+				<Child Name="textnode11" Owner="{9C9935CF-5FB9-416F-AB3D-4DCD4F3D6AE2}">
+					<Child Name="textnode12" Owner="{BC3B4234-9ED8-4AB3-A189-4170CF146C78}">
+						<Child Name="panel12" Owner="{B42E1A3F-827B-4072-B1D9-16451E6934E3}" />
+					</Child>
+				</Child>
+				<Child Name="textnode13" Owner="{1754348D-75B1-4DB9-BFA4-EC9EAFB96563}" />
+				<Child Name="panel13" Owner="{B89C29F5-1BA2-4336-981F-7C26708A6D9C}" />
+				<Child Name="panel14" Owner="{B9B194ED-84D5-4622-87EF-D7C7CB7155C9}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
