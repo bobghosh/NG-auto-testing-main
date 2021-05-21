@@ -10,13 +10,13 @@
             if(ModelDefinition_Text.includes(ModelDefinition))
             {
               ModelDefinitions_list[i].click();
-            break;
+             break;
             }
             
           if(i == (ModelDefinitions_list.length-1))
             {
               Log.Error("Option doesn't exists/Wrong Input Data"); 
-              Option[0].click();
+              ModelDefinitions_list[0].click();
               break;
             }
 

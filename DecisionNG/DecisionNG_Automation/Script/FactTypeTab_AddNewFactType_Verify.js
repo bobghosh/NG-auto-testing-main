@@ -229,13 +229,18 @@ var Picture_To_Log = require("Picture_To_Log");
         
           Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
        
-        Delay(1000)
+        //Delay(1000)
       
         //Validating new FactType Created
         let FactTypeDataToCompare=Project.Variables.Create_New_FactType.Value("FactType Name")+" "+FactType_Name+" "+"[V0]"+" ";
-        Log.Message(FactTypeDataToCompare)
-        Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]").WaitElement(FactTypeDataToCompare,3000)
+        
+        Log.Message(FactTypeDataToCompare);
+        
+        //Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]").WaitElement(FactTypeDataToCompare,4000);
+        
+        Aliases.browser.pageSapiensDecision.WaitElement( Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]//*[contains(text(),"+"'"+""+FactTypeDataToCompare+""+"'"+")]"),10000);
         let FactTypeNameAfterCreation= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[1]").textContent;
+        
         Log.Message(FactTypeNameAfterCreation);
         
      
@@ -279,13 +284,13 @@ var Picture_To_Log = require("Picture_To_Log");
         if(errorIcon.includes('icon-validation_error')) 
         {
 
-        Log.Warning("Facttype is Invalid");
+        Log.Checkpoint("Facttype is Invalid");
       
         Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]//td[1]").Click();
         
         let FTSummaryErrorMessage=Aliases.browser.pageSapiensDecision.form.form2.panel10.textContent;
        
-        Log.Warning("Facttype is not valid. Error: " +FTSummaryErrorMessage);
+        Log.Checkpoint("Facttype is not valid. Error: " +FTSummaryErrorMessage);
       
         let browser = Aliases.browser;
         let page = browser.pageSapiensDecision;
@@ -347,9 +352,10 @@ var Picture_To_Log = require("Picture_To_Log");
         aqTestCase.End();
     
        Project.Variables.Create_New_FactType.Next();
+ 
   
     }
     }
-    
+
     
   

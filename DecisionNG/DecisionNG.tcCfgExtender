@@ -176,8 +176,18 @@
 					</Node>
 					<Node name="17">
 						<Node name="editor">
-							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}"/>
-							<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}"/>
+							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
+								<Prp name="key" type="S" value="{F6C950F8-DBCC-4054-85EC-DDB98CDD79F4}"/>
+							</Node>
+							<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+								<Prp name="col" type="I" value="0"/>
+								<Prp name="key" type="S" value="{0C850D9B-30DA-4524-BAA4-AE6CFCD6F1DF}"/>
+								<Prp name="line" type="I" value="0"/>
+								<Prp name="sellength" type="I" value="0"/>
+								<Prp name="selstart" type="I" value="0"/>
+								<Prp name="windowchar" type="I" value="0"/>
+								<Prp name="windowline" type="I" value="0"/>
+							</Node>
 							<Prp name="editor" type="S" value="{C670FB6D-4593-4011-9291-6388C882024F}"/>
 							<Prp name="focused" type="S" value="{B368EF08-1636-473A-8B4F-DC49A780C72E}"/>
 						</Node>
@@ -195,7 +205,7 @@
 					<Node name="2">
 						<Node name="editor">
 							<Node name="{fdf3932b-fcdb-4512-87e9-fa5e5d91def4}">
-								<Prp name="key" type="S" value="{32557E52-AE96-4289-93D7-8438E339E982}"/>
+								<Prp name="key" type="S" value="{47418D0D-4D75-4BD8-970C-C68FDCC78213}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{64C7E278-7ED0-47EE-A68F-5B21AE2BC3F3}"/>
 							<Prp name="focused" type="S" value="{32557E52-AE96-4289-93D7-8438E339E982}"/>
@@ -699,6 +709,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{34f4f35a-3b17-4fa1-b884-31e1b678f70c}"/>
 					<Node name="{3c8e41b2-dcf6-4da6-84c2-6539e9a17b88}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="194"/>
@@ -1094,15 +1105,10 @@
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="decisionng">
 					<Node name="decisionng_automation">
-						<Node name="events"/>
-						<Node name="keywordtests">
-							<Node name="modelling">
-								<Node name="fact type">
-									<Node name="modelmapping"/>
-								</Node>
-							</Node>
-						</Node>
 						<Node name="script">
+							<Node name="administration">
+								<Node name="security"/>
+							</Node>
 							<Node name="generic"/>
 							<Node name="modelling">
 								<Node name="facttype">

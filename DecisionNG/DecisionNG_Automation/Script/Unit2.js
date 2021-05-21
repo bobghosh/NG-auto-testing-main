@@ -9,20 +9,20 @@
             
             Log.Message("Model Definition Name is "+ModelDefinition_Text);
             
-            if(ModelDefinition_Text.includes('NEW_MODEL_DEFINITION_#2'))
+            if(ModelDefinition_Text.includes('FHA'))
             {
               ModelDefinitions_list[i].click();
               
-              let InUseicon = Aliases.browser.pageSapiensDecision.FindElement("//*[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr["+(i+1)+"]//*[@class='icon-in_use spec-in-use-icon ng-star-inserted']").Exists
-             
-              if(InUseicon== true)
-              {
-                Log.Message("present")
-              }
-              else
-              {
-                Log.Message("not present")
-              }
+              let InUseicon=Aliases.browser.pageSapiensDecision.FindElement("//*[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr["+(i+1)+"]//td[2]//div//div")
+              Log.Message(InUseicon)
+//              if(InUseicon==true)
+//              {
+//                Log.Message("present")
+//              }
+//              else
+//              {
+//                Log.Message("not present")
+//              }
               break;
             }
             

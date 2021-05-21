@@ -23,11 +23,92 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44336.9562329051"/>
+				<Prp name="datetime" type="D" value="44337.7089277778"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{E2E3484E-9613-4DEE-8157-3990C2F3BB2B}"/>
-				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
-				<Prp name="relpath" type="S" value="20-05-2021_22_56_58_524\Description.tcLog"/>
+				<Prp name="key" type="S" value="{054C823A-FD3B-477A-AA1B-2726F5D9D58D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_00_51_360\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7101190625"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{187EF25A-855F-4D12-B01D-DBA0E3809317}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_02_34_287\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7122405787"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A03AC186-AA76-44DA-A978-A2D8E89E5DFC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_05_37_586\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.715676169"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6C2A7034-3330-4BA1-87AF-468A5F391038}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_10_34_421\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7165821412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6789E1AA-8FDE-4364-8B91-87D4D00A8102}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_11_52_697\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7189296065"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E01212C7-192A-4302-97C9-CA86430985BA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_15_15_518\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7212691435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A03EA344-C811-46A0-9102-0CD3545D584D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_18_37_654\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7242145486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F1942BF5-8A9F-4D85-9E9A-7BF99418F7ED}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_22_52_137\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.726328044"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{52453870-0349-46DA-BCE1-0D23A7E72DAD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_25_54_743\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44337.7316281134"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{602F3E43-3D0F-425A-B7B7-CC24338AE0D0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [FactTypeTab_AddNewFactType_Verify\Tasks_Create_New_FactType]"/>
+				<Prp name="relpath" type="S" value="21-05-2021_17_33_32_669\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>

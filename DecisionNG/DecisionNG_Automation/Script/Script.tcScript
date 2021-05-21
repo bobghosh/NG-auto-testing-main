@@ -29,7 +29,7 @@
 				</folder>
 				<folder name="ModelMapping">
 					<child name="ModelMapping" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="ModelMapping.js" />
-					<child name="FactTypeSummary_MMTab_SelectedModelDefinition_InUse" key="{C2E50C40-AE7E-4851-903A-593F422A421E}" path="FactTypeSummary_MMTab_SelectedModelDefinition_InUse.js" />
+					<child name="FactTypeSummary_MMTab_SelectedModelDefinition" key="{C2E50C40-AE7E-4851-903A-593F422A421E}" path="FactTypeSummary_MMTab_SelectedModelDefinition.js" />
 					<child name="FactTypeSummary_MMTab_Verify_ModelDefinition_InUse" key="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}" path="FactTypeSummary_MMTab_Verify_ModelDefinition_InUse.js" />
 				</folder>
 			</folder>
@@ -52,5 +52,6 @@
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 		<child name="Unit1" key="{A0644362-44A9-4DD9-BFCE-567F8D9DF6D0}" path="Unit1.js" />
+		<child name="Unit2" key="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}" path="Unit2.js" />
 	</children>
 </Root>
