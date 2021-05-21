@@ -45,9 +45,10 @@
     else
     {
           //Getting the Number of Rows
-          FactTypeRow = Aliases.browser.pageSapiensDecision.FindElements("dcn-expandable-list-item");
-          //Adding the rows from one page to another page
-          FactTypeCount = FactTypeCount + FactTypeRow.length;
+//          FactTypeRow = Aliases.browser.pageSapiensDecision.FindElements("dcn-expandable-list-item");
+//          //Adding the rows from one page to another page
+//          FactTypeCount = FactTypeCount + FactTypeRow.length;
+          Log.Message("Test");
             
     }
     

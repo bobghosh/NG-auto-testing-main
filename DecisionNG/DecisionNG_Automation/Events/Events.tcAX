@@ -5,7 +5,9 @@
 	<data />
 	<children>
 		<child key="{3FB4D9A3-0343-4EE0-8338-331106A8D0A8}">
-			<config nodeName="EventControl2" lastOpenedTLB="" generatedCLSID="{00000000-0000-0000-0000-000000000000}" generatedTLBKey="{00000000-0000-0000-0000-000000000000}" generatedEventsKey="{00000000-0000-0000-0000-000000000000}" generatedTLBDesc="" />
+			<config nodeName="EventControl2" lastOpenedTLB="" generatedCLSID="{773B1E82-D2EC-4EAA-B6AB-BA60DD06A305}" generatedTLBKey="{A2E014F1-D984-40B7-B555-84D3EF48A884}" generatedEventsKey="{E6A98798-2E5D-4572-A9DF-CE557F680C27}" generatedTLBDesc="TestComplete EventControl2 Control - 5/17/2021 7:05:51 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
+			</config>
 			<testData />
 			<data />
 		</child>
