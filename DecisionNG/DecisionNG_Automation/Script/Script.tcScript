@@ -27,6 +27,11 @@
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
 					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.js" />
 				</folder>
+				<folder name="ModelMapping">
+					<child name="ModelMapping" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="ModelMapping.js" />
+					<child name="FactTypeSummary_MMTab_SelectedModelDefinition_InUse" key="{C2E50C40-AE7E-4851-903A-593F422A421E}" path="FactTypeSummary_MMTab_SelectedModelDefinition_InUse.js" />
+					<child name="FactTypeSummary_MMTab_Verify_ModelDefinition_InUse" key="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}" path="FactTypeSummary_MMTab_Verify_ModelDefinition_InUse.js" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Tasks_Queue">

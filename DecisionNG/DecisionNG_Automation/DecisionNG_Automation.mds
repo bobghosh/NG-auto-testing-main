@@ -109,10 +109,10 @@
 											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:18821/login.jsp" />
-															<param1 name="UserName" type="1" localVarName="" value="sumant" />
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp" />
+															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
 														<environments testedURL="" />
@@ -122,14 +122,19 @@
 														<testParameters>
 															<param0 name="Community" type="3" localVarName="" varType="8" value="Sumant" />
 															<param1 name="TaskName" type="3" localVarName="" varType="8" value="Task" />
-															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Sample" />
-															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Simple Task Workflow" />
+															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Automation_Modeling_Proj" />
+															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Task Ana" />
 															<param4 name="FactTypeApprovalProcess" type="3" localVarName="" varType="8" value="Standard Fact Type Workflow" />
 														</testParameters>
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="False" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Logout_3" key="{782740F0-F3C7-410E-A698-4C8C234BED8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -166,9 +171,9 @@
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="https://dev-app.dm.sapiens.com/dm/login.jsp" />
-											<param1 name="UserName" type="1" localVarName="" value="Ritu" />
-											<param2 name="Password" type="1" localVarName="" value="D@cision@1" />
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp " />
+											<param1 name="UserName" type="1" localVarName="" value="admin" />
+											<param2 name="Password" type="1" localVarName="" value="bdms" />
 										</testParameters>
 										<environments testedURL="" />
 										<children />
@@ -587,25 +592,16 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="14" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="5" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
+				<row val0="NativeChromeObject" />
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
-				<row val0="NativeVBObject" />
-				<row val0="NativeDelphiObject" />
-				<row val0="NativeTextObject" />
-				<row val0="NativeJavaObject" />
-				<row val0="NativeChromeObject" />
-				<row val0="NativeClrObject" />
-				<row val0="NativeCPPObject" />
 				<row val0="NativeFirefoxObject" />
-				<row val0="NativeJavaFXObject" />
-				<row val0="NativeQtObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeUIAObject" />
 				<row val0="NativeMSAA" />
 			</data>
 		</setting>

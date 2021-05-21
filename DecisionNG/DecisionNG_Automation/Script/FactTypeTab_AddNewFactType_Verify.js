@@ -250,7 +250,7 @@ var Picture_To_Log = require("Picture_To_Log");
           Log.Error("FactType Name is not matching with the created FT Name data")
         }
       
-        let NewFTStatus= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[2]").textContent;
+        let NewFTStatus= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[3]").textContent;
       
         if (NewFTStatus == Project.Variables.Create_New_FactType.Value("Status"))
         {
@@ -262,7 +262,7 @@ var Picture_To_Log = require("Picture_To_Log");
           Log.Error("FactType Status is missing");
         }
     
-        let UnusedFTCheck= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[5]").textContent;
+        let UnusedFTCheck= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[7]").textContent;
       
         if (UnusedFTCheck == "Unused")
         {
@@ -274,7 +274,7 @@ var Picture_To_Log = require("Picture_To_Log");
           Log.Error("Unused field for this FactType is Empty");
         }
         //Delay(2000)
-       let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[4]//dcn-validation-state//div").getAttribute('class')
+       let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr[1]//td[5]//dcn-validation-state//div").getAttribute('class')
         Log.Message(errorIcon)
         if(errorIcon.includes('icon-validation_error')) 
         {

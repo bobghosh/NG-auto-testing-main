@@ -24,6 +24,14 @@
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
 					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.tcKDTest" />
 				</folder>
+				<folder name="ModelMapping">
+					<child name="ModelMapping" key="{B65886AE-F83D-4A1A-B9E1-0A86DD81D17C}" path="ModelMapping.tcKDTest" />
+					<child name="FactTypeSummary_MlM_Tab_Open" key="{6F3FCC4B-8274-4167-AAE3-F64831ECBAA1}" path="FactTypeSummary_MlM_Tab_Open.tcKDTest" />
+					<child name="FactTypeSummary_MMTab_SubmitforApproval" key="{085D238E-C15A-4CDE-94D6-C82785D91F89}" path="FactTypeSummary_MMTab_SubmitforApproval.tcKDTest" />
+					<child name="FactTypeSummary_MMTab_Revert" key="{6B0A54D3-F93D-4F9A-9247-6C47144CF34C}" path="FactTypeSummary_MMTab_Revert.tcKDTest" />
+					<child name="FactTypeSummary_MMTab_MarkForDelete" key="{6EAD6243-D25D-40B0-A4D8-5A07CE243FDA}" path="FactTypeSummary_MMTab_MarkForDelete.tcKDTest" />
+					<child name="FactTypeSummary_MMTab_UnMarkForDelete" key="{A4CD59B4-F122-48FA-A3FD-44393792E4A9}" path="FactTypeSummary_MMTab_UnMarkForDelete.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Decision">
 				<folder name="Pre-requisite" />
