@@ -106,7 +106,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
@@ -138,6 +138,23 @@
 														<testParameters />
 														<environments testedURL="" />
 														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="modelDefinition" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="SelectedModelDefinitionInUse" key="{A9001415-1C48-43B4-9136-0F8F9370A6E4}" group="False" parallel="False" enabled="True" testMoniker="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}SelectedModelDefinitionInUse" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
 												</children>
 											</testItem>

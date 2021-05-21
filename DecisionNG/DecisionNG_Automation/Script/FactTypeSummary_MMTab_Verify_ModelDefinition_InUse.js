@@ -1,4 +1,4 @@
-﻿function SelectedModelDefinitionInUse()
+﻿function SelectedModelDefinitionInUse(ModelDefinition)
 {
         let ModelDefinitions_list=Aliases.browser.pageSapiensDecision.FindElements("//p-table[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr//td[1]");
         Log.Message(ModelDefinitions_list.length)
@@ -9,19 +9,19 @@
             
             Log.Message("Model Definition Name is "+ModelDefinition_Text);
             
-            if(ModelDefinition_Text.includes('NEW_MODEL_DEFINITION_#2'))
+            if(ModelDefinition_Text.includes(ModelDefinition))
             {
-              ModelDefinitions_list[i].click();
+              //ModelDefinitions_list[i].click();
               
               let InUseicon = Aliases.browser.pageSapiensDecision.FindElement("//*[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr["+(i+1)+"]//*[@class='icon-in_use spec-in-use-icon ng-star-inserted']").Exists
              
               if(InUseicon== true)
               {
-                Log.Message("present")
+                Log.Checkpoint("Model Definition "+ModelDefinition+" is InUse")
               }
               else
               {
-                Log.Message("not present")
+                Log.Message("Model Definition "+ModelDefinition+" is Not InUse")
               }
               break;
             }
