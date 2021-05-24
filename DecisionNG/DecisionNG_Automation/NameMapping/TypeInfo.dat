@@ -4017,4 +4017,7 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
+	<Child Hash="0" Key="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}">
+		<Data Properties="A7153BA312F29F4C92EC5C2A3096EA29UFFFFFFFFFFFFFFFFV4ZZZL" />
+	</Child>
 </TypeInfo>

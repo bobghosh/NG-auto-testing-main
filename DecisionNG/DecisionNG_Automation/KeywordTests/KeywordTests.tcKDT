@@ -22,7 +22,7 @@
 				<folder name="Pre-requisite" />
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
-					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.tcKDTest" />
+					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FT_Tab_FTSummary_DetailsTab_Verify.tcKDTest" />
 				</folder>
 				<folder name="ModelMapping">
 					<child name="ModelMapping" key="{B65886AE-F83D-4A1A-B9E1-0A86DD81D17C}" path="ModelMapping.tcKDTest" />
