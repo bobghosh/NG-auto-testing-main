@@ -163,12 +163,19 @@ function SelectingItemGetData ()
 
     }
     }
-    }
+    
      if(flag == 1)
       {
         
         break;
       }
+      }
+      
+      if(flag==1)
+      {
+        break;
+      }
+      
       Delay(1000);
       var Next_Page_Button = Aliases.browser.pageSapiensDecision.FindElement("//a[@ng-reflect-klass='ui-paginator-next ui-paginator']");
       

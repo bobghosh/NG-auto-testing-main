@@ -28,9 +28,15 @@
 					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.js" />
 				</folder>
 				<folder name="ModelMapping">
-					<child name="ModelMapping" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="ModelMapping.js" />
-					<child name="FactTypeSummary_MMTab_SelectedModelDefinition" key="{C2E50C40-AE7E-4851-903A-593F422A421E}" path="FactTypeSummary_MMTab_SelectedModelDefinition.js" />
-					<child name="FactTypeSummary_MMTab_Verify_ModelDefinition_InUse" key="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}" path="FactTypeSummary_MMTab_Verify_ModelDefinition_InUse.js" />
+					<child name="Generic_code" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="Generic_code.js" />
+					<child name="FactTypeSummary_MMTab_MD_Select" key="{C2E50C40-AE7E-4851-903A-593F422A421E}" path="FactTypeSummary_MMTab_MD_Select.js" />
+					<child name="FactTypeSummary_MMTab_MD_InUse_Verify" key="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}" path="FactTypeSummary_MMTab_MD_InUse_Verify.js" />
+					<child name="FactTypeSummary_MMTab_MDVersion_Select" key="{3C3AF8A7-8FA9-4696-A5C2-60E95CD21ABC}" path="FactTypeSummary_MMTab_MDVersion_Select.js" />
+					<child name="FactTypeSummary_MMTab_MDVersion_Verify_Status" key="{711A296F-91A1-4D68-838B-884134BD0CFC}" path="FactTypeSummary_MMTab_MDVersion_Verify_Status.js" />
+					<child name="FactTypeSummary_MMTab_MD_Version_InUse_Verify" key="{C635611E-9CE9-4E62-BC50-6D510C6EB697}" path="FactTypeSummary_MMTab_MD_Version_InUse_Verify.js" />
+					<child name="FactTypeSummary_MMTab_MD_Version_MarkForDelete_Verify" key="{051509C5-D082-4F65-8086-70589021DAB9}" path="FactTypeSummary_MMTab_MD_Version_MarkForDelete_Verify.js" />
+					<child name="FactTypeSummary_MMTab_MDVersion_Ellipsis_Click" key="{7AA3920B-509C-4843-98F2-FBB9D994E158}" path="FactTypeSummary_MMTab_MDVersion_Ellipsis_Click.js" />
+					<child name="FactTypeSummary_MMTab_SubmitforApproval" key="{8AC36C42-2A94-4E1C-A1A6-A428FFEDDC3C}" path="FactTypeSummary_MMTab_SubmitforApproval.js" />
 				</folder>
 			</folder>
 		</folder>

@@ -147,10 +147,57 @@
 													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="SelectedModelDefinitionInUse" key="{A9001415-1C48-43B4-9136-0F8F9370A6E4}" group="False" parallel="False" enabled="True" testMoniker="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}SelectedModelDefinitionInUse" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="SelectedModelDefinitionInUse" key="{A9001415-1C48-43B4-9136-0F8F9370A6E4}" group="False" parallel="False" enabled="False" testMoniker="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}SelectedModelDefinitionInUse" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA,AutoTest" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinition" key="{2E2718E7-3E7C-4223-B8BE-F5E26661C3BA}" group="False" parallel="False" enabled="False" testMoniker="{C2E50C40-AE7E-4851-903A-593F422A421E}SelectModelDefinition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
 																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA" />
 																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinitionVersion" key="{1A04B82F-838E-4432-B280-8A6C8D3886C2}" group="False" parallel="False" enabled="False" testMoniker="{3C3AF8A7-8FA9-4696-A5C2-60E95CD21ABC}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="VerifyModelDefinitionVersionStatus" key="{DE3C38E4-EFFE-4423-B5CC-7CDB547CC9A1}" group="False" parallel="False" enabled="False" testMoniker="{711A296F-91A1-4D68-838B-884134BD0CFC}VerifyModelDefinitionVersionStatus" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1,1.0.0_Copy_#2,1.0" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="VerifyModelDefinitionVersionInUse" key="{1C1CF7FD-DDC8-4F92-AACE-04D4C8499E28}" group="False" parallel="False" enabled="False" testMoniker="{C635611E-9CE9-4E62-BC50-6D510C6EB697}VerifyModelDefinitionVersionInUse" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1,1.0.0_Copy_" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="VerifyModelDefinitionVersionMarkForDelete" key="{32D18542-BAEC-4FC9-8B93-2BA12806C6ED}" group="False" parallel="False" enabled="False" testMoniker="{051509C5-D082-4F65-8086-70589021DAB9}VerifyModelDefinitionVersionMarkForDelete" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#2,1.0.0_Copy_#1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinitionVersion_2" key="{D3EC5209-A620-41A9-820F-3F614E800BE0}" group="False" parallel="False" enabled="True" testMoniker="{7AA3920B-509C-4843-98F2-FBB9D994E158}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="FactTypeSummary_MMTab_SubmitforApproval" key="{8A1B94F3-1444-4952-8969-805E0A1440D4}" group="False" parallel="False" enabled="True" testMoniker="{8AC36C42-2A94-4E1C-A1A6-A428FFEDDC3C}FactTypeSummary_MMTab_SubmitforApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
 																<environments testedURL="" />
 																<children />
 															</testItem>

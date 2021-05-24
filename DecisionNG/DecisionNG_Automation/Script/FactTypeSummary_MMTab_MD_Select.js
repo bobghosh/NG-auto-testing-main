@@ -1,15 +1,15 @@
 ﻿function SelectModelDefinition(ModelDefinition)
 {
-        let ModelDefinitions_list=Aliases.browser.pageSapiensDecision.FindElements("//p-table[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr//td[1]");
+        let ModelDefinitions_list=Aliases.browser.pageSapiensDecision.FindElements("//*[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr//td[1]");
         Log.Message(ModelDefinitions_list.length)
         for(let i=0;i<ModelDefinitions_list.length;i++)
         {
             
             let ModelDefinition_Text=ModelDefinitions_list[i].textContent;
             //Log.Message("Model Definition Name is "+ModelDefinition_Text)
-            if(ModelDefinition_Text.includes(ModelDefinition))
+            if(ModelDefinition_Text == ModelDefinition)
             {
-              ModelDefinitions_list[i].click();
+             ModelDefinitions_list[i].click();
              break;
             }
             

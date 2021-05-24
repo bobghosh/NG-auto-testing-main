@@ -1,15 +1,21 @@
 ﻿function SelectedModelDefinitionInUse(ModelDefinition)
 {
-        let ModelDefinitions_list=Aliases.browser.pageSapiensDecision.FindElements("//p-table[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr//td[1]");
+        
+        
+        let MD = ModelDefinition
+        let MD_Values = MD.split(',');     
+        for(let j = 0; j < MD_Values.length ; j++) 
+        { 
+        
+        let ModelDefinitions_list=Aliases.browser.pageSapiensDecision.FindElements("//*[@class='dcn-datagrid model-mapping-definition-list']//tbody//tr//td[1]");
         Log.Message(ModelDefinitions_list.length)
         for(let i=0;i<ModelDefinitions_list.length;i++)
-        {
-            
+        {          
             let ModelDefinition_Text=ModelDefinitions_list[i].textContent;
             
-            Log.Message("Model Definition Name is "+ModelDefinition_Text);
+            //Log.Message("Model Definition Name is "+ModelDefinition_Text);
             
-            if(ModelDefinition_Text.includes(ModelDefinition))
+            if(ModelDefinition_Text == MD_Values[j])
             {
               //ModelDefinitions_list[i].click();
               
@@ -17,7 +23,8 @@
              
               if(InUseicon== true)
               {
-                Log.Checkpoint("Model Definition "+ModelDefinition+" is InUse")
+                Log.Checkpoint("Model Definition "+MD_Values[j]+" is InUse");
+                
               }
               else
               {
@@ -38,6 +45,6 @@
         }
 
 
-
+}
 
 }
