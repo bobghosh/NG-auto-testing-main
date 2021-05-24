@@ -1,11 +1,12 @@
-﻿function SelectingItem(Item)
-{
-
-    var ItemCount;
-    var flag = 0;
-    var ItemName = Item
-    var hasNext = true
-
+﻿function Verify_Model_Definition_Presence()
+{  
+  let ModelDefinitionName = "Test";
+  let DeleteItem = "Yes";
+  //Aliases.browser.pageSapiensDecision.form.form2.form4.textbox6.SetText(ModelDefinitionName);
+  
+  var ItemCount;
+  var flag = 0;
+  var hasNext = true
   
   do{
 
@@ -18,11 +19,11 @@
       var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
     
       //If the Item Name matches 
-      if(HighlightedItemName.textContent == Item )
+      if(HighlightedItemName.textContent == ModelDefinitionName )
       {
-          
-             HighlightedItemName.click();
-             flag =1                     
+          //Verify the Presence of the Model Definition
+          Log.Message("Model Mapping is available " + ModelDefinitionName);
+          flag =1                     
       }         
      if(flag == 1)
       {        
@@ -31,7 +32,7 @@
     }
     
     if(flag == 1)
-    {
+    {        
       break;
     }
     
@@ -45,8 +46,8 @@
     {
         hasNext = false;
     }
+  
+  }while(hasNext == true)
+  
 
-   }while(hasNext == true)
 }
-
-module.exports.SelectingItem = SelectingItem;

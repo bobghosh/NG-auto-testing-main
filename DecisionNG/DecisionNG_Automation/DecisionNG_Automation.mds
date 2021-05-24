@@ -254,8 +254,8 @@
 														<children>
 															<testItem name="Login_6" key="{352D8556-5FC0-41EF-81BC-C3015DEA182E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
-																	<param1 name="UserName" type="1" localVarName="" value="sgp" />
+																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6005//login.jsp" />
+																	<param1 name="UserName" type="1" localVarName="" value="Vars" />
 																	<param2 name="Password" type="1" localVarName="" value="Decision1" />
 																</testParameters>
 																<environments testedURL="" />
@@ -271,9 +271,26 @@
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="Add_New_Model_Definition" key="{B4B90E28-4140-44A6-8AA4-BE6BBFAACEB7}" group="False" parallel="False" enabled="True" testMoniker="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}Add_New_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Add_Model_Definition" key="{866C0F01-04FB-422B-B55A-8B519E52FA2D}" group="False" parallel="False" enabled="True" testMoniker="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}Add_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="ModelDefinitionName" type="3" localVarName="" varType="8" value="TestVars02" />
+																	<param0 name="ModelDefinitionName" type="3" localVarName="" varType="8" value="Test123" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="Open_Model_Definition" key="{83F5A0C9-3705-4180-B600-66D3C4D8675B}" group="False" parallel="False" enabled="True" testMoniker="{2D38663A-88BE-490F-A32E-5C99B31A845D}Open_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionName" type="3" localVarName="" varType="8" value="Test123" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="Add_Approval_Strategy" key="{8F26ED18-BFB8-47B2-9CC0-7F395E97C854}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="8" value="All" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="Yes" />
+																	<param3 name="UserName" type="3" localVarName="" varType="8" value="Vars,Sumant" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />

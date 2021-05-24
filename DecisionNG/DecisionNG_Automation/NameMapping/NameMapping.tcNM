@@ -3269,6 +3269,174 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode13" Key="{B7429F07-0024-4C3D-926D-AB51EEC988D8}">
+										<Image FileName="-2069534084" Left="0" Top="103" Right="0" Bottom="103" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-contextmenu:nth-child(11) .ui-menu-list" />
+											</Selector>
+											<Selector>
+												<Value Value="(//ul[contains(.,&apos;CloneFreezeView Mapped Entities&apos;)])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[10]/p-contextmenusub/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/p-contextmenusub/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode14" Key="{07E2EE63-AC13-424B-906E-84037F4FE41F}">
+										<Image FileName="-2069534084" Left="0" Top="103" Right="0" Bottom="103" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-contextmenu:nth-child(11) .ui-menu-list &gt; .ng-star-inserted:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Clone&apos;)])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[10]/p-contextmenusub/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/p-contextmenusub/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClone2" Key="{C8F7DC23-00DE-4808-B1B0-5E6262AFA243}">
+										<Image FileName="-2069534084" Left="0" Top="103" Right="0" Bottom="103" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;Clone&apos;)])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[10]/p-contextmenusub/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/p-contextmenusub/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[28]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClone2" Key="{B57E5FCD-3FAD-4EC9-9BF7-249450400BD7}">
+										<Image FileName="-2069534084" Left="1129" Top="341" Right="1166" Bottom="360" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Clone&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ui-contextmenu:nth-child(11) &gt; p-contextmenusub:nth-child(1) &gt; .ui-menu-list:nth-child(1) &gt; .ng-star-inserted:nth-child(1) &gt; [href=&apos;#&apos;]:nth-child(1) &gt; .ui-menuitem-text:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Clone&apos;)])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[10]/p-contextmenusub/ul/li/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/p-contextmenusub/ul/li/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[28]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAreYouSureYouWantToRemov" Key="{8332C891-6D67-4D21-AF03-FF6444F1B8EE}">
+										<Image FileName="1526032404" Left="345" Top="397" Right="1080" Bottom="416" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Are you sure you want to remove this version?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-message-dialog-body-content" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-message-dialog/dcn-dialog/div/div[2]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-dialog/div/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAreYouSureYouWantToRemov2" Key="{96E7C304-7F27-4DF1-B625-A680F31302EC}">
+										<Image FileName="1177009295" Left="345" Top="397" Right="1080" Bottom="416" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Are you sure you want to remove this version?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-message-dialog-body-content" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/dcn-message-dialog/dcn-dialog/div/div[2]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-dialog/div/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode15" Key="{EB61F17A-C0EC-4A81-906B-2785C452DEB1}">
+										<Image FileName="-1503112512" Left="1137" Top="425" Right="1312" Bottom="523" />
+										<TypeInfo Item0="{173EA232-A41A-4CDD-A8C6-B0FB67B11A36}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-contextmenu:nth-child(5) .ui-menu-list" />
+											</Selector>
+											<Selector>
+												<Value Value="(//ul[contains(.,&apos;CloneFreezeView Mapped Entities&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[4]/p-contextmenusub/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/p-contextmenusub/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode16" Key="{F6EBD632-460D-44EF-9D93-055AAA2104E6}">
+										<Image FileName="-1503112512" Left="1137" Top="425" Right="1312" Bottom="458" />
+										<TypeInfo Item0="{173EA232-A41A-4CDD-A8C6-B0FB67B11A36}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-contextmenu:nth-child(5) .ui-menu-list &gt; .ng-star-inserted:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Clone&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/div[4]/p-contextmenusub/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/p-contextmenusub/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDelete" Key="{BBEAB02B-F59A-4032-886A-E7A5834732D7}">
+										<Image FileName="187681308" Left="280" Top="345" Right="331" Bottom="377" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-dialog-title-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Delete&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[@id=&apos;mat-dialog-title-1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-message-dialog/dcn-dialog/div/div/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h1" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -3925,6 +4093,19 @@
 				<Child Name="form5" Owner="{1AE87607-4D5C-4264-87E5-9E16995D4085}">
 					<Child Name="button7" Owner="{32DB4112-0979-49EA-A37C-88CB4AA1BF30}" />
 				</Child>
+				<Child Name="textnode13" Owner="{B7429F07-0024-4C3D-926D-AB51EEC988D8}">
+					<Child Name="textnode14" Owner="{07E2EE63-AC13-424B-906E-84037F4FE41F}">
+						<Child Name="linkClone2" Owner="{C8F7DC23-00DE-4808-B1B0-5E6262AFA243}">
+							<Child Name="textnodeClone2" Owner="{B57E5FCD-3FAD-4EC9-9BF7-249450400BD7}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeAreYouSureYouWantToRemov" Owner="{8332C891-6D67-4D21-AF03-FF6444F1B8EE}" />
+				<Child Name="textnodeAreYouSureYouWantToRemov2" Owner="{96E7C304-7F27-4DF1-B625-A680F31302EC}" />
+				<Child Name="textnode15" Owner="{EB61F17A-C0EC-4A81-906B-2785C452DEB1}">
+					<Child Name="textnode16" Owner="{F6EBD632-460D-44EF-9D93-055AAA2104E6}" />
+				</Child>
+				<Child Name="textnodeDelete" Owner="{BBEAB02B-F59A-4032-886A-E7A5834732D7}" />
 			</Child>
 			<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
 			<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">

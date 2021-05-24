@@ -1,4 +1,4 @@
-﻿function Add_New_Model_Definition(ModelDefinitionName)
+﻿function Add_Model_Definition(ModelDefinitionName)
 {
   //Checks whether the 'ObjectLabel' property of the Aliases.browser.pageSapiensDecision.buttonSendToGlossary object equals 'Add'.
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.buttonSendToGlossary, "ObjectLabel", cmpEqual, "Add");
