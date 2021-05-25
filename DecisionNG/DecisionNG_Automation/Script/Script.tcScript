@@ -17,6 +17,7 @@
 			<child name="SelectingTimeFromDropDown" key="{CC41117D-AD67-4632-B025-1B0D629294EE}" path="SelectingTimeFromDropDown.js" />
 			<child name="SelectingDate_Time_FromCalendar" key="{A1B2BB02-498E-4D76-A7FA-95C7D445253B}" path="SelectingDate_Time_FromCalendar.js" />
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
+      <child name="Repository_Total_FactTypes" key="{B784B666-199C-4349-950D-D20250C26AC5}" path="Repository_Total_FactTypes.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -55,10 +56,38 @@
 				<child name="Administration_Community_AssignUser" key="{94D8895E-DF68-44BA-BFCE-A4A44F35D211}" path="Administration_Community_AssignUser.js" />
 				<child name="VerifyUser_ManageRoles" key="{0ACC5E98-585D-46FB-B02A-CC33EE749620}" path="VerifyUser_ManageRoles.js" />
 			</folder>
+      <folder name="Settings">
+				<folder name="Model Definition">
+					<child name="Add_Model_Definition" key="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}" path="Add_Model_Definition.js" />
+					<child name="Open_Model_Definition" key="{2D38663A-88BE-490F-A32E-5C99B31A845D}" path="Open_Model_Definition.js" />
+					<child name="Verify_Model_Definition_Presence" key="{AFF75E40-6765-4C51-B2F4-E51D42F48DE5}" path="Verify_Model_Definition_Presence.js" />
+					<child name="Verify_MD_without_permission" key="{4BC99F4D-18BA-4876-8D7A-41C8BB6180D6}" path="Verify_MD_without_permission.js" />
+					<child name="Add_Custom_Properties" key="{13BD6634-1029-4D50-A028-8522DB391CBD}" path="Add_Custom_Properties.js" />
+					<child name="Add_Approval_Strategy" key="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}" path="Add_Approval_Strategy.js" />
+					<child name="Model_Definition_Clone_Version" key="{E7344724-18B5-4061-BDF4-E491FC195F4A}" path="Model_Definition_Clone_Version.js" />
+					<child name="Model_Definition_Update_VersionName" key="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}" path="Model_Definition_Update_VersionName.js" />
+					<child name="Model_Definition_Remove_Version" key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}" path="Model_Definition_Remove_Version.js" />
+					<child name="Model_Definition_Freeze_Version" key="{2DF10A51-D4C4-4B86-B979-67E434B46BE2}" path="Model_Definition_Freeze_Version.js" />
+					<child name="Model_Definition_Unfreeze_Version" key="{193B9F59-3BF6-437B-849D-EE3CA365592C}" path="Model_Definition_Unfreeze_Version.js" />
+					<child name="Model_Definition_ViewMappedEntities_Version" key="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}" path="Model_Definition_ViewMappedEntities_Version.js" />
+					<child name="Model_Definition_Delete" key="{694288E7-01F9-4C17-9094-6647C4020C15}" path="Model_Definition_Delete.js" />
+				</folder>
+			</folder>
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 		<child name="Unit1" key="{A0644362-44A9-4DD9-BFCE-567F8D9DF6D0}" path="Unit1.js" />
 		<child name="Unit2" key="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}" path="Unit2.js" />
-		<child name="Unit3" key="{8FEE3EE9-E44C-416B-A792-B71A44032377}" path="Unit3.js" />
+		</folder>
+		<folder name="Repository">
+			<folder name="Import Glossary">
+				<child name="ImportErrorsTabVerififcation" key="{29572FDB-6BBD-416A-A7AE-E2B38E3B7510}" path="ImportErrorsTabVerififcation.js" />
+				<child name="NewTabVerification" key="{BC253689-57B5-4514-B748-3C7367642399}" path="NewTabVerification.js" />
+				<child name="NewVersionTabVerification" key="{413FABA3-CBBF-4330-BC25-3A351DEC831A}" path="NewVersionTabVerification.js" />
+				<child name="UnchangedTabVerification" key="{2040C69B-0DED-4932-8F88-956CE4FFD0FB}" path="UnchangedTabVerification.js" />
+				<child name="ChangedTabVerification" key="{1B153149-2A1A-41E8-82B1-AE71168353FC}" path="ChangedTabVerification.js" />
+				<child name="ImportGlossary_XMLVerification" key="{425733C6-AEC9-46F1-BFC6-7BF47E03000A}" path="ImportGlossary_XMLVerification.js" />
+			</folder>
+		</folder>
+		<child name="Send_Email_By_Script" key="{10F7B33B-F6F9-4C21-B2C6-F9FE8BC9FD5A}" path="Send_Email_By_Script.js" />
 	</children>
 </Root>
