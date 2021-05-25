@@ -107,7 +107,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
@@ -192,7 +192,7 @@
 															</testItem>
 															<testItem name="SelectModelDefinitionVersion_2" key="{D3EC5209-A620-41A9-820F-3F614E800BE0}" group="False" parallel="False" enabled="True" testMoniker="{7AA3920B-509C-4843-98F2-FBB9D994E158}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#2" />
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
@@ -270,7 +270,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
