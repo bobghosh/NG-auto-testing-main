@@ -16,7 +16,7 @@
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -142,7 +142,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="modelDefinition" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="modelDefinition" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -359,7 +359,7 @@
 																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="8" value="All" />
 																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
 																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="Yes" />
-																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																	<param3 name="UserName" type="3" localVarName="" varType="8" value="Vars,Sumant" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
@@ -482,11 +482,16 @@
 						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Users$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+				<Variable Name="ImportGlossary" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\Sumant Repository\DecisionNG\Test_Data.xlsx" Table="ImportGlossary$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>
-	<settings key="{9FE4B6ED-FFEB-4F5C-AC3B-AD11E0BCBA0F}">
-		<settingsVersion value="14.80" />
+	<settings key="{F4983693-F5DE-48D9-B22B-4E71A0EFF9A4}">
+		<settingsVersion value="14.81" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -950,16 +955,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{8C753496-823D-46EE-B269-D76A7881C062}" />
+	<analysis key="{ECC855F0-19D7-4B75-8B31-A21EA3D05E96}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{1A4D9439-09FF-4449-BD7E-E7F2B8700ECA}">
+	<issueTracking key="{A0F14196-021B-4451-A18C-E304F0DB389F}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{E27C521C-D42A-48D8-9013-62BF00480B79}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{7C62A4BD-EFAA-40A6-9C46-FEE99D9E7F29}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{905AE078-D434-40D4-8BBF-13D95A3F7360}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{A78BFC92-76D2-4A60-B96B-382DB239A2EE}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>
