@@ -1,4 +1,4 @@
-﻿function SelectingOptionfromDropdown(option,flag)
+function SelectingOptionfromDropdown(option,flag)
 {
   if(flag=="Yes")
   {
@@ -14,14 +14,13 @@
             Option[i].click();
             break;
           }
-        if(i == (Option.length-1))
-          {
-            Log.Error("Option doesn't exists/Wrong Input Data"); 
-            Option[0].click();
-            break;
-          }
-  
-  
+        
+         if(i == (Option.length-1))
+         {
+           Log.Error("Option doesn't exists/Wrong Input Data"); 
+           Option[0].click();
+           break;
+         }  
       }
   }
   else
@@ -38,20 +37,16 @@
               Option[i].click();
             break;
             }
-            
-          if(i == (Option.length-1))
+        
+            if(i == (Option.length-1))
             {
               Log.Error("Option doesn't exists/Wrong Input Data"); 
               Option[0].click();
               break;
-            }
-
- 
+            } 
   
         }
- 
-  
-  }
+    }
   
  }
 module.exports.SelectingOptionfromDropdown = SelectingOptionfromDropdown;

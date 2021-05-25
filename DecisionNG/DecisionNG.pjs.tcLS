@@ -27,7 +27,7 @@
 				<Prp name="relpath" type="S" value="DecisionNG_Automation\DecisionNG_Automation.mds.tcLS"/>
 			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{99AEF482-A5CE-4C57-9153-E4166A7A9C68}"/>
+				<Prp name="key" type="S" value="{5CAB6616-3A6A-44C3-89BB-CD2B6F8EE800}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>

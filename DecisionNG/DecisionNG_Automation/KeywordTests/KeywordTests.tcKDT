@@ -6,13 +6,15 @@
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
-		</folder>
+      <child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
+			<child name="Navigate_To_Administration" key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" path="Navigate_To_Administration.tcKDTest" />
+					</folder>
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 			</folder>
-			<child name="Navigate_Administration_Permission_Groups" key="{2DEE9830-895D-4A1D-85EB-F976106D7314}" path="Navigate_Administration_Permission_Groups.tcKDTest" />
 			<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
+			<child name="Navigate_Model_Definition" key="{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" path="Navigate_Model_Definition.tcKDTest" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="Fact Type">
@@ -22,7 +24,7 @@
 				<folder name="Pre-requisite" />
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
-					<child name="FactTypeTab_FactTypeSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FactTypeTab_FactTypeSummary_DetailsTab_Verify.tcKDTest" />
+					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FT_Tab_FTSummary_DetailsTab_Verify.tcKDTest" />
 				</folder>
 				<folder name="ModelMapping">
 					<child name="ModelMapping" key="{B65886AE-F83D-4A1A-B9E1-0A86DD81D17C}" path="ModelMapping.tcKDTest" />
@@ -68,12 +70,22 @@
 		</folder>
 		<folder name="HomePage">
 			<child name="Create_A_New_Task" key="{CB484438-418D-4625-A65F-9871C147C003}" path="Create_A_New_Task.tcKDTest" />
-		</folder>
+		</folder>    
 		<folder name="Administration">
 			<folder name="Security">
 				<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{7AF76191-B92B-4D24-B644-2EFA018B3507}" path="Permission_Matrix_Set_Permission_PermissionGroups.tcKDTest" />
 				<child name="Administration_Security_AddUser" key="{A8892FD3-715F-40AD-9481-83C185953814}" path="Administration_Security_AddUser.tcKDTest" />
 				<child name="Administration_Community_AssignUser" key="{DB8EF98B-E26E-4AC4-BE2C-84F5E2D77C27}" path="Administration_Community_AssignUser.tcKDTest" />
+		  </folder>
+			<folder name="Settings">
+				<folder name="Model Definition">
+					<child name="Add_New_Model_Definition" key="{F3CAE40B-0DF7-4D96-A628-FE12D05BF291}" path="Add_New_Model_Definition.tcKDTest" />
+				</folder>
+			</folder>
+		</folder>
+    <folder name="Repository">
+			<folder name="Import Glossary">
+				<child name="Import_Glossary_Verification" key="{393E21B7-120B-43C6-92C2-0D7655062D45}" path="Import_Glossary_Verification.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

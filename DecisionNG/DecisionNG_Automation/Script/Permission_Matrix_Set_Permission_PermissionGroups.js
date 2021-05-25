@@ -26,14 +26,12 @@ function SelectingItemGetData ()
     {
       Log.Message("Pagination is not present")
     }
-
     TotalRows = Aliases.browser.pageSapiensDecision.FindElements("//tbody/tr");
     
     //Iterate through all the rows and finding the desired Task
     
     for(var j = 1; j <= TotalRows.length ; j++)
-    {
-      
+    {      
       
       let Row = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a").textContent
          row_subarray.push(Row);
