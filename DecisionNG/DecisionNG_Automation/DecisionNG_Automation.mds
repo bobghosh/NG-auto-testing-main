@@ -110,30 +110,99 @@
 											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:18821/login.jsp" />
-															<param1 name="UserName" type="1" localVarName="" value="sumant" />
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp" />
+															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Create_A_New_Task" key="{17233E4B-DBAA-400B-881D-14D65308C6EC}" group="False" parallel="False" enabled="False" testMoniker="{5A5E9887-B20B-427B-B993-80D96FF62C90}Create_A_New_Task" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Create_A_New_Task" key="{17233E4B-DBAA-400B-881D-14D65308C6EC}" group="False" parallel="False" enabled="True" testMoniker="{5A5E9887-B20B-427B-B993-80D96FF62C90}Create_A_New_Task" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="Community" type="3" localVarName="" varType="8" value="Sumant" />
 															<param1 name="TaskName" type="3" localVarName="" varType="8" value="Task" />
-															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Sample" />
-															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Simple Task Workflow" />
+															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Automation_Modeling_Proj" />
+															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Task Ana" />
 															<param4 name="FactTypeApprovalProcess" type="3" localVarName="" varType="8" value="Standard Fact Type Workflow" />
 														</testParameters>
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="False" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Tasks_Create_New_FactType" key="{96F70700-312C-44BA-9F3E-EC1E34DE704D}" group="False" parallel="False" enabled="True" testMoniker="{C513C999-C98D-4BE6-86C4-C6B46428A70D}Tasks_Create_New_FactType" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
+													</testItem>
+													<testItem name="Logout_3" key="{782740F0-F3C7-410E-A698-4C8C234BED8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments testedURL="" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="modelDefinition" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="SelectedModelDefinitionInUse" key="{A9001415-1C48-43B4-9136-0F8F9370A6E4}" group="False" parallel="False" enabled="False" testMoniker="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}SelectedModelDefinitionInUse" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA,AutoTest" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinition" key="{2E2718E7-3E7C-4223-B8BE-F5E26661C3BA}" group="False" parallel="False" enabled="False" testMoniker="{C2E50C40-AE7E-4851-903A-593F422A421E}SelectModelDefinition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinitionVersion" key="{1A04B82F-838E-4432-B280-8A6C8D3886C2}" group="False" parallel="False" enabled="False" testMoniker="{3C3AF8A7-8FA9-4696-A5C2-60E95CD21ABC}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="VerifyModelDefinitionVersionStatus" key="{DE3C38E4-EFFE-4423-B5CC-7CDB547CC9A1}" group="False" parallel="False" enabled="False" testMoniker="{711A296F-91A1-4D68-838B-884134BD0CFC}VerifyModelDefinitionVersionStatus" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1,1.0.0_Copy_#2,1.0" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="VerifyModelDefinitionVersionInUse" key="{1C1CF7FD-DDC8-4F92-AACE-04D4C8499E28}" group="False" parallel="False" enabled="False" testMoniker="{C635611E-9CE9-4E62-BC50-6D510C6EB697}VerifyModelDefinitionVersionInUse" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1,1.0.0_Copy_" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="VerifyModelDefinitionVersionMarkForDelete" key="{32D18542-BAEC-4FC9-8B93-2BA12806C6ED}" group="False" parallel="False" enabled="False" testMoniker="{051509C5-D082-4F65-8086-70589021DAB9}VerifyModelDefinitionVersionMarkForDelete" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#2,1.0.0_Copy_#1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinitionVersion_2" key="{D3EC5209-A620-41A9-820F-3F614E800BE0}" group="False" parallel="False" enabled="True" testMoniker="{7AA3920B-509C-4843-98F2-FBB9D994E158}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="FactTypeSummary_MMTab_SubmitforApproval" key="{8A1B94F3-1444-4952-8969-805E0A1440D4}" group="False" parallel="False" enabled="True" testMoniker="{8AC36C42-2A94-4E1C-A1A6-A428FFEDDC3C}FactTypeSummary_MMTab_SubmitforApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
 												</children>
 											</testItem>
@@ -167,9 +236,9 @@
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:7642/login.jsp" />
-											<param1 name="UserName" type="1" localVarName="" value="Ritu" />
-											<param2 name="Password" type="1" localVarName="" value="D@cision@1" />
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp " />
+											<param1 name="UserName" type="1" localVarName="" value="admin" />
+											<param2 name="Password" type="1" localVarName="" value="bdms" />
 										</testParameters>
 										<environments testedURL="" />
 										<children />
@@ -290,7 +359,7 @@
 																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="8" value="All" />
 																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
 																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="Yes" />
-																	<param3 name="UserName" type="3" localVarName="" varType="8" value="Vars,Sumant" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
@@ -313,7 +382,7 @@
 		<data Version="4">
 			<Items>
 				<Variable Name="URL_UAT" Type="String" Local="False" Descr="Env available on bdmsuat8">
-					<DefValue StrValue="http://bdmsuat7:18821/login.jsp" />
+					<DefValue StrValue="https://dev-app.dm.sapiens.com/dm/login.jsp" />
 				</Variable>
 				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
 					<DefValue StrValue="sumant" />
@@ -408,15 +477,15 @@
 						<ConnectionInfo FileName="..\..\..\..\Downloads\Permissions Init V614.xlsx" Table="ColumnNames$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
-				<Variable Name="ImportGlossary" Type="DB Table" Local="False">
+				<Variable Name="Create_NewUser_Details" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="ImportGlossary$" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Users$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 			</Items>
 		</data>
 	</variables>
-	<settings key="{08DB5FAE-2D1E-4A73-9F9C-56F22F8E9F46}">
+	<settings key="{E2D3A0B6-6FB8-4CCF-8D44-7B34154D1B5E}">
 		<settingsVersion value="14.81" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -462,33 +531,6 @@
 		<setting name="CBT_ProxyPassword" type="5" value="" />
 		<setting name="CBT_ProxyPort" type="2" value="0" />
 		<setting name="CBT_UserName" type="5" value="" />
-		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
-			<columns>
-				<column type="5" enabled="True" />
-			</columns>
-			<data>
-				<row val0="Does not matter" />
-				<row val0="Single-threaded apartment" />
-				<row val0="Multi-threaded apartment" />
-			</data>
-		</setting>
-		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
-			<columns>
-				<column type="5" enabled="True" />
-			</columns>
-			<data>
-				<row val0="The same as the operating system" />
-				<row val0="32-bit" />
-				<row val0="64-bit" />
-			</data>
-		</setting>
-		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
-			<columns>
-				<column type="5" enabled="True" />
-				<column type="1" enabled="True" />
-			</columns>
-			<data />
-		</setting>
 		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
 		<setting name="DbgServices_Active" type="1" value="True" />
 		<setting name="DbgServices_DepthShown" type="2" value="10" />
@@ -541,46 +583,6 @@
 		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
 		<setting name="HipTest_TestRunID" type="5" value="" />
 		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
-		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
-			<columns>
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
-		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
-			<columns>
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
-		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
-		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
-		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="1" enabled="True" />
-			</columns>
-			<data>
-				<row val0="False" val1="*" val2="False" />
-				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
-				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
-				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
-				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
-				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
-				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
-				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
-				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
-			</data>
-		</setting>
-		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
 		<setting name="MouseMovementDelay" type="2" value="0" />
 		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
@@ -609,65 +611,6 @@
 				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
 			</data>
 		</setting>
-		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
-		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
-			<columns>
-				<column type="2" enabled="True" />
-				<column type="2" enabled="True" />
-				<column type="1" enabled="True" />
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="2" enabled="True" />
-			</columns>
-			<data>
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="3" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="5" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="7" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="7" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="7" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="7" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="7" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="13" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="13" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="13" val1="0" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="17" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="22" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="24" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="29" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="29" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-			</data>
-		</setting>
-		<setting name="OpenApps_HybridMobile_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
-			<columns>
-				<column type="5" enabled="True" />
-			</columns>
-			<data>
-				<row val0="ID" />
-				<row val0="Name" />
-			</data>
-		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
 		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
 			<columns>
@@ -690,25 +633,16 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="14" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="5" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
-				<row val0="NativeVBObject" />
-				<row val0="NativeDelphiObject" />
-				<row val0="NativeTextObject" />
-				<row val0="NativeJavaObject" />
 				<row val0="NativeChromeObject" />
-				<row val0="NativeClrObject" />
-				<row val0="NativeCPPObject" />
-				<row val0="NativeFirefoxObject" />
-				<row val0="NativeJavaFXObject" />
-				<row val0="NativeQtObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeUIAObject" />
+				<row val0="NativeFirefoxObject" />
 				<row val0="NativeMSAA" />
 			</data>
 		</setting>
@@ -729,17 +663,6 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-			</columns>
-			<data>
-				<row val0="False" val1="*" />
-				<row val0="True" val1="DirectUIHWND" />
-				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
-			</data>
-		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
 		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
 		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
@@ -754,7 +677,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
-		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="35" colIndex="9">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
@@ -800,6 +723,9 @@
 				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="29" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="29" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="32" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="32" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 			</data>
 		</setting>
@@ -879,23 +805,6 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
-		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
-		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
-		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
 		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -907,7 +816,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -958,9 +867,9 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
@@ -975,20 +884,6 @@
 		<setting name="RunStandaloneServer" type="1" value="False" />
 		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
 		<setting name="StandaloneServerPort" type="2" value="4444" />
-		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
-		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
-			<columns>
-				<column type="1" enabled="True" />
-				<column type="5" enabled="True" />
-			</columns>
-			<data />
-		</setting>
 		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
 		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
 			<columns>
@@ -1055,11 +950,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{922B25D4-424E-4667-AC2E-5E3D23C97CD5}" />
+	<analysis key="{9B97672F-EACE-42BC-BD96-CEBEF2A58E75}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{D8232E22-6275-4064-B4D1-D79A0733FA42}">
+	<issueTracking key="{F468AD5B-CC39-4987-91AE-CBD5E512B709}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
