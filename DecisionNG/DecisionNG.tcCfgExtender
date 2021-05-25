@@ -974,23 +974,9 @@
 					<Node name="decisionng_automation">
 						<Node name="events"/>
 						<Node name="keywordtests">
-							<Node name="administration"/>
-							<Node name="modelling">
-								<Node name="fact type">
-									<Node name="modelmapping"/>
-								</Node>
-							</Node>
-							<Node name="repository">
-								<Node name="import glossary"/>
-							</Node>
+							<Node name="repository"/>
 						</Node>
-						<Node name="script">
-							<Node name="modelling">
-								<Node name="facttype">
-									<Node name="modelmapping"/>
-								</Node>
-							</Node>
-						</Node>
+						<Node name="script"/>
 					</Node>
 				</Node>
 				<Node name="decisionng logs"/>
