@@ -359,7 +359,7 @@
 																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="8" value="All" />
 																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
 																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="Yes" />
-																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																	<param3 name="UserName" type="3" localVarName="" varType="8" value="Vars,Sumant" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
@@ -482,10 +482,15 @@
 						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Users$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+				<Variable Name="ImportGlossary" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\Sumant Repository\DecisionNG\Test_Data.xlsx" Table="ImportGlossary$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>
-	<settings key="{E2D3A0B6-6FB8-4CCF-8D44-7B34154D1B5E}">
+	<settings key="{F4983693-F5DE-48D9-B22B-4E71A0EFF9A4}">
 		<settingsVersion value="14.81" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -950,11 +955,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{9B97672F-EACE-42BC-BD96-CEBEF2A58E75}" />
+	<analysis key="{ECC855F0-19D7-4B75-8B31-A21EA3D05E96}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{F468AD5B-CC39-4987-91AE-CBD5E512B709}">
+	<issueTracking key="{A0F14196-021B-4451-A18C-E304F0DB389F}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>

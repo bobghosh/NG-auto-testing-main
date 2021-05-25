@@ -33,7 +33,6 @@
 			<folder name="FactType">
 				<folder name="General">
 					<child name="DetailsTab_testValues_StringMultipleInput" key="{29130691-266F-441F-9EFC-F7842440A8FB}" path="DetailsTab_testValues_StringMultipleInput.js" />
-					<child name="Unit2" key="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}" path="Unit2.js" />
 				</folder>
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
@@ -54,9 +53,6 @@
 		</folder>
 		<folder name="Tasks_Queue">
 			<child name="Tasks_MyTasks" key="{4E8686FE-27B3-4B65-BD31-8D0DA1D142AA}" path="Tasks_MyTasks.js" />
-		</folder>
-		<folder name="HomePage">
-			<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
 		</folder>
 		<folder name="Administration">
 			<folder name="Security">
@@ -84,7 +80,11 @@
 					<child name="Model_Definition_Delete" key="{694288E7-01F9-4C17-9094-6647C4020C15}" path="Model_Definition_Delete.js" />
 				</folder>
 			</folder>
+			<folder name="HomePage">
+				<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
+			</folder>
 		</folder>
+		<child name="Unit2" key="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}" path="Unit2.js" />
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 		<child name="Unit1" key="{A0644362-44A9-4DD9-BFCE-567F8D9DF6D0}" path="Unit1.js" />
 	</children>
