@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A4CD59B4-F122-48FA-A3FD-44393792E4A9}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44336.5015625" objectName="Aliases.browser.pageSapiensDecision2.cell6" objectLeft="606" objectTop="590" objectRight="691" objectBottom="635" clickPointX="628" clickPointY="589" imageFileName="tcvi2574040641000.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44336.5015856481" objectName="Aliases.browser.pageSapiensDecision2.panel15" objectLeft="709" objectTop="559" objectRight="727" objectBottom="577" clickPointX="718" clickPointY="571" imageFileName="tcvi2574292141001.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44336.5016319444" objectName="Aliases.browser.pageSapiensDecision2.textnode2.textnodeStartANewTask.linkStartANewTask.textnodeUnmarkForDelete" objectLeft="729" objectTop="613" objectRight="850" objectBottom="632" clickPointX="746" clickPointY="614" imageFileName="tcvi2574682841003.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
