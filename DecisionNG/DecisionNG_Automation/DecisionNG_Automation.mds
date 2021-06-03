@@ -16,7 +16,7 @@
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -148,57 +148,24 @@
 													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="SelectedModelDefinitionInUse" key="{A9001415-1C48-43B4-9136-0F8F9370A6E4}" group="False" parallel="False" enabled="False" testMoniker="{2F8FC6E4-8FF8-452E-A883-8391252BFF4B}SelectedModelDefinitionInUse" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="EnterMappedValues" key="{EC3F00A4-DB22-4C19-8836-7547F8409C24}" group="False" parallel="False" enabled="False" testMoniker="{84771CE3-CE64-4721-B1C7-5FA194A6D107}EnterMappedValues" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA,AutoTest" />
+																	<param0 name="AllowedValueinput" type="3" localVarName="" varType="8" value="2-test,3-tests,4-four,5-five" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="SelectModelDefinition" key="{2E2718E7-3E7C-4223-B8BE-F5E26661C3BA}" group="False" parallel="False" enabled="False" testMoniker="{C2E50C40-AE7E-4851-903A-593F422A421E}SelectModelDefinition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="EnterCustomProperty" key="{01410957-9CFF-4404-A502-E101CC036CFF}" group="False" parallel="False" enabled="False" testMoniker="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}EnterCustomProperty" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="FHA" />
+																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value=" Month Rang month long-Month-Set-June," />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="SelectModelDefinitionVersion" key="{1A04B82F-838E-4432-B280-8A6C8D3886C2}" group="False" parallel="False" enabled="False" testMoniker="{3C3AF8A7-8FA9-4696-A5C2-60E95CD21ABC}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="check" key="{DB3C0991-C7ED-45A6-87C4-08AA4C4BFAF9}" group="False" parallel="False" enabled="True" testMoniker="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
+																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="Month1-Month-Dynamic Set-6,month-Month-Dynamic Set-2" />
 																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="VerifyModelDefinitionVersionStatus" key="{DE3C38E4-EFFE-4423-B5CC-7CDB547CC9A1}" group="False" parallel="False" enabled="False" testMoniker="{711A296F-91A1-4D68-838B-884134BD0CFC}VerifyModelDefinitionVersionStatus" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters>
-																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1,1.0.0_Copy_#2,1.0" />
-																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="VerifyModelDefinitionVersionInUse" key="{1C1CF7FD-DDC8-4F92-AACE-04D4C8499E28}" group="False" parallel="False" enabled="False" testMoniker="{C635611E-9CE9-4E62-BC50-6D510C6EB697}VerifyModelDefinitionVersionInUse" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters>
-																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1,1.0.0_Copy_" />
-																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="VerifyModelDefinitionVersionMarkForDelete" key="{32D18542-BAEC-4FC9-8B93-2BA12806C6ED}" group="False" parallel="False" enabled="False" testMoniker="{051509C5-D082-4F65-8086-70589021DAB9}VerifyModelDefinitionVersionMarkForDelete" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters>
-																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#2,1.0.0_Copy_#1" />
-																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="SelectModelDefinitionVersion_2" key="{D3EC5209-A620-41A9-820F-3F614E800BE0}" group="False" parallel="False" enabled="True" testMoniker="{7AA3920B-509C-4843-98F2-FBB9D994E158}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters>
-																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0_Copy_#1" />
-																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="FactTypeSummary_MMTab_SubmitforApproval" key="{8A1B94F3-1444-4952-8969-805E0A1440D4}" group="False" parallel="False" enabled="True" testMoniker="{8AC36C42-2A94-4E1C-A1A6-A428FFEDDC3C}FactTypeSummary_MMTab_SubmitforApproval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters />
 																<environments testedURL="" />
 																<children />
 															</testItem>
@@ -234,16 +201,16 @@
 							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp " />
-											<param1 name="UserName" type="1" localVarName="" value="admin" />
-											<param2 name="Password" type="1" localVarName="" value="bdms" />
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsnlb:7642/login.jsp" />
+											<param1 name="UserName" type="1" localVarName="" value="Ritu" />
+											<param2 name="Password" type="1" localVarName="" value="D@cision@1" />
 										</testParameters>
 										<environments testedURL="" />
 										<children />
 									</testItem>
-									<testItem name="Navigate_Administration_Permission_Groups" key="{797F8CE1-4194-48E8-886C-66316D7021EE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DEE9830-895D-4A1D-85EB-F976106D7314}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Navigate_Administration_PermissionGroup" key="{055176D3-B884-4DBF-A168-D49453E00E85}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8082AEBA-9DBF-427F-BA95-E6BD43872716}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments testedURL="" />
 										<children />
@@ -270,10 +237,10 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
 											<testItem name="Import Glossary XML Verification" key="{878792FF-453F-456A-B6EA-90B5A1D99862}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -281,8 +248,8 @@
 												<children>
 													<testItem name="Login_5" key="{8E399E04-E177-4088-9E66-70B456B89B3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp" />
-															<param1 name="UserName" type="1" localVarName="" value="VarshaC" />
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:6144/login.jsp#" />
+															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
 														<environments testedURL="" />
@@ -359,7 +326,7 @@
 																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="8" value="All" />
 																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
 																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="Yes" />
-																	<param3 name="UserName" type="3" localVarName="" varType="8" value="Vars,Sumant" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
@@ -459,22 +426,17 @@
 				</Variable>
 				<Variable Name="Permission_Matrix" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal1.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Roles" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal1.xlsm" Table="Roles$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="TestTable" Type="Table" Local="False">
-					<DefValue RowCount="200" ColumnCount="1">
-						<Columns ColumnName0="Column1" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Roles$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="PermissionGroupsColumnNames" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\Downloads\Permissions Init V614.xlsx" Table="ColumnNames$" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Create_NewUser_Details" Type="DB Table" Local="False">
@@ -484,14 +446,14 @@
 				</Variable>
 				<Variable Name="ImportGlossary" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\Sumant Repository\DecisionNG\Test_Data.xlsx" Table="ImportGlossary$" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="ImportGlossary$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{F4983693-F5DE-48D9-B22B-4E71A0EFF9A4}">
-		<settingsVersion value="14.81" />
+		<settingsVersion value="14.80" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -567,7 +529,7 @@
 			</data>
 		</setting>
 		<setting name="General_ProjectLogLocation" type="5" value="Log" />
-		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+		<setting name="General_UnitsEncoding" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -643,9 +605,9 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
+				<row val0="NativeChromeObject" />
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
-				<row val0="NativeChromeObject" />
 				<row val0="NativeWebDriverObject" />
 				<row val0="NativeFirefoxObject" />
 				<row val0="NativeMSAA" />
@@ -821,7 +783,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -874,7 +836,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />

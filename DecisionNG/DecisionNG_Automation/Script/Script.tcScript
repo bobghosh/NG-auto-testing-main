@@ -47,7 +47,9 @@
 					<child name="FactTypeSummary_MMTab_MD_Version_InUse_Verify" key="{C635611E-9CE9-4E62-BC50-6D510C6EB697}" path="FactTypeSummary_MMTab_MD_Version_InUse_Verify.js" />
 					<child name="FactTypeSummary_MMTab_MD_Version_MarkForDelete_Verify" key="{051509C5-D082-4F65-8086-70589021DAB9}" path="FactTypeSummary_MMTab_MD_Version_MarkForDelete_Verify.js" />
 					<child name="FactTypeSummary_MMTab_MDVersion_Ellipsis_Click" key="{7AA3920B-509C-4843-98F2-FBB9D994E158}" path="FactTypeSummary_MMTab_MDVersion_Ellipsis_Click.js" />
-					<child name="FactTypeSummary_MMTab_SubmitforApproval" key="{8AC36C42-2A94-4E1C-A1A6-A428FFEDDC3C}" path="FactTypeSummary_MMTab_SubmitforApproval.js" />
+					<child name="FactTypeSummary_MMTab_MarkForDelete" key="{35ADE9DE-DAD0-4F2D-973E-03F0964B8E58}" path="FactTypeSummary_MMTab_MarkForDelete.js" />
+					<child name="FactTypeSummary_MMTab_Enter_Mappedvalues" key="{84771CE3-CE64-4721-B1C7-5FA194A6D107}" path="FactTypeSummary_MMTab_Enter_Mappedvalues.js" />
+					<child name="FactTypeSummary_MMTab_Enter_CustomProp" key="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}" path="FactTypeSummary_MMTab_Enter_CustomProp.js" />
 				</folder>
 			</folder>
 		</folder>

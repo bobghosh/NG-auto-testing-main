@@ -51,17 +51,14 @@
 						<Prp name="name" type="S" value="Roles"/>
 					</Node>
 					<Node name="var16">
-						<Prp name="name" type="S" value="TestTable"/>
-					</Node>
-					<Node name="var17">
 						<Prp name="name" type="S" value="PermissionGroupsColumnNames"/>
 					</Node>
-					<Node name="var18">
-
+					<Node name="var17">
 						<Prp name="name" type="S" value="Create_NewUser_Details"/>
-
+					</Node>
+					<Node name="var18">
 						<Prp name="name" type="S" value="ImportGlossary"/>
-
+						<Prp name="name" type="S" value="ImportGlossary"/>
 					</Node>
 					<Node name="var2">
 						<Prp name="name" type="S" value="Password"/>
