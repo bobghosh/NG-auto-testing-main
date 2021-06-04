@@ -162,9 +162,9 @@
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="check" key="{DB3C0991-C7ED-45A6-87C4-08AA4C4BFAF9}" group="False" parallel="False" enabled="True" testMoniker="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="check" key="{DB3C0991-C7ED-45A6-87C4-08AA4C4BFAF9}" group="False" parallel="False" enabled="True" testMoniker="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}check" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="Month1-Month-Dynamic Set-6,month-Month-Dynamic Set-2" />
+																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="DateTime-Date Time-Range-7/Jun/2010/3:15 AM,Date-Date-Range-7/Jul/1999" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
