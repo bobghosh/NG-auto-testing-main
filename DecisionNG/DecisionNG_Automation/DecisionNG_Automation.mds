@@ -142,7 +142,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="modelDefinition" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="ModelMapping" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -155,16 +155,16 @@
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="EnterCustomProperty" key="{01410957-9CFF-4404-A502-E101CC036CFF}" group="False" parallel="False" enabled="False" testMoniker="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}EnterCustomProperty" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="check" key="{38D7D3F0-0CC1-4B9D-978E-A10F900B2DFF}" group="False" parallel="False" enabled="True" testMoniker="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value=" Month Rang month long-Month-Set-June," />
+																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="DateTime-Date Time-Range-7/Jun/2010/3:15 AM,Date-Date-Range-7/Jul/1999" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="check" key="{DB3C0991-C7ED-45A6-87C4-08AA4C4BFAF9}" group="False" parallel="False" enabled="True" testMoniker="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}check" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+															<testItem name="check_2" key="{C0B23184-A64B-4C62-9877-6A093DB7BD0D}" group="False" parallel="False" enabled="True" testMoniker="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="DateTime-Date Time-Range-7/Jun/2010/3:15 AM,Date-Date-Range-7/Jul/1999" />
+																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="Month-Month-Range-7" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />

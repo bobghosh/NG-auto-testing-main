@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{1C228B8F-429C-4585-993D-33F48E0A2C40}"/>
+				<Prp name="activity" type="S" value="{BDEA6E49-A750-4D1A-BE09-F83F37B4624B}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
@@ -1009,14 +1009,16 @@
 				<Node name="decisionng">
 					<Node name="decisionng_automation">
 						<Node name="script">
-							<Node name="generic"/>
+							<Node name="modelling">
+								<Node name="facttype">
+									<Node name="modelmapping"/>
+								</Node>
+							</Node>
 						</Node>
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="decisionng logs">
-					<Node name="decisionng_automation logs"/>
-				</Node>
+				<Node name="decisionng logs"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
