@@ -1,7 +1,6 @@
-﻿function Model_Definition_Remove_Version()
+﻿var Model_Definition_Version_Availability_Check = require("Model_Definition_Version_Availability_Check");
+function Model_Definition_Remove_Version(RemoveVersion, RemoveVersionName)
 {
-    let RemoveVersion = "Yes";
-    let RemoveVersionName = "1.0.0_Copy_#1_Copy_#1";
       
     let VersionTab = Aliases.browser.pageSapiensDecision2.linkVersions.textnode8;  
     if(VersionTab.getAttribute("class").includes("pi-chevron-right"))
@@ -9,11 +8,11 @@
       VersionTab.click();
     }
         
-    let VersionCount = Aliases.browser.pageSapiensDecision2.FindElements("//tbody//tr//td[1]/div/div");
+    let VersionCount = Aliases.browser.pageSapiensDecision2.FindElements("//dcn-model-definition-versions//tbody//tr//td[1]/div/div");
 
     for(let i = 1; i <= VersionCount.length; i++)
     {
-      let VersionName = Aliases.browser.pageSapiensDecision2.FindElement("//tbody//tr["+ i +"]//td[1]/div/div[1]");
+      let VersionName = Aliases.browser.pageSapiensDecision2.FindElement("//dcn-model-definition-versions//tbody//tr["+ i +"]//td[1]/div/div[1]");
       Log.Message(VersionName.textContent);
       
       if(VersionName.textContent == RemoveVersionName)
@@ -25,6 +24,7 @@
           if(RemoveVersion == "Yes")
           {
             Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+               
           }
           else
           {
@@ -34,6 +34,11 @@
           break;
       }
       
+      
     }
+    
+    Model_Definition_Version_Availability_Check.Model_Definition_Version_Availability_Check(RemoveVersionName);
+      
+      
     
 }

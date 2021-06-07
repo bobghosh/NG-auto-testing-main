@@ -18,6 +18,7 @@
 			<child name="SelectingDate_Time_FromCalendar" key="{A1B2BB02-498E-4D76-A7FA-95C7D445253B}" path="SelectingDate_Time_FromCalendar.js" />
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
 			<child name="Repository_Total_FactTypes" key="{B784B666-199C-4349-950D-D20250C26AC5}" path="Repository_Total_FactTypes.js" />
+			<child name="Breadcrumb_Navigations" key="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}" path="Breadcrumb_Navigations.js" />
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
@@ -27,6 +28,9 @@
 				<child name="UnchangedTabVerification" key="{2040C69B-0DED-4932-8F88-956CE4FFD0FB}" path="UnchangedTabVerification.js" />
 				<child name="ChangedTabVerification" key="{1B153149-2A1A-41E8-82B1-AE71168353FC}" path="ChangedTabVerification.js" />
 				<child name="ImportGlossary_XMLVerification" key="{425733C6-AEC9-46F1-BFC6-7BF47E03000A}" path="ImportGlossary_XMLVerification.js" />
+			</folder>
+			<folder name="Generic">
+				<child name="Select_Community" key="{26A3DA5A-3283-4CB8-9FD0-9A86DBF25D60}" path="Select_Community.js" />
 			</folder>
 		</folder>
 		<folder name="Modelling">
@@ -65,24 +69,46 @@
 			</folder>
 			<folder name="Settings">
 				<folder name="Model Definition">
-					<child name="Add_Model_Definition" key="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}" path="Add_Model_Definition.js" />
-					<child name="Open_Model_Definition" key="{2D38663A-88BE-490F-A32E-5C99B31A845D}" path="Open_Model_Definition.js" />
-					<child name="Verify_Model_Definition_Presence" key="{AFF75E40-6765-4C51-B2F4-E51D42F48DE5}" path="Verify_Model_Definition_Presence.js" />
-					<child name="Verify_MD_without_permission" key="{4BC99F4D-18BA-4876-8D7A-41C8BB6180D6}" path="Verify_MD_without_permission.js" />
-					<child name="Add_Custom_Properties" key="{13BD6634-1029-4D50-A028-8522DB391CBD}" path="Add_Custom_Properties.js" />
-					<child name="Add_Approval_Strategy" key="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}" path="Add_Approval_Strategy.js" />
-					<child name="Model_Definition_Clone_Version" key="{E7344724-18B5-4061-BDF4-E491FC195F4A}" path="Model_Definition_Clone_Version.js" />
-					<child name="Model_Definition_Update_VersionName" key="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}" path="Model_Definition_Update_VersionName.js" />
-					<child name="Model_Definition_Remove_Version" key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}" path="Model_Definition_Remove_Version.js" />
-					<child name="Model_Definition_Freeze_Version" key="{2DF10A51-D4C4-4B86-B979-67E434B46BE2}" path="Model_Definition_Freeze_Version.js" />
-					<child name="Model_Definition_Unfreeze_Version" key="{193B9F59-3BF6-437B-849D-EE3CA365592C}" path="Model_Definition_Unfreeze_Version.js" />
-					<child name="Model_Definition_ViewMappedEntities_Version" key="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}" path="Model_Definition_ViewMappedEntities_Version.js" />
-					<child name="Model_Definition_Delete" key="{694288E7-01F9-4C17-9094-6647C4020C15}" path="Model_Definition_Delete.js" />
+					<folder name="Approval_Strategy">
+						<child name="Add_Approval_Strategy" key="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}" path="Add_Approval_Strategy.js" />
+					</folder>
+					<folder name="Versions">
+						<child name="Model_Definition_Clone_Version" key="{E7344724-18B5-4061-BDF4-E491FC195F4A}" path="Model_Definition_Clone_Version.js" />
+						<child name="Model_Definition_Freeze_Version" key="{2DF10A51-D4C4-4B86-B979-67E434B46BE2}" path="Model_Definition_Freeze_Version.js" />
+						<child name="Model_Definition_Remove_Version" key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}" path="Model_Definition_Remove_Version.js" />
+						<child name="Model_Definition_Unfreeze_Version" key="{193B9F59-3BF6-437B-849D-EE3CA365592C}" path="Model_Definition_Unfreeze_Version.js" />
+						<child name="Model_Definition_Update_VersionName" key="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}" path="Model_Definition_Update_VersionName.js" />
+						<child name="Model_Definition_Version_Availability_Check" key="{3F404BB8-30E1-4A0E-9F12-B6FC1D3EE8BE}" path="Model_Definition_Version_Availability_Check.js" />
+						<child name="Model_Definition_ViewMappedEntities_Version" key="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}" path="Model_Definition_ViewMappedEntities_Version.js" />
+					</folder>
+					<folder name="Custom_Properties">
+						<child name="Add_Custom_Property_AllDataTypes" key="{765C643C-CE7D-425C-B395-0429C2122BF1}" path="Add_Custom_Property_AllDataTypes.js" />
+						<child name="Add_Custom_Property_Single" key="{13BD6634-1029-4D50-A028-8522DB391CBD}" path="Add_Custom_Property_Single.js" />
+						<child name="Edit_Custom_Property" key="{7CED4423-A69B-4BD8-96AA-204EB747084C}" path="Edit_Custom_Property.js" />
+						<child name="Remove_Custom_property" key="{F7FF2C27-2992-4010-A6B6-34B35F281DF4}" path="Remove_Custom_property.js" />
+						<child name="Edit_Name_Custom_Property" key="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}" path="Edit_Name_Custom_Property.js" />
+						<child name="Open_Custom_Property" key="{9349BC95-857C-4B41-A585-F12FADEB15C0}" path="Open_Custom_Property.js" />
+						<child name="Custom_Property_Availability" key="{66F2973F-70A8-422F-A2D8-2693C33AC4AE}" path="Custom_Property_Availability.js" />
+					</folder>
+					<folder name="Generic_Model_Definition">
+						<child name="Add_Model_Definition" key="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}" path="Add_Model_Definition.js" />
+						<child name="Edit_Name_Model_Definition" key="{542A16B9-213D-4AF4-ABAB-2C14E549376C}" path="Edit_Name_Model_Definition.js" />
+						<child name="Model_Definition_Availability_Check" key="{1990EDD2-1B2C-4A1E-BCDE-C743748C9398}" path="Model_Definition_Availability_Check.js" />
+						<child name="Model_Definition_Delete" key="{694288E7-01F9-4C17-9094-6647C4020C15}" path="Model_Definition_Delete.js" />
+						<child name="Remove_Model_Definition" key="{29CB57A8-F752-4AC1-B833-50099527B16D}" path="Remove_Model_Definition.js" />
+						<child name="Search_Open_Model_Definition" key="{2D38663A-88BE-490F-A32E-5C99B31A845D}" path="Search_Open_Model_Definition.js" />
+					</folder>
+					<folder name="Validations_Do_Not_Run">
+						<child name="Model_Definition_Remove_inUse_Error" key="{F0C8D8B7-B902-4281-8191-34B8969E9504}" path="Model_Definition_Remove_inUse_Error.js" />
+						<child name="Duplicate_Custom_Property_Name" key="{22ED4EE1-B0DB-4B15-9CB3-213FF48E72DE}" path="Duplicate_Custom_Property_Name.js" />
+						<child name="Model_Definition_DuplicateName_Error" key="{651D5A9D-99B4-439F-B95A-ED0425A5329B}" path="Model_Definition_DuplicateName_Error.js" />
+						<child name="Verify_MD_without_permission" key="{4BC99F4D-18BA-4876-8D7A-41C8BB6180D6}" path="Verify_MD_without_permission.js" />
+					</folder>
 				</folder>
 			</folder>
-			<folder name="HomePage">
-				<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
-			</folder>
+		</folder>
+		<folder name="HomePage">
+			<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
 		</folder>
 		<child name="Unit2" key="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}" path="Unit2.js" />
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />

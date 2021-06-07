@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="26" kind="0" dateTime="44337.6942708333" objectName="Aliases.browser.pageSapiensDecision.form.buttonOk" objectLeft="980" objectTop="453" objectRight="1080" objectBottom="487" clickPointX="1000" clickPointY="473" imageFileName="tcvi290536734211161.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="30" kind="0" dateTime="44337.6943287037" objectName="Aliases.browser.pageSapiensDecision.StartNewDecisionDropButton" objectLeft="1205" objectTop="314" objectRight="1237" objectBottom="346" clickPointX="1216" clickPointY="332" imageFileName="tcvi290540968211162.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}" />
 </Root>

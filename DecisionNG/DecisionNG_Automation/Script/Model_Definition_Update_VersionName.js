@@ -1,9 +1,5 @@
-﻿function Model_Definition_Update_VersionName()
+﻿function Model_Definition_Update_VersionName(EditVersionName, NewVersion, Update)
 {
-  
-    let EditVersionName = "2.0.0";
-    let NewVersion = "2.0.1";
-    let Update = "Yes";
     
     let VersionTab = Aliases.browser.pageSapiensDecision2.linkVersions.textnode8;  
     if(VersionTab.getAttribute("class").includes("pi-chevron-right"))
