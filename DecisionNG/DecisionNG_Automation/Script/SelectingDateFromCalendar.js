@@ -1,4 +1,4 @@
-﻿function CalendarSelection(flag, YearValue, MonthValue, DateValue)
+function CalendarSelection(flag, YearValue, MonthValue, DateValue)
 {
   
 //    let browser = Aliases.browser;

@@ -20,7 +20,98 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7432448148"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{08511BDA-99AA-45A1-9A9A-F9A5721BE7FC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [MMTab_Cust_Prop_Submit_isrequired_Popup\Cust_Prop_Submit_isrequired_Popup]"/>
+				<Prp name="relpath" type="S" value="07-06-2021_17_50_16_352\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7448285301"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8069F879-5E64-462C-A820-0D5045A81D6C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [MMTab_Cust_Prop_Submit_isrequired_Popup\Cust_Prop_Submit_isrequired_Popup]"/>
+				<Prp name="relpath" type="S" value="07-06-2021_17_52_33_185\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.745027338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6A47EAC2-1D80-4DC8-B741-B83B8A03091A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [MMTab_Cust_Prop_Submit_isrequired_Popup\Cust_Prop_Submit_isrequired_Popup]"/>
+				<Prp name="relpath" type="S" value="07-06-2021_17_52_50_362\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7454068866"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{45C01395-166F-4C8C-9CB6-382FA86DF410}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [MMTab_Cust_Prop_Submit_isrequired_Popup\Cust_Prop_Submit_isrequired_Popup]"/>
+				<Prp name="relpath" type="S" value="07-06-2021_17_53_23_155\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7501684028"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3260FC9D-8694-4797-9ADF-6C8DA1266354}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="07-06-2021_18_00_14_550\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7526047685"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EF18AC0D-3219-47B4-8543-3BFA36BB4075}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="07-06-2021_18_03_45_52\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7536049653"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CD6B7F44-79E7-4A69-9388-AEEDA32FC07C}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="07-06-2021_18_05_11_469\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7548101157"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F607E8A2-01A3-4BA6-9320-A8122D1B0FB5}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="07-06-2021_18_06_55_594\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44354.7565454745"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{671975C9-AAF8-4435-A17D-2FEB8BA91244}"/>
+				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
+				<Prp name="relpath" type="S" value="07-06-2021_18_09_25_529\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44355.7601038194"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2FC15417-0F77-4AC2-989A-33BEC18423C6}"/>
+				<Prp name="nameofroot" type="S" value="Tasks_Create_New_FactType_single"/>
+				<Prp name="relpath" type="S" value="08-06-2021_18_14_32_970\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

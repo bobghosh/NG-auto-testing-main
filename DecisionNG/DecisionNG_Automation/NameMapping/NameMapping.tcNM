@@ -1242,10 +1242,10 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[text()=&apos;March, 2021&apos;]" />
+												<Value Value="[aria-label=&apos;Month View&apos;] &gt; span:nth-child(1)" />
 											</Selector>
 											<Selector>
-												<Value Value="[aria-label=&apos;Month View&apos;] &gt; span:nth-child(1)" />
+												<Value Value="//span[text()=&apos;March, 2021&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//body[@id=&apos;body&apos;]/div[2]/div[3]/div/div/div/span" />
@@ -1346,7 +1346,7 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[text()=&apos;2021&apos;]" />
+												<Value Value="//td[text()=&apos;2021&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="[role=&apos;grid&apos;]:nth-child(3) &gt; .wj-header &gt; [role=&apos;gridcell&apos;]" />
@@ -3624,19 +3624,22 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//*[contains(@style,&apos;visibility: visible; display: block&apos;)]//*[text()=&apos;Submit for Approval&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[text()=&apos;Submit for Approval&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value=".ui-contextmenu:nth-child(3) .ng-star-inserted:nth-child(1) &gt; [href=&apos;#&apos;] &gt; .ui-menuitem-text" />
 											</Selector>
 											<Selector>
-												<Value Value="//body[@id=&apos;body&apos;]/div[2]/p-contextmenusub/ul/li/a/span" />
+												<Value Value="//body[@id=&apos;body&apos;]/div[2]/p-contextmenusub/ul/li/a/span" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//li/a/span" />
+												<Value Value="//li/a/span" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="(//a[contains(@href, &apos;#&apos;)])[3]/span" />
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[3]/span" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3644,6 +3647,9 @@
 										<Image FileName="-2101633944" Left="717" Top="649" Right="892" Bottom="682" />
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
+											<Selector>
+												<Value Value=" //*[contains(@style,&apos;visibility: visible; display: block&apos;)]//*[text()=&apos;Revert&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value=".ui-contextmenu:nth-child(4) .ng-star-inserted:nth-child(2) &gt; [href=&apos;#&apos;]" />
 											</Selector>
@@ -3654,10 +3660,10 @@
 												<Value Value="//body[@id=&apos;body&apos;]/div[3]/p-contextmenusub/ul/li[2]/a" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[3]/p-contextmenusub/ul/li[2]/a" />
+												<Value Value="//div[3]/p-contextmenusub/ul/li[2]/a" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="(//a[contains(@href, &apos;#&apos;)])[6]" />
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[6]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3681,6 +3687,9 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
+												<Value Value=" //*[contains(@style,&apos;visibility: visible; display: block&apos;)]//*[text()=&apos;UnMark for Delete&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[text()=&apos;UnMark for Delete&apos;]" />
 											</Selector>
 											<Selector>
@@ -3690,10 +3699,10 @@
 												<Value Value="//body[@id=&apos;body&apos;]/div[2]/p-contextmenusub/ul/li[2]/a/span" />
 											</Selector>
 											<Selector>
-												<Value Value="//li[2]/a/span" />
+												<Value Value="//li[2]/a/span" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="(//a[contains(@href, &apos;#&apos;)])[4]/span" />
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[4]/span" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3906,11 +3915,17 @@
 												<Value Value="//custom-property-template-editor-form/form" />
 											</Selector>
 										</Selectors>
-									</Child>
+									</Child>									
 									<Child Name="button7" Key="{32DB4112-0979-49EA-A37C-88CB4AA1BF30}">
 										<Image FileName="-104781798" Left="1026" Top="578" Right="1062" Bottom="614" />
 										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
 										<Selectors>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[41]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/custom-property-template-editor-form/form/dcn-dialog/div/div[2]/div/div/fx-field[3]/div/div/span/dcn-domain-input/div/div/div/format-values-drop-down/div/div/dcn-combo-box/wj-combo-box/div/div/div/span/button" />
+											</Selector>
 											<Selector>
 												<Value Value=".valid-value-combobox-spec:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; .wj-input-group-btn:nth-child(2) &gt; [type=&apos;button&apos;]:nth-child(1)" />
 											</Selector>
@@ -4179,9 +4194,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeTheSelectedModelDefiniti" Key="{2BBEC152-D3A5-4717-885E-62E114035174}">
+										<Image FileName="-2105260673" Left="882" Top="619" Right="1195" Bottom="638" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;The selected Model Definition has no Properties&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".no-data" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/div/dcn-fact-type-page-model-mappings/div/dcn-model-mapping-master/div/div[2]/dcn-model-mapping-custom-properties/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-model-mapping-custom-properties/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFactTypeHasNoAllowedValu" Key="{2A879719-6F27-47C1-A936-924B1C417E17}">
+										<Image FileName="2045354279" Left="934" Top="419" Right="1142" Bottom="438" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Fact Type has no allowed values&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-no-data" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/div/dcn-fact-type-page-model-mappings/div/dcn-model-mapping-master/div/div[2]/dcn-model-mapping-allowed-values/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-model-mapping-allowed-values/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 									<Child Name="textnode17" Key="{ECD312B3-C5CA-4451-ACC5-9A05DC0FFAE7}">
 										<Image FileName="-377054987" Left="10" Top="173" Right="23" Bottom="188" />
-										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
 										<Selectors>
 											<Selector>
 												<Value Value=".ui-tree-toggler" />
@@ -4213,7 +4264,7 @@
 									</Child>
 									<Child Name="textnode18" Key="{B79DAB66-1DCA-4B82-95E7-7B188908C241}">
 										<Image FileName="549004528" Left="24" Top="213" Right="37" Bottom="228" />
-										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
 										<Selectors>
 											<Selector>
 												<Value Value="[aria-posinset=&apos;1&apos;] &gt; .pi-caret-right" />
@@ -4223,42 +4274,6 @@
 											</Selector>
 											<Selector>
 												<Value Value="//li/ul/p-treenode/li/div/span" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeTheSelectedModelDefiniti" Key="{2BBEC152-D3A5-4717-885E-62E114035174}">
-										<Image FileName="-2105260673" Left="882" Top="619" Right="1195" Bottom="638" />
-										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//span[contains(text(), &apos;The selected Model Definition has no Properties&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value=".no-data" />
-											</Selector>
-											<Selector>
-												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/div/dcn-fact-type-page-model-mappings/div/dcn-model-mapping-master/div/div[2]/dcn-model-mapping-custom-properties/div/div/div/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//dcn-model-mapping-custom-properties/div/div/div/span" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeFactTypeHasNoAllowedValu" Key="{2A879719-6F27-47C1-A936-924B1C417E17}">
-										<Image FileName="2045354279" Left="934" Top="419" Right="1142" Bottom="438" />
-										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//span[contains(text(), &apos;Fact Type has no allowed values&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value=".spec-no-data" />
-											</Selector>
-											<Selector>
-												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/div/dcn-fact-type-page-model-mappings/div/dcn-model-mapping-master/div/div[2]/dcn-model-mapping-allowed-values/div/div/div/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//dcn-model-mapping-allowed-values/div/div/div/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5048,6 +5063,32 @@
 					</Child>
 					<Child Name="textnodeDelete" Owner="{BBEAB02B-F59A-4032-886A-E7A5834732D7}" />
 				</Child>
+				<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
+				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+						</Child>
+          </Child>
+				<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+				<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+				<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+			</Child>			
+		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
+			<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
+				<Child Name="TrayButton" Owner="{35F4A218-1B03-4A3F-AEE9-75EBCE8CFAE1}" />
+				<Child Name="ReBarWindow32" Owner="{6E6BD34E-B970-4AB6-AFF8-3F49FE733AEC}">
+					<Child Name="MSTaskSwWClass" Owner="{293B683E-1487-4688-8D41-45640683B7A2}">
+						<Child Name="MSTaskListWClass" Owner="{4875F4D7-82C0-48FB-8DC9-9862CF15D234}" />
+					</Child>
+				</Child>
+				<Child Name="TrayDummySearchControl" Owner="{EBC0DD7B-C3BB-4CBC-8566-7E41E7C93D17}">
+					<Child Name="btn" Owner="{9A1C86D0-5F58-4ACA-97C1-180C90CBDE54}" />
+				</Child>
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{36AD491F-49BE-44E9-8E0E-162C32125567}" />
+			<Child Name="wndMultitaskingViewFrame" Owner="{F7DE9785-0FD5-4334-9F5E-E46E1DE89A1A}" />
+			<Child Name="wndMultitaskingViewFrame2" Owner="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}" />
 				<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
 				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
 					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">

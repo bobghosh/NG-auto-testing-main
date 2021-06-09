@@ -8,7 +8,8 @@
 			<folder name="Administration_Navigations">
 				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
 				<child name="Navigate_Model_Definition" key="{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" path="Navigate_Model_Definition.tcKDTest" />
-			</folder>
+			  <child name="Navigate_Administration_PermissionGroup" key="{8082AEBA-9DBF-427F-BA95-E6BD43872716}" path="Navigate_Administration_PermissionGroup.tcKDTest" />
+      </folder>
 			<folder name="Generic">
 				<child name="Navigate_To_Administration" key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" path="Navigate_To_Administration.tcKDTest" />
 				<child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
@@ -32,6 +33,7 @@
 					<child name="FactTypeSummary_MMTab_Revert" key="{6B0A54D3-F93D-4F9A-9247-6C47144CF34C}" path="FactTypeSummary_MMTab_Revert.tcKDTest" />
 					<child name="FactTypeSummary_MMTab_MarkForDelete" key="{6EAD6243-D25D-40B0-A4D8-5A07CE243FDA}" path="FactTypeSummary_MMTab_MarkForDelete.tcKDTest" />
 					<child name="FactTypeSummary_MMTab_UnMarkForDelete" key="{A4CD59B4-F122-48FA-A3FD-44393792E4A9}" path="FactTypeSummary_MMTab_UnMarkForDelete.tcKDTest" />
+					<child name="FactTypeSummary_MlM_Tab_FTMappedName" key="{0E3E8E15-02F3-49A9-B563-B0484EEBB1E7}" path="FactTypeSummary_MlM_Tab_FTMappedName.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Decision">
@@ -85,6 +87,7 @@
 				<child name="Import_Glossary_Verification" key="{393E21B7-120B-43C6-92C2-0D7655062D45}" path="Import_Glossary_Verification.tcKDTest" />
 			</folder>
 		</folder>
+		<child name="Test2" key="{CFF43A06-C0BF-41B7-941C-BE020F8FBBA0}" path="Test2.tcKDTest" />
 		<folder name="Generic">
 			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />

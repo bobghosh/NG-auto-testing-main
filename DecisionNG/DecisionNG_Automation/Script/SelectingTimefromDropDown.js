@@ -1,4 +1,4 @@
-﻿function SelectingTimeFromDropdown(option, flag)
+function SelectingTimeFromDropdown(option, flag)
 {
   //Aliases.browser.pageSapiensDecision.form.form2.form4.button10.ClickButton();
   if(flag == "Yes")

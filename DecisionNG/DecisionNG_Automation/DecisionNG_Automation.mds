@@ -16,7 +16,7 @@
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -142,6 +142,30 @@
 													</testItem>
 												</children>
 											</testItem>
+											<testItem name="ModelMapping" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="PreRequisite" key="{4DAB5FD2-DD6F-4AF1-870F-B51486930153}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Tasks_Create_New_FactType_single" key="{8BBE1FD8-F19E-43B1-8738-0C9AF02DD345}" group="False" parallel="False" enabled="True" testMoniker="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}Tasks_Create_New_FactType_single" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Name" type="3" localVarName="" varType="8" value="TestCase" />
+																	<param1 name="Description" type="3" localVarName="" varType="8" value="Des" />
+																	<param2 name="ListIndicator" type="3" localVarName="" varType="8" value="Single Value" />
+																	<param3 name="Datatype" type="3" localVarName="" varType="8" value="Amount" />
+																	<param4 name="DisplayFormat" type="3" localVarName="" varType="8" value="Currency USD" />
+																	<param5 name="AllowedValue" type="3" localVarName="" varType="8" value="Any value" />
+																	<param6 name="Status" type="3" localVarName="" varType="8" value="DRAFT" />
+																	<param7 name="SetValues" type="3" localVarName="" varType="8" value="" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+												</children>
+											</testItem>
 										</children>
 									</testItem>
 									<testItem name="Rule Family" key="{D27C930D-405F-47C6-8DAC-A7B0B4D1B8E3}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -170,16 +194,16 @@
 							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp " />
-											<param1 name="UserName" type="1" localVarName="" value="admin" />
-											<param2 name="Password" type="1" localVarName="" value="bdms" />
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsnlb:7642/login.jsp" />
+											<param1 name="UserName" type="1" localVarName="" value="Ritu" />
+											<param2 name="Password" type="1" localVarName="" value="D@cision@1" />
 										</testParameters>
 										<environments testedURL="" />
 										<children />
 									</testItem>
-									<testItem name="Navigate_Administration_Permission_Groups" key="{797F8CE1-4194-48E8-886C-66316D7021EE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DEE9830-895D-4A1D-85EB-F976106D7314}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Navigate_Administration_PermissionGroup" key="{055176D3-B884-4DBF-A168-D49453E00E85}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8082AEBA-9DBF-427F-BA95-E6BD43872716}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments testedURL="" />
 										<children />
@@ -209,7 +233,7 @@
 							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
 											<testItem name="Import Glossary XML Verification" key="{878792FF-453F-456A-B6EA-90B5A1D99862}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -217,8 +241,8 @@
 												<children>
 													<testItem name="Login_5" key="{8E399E04-E177-4088-9E66-70B456B89B3B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:6144/login.jsp" />
-															<param1 name="UserName" type="1" localVarName="" value="Vars" />
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:6144/login.jsp#" />
+															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
 														<environments testedURL="" />
@@ -424,9 +448,9 @@
 														<children>
 															<testItem name="Add_Approval_Strategy" key="{B70504AA-1F72-49E2-91DB-9C0226C9E659}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="0" value="" />
-																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="0" value="" />
-																	<param2 name="DistinctUser" type="3" localVarName="" varType="0" value="" />
+																	<param0 name="AprrovalStrategy" type="3" localVarName="" varType="8" value="All" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="Yes" />
 																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
 																</testParameters>
 																<environments testedURL="" />
@@ -660,22 +684,17 @@
 				</Variable>
 				<Variable Name="Permission_Matrix" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal1.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Roles" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal1.xlsm" Table="Roles$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="TestTable" Type="Table" Local="False">
-					<DefValue RowCount="200" ColumnCount="1">
-						<Columns ColumnName0="Column1" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Roles$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="PermissionGroupsColumnNames" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\Downloads\Permissions Init V614.xlsx" Table="ColumnNames$" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Create_NewUser_Details" Type="DB Table" Local="False">
@@ -697,7 +716,7 @@
 		</data>
 	</variables>
 	<settings key="{F4983693-F5DE-48D9-B22B-4E71A0EFF9A4}">
-		<settingsVersion value="14.81" />
+		<settingsVersion value="14.80" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -773,7 +792,7 @@
 			</data>
 		</setting>
 		<setting name="General_ProjectLogLocation" type="5" value="Log" />
-		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+		<setting name="General_UnitsEncoding" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -849,9 +868,9 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
+				<row val0="NativeChromeObject" />
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
-				<row val0="NativeChromeObject" />
 				<row val0="NativeWebDriverObject" />
 				<row val0="NativeFirefoxObject" />
 				<row val0="NativeMSAA" />
