@@ -1,131 +1,274 @@
-﻿function Edit_Custom_Properties()
+﻿var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Only1DDexsists");
+var Open_Custom_Property = require("Open_Custom_Property");
+function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
 {
+    
+  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.linkCustomProperties.textnode10;
+  if(CustomPropertiesTab.getAttribute("class").includes("pi-chevron-right"))
+  {
+      CustomPropertiesTab.click();
+  }
   
-      let CustomProperty_Name = "";
-      let NewCPName = "NewCp";
-      let RenameCP = "Yes";
-      let MarkRequired = "Yes";
-      let MarkRetired = "Yes";
-      let UpdateDataType = "Yes";
-      let DataType = "Numeric";
-      let UpdateDisplayFormat = "Yes";
-      let DisplayFormat = "";
-      let UpdateAllowedValue = "Yes";
-      let AllowedValue = "";
+//  let CP_Name = "Test";
+//  let CP_Edit_Attribute_Value = "Name-Varsha,DataType-Amount,DisplayFormat-Currency USD,Required-Yes,Retired-Yes";
+  Open_Custom_Property.Open_Custom_Property(CP_Name); 
+  
+  Delay(1000);
+  
+  let EditValue= CP_Edit_Attribute_Value;
+  let CP_arr= EditValue.split(',')     
+  Log.Message(CP_arr.length)
+  
+  
+  for(var i = 0; i < CP_arr.length ; i++) 
+  {
+    var CP_data = CP_arr[i].split('-');          
+    var FieldName = CP_data[0].trim();
+    var EditedValue = CP_data[1];
+    //var Condition = CP_data[2];
+    
+    if (FieldName == "Name")
+    {
+      let CPName = Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']");
+      CPName.SetText(EditedValue);                           
+    }
+    
+    if(FieldName == "Required")
+    {
+       RequiredCheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[@name='required']");  
+       Log.Message(RequiredCheckbox.getAttribute("ng-reflect-model"));
+       if(EditedValue == "Yes")
+       {      
+         if(RequiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         {
+           Log.Checkpoint("Required is Selected");
+         }
+         else
+         {
+           RequiredCheckbox.Click();
+           Log.Checkpoint("Required is Selected");
+         }
+       }
+       else
+       {
+         if(RequiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         {
+           RequiredCheckbox.Click();
+           Log.Checkpoint("Required is unselected");
+         }
+         else
+         {
+           
+           Log.Checkpoint("Required is unselected");
+         }         
+       }
+    }
+    
+    if(FieldName == "Retired")
+    {
+       RetiredCheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[@name='retired']");
+       if(EditedValue == "Yes")
+       {      
+         if(RetiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         {
+           Log.Checkpoint("Retired is Selected");
+         }
+         else
+         {
+           RetiredCheckbox.Click();
+           Log.Checkpoint("Retired is Selected");
+         }
+       }
+       else
+       {
+         if(RetiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         {
+           RetiredCheckbox.Click();
+           Log.Checkpoint("Retired is not Selected");
+         }
+         else
+         {           
+           Log.Checkpoint("Retired is not Selected");
+         }
+         
+       }
+    }
+    
+    if(FieldName == "DataType")
+    {
+      Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='dataType']//button").Click();
+      SelectingOptionfromDropDown.SelectingOptionfromDropdown(EditedValue,"No")
+    }
+    
+    if(FieldName == "DisplayFormat")
+    {
+      Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='displayFormat']//button").Click();
+      SelectingOptionfromDropDown.SelectingOptionfromDropdown(EditedValue,"No")
+    }
+    
+    if(FieldName == "AllowedValue")
+    {
+      Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='allowedValues']//button").Click();
+      SelectingOptionfromDropDown.SelectingOptionfromDropdown(EditedValue,"No")
+    }
+    
+  }
+  
+  let CustomPropertyName = Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']").Text;
+  Log.Message(CustomPropertyName);
+  
+  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+  
+  Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[2]").SetText(CustomPropertyName);
+        
+  Delay(2000);
+  
+  CustomPropertiesCount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-custom-properties-details//tbody//tr");
+  Log.Message(CustomPropertiesCount.length);
+  
+  for(var j = 1; j <= CustomPropertiesCount.length ; j++)
+  {
+    
+    var SelectedCustomProperty = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[1]").textContent.trim();
+    
+    if(SelectedCustomProperty == CustomPropertyName)
+    {
+      Log.Checkpoint("Fact Type Name is Selected");
+      let EditedValue= CP_Edit_Attribute_Value;
+      let CP_array= EditedValue.split(',')     
+      Log.Message(CP_array.length);
       
-      Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[2]").SetText(CustomProperty_Name);
-      Delay(5000);
-      CustomPropertiesCount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-custom-properties-details//tbody//tr");
-      Log.Message(CustomPropertiesCount.length);
-      for(var j = 1; j <= CustomPropertiesCount.length ; j++)
-      {
-        var SelectedCustomProperty = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[1]");
-        if(SelectedCustomProperty.textContent.trim() == CustomProperty_Name )
+      for(var k = 0; k < CP_array.length ; k++) 
+      { 
+        var EditedCP_data = CP_array[k].split('-');          
+        var EditedFieldName = EditedCP_data[0].trim();
+        var EditedUpdatedValue = EditedCP_data[1];
+        //var EditedCondition = EditedCP_data[2];
+      
+        if(EditedFieldName == "Name")
         {
-          SelectedCustomProperty.Click();
-          break;
+          if(SelectedCustomProperty == EditedUpdatedValue)
+          {
+            Log.Checkpoint("Custom Property Name is updated");
+          }
+          else
+          {
+            Log.Error("Custom Property name is not updated");
+          }
+        }        
+        
+        if(EditedFieldName == "DataType")
+        {
+          let DataType = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[2]");
+          Log.Message(DataType.textContent.trim().toUpperCase())
+          Log.Message(EditedUpdatedValue.toUpperCase())
+          if(DataType.textContent.trim().toUpperCase() == EditedUpdatedValue.toUpperCase())
+          {
+            Log.Checkpoint("Data Type is updated");
+          }
+          else
+          {
+            Log.Error("Data Type is not updated");
+          }
+        } 
+        
+        if(EditedFieldName == "DisplayFormat")
+        {
+          let DisplayFormat = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[3]");
+                  
+          Log.Message(DisplayFormat.textContent.trim().toUpperCase())
+          Log.Message(EditedUpdatedValue.toUpperCase())
+          if(DisplayFormat.textContent.trim().toUpperCase() == EditedUpdatedValue.toUpperCase())
+          {
+            Log.Checkpoint("Display Format is updated");
+          }
+          else
+          {
+            Log.Error("Display Format is not updated");
+          }
         }
-  
-      }
-      
-      if(RenameCP == "Yes")
-      {
-        let CPName = Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']");
-        CPName.SetText(NewCPName);
-        aqObject.CheckProperty(CPName, "contentText", cmpEqual, NewCPName);        
-      }
-      
-      if(MarkRequired == "Yes")
-      {
-        Aliases.browser.pageSapiensDecision.FindElement("//*[@name='required']").Click();        
-      }
-      
-      if(MarkRetired == "Yes")
-      {
-        Aliases.browser.pageSapiensDecision.FindElement("//*[@name='retired']").Click();        
-      }
-      
-      if(UpdateDataType == "Yes")
-      {
-        Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='dataType']//button").Click();
-        SelectingOptionfromDropDown.SelectingOptionfromDropdown(DataType,"No")
-      }
-      
-      if(UpdateDisplayFormat == "Yes")
-      {
-        Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='displayFormat']//button").Click();
-        SelectingOptionfromDropDown.SelectingOptionfromDropdown(DisplayFormat,"No")
-      }
-      if(UpdateAllowedValue == "Yes")
-      {
-        Aliases.browser.pageSapiensDecision.FindElement("//dcn-combo-box[@name='allowedValues']//button").Click();
-        SelectingOptionfromDropDown.SelectingOptionfromDropdown(AllowedValue,"No")
-      }
-      
-       Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
-      
-      Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[2]").SetText(RenameCP);
-      Delay(5000);
-      CustomPropertiesCount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-custom-properties-details//tbody//tr");
-      Log.Message(CustomPropertiesCount.length);
-      for(var j = 1; j <= CustomPropertiesCount.length ; j++)
-      {
-            var SelectedCustomProperty = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[1]");
-            //Log.Message(SelectedCustomProperty.textContent);
+             
+        if(EditedFieldName == "AllowedValue")
+        {
+          let AllowedValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[4]");
+          
+          Log.Message(AllowedValue.textContent.trim().toUpperCase())
+          Log.Message(EditedUpdatedValue.toUpperCase()) 
             
-            //If the Item Name matches 
-            if(SelectedCustomProperty.textContent.trim() == RenameCP )
-            {          
-                   Log.Message("Check");
-                  if (Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[2]").textContent.trim().toUpperCase() == DataType.toUpperCase())
-                  {
-                    Log.Checkpoint("Data Type matches");
-                  }
-                  else
-                  {
-                    Log.Error("Data Type is different");
-                  }
-                  
-                  if (Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[3]").textContent.trim().toUpperCase() == DisplayFormat.toUpperCase())
-                  {
-                    Log.Checkpoint("Display Format matches");
-                  }
-                  else
-                  {
-                    Log.Error("Display Format is different");
-                  }
-                  
-                  if (Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[4]").textContent.trim().toUpperCase().replace("_", " ") == AllowedValue.toUpperCase())
-                  {
-                    Log.Checkpoint("Allowed Value matches");
-                  }
-                  else
-                  {
-                    Log.Error("Allowed Value is different");
-                  }
-                  
-                  if (Required == "Yes")
-                  {
-                    if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[5]").textContent.trim() == "Required")
-                    {
-                    Log.Checkpoint("Property is marked Required");
-                    }
-                    else
-                    {
-                      Log.Error("Property is marked Required but not shown in Custom Properties detail screen");
-                    }
-                  }
-                  else
-                  {
-                    Log.Checkpoint("Required is not marked");
-                  }                   
-                    
-                   
-                   flag =1;  
-             }
-             if(flag == 1)
-             {
-                break;
-             }
+          if(AllowedValue.textContent.trim().toUpperCase() == EditedUpdatedValue.toUpperCase())
+          {
+            Log.Checkpoint("Allowed Value is updated");
+          }
+          else
+          {
+            Log.Error("Allowed Value is not updated");
+          }
         }
+        
+        
+        if(EditedFieldName == "Required" && EditedUpdatedValue == "Yes")
+        {
+          let RequiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[5]");
+          Log.Message(RequiredValue.textContent.trim().toUpperCase())
+          if(RequiredValue.textContent.trim().toUpperCase() == "REQUIRED")
+          {
+            Log.Checkpoint("Required is Marked");
+          }
+          else
+          {
+            Log.Error("Required is not Marked");
+          }
+        
+        }
+        else if(EditedFieldName == "Required" && EditedUpdatedValue == "No")
+        {
+          let RequiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[5]");
+          if(RequiredValue.length == 0)
+          {
+            Log.Checkpoint("Required is Unmarked");
+          }
+          else
+          {
+            Log.Error("Required is not unmarked");
+          }
+        }
+      
+//        if(EditedFieldName == "Retired" && EditedUpdatedValue == "Yes")
+//        {      
+//        let RetiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[6]");
+//        }
+        
+        if(EditedFieldName == "Retired" && EditedUpdatedValue == "Yes")
+        {
+          let RetiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[6]");
+          Log.Message(RetiredValue.textContent.trim().toUpperCase())
+          
+          if(RetiredValue.textContent.trim().toUpperCase() == "RETIRED")
+          {
+            Log.Checkpoint("Retired is Marked");
+          }
+          else
+          {
+            Log.Error("Retired is not Marked");
+          }
+        
+        }
+        else if(EditedFieldName == "Retired" && EditedUpdatedValue == "No")
+        {
+          let RetiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[6]");
+          if(RetiredValue.length == 0)
+          {
+            Log.Checkpoint("Retired is Unmarked");
+          }
+          else
+          {
+            Log.Error("Retired is not unmarked");
+          }
+        }
+    
+      }      
+    
+    }     
+    
+  }  
 }

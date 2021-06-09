@@ -20,53 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44347.8245529745"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{D50C71C6-0A6B-4140-B709-17E087D1B752}"/>
-				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
-				<Prp name="relpath" type="S" value="5_31_2021_7_47 PM_21_377\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44347.8805820949"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{22AA0F72-ECC3-4389-A160-861F971E07D5}"/>
-				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
-				<Prp name="relpath" type="S" value="5_31_2021_9_08 PM_02_293\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44347.8827103935"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{B5649820-ACD5-416C-887F-CDACD51E8E40}"/>
-				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
-				<Prp name="relpath" type="S" value="5_31_2021_9_11 PM_06_178\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44347.8840229977"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{740F369F-A485-4F22-9949-1B9395700546}"/>
-				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
-				<Prp name="relpath" type="S" value="5_31_2021_9_12 PM_59_587\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44347.8909759028"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A79DCBED-FF90-47FE-98C1-32A875FA4EC4}"/>
-				<Prp name="nameofroot" type="S" value="Decision_UAT"/>
-				<Prp name="relpath" type="S" value="5_31_2021_9_23 PM_00_318\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

@@ -81,15 +81,6 @@
 						<child name="Model_Definition_Version_Availability_Check" key="{3F404BB8-30E1-4A0E-9F12-B6FC1D3EE8BE}" path="Model_Definition_Version_Availability_Check.js" />
 						<child name="Model_Definition_ViewMappedEntities_Version" key="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}" path="Model_Definition_ViewMappedEntities_Version.js" />
 					</folder>
-					<folder name="Custom_Properties">
-						<child name="Add_Custom_Property_AllDataTypes" key="{765C643C-CE7D-425C-B395-0429C2122BF1}" path="Add_Custom_Property_AllDataTypes.js" />
-						<child name="Add_Custom_Property_Single" key="{13BD6634-1029-4D50-A028-8522DB391CBD}" path="Add_Custom_Property_Single.js" />
-						<child name="Edit_Custom_Property" key="{7CED4423-A69B-4BD8-96AA-204EB747084C}" path="Edit_Custom_Property.js" />
-						<child name="Remove_Custom_property" key="{F7FF2C27-2992-4010-A6B6-34B35F281DF4}" path="Remove_Custom_property.js" />
-						<child name="Edit_Name_Custom_Property" key="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}" path="Edit_Name_Custom_Property.js" />
-						<child name="Open_Custom_Property" key="{9349BC95-857C-4B41-A585-F12FADEB15C0}" path="Open_Custom_Property.js" />
-						<child name="Custom_Property_Availability" key="{66F2973F-70A8-422F-A2D8-2693C33AC4AE}" path="Custom_Property_Availability.js" />
-					</folder>
 					<folder name="Generic_Model_Definition">
 						<child name="Add_Model_Definition" key="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}" path="Add_Model_Definition.js" />
 						<child name="Edit_Name_Model_Definition" key="{542A16B9-213D-4AF4-ABAB-2C14E549376C}" path="Edit_Name_Model_Definition.js" />
@@ -103,14 +94,24 @@
 						<child name="Duplicate_Custom_Property_Name" key="{22ED4EE1-B0DB-4B15-9CB3-213FF48E72DE}" path="Duplicate_Custom_Property_Name.js" />
 						<child name="Model_Definition_DuplicateName_Error" key="{651D5A9D-99B4-439F-B95A-ED0425A5329B}" path="Model_Definition_DuplicateName_Error.js" />
 						<child name="Verify_MD_without_permission" key="{4BC99F4D-18BA-4876-8D7A-41C8BB6180D6}" path="Verify_MD_without_permission.js" />
+						<child name="EditProperty_WhenInUSe" key="{08C478AC-A321-4ABD-8771-1C42DCC40CBC}" path="EditProperty_WhenInUSe.js" />
 					</folder>
+					<folder name="Custom_Properties">
+						<child name="Add_Custom_Property_AllDataTypes" key="{765C643C-CE7D-425C-B395-0429C2122BF1}" path="Add_Custom_Property_AllDataTypes.js" />
+						<child name="Add_Custom_Property_Single" key="{13BD6634-1029-4D50-A028-8522DB391CBD}" path="Add_Custom_Property_Single.js" />
+						<child name="Remove_Custom_property" key="{F7FF2C27-2992-4010-A6B6-34B35F281DF4}" path="Remove_Custom_property.js" />
+						<child name="Open_Custom_Property" key="{9349BC95-857C-4B41-A585-F12FADEB15C0}" path="Open_Custom_Property.js" />
+						<child name="Custom_Property_Availability" key="{66F2973F-70A8-422F-A2D8-2693C33AC4AE}" path="Custom_Property_Availability.js" />
+						<child name="Edit_Custom_Property" key="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}" path="Edit_Custom_Property.js" />
+					</folder>
+					<child name="Test1" key="{2A24D3A9-B12E-4F46-A00B-A4A61EF6A041}" path="Test1.js" />
+					<child name="Test2" key="{DC81C0A5-7656-4BA0-A8A4-FE361EF25D3B}" path="Test2.js" />
 				</folder>
 			</folder>
 		</folder>
 		<folder name="HomePage">
 			<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
 		</folder>
-		<child name="Unit2" key="{34F4F35A-3B17-4FA1-B884-31E1B678F70C}" path="Unit2.js" />
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 		<child name="Unit1" key="{A0644362-44A9-4DD9-BFCE-567F8D9DF6D0}" path="Unit1.js" />
 	</children>

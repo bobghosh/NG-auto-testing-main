@@ -4226,6 +4226,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeTheSelectedModelDefiniti" Key="{2BBEC152-D3A5-4717-885E-62E114035174}">
+										<Image FileName="-2105260673" Left="882" Top="619" Right="1195" Bottom="638" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;The selected Model Definition has no Properties&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".no-data" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/div/dcn-fact-type-page-model-mappings/div/dcn-model-mapping-master/div/div[2]/dcn-model-mapping-custom-properties/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-model-mapping-custom-properties/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFactTypeHasNoAllowedValu" Key="{2A879719-6F27-47C1-A936-924B1C417E17}">
+										<Image FileName="2045354279" Left="934" Top="419" Right="1142" Bottom="438" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Fact Type has no allowed values&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-no-data" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/div/dcn-fact-type-page-model-mappings/div/dcn-model-mapping-master/div/div[2]/dcn-model-mapping-allowed-values/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-model-mapping-allowed-values/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -4469,6 +4505,28 @@
 														</Properties>
 													</Child>
 												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="TrayDummySearchControl" Key="{EBC0DD7B-C3BB-4CBC-8566-7E41E7C93D17}">
+										<Image FileName="762474806" Left="48" Top="0" Right="392" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TrayDummySearchControl" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btn" Key="{9A1C86D0-5F58-4ACA-97C1-180C90CBDE54}">
+												<Image FileName="762474806" Left="48" Top="0" Right="392" Bottom="40" />
+												<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Type here to search" />
+													</Property>
+												</Properties>
 											</Child>
 										</Children>
 									</Child>
@@ -4998,6 +5056,9 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+				<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
 			</Child>
 			<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
 			<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
@@ -5031,6 +5092,9 @@
 					<Child Name="MSTaskSwWClass" Owner="{293B683E-1487-4688-8D41-45640683B7A2}">
 						<Child Name="MSTaskListWClass" Owner="{4875F4D7-82C0-48FB-8DC9-9862CF15D234}" />
 					</Child>
+				</Child>
+				<Child Name="TrayDummySearchControl" Owner="{EBC0DD7B-C3BB-4CBC-8566-7E41E7C93D17}">
+					<Child Name="btn" Owner="{9A1C86D0-5F58-4ACA-97C1-180C90CBDE54}" />
 				</Child>
 			</Child>
 			<Child Name="wndTaskListThumbnailWnd" Owner="{36AD491F-49BE-44E9-8E0E-162C32125567}" />

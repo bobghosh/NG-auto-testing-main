@@ -1,7 +1,10 @@
 ﻿var Model_Definition_Availability_Check = require("Model_Definition_Availability_Check");
 var SelectingItem_SingleItem_Match_MultipleRows = require("SelectingItem_SingleItem_Match_MultipleRows");
-function Add_Model_Definition(ModelDefinitionName, Create)
+function Add_Model_Definition(Create)
 {
+  var timestamp = new Date();
+  let numberunique = Date.now();
+  let ModelDefinitionName = "MD"+timestamp.getMilliseconds().toString() + numberunique;
   
   //Checks whether the 'ObjectLabel' property of the Aliases.browser.pageSapiensDecision.buttonSendToGlossary object equals 'Add'.
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.buttonSendToGlossary, "ObjectLabel", cmpEqual, "Add");
@@ -26,5 +29,11 @@ function Add_Model_Definition(ModelDefinitionName, Create)
     Aliases.browser.pageSapiensDecision.FindElement("//*[@class='icon-fail']").Click();
     Model_Definition_Availability_Check.Model_Definition_Availability_Check(ModelDefinitionName);
   }  
+  
+  if(Create == "Yes")
+  {
+    return ModelDefinitionName;
+  }
 
 }
+module.exports.Add_Model_Definition = Add_Model_Definition;

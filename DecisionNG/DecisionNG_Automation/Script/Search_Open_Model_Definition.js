@@ -1,6 +1,8 @@
-﻿var SelectingItem_SingleItem_Match_MultipleRows = require("SelectingItem_SingleItem_Match_MultipleRows");
-function Search_Open_Model_Definition(ModelDefinitionName)
+﻿var Add_Model_Definition = require("Add_Model_Definition");
+var SelectingItem_SingleItem_Match_MultipleRows = require("SelectingItem_SingleItem_Match_MultipleRows");
+function Search_Open_Model_Definition()
 {
+  let ModelDefinitionName = Add_Model_Definition.Add_Model_Definition("Yes");
   //Sets the text 'Test12341' in the 'textbox6' text editor.
     
   Aliases.browser.pageSapiensDecision.form.form2.form4.textbox6.SetText(ModelDefinitionName);
