@@ -164,10 +164,6 @@
 															</testItem>
 														</children>
 													</testItem>
-													<testItem name="#201-" key="{278550A8-5E6D-4A1B-821B-F0DFF62D0C82}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<children />
-													</testItem>
 												</children>
 											</testItem>
 										</children>
