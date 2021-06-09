@@ -3915,11 +3915,17 @@
 												<Value Value="//custom-property-template-editor-form/form" />
 											</Selector>
 										</Selectors>
-									</Child>
+									</Child>									
 									<Child Name="button7" Key="{32DB4112-0979-49EA-A37C-88CB4AA1BF30}">
 										<Image FileName="-104781798" Left="1026" Top="578" Right="1062" Bottom="614" />
 										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
 										<Selectors>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[41]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/custom-property-template-editor-form/form/dcn-dialog/div/div[2]/div/div/fx-field[3]/div/div/span/dcn-domain-input/div/div/div/format-values-drop-down/div/div/dcn-combo-box/wj-combo-box/div/div/div/span/button" />
+											</Selector>
 											<Selector>
 												<Value Value=".valid-value-combobox-spec:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; .wj-input-group-btn:nth-child(2) &gt; [type=&apos;button&apos;]:nth-child(1)" />
 											</Selector>
@@ -4527,7 +4533,7 @@
 										<Children>
 											<Child Name="btn" Key="{9A1C86D0-5F58-4ACA-97C1-180C90CBDE54}">
 												<Image FileName="762474806" Left="48" Top="0" Right="392" Bottom="40" />
-												<TypeInfo Item0="{06AEA2CC-913C-4091-A992-C19D155D42C3}" />
+												<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="Button" />
@@ -4543,7 +4549,7 @@
 							</Child>
 							<Child Name="wndMultitaskingViewFrame" Key="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}">
 								<Image FileName="-146662946" Left="0" Top="0" Right="1360" Bottom="728" />
-								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<TypeInfo Item0="{9AB18DE6-8518-4159-88A1-9AF420A2BED3}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="MultitaskingViewFrame" />
@@ -5063,15 +5069,11 @@
 						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
 							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
 						</Child>
-					</Child>
-				</Child>
+          </Child>
 				<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
 				<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
 				<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
-			</Child>
-			<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
-			<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
-		</Child>
+			</Child>			
 		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
 			<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
 				<Child Name="TrayButton" Owner="{35F4A218-1B03-4A3F-AEE9-75EBCE8CFAE1}" />
@@ -5087,6 +5089,20 @@
 			<Child Name="wndTaskListThumbnailWnd" Owner="{36AD491F-49BE-44E9-8E0E-162C32125567}" />
 			<Child Name="wndMultitaskingViewFrame" Owner="{F7DE9785-0FD5-4334-9F5E-E46E1DE89A1A}" />
 			<Child Name="wndMultitaskingViewFrame2" Owner="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}" />
+				<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
+				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+				<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+			</Child>
+			<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
+			<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
 		</Child>
 		<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 			<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
@@ -5109,6 +5125,22 @@
 					</Child>
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
+			<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
+				<Child Name="TrayButton" Owner="{35F4A218-1B03-4A3F-AEE9-75EBCE8CFAE1}" />
+				<Child Name="ReBarWindow32" Owner="{6E6BD34E-B970-4AB6-AFF8-3F49FE733AEC}">
+					<Child Name="MSTaskSwWClass" Owner="{293B683E-1487-4688-8D41-45640683B7A2}">
+						<Child Name="MSTaskListWClass" Owner="{4875F4D7-82C0-48FB-8DC9-9862CF15D234}" />
+					</Child>
+				</Child>
+				<Child Name="TrayDummySearchControl" Owner="{EBC0DD7B-C3BB-4CBC-8566-7E41E7C93D17}">
+					<Child Name="btn" Owner="{9A1C86D0-5F58-4ACA-97C1-180C90CBDE54}" />
+				</Child>
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{36AD491F-49BE-44E9-8E0E-162C32125567}" />
+			<Child Name="wndMultitaskingViewFrame" Owner="{F7DE9785-0FD5-4334-9F5E-E46E1DE89A1A}" />
+			<Child Name="wndMultitaskingViewFrame2" Owner="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}" />
 		</Child>
 		<Child Name="WinSCP" Owner="{5626AE60-37DA-4DD6-A435-689A6B6093E1}">
 			<Child Name="wndMessageForm" Owner="{7976A11E-4C53-48F6-922F-6004A04D8504}" />

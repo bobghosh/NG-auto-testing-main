@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<folder name="Generic">
-			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
-			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
-			<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
-			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
-			<child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
-			<child name="Navigate_To_Administration" key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" path="Navigate_To_Administration.tcKDTest" />
-		</folder>
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 			</folder>
-			<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
-			<child name="Navigate_Model_Definition" key="{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" path="Navigate_Model_Definition.tcKDTest" />
-			<child name="Navigate_Administration_PermissionGroup" key="{8082AEBA-9DBF-427F-BA95-E6BD43872716}" path="Navigate_Administration_PermissionGroup.tcKDTest" />
+			<folder name="Administration_Navigations">
+				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
+				<child name="Navigate_Model_Definition" key="{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" path="Navigate_Model_Definition.tcKDTest" />
+			  <child name="Navigate_Administration_PermissionGroup" key="{8082AEBA-9DBF-427F-BA95-E6BD43872716}" path="Navigate_Administration_PermissionGroup.tcKDTest" />
+      </folder>
+			<folder name="Generic">
+				<child name="Navigate_To_Administration" key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" path="Navigate_To_Administration.tcKDTest" />
+				<child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
+				<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Modelling">
 			<folder name="Fact Type">
@@ -80,9 +79,7 @@
 				<child name="Administration_Community_AssignUser" key="{DB8EF98B-E26E-4AC4-BE2C-84F5E2D77C27}" path="Administration_Community_AssignUser.tcKDTest" />
 			</folder>
 			<folder name="Settings">
-				<folder name="Model Definition">
-					<child name="Add_New_Model_Definition" key="{F3CAE40B-0DF7-4D96-A628-FE12D05BF291}" path="Add_New_Model_Definition.tcKDTest" />
-				</folder>
+				<folder name="Model Definition" />
 			</folder>
 		</folder>
 		<folder name="Repository">
@@ -91,5 +88,10 @@
 			</folder>
 		</folder>
 		<child name="Test2" key="{CFF43A06-C0BF-41B7-941C-BE020F8FBBA0}" path="Test2.tcKDTest" />
+		<folder name="Generic">
+			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
+			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
+			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
+		</folder>
 	</children>
 </Root>
