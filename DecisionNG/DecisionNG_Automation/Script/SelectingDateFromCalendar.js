@@ -1,12 +1,17 @@
-﻿function CalendarSelection()
+﻿function CalendarSelection(flag, YearValue, MonthValue, DateValue)
 {
   
 //    let browser = Aliases.browser;
 //    let page = browser.pageSapiensDecision;
 //    let phoneInput = page.form.form2.form4;
 //    let phoneInput2 = phoneInput.textbox4;
+
+    if(flag == "Yes")
+    {
     Aliases.browser.pageSapiensDecision.form.form2.button9.textnode4.Click();
-    Log.Message("Clicked on dropdownbutton")
+    Log.Message("Clicked on dropdownbutton")    
+    }
+    
     Delay(300);
     Aliases.browser.pageSapiensDecision.textnodeMarch2021.Click();
     Delay(300);
@@ -21,7 +26,7 @@
     {
     let YearText=Aliases.browser.pageSapiensDecision.FindElement("//div[@role='option']["+i+"]").textContent
     //Log.Message(YearText)
-    if(YearText == "1992")
+    if(YearText == YearValue)
     {
       Delay(300)
      Aliases.browser.pageSapiensDecision.FindElement("//div[@role='option']["+i+"]").click();
@@ -47,7 +52,7 @@
       {
         let MonthCelltext=Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-year']//tr["+i+"]//td["+j+"]").textContent
         //Log.Message(MonthCelltext)
-        if(MonthCelltext == "Jul")
+        if(MonthCelltext == MonthValue)
         {
           Delay(300)
           Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-year']//tr["+i+"]//td["+j+"]").click();
@@ -72,11 +77,11 @@
       
       for(let j=1;j<=DateCellCount;j++)
       {
-          let DateCellText=Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-month']//tr["+i+"]//td["+j+"]").textContent;
+          let DateCellText=Aliases.browser.pageSapiensDecision.FindElement("//table[@class='wj-calendar-month']//tr["+i+"]//td["+j+"]").textContent.trim();
          // Log.Message(DateCellText)
           
         
-        if(DateCellText == "7 ")
+        if(DateCellText == DateValue)
         {
           
           if(i==2)
@@ -110,9 +115,9 @@
   
   
   }
-  Delay(300);
-  Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
-  Delay(300);
+  //Delay(300);
+ // Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+  //Delay(300);
   }
 
 module.exports.CalendarSelection = CalendarSelection;

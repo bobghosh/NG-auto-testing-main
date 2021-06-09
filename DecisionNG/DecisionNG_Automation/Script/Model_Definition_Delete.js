@@ -3,6 +3,7 @@
   
   Aliases.browser.pageSapiensDecision.form.form2.form4.textbox6.SetText(ModelDefinitionName);
   
+  var Item = ModelDefinitionName;
   var ItemCount;
   var flag = 0;
   var hasNext = true
@@ -18,7 +19,7 @@
       var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
     
       //If the Item Name matches 
-      if(HighlightedItemName.textContent == ModelDefinitionName )
+      if(HighlightedItemName.textContent == Item )
       {
           //Remove the Model Definition
           Aliases.browser.pageSapiensDecision2.FindElement("//tr[" + j +"]//*[contains(@class,'icon-close ng-star-inserted')]").Click();

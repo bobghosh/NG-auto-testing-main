@@ -25,7 +25,8 @@
          
           Aliases.browser.pageSapiensDecision2.FindElement("//tbody//tr["+i+"]//td[3]//dcn-button-menu").click();
           
-          Aliases.browser.pageSapiensDecision2.FindElement("//body//div[contains(@style,'display: block')]//ul//span[text()='View Mapped Entities']").click() 
+          Aliases.browser.pageSapiensDecision2.FindElement("//body//div[contains(@style,'display: block')]//ul//span[text()='View Mapped Entities']").click();
+          
           
           Delay(300);
           
@@ -35,5 +36,8 @@
       }      
         
     }
+    
+    
+    
   
 }
