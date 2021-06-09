@@ -1242,10 +1242,10 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[text()=&apos;March, 2021&apos;]" />
+												<Value Value="[aria-label=&apos;Month View&apos;] &gt; span:nth-child(1)" />
 											</Selector>
 											<Selector>
-												<Value Value="[aria-label=&apos;Month View&apos;] &gt; span:nth-child(1)" />
+												<Value Value="//span[text()=&apos;March, 2021&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//body[@id=&apos;body&apos;]/div[2]/div[3]/div/div/div/span" />
@@ -1346,7 +1346,7 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[text()=&apos;2021&apos;]" />
+												<Value Value="//td[text()=&apos;2021&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="[role=&apos;grid&apos;]:nth-child(3) &gt; .wj-header &gt; [role=&apos;gridcell&apos;]" />
@@ -4224,6 +4224,53 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode17" Key="{ECD312B3-C5CA-4451-ACC5-9A05DC0FFAE7}">
+										<Image FileName="-377054987" Left="10" Top="173" Right="23" Bottom="188" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-tree-toggler" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAshaCommunityVgVgf" Key="{67456C75-5405-430E-90DE-4F0DD1300B20}">
+										<Image FileName="549004528" Left="14" Top="203" Right="276" Bottom="323" />
+										<Selectors>
+											<Selector>
+												<Value Value="[role=&apos;tree&apos;] &gt; .ng-star-inserted &gt; [role=&apos;treeitem&apos;] &gt; [role=&apos;group&apos;] &gt; .ng-star-inserted:nth-child(1) &gt; [role=&apos;treeitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Asha_CommunityVGVGF&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/ul/p-treenode/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/p-treenode/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode18" Key="{B79DAB66-1DCA-4B82-95E7-7B188908C241}">
+										<Image FileName="549004528" Left="24" Top="213" Right="37" Bottom="228" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-posinset=&apos;1&apos;] &gt; .pi-caret-right" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/ul/p-treenode/li/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/p-treenode/li/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -4384,6 +4431,28 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="BrowserWindow4" Key="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}">
+								<Image FileName="-505667610" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="3" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="BrowserWindow5" Key="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}">
+								<Image FileName="-300670615" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="6" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
@@ -4471,6 +4540,18 @@
 										</Children>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="wndMultitaskingViewFrame" Key="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}">
+								<Image FileName="-146662946" Left="0" Top="0" Right="1360" Bottom="728" />
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MultitaskingViewFrame" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Task Switching" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -4860,6 +4941,10 @@
 					<Child Name="textnode12" Owner="{BC3B4234-9ED8-4AB3-A189-4170CF146C78}">
 						<Child Name="panel12" Owner="{B42E1A3F-827B-4072-B1D9-16451E6934E3}" />
 						<Child Name="linkRevert" Owner="{EBACD86D-C99D-465F-95B7-33FA20A7864D}" />
+						<Child Name="textnode17" Owner="{ECD312B3-C5CA-4451-ACC5-9A05DC0FFAE7}" />
+						<Child Name="textnodeAshaCommunityVgVgf" Owner="{67456C75-5405-430E-90DE-4F0DD1300B20}">
+							<Child Name="textnode18" Owner="{B79DAB66-1DCA-4B82-95E7-7B188908C241}" />
+						</Child>
 					</Child>
 				</Child>
 				<Child Name="textnode13" Owner="{1754348D-75B1-4DB9-BFA4-EC9EAFB96563}" />
@@ -4982,7 +5067,10 @@
 				</Child>
 				<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
 				<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+				<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
+			<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
+			<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
 		</Child>
 		<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
 			<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
@@ -4998,6 +5086,7 @@
 			</Child>
 			<Child Name="wndTaskListThumbnailWnd" Owner="{36AD491F-49BE-44E9-8E0E-162C32125567}" />
 			<Child Name="wndMultitaskingViewFrame" Owner="{F7DE9785-0FD5-4334-9F5E-E46E1DE89A1A}" />
+			<Child Name="wndMultitaskingViewFrame2" Owner="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}" />
 		</Child>
 		<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 			<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

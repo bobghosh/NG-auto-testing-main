@@ -142,34 +142,31 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="ModelMapping" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="ModelMapping" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Verify_ModelDefinition is INUSE" key="{E3D6F210-07D5-4FE1-AC04-83C4FD60C638}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="PreRequisite" key="{4DAB5FD2-DD6F-4AF1-870F-B51486930153}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="EnterMappedValues" key="{EC3F00A4-DB22-4C19-8836-7547F8409C24}" group="False" parallel="False" enabled="False" testMoniker="{84771CE3-CE64-4721-B1C7-5FA194A6D107}EnterMappedValues" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Tasks_Create_New_FactType_single" key="{8BBE1FD8-F19E-43B1-8738-0C9AF02DD345}" group="False" parallel="False" enabled="True" testMoniker="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}Tasks_Create_New_FactType_single" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="AllowedValueinput" type="3" localVarName="" varType="8" value="2-test,3-tests,4-four,5-five" />
-																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="check" key="{38D7D3F0-0CC1-4B9D-978E-A10F900B2DFF}" group="False" parallel="False" enabled="True" testMoniker="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters>
-																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="DateTime-Date Time-Range-7/Jun/2010/3:15 AM,Date-Date-Range-7/Jul/1999" />
-																</testParameters>
-																<environments testedURL="" />
-																<children />
-															</testItem>
-															<testItem name="check_2" key="{C0B23184-A64B-4C62-9877-6A093DB7BD0D}" group="False" parallel="False" enabled="True" testMoniker="{E7070C58-1D5F-4DD2-90B1-E2022F05AAAA}check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-																<testParameters>
-																	<param0 name="CP_name_DT_AV_InputValue" type="3" localVarName="" varType="8" value="Month-Month-Range-7" />
+																	<param0 name="Name" type="3" localVarName="" varType="8" value="TestCase" />
+																	<param1 name="Description" type="3" localVarName="" varType="8" value="Des" />
+																	<param2 name="ListIndicator" type="3" localVarName="" varType="8" value="Single Value" />
+																	<param3 name="Datatype" type="3" localVarName="" varType="8" value="Amount" />
+																	<param4 name="DisplayFormat" type="3" localVarName="" varType="8" value="Currency USD" />
+																	<param5 name="AllowedValue" type="3" localVarName="" varType="8" value="Any value" />
+																	<param6 name="Status" type="3" localVarName="" varType="8" value="DRAFT" />
+																	<param7 name="SetValues" type="3" localVarName="" varType="8" value="" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
 															</testItem>
 														</children>
+													</testItem>
+													<testItem name="#201-" key="{278550A8-5E6D-4A1B-821B-F0DFF62D0C82}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children />
 													</testItem>
 												</children>
 											</testItem>
