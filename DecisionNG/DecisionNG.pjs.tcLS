@@ -23,6 +23,9 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{BDEA6E49-A750-4D1A-BE09-F83F37B4624B}"/>
 			</Node>
+			<Node name="{36ab3684-ea4a-44a9-ac56-5591ce119495}">
+				<Prp name="relpath" type="S" value="TestProject\TestProject.mds.tcLS"/>
+			</Node>
 			<Node name="{bdea6e49-a750-4d1a-be09-f83f37b4624b}">
 				<Prp name="relpath" type="S" value="DecisionNG_Automation\DecisionNG_Automation.mds.tcLS"/>
 			</Node>
