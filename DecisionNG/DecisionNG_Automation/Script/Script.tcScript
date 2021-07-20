@@ -19,6 +19,7 @@
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
 			<child name="Repository_Total_FactTypes" key="{B784B666-199C-4349-950D-D20250C26AC5}" path="Repository_Total_FactTypes.js" />
 			<child name="Breadcrumb_Navigations" key="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}" path="Breadcrumb_Navigations.js" />
+			<child name="Compare__Two_Arrays_Verify" key="{ECFDEF1E-513E-4A9A-84EF-D99A811FD74C}" path="Compare__Two_Arrays_Verify.js" />
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
@@ -31,6 +32,23 @@
 			</folder>
 			<folder name="Generic">
 				<child name="Select_Community" key="{26A3DA5A-3283-4CB8-9FD0-9A86DBF25D60}" path="Select_Community.js" />
+			</folder>
+			<folder name="Community Tree">
+				<child name="Community_VG_Folder_Select" key="{CB489412-FCD0-45DB-A247-A1C981FF2543}" path="Community_VG_Folder_Select.js" />
+				<child name="Expand_Icon_Click_Verify" key="{D8B23F8F-422B-42DE-B29B-3958B0ACB602}" path="Expand_Icon_Click_Verify.js" />
+				<child name="Collapse_Icon_Click_Verify" key="{D839F8B2-B27C-479A-812E-A7154A97AC88}" path="Collapse_Icon_Click_Verify.js" />
+			</folder>
+			<folder name="Community Specific tabs">
+				<folder name="Decision">
+					<child name="Decision_Open_Verify" key="{423E9BE9-5BBE-4ADA-A393-A874B785C86E}" path="Decision_Open_Verify.js" />
+				</folder>
+				<folder name="Decision Flow">
+					<child name="Decision_Flow_Open_verify" key="{DDA2A750-E5E7-41B2-8872-4C6FFCF060F8}" path="Decision_Flow_Open_verify.js" />
+				</folder>
+				<folder name="Modeling Projects" />
+				<folder name="Release Projects" />
+				<folder name="Assets" />
+				<folder name="Knowledge Sources" />
 			</folder>
 		</folder>
 		<folder name="Modelling">
@@ -58,10 +76,31 @@
 					<child name="FTSummary_MMTab_Cust_Prop_Verify_Required" key="{29932277-2F8D-487A-951E-A67098390530}" path="FTSummary_MMTab_Cust_Prop_Verify_Required.js" />
 					<child name="FTSummary_MMTab_Cust_Prop_isrequired_Error" key="{06B8E591-C167-4DE3-9046-71BFF6477952}" path="FTSummary_MMTab_Cust_Prop_isrequired_Error.js" />
 					<child name="MMTab_Cust_Prop_Submit_isrequired_Popup" key="{C456E5DE-4E89-4A59-9BD5-C9E0DBC88B5F}" path="MMTab_Cust_Prop_Submit_isrequired_Popup.js" />
+					<child name="FactType_MMTab_Mappedvalues_Enabled" key="{BFFDD2D3-2911-4C61-A7C6-63A66184ADB2}" path="FactType_MMTab_Mappedvalues_Enabled.js" />
+					<child name="FactType_MMTab_Custom_Prop_Enabled" key="{A3CDAA92-797B-46F8-A7EC-E5937C3C5048}" path="FactType_MMTab_Custom_Prop_Enabled.js" />
+					<child name="FTSummary_MMTab_Edit_Mappedvalues" key="{B2B05110-1BB1-472C-8E97-5A7A63B3A9A4}" path="FTSummary_MMTab_Edit_Mappedvalues.js" />
+					<child name="FTSummary_MMTab_Edit_CustomProp" key="{0408505A-542F-4169-91BD-F1579C612D8C}" path="FTSummary_MMTab_Edit_CustomProp.js" />
+					<child name="FTSummary_MMTab_Get_Mappedvalues" key="{E8DD39BE-E6CD-4C93-B9CC-460A2A3FCBB2}" path="FTSummary_MMTab_Get_Mappedvalues.js" />
+					<child name="FTSummary_MMTab_Get_CustomProperty" key="{1C9218E5-4C8A-4F71-9548-A4F6D3D9A868}" path="FTSummary_MMTab_Get_CustomProperty.js" />
+					<child name="FactTypeSummary_MMTab_Revert" key="{7F2C1464-37DF-4437-A3E7-DA8C63617010}" path="FactTypeSummary_MMTab_Revert.js" />
 				</folder>
+			</folder>
+			<folder name="Rule Family">
+				<child name="Condition_ColumnHeader_Actions" key="{5AC9E90B-0341-4470-8332-48E7C0A65E6D}" path="Condition_ColumnHeader_Actions.js" />
+			</folder>
+			<folder name="Decision">
+				<child name="DRF_DBLClick_Open" key="{A8992DD3-ED1A-4E68-B880-4E8CDBFBC8CC}" path="DRF_DBLClick_Open.js" />
+			</folder>
+			<folder name="Generic">
+				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
+				<child name="DecisionScreen_Enable_Editing" key="{9B5A7441-AB8E-45D2-BBD1-80F3A061A096}" path="DecisionScreen_Enable_Editing.js" />
+				<child name="DecisionScreen_Add_Facttype" key="{6523B528-9659-48D2-9141-1EB8CB66AE11}" path="DecisionScreen_Add_Facttype.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks_Queue">
+			<folder name="Navigation_Scripts">
+				<child name="Navigate_Tasks_Subtab" key="{D25916E7-0FCE-41F0-A07F-19125F1D5090}" path="Navigate_Tasks_Subtab.js" />
+			</folder>
 			<child name="Tasks_MyTasks" key="{4E8686FE-27B3-4B65-BD31-8D0DA1D142AA}" path="Tasks_MyTasks.js" />
 		</folder>
 		<folder name="Administration">
@@ -110,15 +149,13 @@
 						<child name="Custom_Property_Availability" key="{66F2973F-70A8-422F-A2D8-2693C33AC4AE}" path="Custom_Property_Availability.js" />
 						<child name="Edit_Custom_Property" key="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}" path="Edit_Custom_Property.js" />
 					</folder>
-					<child name="Test1" key="{2A24D3A9-B12E-4F46-A00B-A4A61EF6A041}" path="Test1.js" />
-					<child name="Test2" key="{DC81C0A5-7656-4BA0-A8A4-FE361EF25D3B}" path="Test2.js" />
 				</folder>
 			</folder>
 		</folder>
 		<folder name="HomePage">
 			<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
+			<child name="CreateTask_Buttons" key="{FFEEA37A-09CF-48D4-9862-B71E5338D6E8}" path="CreateTask_Buttons.js" />
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
-		<child name="Unit1" key="{A0644362-44A9-4DD9-BFCE-567F8D9DF6D0}" path="Unit1.js" />
 	</children>
 </Root>
