@@ -19,7 +19,11 @@
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
 			<child name="Repository_Total_FactTypes" key="{B784B666-199C-4349-950D-D20250C26AC5}" path="Repository_Total_FactTypes.js" />
 			<child name="Breadcrumb_Navigations" key="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}" path="Breadcrumb_Navigations.js" />
+
 			<child name="Compare__Two_Arrays_Verify" key="{ECFDEF1E-513E-4A9A-84EF-D99A811FD74C}" path="Compare__Two_Arrays_Verify.js" />
+
+			<child name="Item_Availability" key="{F34E4C66-875E-4C80-B637-28634688662C}" path="Item_Availability.js" />
+			<child name="Count_Item" key="{12F0BAA6-8F47-4F66-B932-215034EECC80}" path="Count_Item.js" />
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
@@ -49,17 +53,25 @@
 				<folder name="Release Projects" />
 				<folder name="Assets" />
 				<folder name="Knowledge Sources" />
+
+			<folder name="Release Project">
+				<child name="ReleaseProjects_Open_Branches" key="{D3804293-8D44-459E-A727-CFA36DF824AA}" path="ReleaseProjects_Open_Branches.js" />
+				<child name="Add_New_Release_Project" key="{AC9F0ABF-04BE-4055-B723-C16CD7919511}" path="Add_New_Release_Project.js" />
+				<child name="Create_Revision_Tasks" key="{2F53384E-7BEE-408A-960C-B5393824FEBF}" path="Create_Revision_Tasks.js" />
 			</folder>
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
 				<folder name="General">
 					<child name="DetailsTab_testValues_StringMultipleInput" key="{29130691-266F-441F-9EFC-F7842440A8FB}" path="DetailsTab_testValues_StringMultipleInput.js" />
+					<child name="Facttype_Availablility_Check" key="{2B585453-BCE2-46EF-89E1-967BDC17D297}" path="Facttype_Availablility_Check.js" />
 				</folder>
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FT_Tab_FTSummary_DetailsTab_Verify.js" />
 					<child name="FactTypeTab_AddNewFactType_Verify_Single" key="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}" path="FactTypeTab_AddNewFactType_Verify_Single.js" />
+					<child name="FactTypeTab_Remove_FT_Verify" key="{2A9D6567-13CF-4F46-B4E7-434EF8EE6D82}" path="FactTypeTab_Remove_FT_Verify.js" />
+					<child name="Test" key="{ADE4238F-03E7-4C07-82EB-DA966510FE48}" path="Test.js" />
 				</folder>
 				<folder name="ModelMapping">
 					<child name="Generic_code" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="Generic_code.js" />
@@ -85,6 +97,7 @@
 					<child name="FactTypeSummary_MMTab_Revert" key="{7F2C1464-37DF-4437-A3E7-DA8C63617010}" path="FactTypeSummary_MMTab_Revert.js" />
 				</folder>
 			</folder>
+
 			<folder name="Rule Family">
 				<child name="Condition_ColumnHeader_Actions" key="{5AC9E90B-0341-4470-8332-48E7C0A65E6D}" path="Condition_ColumnHeader_Actions.js" />
 			</folder>
@@ -95,6 +108,9 @@
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
 				<child name="DecisionScreen_Enable_Editing" key="{9B5A7441-AB8E-45D2-BBD1-80F3A061A096}" path="DecisionScreen_Enable_Editing.js" />
 				<child name="DecisionScreen_Add_Facttype" key="{6523B528-9659-48D2-9141-1EB8CB66AE11}" path="DecisionScreen_Add_Facttype.js" />
+			<folder name="Decision" />
+			<folder name="General">
+				<child name="Assets_Ellipses_Options" key="{DEA5D211-7C25-4B1B-AE03-E35AA66A6FD5}" path="Assets_Ellipses_Options.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks_Queue">
@@ -116,15 +132,6 @@
 				<folder name="Model Definition">
 					<folder name="Approval_Strategy">
 						<child name="Add_Approval_Strategy" key="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}" path="Add_Approval_Strategy.js" />
-					</folder>
-					<folder name="Versions">
-						<child name="Model_Definition_Clone_Version" key="{E7344724-18B5-4061-BDF4-E491FC195F4A}" path="Model_Definition_Clone_Version.js" />
-						<child name="Model_Definition_Freeze_Version" key="{2DF10A51-D4C4-4B86-B979-67E434B46BE2}" path="Model_Definition_Freeze_Version.js" />
-						<child name="Model_Definition_Remove_Version" key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}" path="Model_Definition_Remove_Version.js" />
-						<child name="Model_Definition_Unfreeze_Version" key="{193B9F59-3BF6-437B-849D-EE3CA365592C}" path="Model_Definition_Unfreeze_Version.js" />
-						<child name="Model_Definition_Update_VersionName" key="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}" path="Model_Definition_Update_VersionName.js" />
-						<child name="Model_Definition_Version_Availability_Check" key="{3F404BB8-30E1-4A0E-9F12-B6FC1D3EE8BE}" path="Model_Definition_Version_Availability_Check.js" />
-						<child name="Model_Definition_ViewMappedEntities_Version" key="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}" path="Model_Definition_ViewMappedEntities_Version.js" />
 					</folder>
 					<folder name="Generic_Model_Definition">
 						<child name="Add_Model_Definition" key="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}" path="Add_Model_Definition.js" />
@@ -149,12 +156,39 @@
 						<child name="Custom_Property_Availability" key="{66F2973F-70A8-422F-A2D8-2693C33AC4AE}" path="Custom_Property_Availability.js" />
 						<child name="Edit_Custom_Property" key="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}" path="Edit_Custom_Property.js" />
 					</folder>
+					<folder name="Versions">
+						<child name="Model_Definition_Clone_Version" key="{E7344724-18B5-4061-BDF4-E491FC195F4A}" path="Model_Definition_Clone_Version.js" />
+						<child name="Model_Definition_Freeze_Version" key="{2DF10A51-D4C4-4B86-B979-67E434B46BE2}" path="Model_Definition_Freeze_Version.js" />
+						<child name="Model_Definition_Remove_Version" key="{EC8952C6-66B8-495A-B27C-C7459B9FA319}" path="Model_Definition_Remove_Version.js" />
+						<child name="Model_Definition_Unfreeze_Version" key="{193B9F59-3BF6-437B-849D-EE3CA365592C}" path="Model_Definition_Unfreeze_Version.js" />
+						<child name="Model_Definition_Update_VersionName" key="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}" path="Model_Definition_Update_VersionName.js" />
+						<child name="Model_Definition_Version_Availability_Check" key="{3F404BB8-30E1-4A0E-9F12-B6FC1D3EE8BE}" path="Model_Definition_Version_Availability_Check.js" />
+						<child name="Model_Definition_ViewMappedEntities_Version" key="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}" path="Model_Definition_ViewMappedEntities_Version.js" />
+					</folder>
+					<child name="Test1" key="{2A24D3A9-B12E-4F46-A00B-A4A61EF6A041}" path="Test1.js" />
+					<child name="Test2" key="{DC81C0A5-7656-4BA0-A8A4-FE361EF25D3B}" path="Test2.js" />
 				</folder>
 			</folder>
 		</folder>
 		<folder name="HomePage">
 			<child name="Create_A_New_Task" key="{5A5E9887-B20B-427B-B993-80D96FF62C90}" path="Create_A_New_Task.js" />
 			<child name="CreateTask_Buttons" key="{FFEEA37A-09CF-48D4-9862-B71E5338D6E8}" path="CreateTask_Buttons.js" />
+		</folder>
+		<folder name="Testing">
+			<folder name="Decision" />
+			<folder name="Decision Flow">
+				<folder name="Generic" />
+			</folder>
+			<folder name="Rule Family">
+				<folder name="Generic" />
+			</folder>
+			<folder name="Generic">
+				<child name="Add_New_TestGroup_Open" key="{E64F70D7-BE8D-4864-B55D-D148607840E5}" path="Add_New_TestGroup_Open.js" />
+				<child name="Open_TestGroup" key="{867B48DE-0C1D-411A-A318-C021FC0954C1}" path="Open_TestGroup.js" />
+				<child name="Generate_Test_Cases" key="{3DA3C483-6133-41EA-9CA1-319BC1BBE831}" path="Generate_Test_Cases.js" />
+				<child name="Execute_Test_Group" key="{27D55002-4969-45DB-854E-6B20BC522EE4}" path="Execute_Test_Group.js" />
+				<child name="Execute_Test_Case" key="{239C4F55-F233-4AB4-86FA-BB112DC44FB0}" path="Execute_Test_Case.js" />
+			</folder>
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 	</children>
