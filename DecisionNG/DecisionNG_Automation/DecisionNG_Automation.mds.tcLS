@@ -73,7 +73,7 @@
 					</Node>
 					<Node name="var21">
 						<Node name="value">
-							<Prp name="intvalue" type="I" value="0"/>
+							<Prp name="intvalue" type="I" value="2"/>
 						</Node>
 						<Prp name="name" type="S" value="CommonTotalCount"/>
 					</Node>

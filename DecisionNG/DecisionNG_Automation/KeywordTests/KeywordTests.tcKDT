@@ -132,7 +132,7 @@
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 		</folder>
 		<folder name="E2E">
-			<folder name="Gil&apos;s Demo">
+			<folder name="Gils Demo Trial">
 				<child name="Gil_Demo" key="{3A21741A-361D-47F2-9236-A0214277A7AD}" path="Gil_Demo.tcKDTest" />
 			</folder>
 		</folder>
