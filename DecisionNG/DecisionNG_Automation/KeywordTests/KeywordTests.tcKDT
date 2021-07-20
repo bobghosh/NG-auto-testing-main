@@ -31,13 +31,27 @@
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FT_Tab_FTSummary_DetailsTab_Verify.tcKDTest" />
 				</folder>
 				<folder name="ModelMapping">
-					<child name="ModelMapping" key="{B65886AE-F83D-4A1A-B9E1-0A86DD81D17C}" path="ModelMapping.tcKDTest" />
-					<child name="FactTypeSummary_MlM_Tab_Open" key="{6F3FCC4B-8274-4167-AAE3-F64831ECBAA1}" path="FactTypeSummary_MlM_Tab_Open.tcKDTest" />
-					<child name="FactTypeSummary_MMTab_SubmitforApproval" key="{085D238E-C15A-4CDE-94D6-C82785D91F89}" path="FactTypeSummary_MMTab_SubmitforApproval.tcKDTest" />
-					<child name="FactTypeSummary_MMTab_Revert" key="{6B0A54D3-F93D-4F9A-9247-6C47144CF34C}" path="FactTypeSummary_MMTab_Revert.tcKDTest" />
-					<child name="FactTypeSummary_MMTab_MarkForDelete" key="{6EAD6243-D25D-40B0-A4D8-5A07CE243FDA}" path="FactTypeSummary_MMTab_MarkForDelete.tcKDTest" />
-					<child name="FactTypeSummary_MMTab_UnMarkForDelete" key="{A4CD59B4-F122-48FA-A3FD-44393792E4A9}" path="FactTypeSummary_MMTab_UnMarkForDelete.tcKDTest" />
-					<child name="FactTypeSummary_MlM_Tab_FTMappedName" key="{0E3E8E15-02F3-49A9-B563-B0484EEBB1E7}" path="FactTypeSummary_MlM_Tab_FTMappedName.tcKDTest" />
+					<folder name="TestCases">
+						<child name="FT_MM_Approved_MM_Revert" key="{17CF5DDC-FFFF-4EF4-B719-A82A7EA40A70}" path="FT_MM_Approved_MM_Revert.tcKDTest" />
+						<child name="FT_MM_UnApproved_MM_Revert" key="{50609611-FE78-47C9-B4E1-16777E28534C}" path="FT_MM_UnApproved_MM_Revert.tcKDTest" />
+						<child name="FT_MM_Approved_MM_Revert_Disabled" key="{0FD66FB1-DA43-4337-B0A1-A3998E344C95}" path="FT_MM_Approved_MM_Revert_Disabled.tcKDTest" />
+						<child name="FT_MM_Add_MM_Name_MV_CP" key="{18045776-7A2A-4561-99AE-D60492A5FF91}" path="FT_MM_Add_MM_Name_MV_CP.tcKDTest" />
+						<child name="FT_MM_Edit_MM_Name_MV_CP" key="{5F619BFA-EF09-4E16-A384-58553AFC7D87}" path="FT_MM_Edit_MM_Name_MV_CP.tcKDTest" />
+						<child name="FT_MM_No_AllowedValues" key="{199DB8CA-8621-44A5-BE93-EA0939B0BADE}" path="FT_MM_No_AllowedValues.tcKDTest" />
+						<child name="FT_MM_No_CustomProperty" key="{CA4FF312-54CE-47FB-8A56-CFF316C8AF72}" path="FT_MM_No_CustomProperty.tcKDTest" />
+						<child name="FT_MM_Mandatory_CP_Blank_Submit" key="{C5117145-F4F9-478B-93FC-78A5C2A40235}" path="FT_MM_Mandatory_CP_Blank_Submit.tcKDTest" />
+					</folder>
+					<folder name="Recorded_scripts">
+						<child name="Facttype_MlM_Tab_FTMappedName_Disabled" key="{D1A4D371-797A-46C0-879A-2D7C0AA583F3}" path="Facttype_MlM_Tab_FTMappedName_Disabled.tcKDTest" />
+						<child name="FactTypeSummary_MlM_Tab_FTMappedName" key="{0E3E8E15-02F3-49A9-B563-B0484EEBB1E7}" path="FactTypeSummary_MlM_Tab_FTMappedName.tcKDTest" />
+						<child name="FactTypeSummary_MlM_Tab_Open" key="{6F3FCC4B-8274-4167-AAE3-F64831ECBAA1}" path="FactTypeSummary_MlM_Tab_Open.tcKDTest" />
+						<child name="FactTypeSummary_MMTab_Approve" key="{AF76264B-4616-45B7-A244-3BE1C72870C7}" path="FactTypeSummary_MMTab_Approve.tcKDTest" />
+						<child name="FactTypeSummary_MMTab_MarkForDelete" key="{6EAD6243-D25D-40B0-A4D8-5A07CE243FDA}" path="FactTypeSummary_MMTab_MarkForDelete.tcKDTest" />
+						<child name="FactTypeSummary_MMTab_Revert" key="{6B0A54D3-F93D-4F9A-9247-6C47144CF34C}" path="FactTypeSummary_MMTab_Revert.tcKDTest" />
+						<child name="FactTypeSummary_MMTab_SubmitforApproval" key="{085D238E-C15A-4CDE-94D6-C82785D91F89}" path="FactTypeSummary_MMTab_SubmitforApproval.tcKDTest" />
+						<child name="FactTypeSummary_MMTab_UnMarkForDelete" key="{A4CD59B4-F122-48FA-A3FD-44393792E4A9}" path="FactTypeSummary_MMTab_UnMarkForDelete.tcKDTest" />
+						<child name="ModelMapping" key="{B65886AE-F83D-4A1A-B9E1-0A86DD81D17C}" path="ModelMapping.tcKDTest" />
+					</folder>
 				</folder>
 			</folder>
 			<folder name="Decision">
@@ -46,7 +60,11 @@
 				<folder name="Test Case Specifics" />
 			</folder>
 			<folder name="Decision Flow">
-				<folder name="General" />
+				<folder name="General">
+					<child name="Decision_RightClick_Open" key="{4B371798-6003-4F18-BB2E-4DB74FB55961}" path="Decision_RightClick_Open.tcKDTest" />
+					<child name="SubFlow_DBClick_Open" key="{E62A3DCA-881D-4421-9B74-8075EBA94E43}" path="SubFlow_DBClick_Open.tcKDTest" />
+					<child name="DRF_DBClick_Open" key="{3A068115-4BB2-4FF1-9798-3D1DDF799B17}" path="DRF_DBClick_Open.tcKDTest" />
+				</folder>
 				<folder name="Pre-requisite" />
 				<folder name="Test Case Specific" />
 			</folder>
@@ -125,17 +143,29 @@
 				</folder>
 				<child name="Import_Glossary_Verification" key="{393E21B7-120B-43C6-92C2-0D7655062D45}" path="Import_Glossary_Verification.tcKDTest" />
 			</folder>
+			<folder name="Page_Navigations">
+				<child name="Navigate_Decisions_Tab" key="{02DEAC22-2641-495C-A669-03B73B106BC0}" path="Navigate_Decisions_Tab.tcKDTest" />
+				<child name="Navigate_DecisionFlows_Tab" key="{938C085D-7650-408C-83F0-372ED333ACEB}" path="Navigate_DecisionFlows_Tab.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Generic">
 			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 		</folder>
+
+		<folder name="End to End">
+			<folder name="Gills Demo">
+				<child name="Gills_Demo_E2E" key="{C842DB6E-752D-4B54-881D-EE1573642C0E}" path="Gills_Demo_E2E.tcKDTest" />
+			</folder>
+		</folder>
+
 		<folder name="E2E">
 			<folder name="Gils Demo Trial">
 				<child name="Gil_Demo" key="{3A21741A-361D-47F2-9236-A0214277A7AD}" path="Gil_Demo.tcKDTest" />
 			</folder>
 		</folder>
 		<child name="Test2" key="{CFF43A06-C0BF-41B7-941C-BE020F8FBBA0}" path="Test2.tcKDTest" />
+
 	</children>
 </Root>

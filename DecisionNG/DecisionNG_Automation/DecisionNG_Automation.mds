@@ -49,7 +49,7 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="FactTypeTab_AddNewFactType_Verify" key="{5F03F977-CA40-477E-ACF2-B0A381B10DAE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="FactTypeTab_AddNewFactType_Verify" key="{5F03F977-CA40-477E-ACF2-B0A381B10DAE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -136,6 +136,7 @@
 														<children />
 													</testItem>
 													<testItem name="Logout_3" key="{782740F0-F3C7-410E-A698-4C8C234BED8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -212,12 +213,21 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="ModelMapping" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="ModelMapping" key="{41694FB3-655B-416E-BA73-F23379614A06}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="PreRequisite" key="{4DAB5FD2-DD6F-4AF1-870F-B51486930153}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="PreRequisite" key="{4DAB5FD2-DD6F-4AF1-870F-B51486930153}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
+															<testItem name="Login_6" key="{D8CCAB84-1619-4F44-A1F8-AC1DE9D2FCEE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
+																	<param1 name="UserName" type="1" localVarName="" value="sgp" />
+																	<param2 name="Password" type="1" localVarName="" value="Decision1" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
 															<testItem name="Tasks_Create_New_FactType_single" key="{8BBE1FD8-F19E-43B1-8738-0C9AF02DD345}" group="False" parallel="False" enabled="True" testMoniker="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}Tasks_Create_New_FactType_single" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 																<testParameters>
 																	<param0 name="Name" type="3" localVarName="" varType="8" value="TestCase" />
@@ -228,6 +238,146 @@
 																	<param5 name="AllowedValue" type="3" localVarName="" varType="8" value="Any value" />
 																	<param6 name="Status" type="3" localVarName="" varType="8" value="DRAFT" />
 																	<param7 name="SetValues" type="3" localVarName="" varType="8" value="" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 01-FactType_Model Mapping_Approved Model Mapping_Revert" key="{38D90980-9994-4753-9324-4618A15C50F6}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_Approved_MM_Revert" key="{B8AC2ADA-957C-4201-921F-7CB2DB092328}" group="False" parallel="False" enabled="True" testMoniker="KDT\{17CF5DDC-FFFF-4EF4-B719-A82A7EA40A70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="Approved" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Mapped_Value" type="1" localVarName="" value="1-100,2-200" />
+																	<param3 name="Custom_Property" type="1" localVarName="" value="Amount-Amount-Any Value-200,Text-Text-Any Value-Changed" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 02-FactType_Model Mapping_UnApproved Model Mapping_Revert" key="{3A9CD8C7-B0DD-4A26-8010-E6426A6C9213}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_UnApproved_MM_Revert" key="{5A3671E7-7A2D-4310-A4E7-9A5889A51E59}" group="False" parallel="False" enabled="True" testMoniker="KDT\{50609611-FE78-47C9-B4E1-16777E28534C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="Not Approved" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Mapped_Value" type="1" localVarName="" value="1-Sumant,2-Sum" />
+																	<param3 name="Custom_Property" type="1" localVarName="" value="Numeric-Numeric-Any Value-200,Text-Text-Any Value-Textqq" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 03-FactType_Model Mapping_Approved Model Mapping_Revert_Disabled" key="{E0E98237-6110-4AA0-9B1A-2FF80C0EDB02}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="SelectModelDefinition_1_1" key="{DD13D5EE-EBD3-436B-90F2-1D7E47BD038F}" group="False" parallel="False" enabled="True" testMoniker="{C2E50C40-AE7E-4851-903A-593F422A421E}SelectModelDefinition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="3" localVarName="" varType="8" value="Approved" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinitionVersion_1_1" key="{D42D2341-7478-4CBE-B4A9-EC65A909473C}" group="False" parallel="False" enabled="True" testMoniker="{3C3AF8A7-8FA9-4696-A5C2-60E95CD21ABC}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="SelectModelDefinitionVersion_2_1_1" key="{23F999F5-F708-480D-95DB-0F81F0AC4B08}" group="False" parallel="False" enabled="True" testMoniker="{7AA3920B-509C-4843-98F2-FBB9D994E158}SelectModelDefinitionVersion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ModelDefinitionVersion" type="3" localVarName="" varType="8" value="1.0.0" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+															<testItem name="FactTypeSummary_MMTab_Revert_1_1" key="{BBB1DBE1-6E79-4116-80F4-DFA243767E53}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B0A54D3-F93D-4F9A-9247-6C47144CF34C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="Verify_Enabled" type="1" localVarName="" value="Disabled" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 04-FactType_Model Mapping_Add_ModelMappingName_Mapped Value_Custom Property" key="{6EBC4DD0-0F28-4F0C-BCB7-826AC263190F}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_Add_MM_Name_MV_CP" key="{0E56F1BF-974E-4CC1-9458-7C30AE64BD5C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{18045776-7A2A-4561-99AE-D60492A5FF91}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="Not Approved" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Mapped_Name" type="1" localVarName="" value="Mapped_Name1" />
+																	<param3 name="Mapped_Values" type="1" localVarName="" value="1-100,2-200" />
+																	<param4 name="Custom_properties" type="1" localVarName="" value="Numeric-Numeric-Any Value-1000,Text-Text-Any Value-Sumamnt" />
+																	<param5 name="MD_Version_status" type="1" localVarName="" value="Draft" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 05-FactType_Model Mapping_Edit_ModelMappingName_Mapped Value_Custom Property" key="{F80C61B3-D460-4EB6-AD27-8D76DA720DE7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_Edit_MM_Name_MV_CP" key="{7727E6CF-6B8E-4DE3-902B-F320E0ECEB5B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5F619BFA-EF09-4E16-A384-58553AFC7D87}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="Not Approved" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Mapped_Name" type="1" localVarName="" value="Mapped_Name1" />
+																	<param3 name="Mapped_Values" type="1" localVarName="" value="1-100,2-200" />
+																	<param4 name="Custom_properties" type="1" localVarName="" value="Numeric-Numeric-Any Value-1000,Text-Text-Any Value-Sumamnt" />
+																	<param5 name="MD_Version_status" type="1" localVarName="" value="Draft" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 06-FactType_Model Mapping_MappedValue_No_AlowedValues" key="{E28CDA63-CB04-4BBE-BD6E-0E154A57643A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_No_AllowedValues" key="{558DB8B0-6C52-4DD9-BF69-214169DD5BF0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{199DB8CA-8621-44A5-BE93-EA0939B0BADE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="No MV_CP" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Verify_NoValues" type="1" localVarName="" value="No" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 07-FactType_Model Mapping_MappedValue_No_CustompropertyValues" key="{F6A1135B-E351-415C-9B3A-7432BA91CA5F}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_No_CustomProperty" key="{661123EE-28B7-45D7-9BD8-702AA1A4D278}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CA4FF312-54CE-47FB-8A56-CFF316C8AF72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="No MV_CP" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Verify_NoValues" type="1" localVarName="" value="No" />
+																</testParameters>
+																<environments testedURL="" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test Id : 08-FactType_Model Mapping_Mandatory_Customproperty_Blank_SubmitforApproval" key="{6B83C931-77C7-48F5-B247-7C363AD4E96A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="FT_MM_Mandatory_CP_Blank_Submit" key="{A892AF43-7842-41F9-ABCE-A1F40CD0E831}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C5117145-F4F9-478B-93FC-78A5C2A40235}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="ModelDefinition" type="1" localVarName="" value="Added" />
+																	<param1 name="ModelDefinition_Version" type="1" localVarName="" value="1.0.0" />
+																	<param2 name="Mapped_Name" type="1" localVarName="" value="Mapped_Name1" />
+																	<param3 name="MD_Version_status" type="1" localVarName="" value="Draft" />
 																</testParameters>
 																<environments testedURL="" />
 																<children />
@@ -261,7 +411,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="False">
@@ -278,12 +428,12 @@
 										<environments testedURL="" />
 										<children />
 									</testItem>
-									<testItem name="SelectingItemGetData" key="{5A79A434-E44D-4CB1-A275-7A8841FE1F1B}" group="False" parallel="False" enabled="True" testMoniker="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}SelectingItemGetData" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="SelectingItemGetData" key="{5A79A434-E44D-4CB1-A275-7A8841FE1F1B}" group="False" parallel="False" enabled="True" testMoniker="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}SelectingItemGetData" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 										<testParameters />
 										<environments testedURL="" />
 										<children />
 									</testItem>
-									<testItem name="Navigate_Administration_Roles" key="{B7BE1F9E-0D65-4A14-B75D-E9263E5ED949}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Navigate_Administration_Roles" key="{B7BE1F9E-0D65-4A14-B75D-E9263E5ED949}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 										<testParameters />
 										<environments testedURL="" />
 										<children />
@@ -293,7 +443,7 @@
 										<environments testedURL="" />
 										<children />
 									</testItem>
-									<testItem name="Logout_2" key="{7F2ED4CA-8B98-4830-BC10-E3E1FC676746}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Logout_2" key="{7F2ED4CA-8B98-4830-BC10-E3E1FC676746}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 										<testParameters />
 										<environments testedURL="" />
 										<children />
@@ -318,12 +468,13 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
+
 													<testItem name="Navigate_To_Repository" key="{9838047F-9685-4C17-9873-29082504A192}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
 													</testItem>
-													<testItem name="Import_Glossary_Verification" key="{FB11394E-F2A6-4BE0-855D-A91902E8E45A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{393E21B7-120B-43C6-92C2-0D7655062D45}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Import_Glossary_Verification" key="{FB11394E-F2A6-4BE0-855D-A91902E8E45A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{393E21B7-120B-43C6-92C2-0D7655062D45}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -399,17 +550,18 @@
 													<testItem name="TC3_Rename_ModelDefinition_Verify" key="{C7780040-5720-4E8C-9555-40D3EB9494C0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="Search_Open_Model_Definition" key="{DF280C24-34E9-457C-A276-92BB12CAD24E}" group="False" parallel="False" enabled="True" testMoniker="{2D38663A-88BE-490F-A32E-5C99B31A845D}Search_Open_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Search_Open_Model_Definition" key="{DF280C24-34E9-457C-A276-92BB12CAD24E}" group="False" parallel="False" enabled="True" testMoniker="{2D38663A-88BE-490F-A32E-5C99B31A845D}Search_Open_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 																<testParameters />
 																<environments testedURL="" />
 																<children />
 															</testItem>
+
 															<testItem name="Edit_Name_Model_Definition" key="{81991EE3-0B6F-4448-B197-52AAE2D8BD76}" group="False" parallel="False" enabled="True" testMoniker="{542A16B9-213D-4AF4-ABAB-2C14E549376C}Edit_Name_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters />
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="Breadcrumb" key="{34FD09A6-7213-46C2-A1BF-356FF66BA200}" group="False" parallel="False" enabled="True" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Breadcrumb" key="{34FD09A6-7213-46C2-A1BF-356FF66BA200}" group="False" parallel="False" enabled="True" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 																<testParameters>
 																	<param0 name="BreadcrumbName" type="3" localVarName="" varType="8" value="Model Definition" />
 																</testParameters>
@@ -431,7 +583,7 @@
 																<environments testedURL="" />
 																<children />
 															</testItem>
-															<testItem name="Model_Definition_Clone_Version" key="{5FC87B43-E945-4685-BCA3-23A30AFD532E}" group="False" parallel="False" enabled="True" testMoniker="{E7344724-18B5-4061-BDF4-E491FC195F4A}Model_Definition_Clone_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Model_Definition_Clone_Version" key="{5FC87B43-E945-4685-BCA3-23A30AFD532E}" group="False" parallel="False" enabled="True" testMoniker="{E7344724-18B5-4061-BDF4-E491FC195F4A}Model_Definition_Clone_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 																<testParameters>
 																	<param0 name="Version" type="3" localVarName="" varType="8" value="1.0.0" />
 																</testParameters>
@@ -443,7 +595,7 @@
 													<testItem name="TC5_ModelDefinition_Rename_Cloned_Version&#13;&#10;" key="{B1C31E59-E295-40E4-B28D-819082246C53}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="Model_Definition_Update_VersionName" key="{1E6D36F3-6D8C-4AC6-88BE-8E3C4BA6AC8C}" group="False" parallel="False" enabled="True" testMoniker="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}Model_Definition_Update_VersionName" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Model_Definition_Update_VersionName" key="{1E6D36F3-6D8C-4AC6-88BE-8E3C4BA6AC8C}" group="False" parallel="False" enabled="True" testMoniker="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}Model_Definition_Update_VersionName" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 																<testParameters>
 																	<param0 name="EditVersionName" type="3" localVarName="" varType="8" value="1.0.0" />
 																	<param1 name="NewVersion" type="3" localVarName="" varType="8" value="VarshaVersion" />
@@ -980,11 +1132,25 @@
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="MDCustomProperty$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+
+				<Variable Name="MM_AllowedValues" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="MM_AllowedValues_AfterEdit" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="MM_CustomProperty_BeforeEdit" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="MM_CustomProperty_AfterEdit" Type="String" Local="True">
+					<DefValue />
+
 				<Variable Name="CommonModelDefinitionName" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 				<Variable Name="CommonTotalCount" Type="Integer" Local="True">
 					<DefValue IntValue="0" />
+
 				</Variable>
 			</Items>
 		</data>
