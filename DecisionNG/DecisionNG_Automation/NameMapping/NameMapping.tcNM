@@ -4870,6 +4870,217 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkDecisions" Key="{C10B05A8-C178-4DCB-B727-66B406C64A96}">
+										<Image FileName="-1168729683" Left="550" Top="201" Right="608" Bottom="235" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-1-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Decisions&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-1-label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-3&apos;]/dcn-repository-asset-tab/dcn-tab-view/p-tabview/div/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-repository-asset-tab/dcn-tab-view/p-tabview/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDecisions" Key="{A875BECE-AA1E-455F-A793-BCAE12F045D7}">
+										<Image FileName="-1168729683" Left="550" Top="210" Right="608" Bottom="228" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Decisions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ui-tabpanel-1-label &gt; .ui-tabview-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-1-label&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-repository-asset-tab/dcn-tab-view/p-tabview/div/ul/li[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFederalHousingAdministra" Key="{0066A608-3A27-429B-831C-26349C69907A}">
+										<Image FileName="221942114" Left="14" Top="243" Right="405" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted:nth-child(2) &gt; [role=&apos;treeitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Federal Housing Administration&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/ul/p-treenode[2]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-treenode[2]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode19_new" Key="{89AC5CCF-17B9-4FD7-9670-45A2496622AF}">
+										<Image FileName="221942114" Left="0" Top="245" Right="405" Bottom="285" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-posinset=&apos;2&apos;] .tree-node-item" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/ul/p-treenode[2]/li/div/span[2]/span/span[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-treenode[2]/li/div/span[2]/span/span[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSumant" Key="{6E29B9A7-5159-4735-90B5-54A1064E5B5E}">
+										<Image FileName="-433220290" Left="14" Top="323" Right="405" Bottom="363" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted:nth-child(4) &gt; [role=&apos;treeitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Sumant&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/ul/p-treenode[4]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-treenode[4]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSumant2" Key="{258B261D-7313-4956-AC70-399CA7485602}">
+										<Image FileName="-433220290" Left="75" Top="334" Right="126" Bottom="353" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Sumant&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-posinset=&apos;4&apos;]:nth-child(1) &gt; .ui-treenode-label:nth-child(2) &gt; .ng-star-inserted:nth-child(1) &gt; .ng-star-inserted:nth-child(3) &gt; .u-flex-container:nth-child(1) &gt; .tree-node-item__name:nth-child(1) &gt; span:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-view-group-repository/dcn-community-tree-preview/div/dcn-community-tree/dcn-tree/p-tree/div/ul/p-treenode/li/ul/p-treenode[4]/li/div/span[2]/span/div/div/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-treenode[4]/li/div/span[2]/span/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDecisionFlows" Key="{7E67DBD4-D255-4684-B098-8B7BDBD5E76D}">
+										<Image FileName="1334556995" Left="429" Top="201" Right="518" Bottom="235" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-5-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Decision Flows&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-5-label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-2&apos;]/dcn-repository-asset-tab/dcn-tab-view/p-tabview/div/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-repository-asset-tab/dcn-tab-view/p-tabview/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDecisionFlows" Key="{87F4BE2D-157C-4E45-B827-5C005043D281}">
+										<Image FileName="1334556995" Left="429" Top="210" Right="518" Bottom="228" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Decision Flows&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ui-tabpanel-5-label &gt; .ui-tabview-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-5-label&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-repository-asset-tab/dcn-tab-view/p-tabview/div/ul/li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas" Key="{24DBB64E-F78B-4C16-9360-12C9CD9B237F}">
+										<Image FileName="1627205208" Left="59" Top="276" Right="1323" Bottom="735" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;godiagram&apos;]/canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//canvas[contains(.,&apos;This text is displayed if your browser does not support the Canvas HTML element.&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHomeTasks550RepositoryRe" Key="{0E828C6B-4440-41B5-8806-888FB5BD842D}">
+										<Image FileName="192646984" Left="0" Top="103" Right="1366" Bottom="728" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#body" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form6_new" Key="{6483144C-0822-43A5-8181-FBB44FE17674}">
+										<Image FileName="2137727051" Left="0" Top="103" Right="0" Bottom="103" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Create a New Task&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .ng-dirty" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-create-task-dialog/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-create-task-dialog/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel21_new" Key="{1CEDDBDC-1EDD-46CA-B856-EAB411EB79CC}">
+										<Image FileName="2137727051" Left="292" Top="609" Right="339" Bottom="656" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".spinner__spin-element--medium" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-create-task-dialog/form/dcn-dialog/div/div[3]/div/dcn-spinner/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-spinner/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -5052,6 +5263,60 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageProductManagementPatAutomati" Key="{41907C12-5315-4B55-A003-B5EBB038667D}">
+								<Image FileName="842031172" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sapiens365.sharepoint.com.mcas.ms/teams/Sapiens_Decision/productmanagement/Documents/Forms/AllItems.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkProductmanagement" Key="{ECB5ADEB-F43E-42EC-91E1-8D8C4CBBF915}">
+										<Image FileName="1470195821" Left="80" Top="175" Right="180" Bottom="236" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;teams/Sapiens_Decision&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="a[aria-label=&apos;Product Management home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Product Management home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;appRoot&apos;]/div/div[2]/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;teams/Sapiens_Decision&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageGetsitelogoType1Mcasctx1" Key="{8E2C244C-F134-46F5-A2B4-E6BD902E7530}">
+										<Image FileName="1470195821" Left="80" Top="175" Right="180" Bottom="236" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-label=&apos;Product Management home&apos;] &gt; [aria-hidden=&apos;true&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;appRoot&apos;]/div/div[2]/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;teams/Sapiens_Decision&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
@@ -5149,6 +5414,15 @@
 									</Property>
 									<Property Name="WndCaption">
 										<Value Value="Task Switching" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd" Key="{7E4AA41A-38B4-496D-95C4-4E00D7EA816E}">
+								<Image FileName="-702856767" Left="0" Top="0" Right="1366" Bottom="210" />
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
 									</Property>
 								</Properties>
 							</Child>
@@ -5328,6 +5602,26 @@
 										</Children>
 									</Child>
 								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{10F01863-94E5-4434-975D-013FA6AB4BEE}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCalculator" Key="{102974BB-416B-48C1-BD88-E98A7B2121E4}">
+								<Image FileName="-585074194" Left="0" Top="0" Right="336" Bottom="509" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Calculator" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -5545,6 +5839,12 @@
 						<Child Name="textnodeAshaCommunityVgVgf" Owner="{67456C75-5405-430E-90DE-4F0DD1300B20}">
 							<Child Name="textnode18" Owner="{B79DAB66-1DCA-4B82-95E7-7B188908C241}" />
 						</Child>
+						<Child Name="textnodeFederalHousingAdministra" Owner="{0066A608-3A27-429B-831C-26349C69907A}">
+							<Child Name="textnode19" Owner="{89AC5CCF-17B9-4FD7-9670-45A2496622AF}" />
+						</Child>
+						<Child Name="textnodeSumant" Owner="{6E29B9A7-5159-4735-90B5-54A1064E5B5E}">
+							<Child Name="textnodeSumant2" Owner="{258B261D-7313-4956-AC70-399CA7485602}" />
+						</Child>
 					</Child>
 				</Child>
 				<Child Name="textnode13" Owner="{1754348D-75B1-4DB9-BFA4-EC9EAFB96563}" />
@@ -5566,6 +5866,12 @@
 				<Child Name="textnode14" Owner="{AEC0C727-B7D6-499E-A93B-E5EC315DC207}">
 					<Child Name="linkSubmitForApproval" Owner="{445F739D-F511-4A59-8B37-D62CB031DCAA}">
 						<Child Name="textnodeSubmitForApproval" Owner="{5ACEE6C0-6348-4A64-BF92-F2B1FCA2ADDB}" />
+						<Child Name="linkDecisions" Owner="{C10B05A8-C178-4DCB-B727-66B406C64A96}">
+							<Child Name="textnodeDecisions" Owner="{A875BECE-AA1E-455F-A793-BCAE12F045D7}" />
+						</Child>
+						<Child Name="linkDecisionFlows" Owner="{7E67DBD4-D255-4684-B098-8B7BDBD5E76D}">
+							<Child Name="textnodeDecisionFlows" Owner="{87F4BE2D-157C-4E45-B827-5C005043D281}" />
+						</Child>
 					</Child>
 				</Child>
 				<Child Name="linkRevert" Owner="{A8E215C5-BB13-45AE-94E4-456335465816}" />
@@ -5700,6 +6006,7 @@
 					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
 					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+					<Child Name="wndTaskListThumbnailWnd2" Owner="{7E4AA41A-38B4-496D-95C4-4E00D7EA816E}" />
 				</Child>
 				<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
 				<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
@@ -5736,6 +6043,12 @@
 				<Child Name="textnodeBranches" Owner="{A8125558-5C5C-496C-8115-D1FDB1DE62C5}" />
 				<Child Name="panel27" Owner="{1C0DB3AA-96CD-4F57-8883-0D5E9922E261}" />
 				<Child Name="textnodeRevision" Owner="{6A8B3D8F-F87B-4BF6-A095-CD44934362E5}" />
+				<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="canvas" Owner="{24DBB64E-F78B-4C16-9360-12C9CD9B237F}" />
+				<Child Name="textnodeHomeTasks550RepositoryRe" Owner="{0E828C6B-4440-41B5-8806-888FB5BD842D}" />
+				<Child Name="form6_new" Owner="{6483144C-0822-43A5-8181-FBB44FE17674}">
+					<Child Name="panel21" Owner="{1CEDDBDC-1EDD-46CA-B856-EAB411EB79CC}" />
+				</Child>
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
@@ -5779,6 +6092,14 @@
 				<Child Name="wndMessageForm" Owner="{7976A11E-4C53-48F6-922F-6004A04D8504}" />
 				<Child Name="wndWinSCP" Owner="{77072565-BD8A-4219-919D-145C4C64B4B6}" />
 			</Child>
+			<Child Name="pageProductManagementPatAutomati" Owner="{41907C12-5315-4B55-A003-B5EBB038667D}">
+				<Child Name="linkProductmanagement" Owner="{ECB5ADEB-F43E-42EC-91E1-8D8C4CBBF915}">
+					<Child Name="imageGetsitelogoType1Mcasctx1" Owner="{8E2C244C-F134-46F5-A2B4-E6BD902E7530}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{10F01863-94E5-4434-975D-013FA6AB4BEE}">
+			<Child Name="wndCalculator" Owner="{102974BB-416B-48C1-BD88-E98A7B2121E4}" />
 		</Child>
 	</LogicalNodes>
 </Root>
