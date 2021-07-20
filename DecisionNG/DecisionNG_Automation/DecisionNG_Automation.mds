@@ -136,7 +136,6 @@
 														<children />
 													</testItem>
 													<testItem name="Logout_3" key="{782740F0-F3C7-410E-A698-4C8C234BED8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -468,7 +467,6 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-
 													<testItem name="Navigate_To_Repository" key="{9838047F-9685-4C17-9873-29082504A192}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
 														<testParameters />
 														<environments testedURL="" />
@@ -555,7 +553,6 @@
 																<environments testedURL="" />
 																<children />
 															</testItem>
-
 															<testItem name="Edit_Name_Model_Definition" key="{81991EE3-0B6F-4448-B197-52AAE2D8BD76}" group="False" parallel="False" enabled="True" testMoniker="{542A16B9-213D-4AF4-ABAB-2C14E549376C}Edit_Name_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters />
 																<environments testedURL="" />
@@ -1132,7 +1129,6 @@
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="MDCustomProperty$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
-
 				<Variable Name="MM_AllowedValues" Type="String" Local="True">
 					<DefValue />
 				</Variable>
@@ -1144,19 +1140,12 @@
 				</Variable>
 				<Variable Name="MM_CustomProperty_AfterEdit" Type="String" Local="True">
 					<DefValue />
-
-				<Variable Name="CommonModelDefinitionName" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="CommonTotalCount" Type="Integer" Local="True">
-					<DefValue IntValue="0" />
-
 				</Variable>
 			</Items>
 		</data>
 	</variables>
-	<settings key="{F4983693-F5DE-48D9-B22B-4E71A0EFF9A4}">
-		<settingsVersion value="14.81" />
+	<settings key="{31A0A1E3-34B2-45EE-B780-D73186AB62A9}">
+		<settingsVersion value="14.80" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -1232,7 +1221,7 @@
 			</data>
 		</setting>
 		<setting name="General_ProjectLogLocation" type="5" value="Log" />
-		<setting name="General_UnitsEncoding" type="6" rowIndex="0" colIndex="0">
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -1308,9 +1297,9 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="NativeChromeObject" />
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
+				<row val0="NativeChromeObject" />
 				<row val0="NativeWebDriverObject" />
 				<row val0="NativeFirefoxObject" />
 				<row val0="NativeMSAA" />
@@ -1486,7 +1475,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -1539,7 +1528,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
@@ -1620,16 +1609,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{ECC855F0-19D7-4B75-8B31-A21EA3D05E96}" />
+	<analysis key="{856D0138-255B-4BDB-A020-CB72E4FBF5D3}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{A0F14196-021B-4451-A18C-E304F0DB389F}">
+	<issueTracking key="{74299C1F-2607-45C4-B282-C5737B3295E8}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{905AE078-D434-40D4-8BBF-13D95A3F7360}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{A78BFC92-76D2-4A60-B96B-382DB239A2EE}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{E27C521C-D42A-48D8-9013-62BF00480B79}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{7C62A4BD-EFAA-40A6-9C46-FEE99D9E7F29}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>

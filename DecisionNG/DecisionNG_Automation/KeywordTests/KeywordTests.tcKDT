@@ -153,19 +153,15 @@
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 		</folder>
-
 		<folder name="End to End">
 			<folder name="Gills Demo">
 				<child name="Gills_Demo_E2E" key="{C842DB6E-752D-4B54-881D-EE1573642C0E}" path="Gills_Demo_E2E.tcKDTest" />
 			</folder>
 		</folder>
-
 		<folder name="E2E">
 			<folder name="Gils Demo Trial">
 				<child name="Gil_Demo" key="{3A21741A-361D-47F2-9236-A0214277A7AD}" path="Gil_Demo.tcKDTest" />
 			</folder>
 		</folder>
-		<child name="Test2" key="{CFF43A06-C0BF-41B7-941C-BE020F8FBBA0}" path="Test2.tcKDTest" />
-
 	</children>
 </Root>
