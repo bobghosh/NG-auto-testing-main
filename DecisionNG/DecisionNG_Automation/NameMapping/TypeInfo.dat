@@ -3535,15 +3535,6 @@
 	<Child Hash="0" Key="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}">
 		<Data Properties="A7153BA312F29F4C92EC5C2A3096EA29UFFFFFFFFFFFFFFFFV4ZZZL" />
 	</Child>
-	<Child Hash="1098928521" Key="{06AEA2CC-913C-4091-A992-C19D155D42C3}">
-		<Data Properties="F8F8781665083D43941CE0FC9E125F1EUFFFFFFFFFFFFFFFFV4LAZZY">
-			<FunctionDescriptions>
-				<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
-          <ReturnValue Param0="3" />
-				</Child>
-			</FunctionDescriptions>
-		</Data>
-	</Child>
 	<Child Hash="631633770" Key="{9AB18DE6-8518-4159-88A1-9AF420A2BED3}">
 		<Data Properties="326F666FFE522F48AF55D0F61F9568D7UFFFFFFFFFFFFFFFFV4LFZZY">
 			<FunctionDescriptions>
