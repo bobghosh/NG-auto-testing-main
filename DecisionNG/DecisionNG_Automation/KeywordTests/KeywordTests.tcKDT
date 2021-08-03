@@ -17,6 +17,19 @@
 			</folder>
 			<folder name="Tasks_Menu_Navigatios" />
 			<folder name="Repository Navigation">
+				<folder name="Release Projects Navigations">
+					<folder name="Release Project">
+						<child name="Navigate_to_Branches" key="{D8CAC8B4-360A-479C-8F10-87F41CAC8C0E}" path="Navigate_to_Branches.tcKDTest" />
+						<child name="Navigate_to_RevisionTasks" key="{C79B14B2-EDE7-4D07-8E30-2E011151ACF8}" path="Navigate_to_RevisionTasks.tcKDTest" />
+						<child name="Navigate_to_ProjectDetails" key="{8B547BAD-D6BA-4E58-975C-F2124044CC29}" path="Navigate_to_ProjectDetails.tcKDTest" />
+					</folder>
+					<folder name="Revision">
+						<child name="Navigate_to_RevisionDetails" key="{D841D36A-3714-4186-AC74-B458010A06FB}" path="Navigate_to_RevisionDetails.tcKDTest" />
+						<child name="Navigate_to_Assets" key="{F598D90A-1AEC-4066-A906-CD676687A579}" path="Navigate_to_Assets.tcKDTest" />
+						<child name="Navigate_to_DeploymentHistory" key="{9BBDF773-842E-4465-B28D-F17ECD984334}" path="Navigate_to_DeploymentHistory.tcKDTest" />
+						<child name="Navigate_to_MappedEntities" key="{1C134533-84EB-4D8D-A757-9CBD00E73F6A}" path="Navigate_to_MappedEntities.tcKDTest" />
+					</folder>
+				</folder>
 				<child name="Navigate_to_Release_Project" key="{1EFDC7DD-A76A-4EA2-A6C4-B5892E490157}" path="Navigate_to_Release_Project.tcKDTest" />
 			</folder>
 		</folder>
@@ -69,7 +82,9 @@
 				<folder name="Test Case Specific" />
 			</folder>
 			<folder name="Rule Family">
-				<folder name="General" />
+				<folder name="General">
+					<child name="Insert_Column_From_Conclusion_Column" key="{0C696659-7C1E-46A8-8A9A-39AB399F6924}" path="Insert_Column_From_Conclusion_Column.tcKDTest" />
+				</folder>
 				<folder name="Test Case Specific" />
 				<folder name="Pre-requisite" />
 			</folder>
@@ -153,19 +168,16 @@
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 		</folder>
-
 		<folder name="End to End">
 			<folder name="Gills Demo">
 				<child name="Gills_Demo_E2E" key="{C842DB6E-752D-4B54-881D-EE1573642C0E}" path="Gills_Demo_E2E.tcKDTest" />
 			</folder>
 		</folder>
-
 		<folder name="E2E">
 			<folder name="Gils Demo Trial">
 				<child name="Gil_Demo" key="{3A21741A-361D-47F2-9236-A0214277A7AD}" path="Gil_Demo.tcKDTest" />
+				<child name="send_for_approval" key="{2D999FCF-3E69-471C-8F64-76D37713925F}" path="send_for_approval.tcKDTest" />
 			</folder>
 		</folder>
-		<child name="Test2" key="{CFF43A06-C0BF-41B7-941C-BE020F8FBBA0}" path="Test2.tcKDTest" />
-
 	</children>
 </Root>

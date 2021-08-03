@@ -37,6 +37,14 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{19D49D7D-E1B4-4986-9252-E04D3D66ABDE}">
+				<Data Description="Returns whether the search area contains this image." Action="Exists" ImageSet="ImageSet1" Image="Pagination">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="SearchArea" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="" />
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{0E451694-AC88-4824-825C-024A3C84A0CF}">

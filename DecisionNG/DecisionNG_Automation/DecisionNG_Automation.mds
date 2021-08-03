@@ -6,6 +6,7 @@
 		<child name="NameMapping" key="{F1A901A7-947A-42C3-87E2-A545D5352026}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Events" key="{D7D5605F-EBD7-4135-91C8-BA6B7A736BE7}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="TestedApps" key="{2B947B66-CE45-4A21-BCEA-C4F38CBC8950}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="ImageRepository" key="{7346BE50-6481-434F-95AF-240C622EA60D}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{87F182F7-AA82-47A5-A515-B46EB955171A}" version="14">
@@ -136,7 +137,6 @@
 														<children />
 													</testItem>
 													<testItem name="Logout_3" key="{782740F0-F3C7-410E-A698-4C8C234BED8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-
 														<testParameters />
 														<environments testedURL="" />
 														<children />
@@ -468,7 +468,6 @@
 														<environments testedURL="" />
 														<children />
 													</testItem>
-
 													<testItem name="Navigate_To_Repository" key="{9838047F-9685-4C17-9873-29082504A192}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
 														<testParameters />
 														<environments testedURL="" />
@@ -555,7 +554,6 @@
 																<environments testedURL="" />
 																<children />
 															</testItem>
-
 															<testItem name="Edit_Name_Model_Definition" key="{81991EE3-0B6F-4448-B197-52AAE2D8BD76}" group="False" parallel="False" enabled="True" testMoniker="{542A16B9-213D-4AF4-ABAB-2C14E549376C}Edit_Name_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters />
 																<environments testedURL="" />
@@ -1132,7 +1130,6 @@
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="MDCustomProperty$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
-
 				<Variable Name="MM_AllowedValues" Type="String" Local="True">
 					<DefValue />
 				</Variable>
@@ -1144,18 +1141,11 @@
 				</Variable>
 				<Variable Name="MM_CustomProperty_AfterEdit" Type="String" Local="True">
 					<DefValue />
-
-				<Variable Name="CommonModelDefinitionName" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="CommonTotalCount" Type="Integer" Local="True">
-					<DefValue IntValue="0" />
-
 				</Variable>
 			</Items>
 		</data>
 	</variables>
-	<settings key="{F4983693-F5DE-48D9-B22B-4E71A0EFF9A4}">
+	<settings key="{02A77E4B-D105-4DE1-91B8-F09122987DDF}">
 		<settingsVersion value="14.81" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -1232,7 +1222,7 @@
 			</data>
 		</setting>
 		<setting name="General_ProjectLogLocation" type="5" value="Log" />
-		<setting name="General_UnitsEncoding" type="6" rowIndex="0" colIndex="0">
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -1308,9 +1298,9 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="NativeChromeObject" />
 				<row val0="NativeSlObject" />
 				<row val0="NativeWebObject" />
+				<row val0="NativeChromeObject" />
 				<row val0="NativeWebDriverObject" />
 				<row val0="NativeFirefoxObject" />
 				<row val0="NativeMSAA" />
@@ -1620,11 +1610,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{ECC855F0-19D7-4B75-8B31-A21EA3D05E96}" />
+	<analysis key="{6D0BEC0C-C36E-45C4-8092-250FBA24E385}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{A0F14196-021B-4451-A18C-E304F0DB389F}">
+	<issueTracking key="{A8F9574A-811E-4ABC-8EFF-BDF788FEAFA3}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>

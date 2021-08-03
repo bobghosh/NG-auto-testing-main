@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{C6C54E80-E74A-4C78-8BAA-C8248559B6CE}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="ImageSet1" />
+	<testData />
+	<data>
+		<item caption="Pagination" moniker="{D2F08A04-2E06-49DC-954D-566DC50331F8}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Pagination.png" initialHash="00000000" selectionLeft="534" selectionTop="576" selectionWidth="525" selectionHeight="31" initialLeft="534" initialTop="576" initialWidth="525" initialHeight="31" pixelTolerance="0" colorTolerance="0" deviceName="Pagination Availability" />
+		</item>
+	</data>
+</Root>
