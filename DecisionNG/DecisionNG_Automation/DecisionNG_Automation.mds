@@ -10,7 +10,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{87F182F7-AA82-47A5-A515-B46EB955171A}" version="14">
 		<children>
-			<testItem name="Decision_UAT" key="{256D4802-2F49-4A9E-B2EA-33F28FE08796}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Decision_UAT" key="{256D4802-2F49-4A9E-B2EA-33F28FE08796}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -1016,10 +1016,10 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="End To End&apos;s" key="{DDC67135-545C-4CE9-BD66-3A824DB77145}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="End To End&apos;s" key="{DDC67135-545C-4CE9-BD66-3A824DB77145}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Gill&apos;s Demo" key="{830ABE92-A4C6-4A41-BF77-E87D6040FB1D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Gill&apos;s Demo" key="{830ABE92-A4C6-4A41-BF77-E87D6040FB1D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login_8" key="{C70017C0-B643-4E37-9C08-560E12356E34}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -1096,9 +1096,9 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="RF_Enable_Editing" key="{E72C0C36-002D-46CB-8F42-60F573175CC6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B3BCC17D-40EB-43C2-A7CB-3818C5A66C25}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="RF_Enable_Editing" key="{E72C0C36-002D-46CB-8F42-60F573175CC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B3BCC17D-40EB-43C2-A7CB-3818C5A66C25}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="RF_Name" type="1" localVarName="" value="/Insured Major Ownership Change/" />
+											<param0 name="RF_Name" type="1" localVarName="" value="Insured Major Ownership Change" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1118,7 +1118,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="MM_Add_FT_Mapped_Name_Value" key="{E2107520-61DC-4829-A0CD-C6DF296D8C4C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EFA0370E-1C50-469C-A9C6-2178AB19D6A2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="MM_Add_FT_Mapped_Name_Value" key="{E2107520-61DC-4829-A0CD-C6DF296D8C4C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EFA0370E-1C50-469C-A9C6-2178AB19D6A2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 										<testParameters>
 											<param0 name="Edit_FactType" type="1" localVarName="" value="Flood Zoning Change" />
 											<param1 name="Model_Definition" type="1" localVarName="" value="FHA" />
