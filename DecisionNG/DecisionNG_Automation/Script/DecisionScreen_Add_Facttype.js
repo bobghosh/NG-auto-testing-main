@@ -1,4 +1,4 @@
-﻿var Generate_Random_Number = require("Generate_Random_Number");
+var Generate_Random_Number = require("Generate_Random_Number");
 function GetTextBlockCustom(anObject, aPattern)
 {
   

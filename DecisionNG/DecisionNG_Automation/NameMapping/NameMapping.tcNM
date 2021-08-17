@@ -5171,6 +5171,7 @@
 										<Selectors>
 											<Selector>
 												<Value Value=".spec-rule-message-cell__empty" />
+
 											</Selector>
 											<Selector>
 												<Value Value="(//span[contains(.,&apos;-&apos;)])[3]" />
@@ -5232,6 +5233,322 @@
 											</Selector>
 											<Selector>
 												<Value Value="//p-tabpanel[2]/div/dcn-carousel/p-carousel/div/div[2]/ul/li[4]/span/a" />
+
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;-&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-table/div/div/div/wj-flex-grid/div/div/div/div[2]/div[5]/div/div/dcn-rule-message-cell/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-rule-message-cell/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAssociations" Key="{4450AD46-1AAA-413F-AD3E-C88740C10FDB}">
+										<Image FileName="286185334" Left="1009" Top="284" Right="1102" Bottom="317" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-77-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;ASSOCIATIONS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-77-label&apos;]" />
+
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel28" Key="{77A7A4DD-9870-4546-A9E3-9F40B7FC462A}">
+										<Image FileName="1990365010" Left="1062" Top="379" Right="1169" Bottom="413" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+
+												<Value Value=".u-flex-container &gt; .spinner" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Loading...&apos;)])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-additional-info-side-bar/div/div/dcn-sidebar/p-sidebar/div/dcn-additional-info/div/div[2]/dcn-additional-info-rule-families-tab/div/dcn-spinner/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-additional-info-rule-families-tab/div/dcn-spinner/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel29" Key="{FFA9180E-AA8A-4CF5-8A17-EB4AB309F3E7}">
+										<Image FileName="1560482035" Left="131" Top="103" Right="271" Bottom="163" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".navigation-menu__item__home" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Home&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/dcn-navigation-menu/div/span/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeModelMappings" Key="{6B2270CD-3429-424F-A115-91478A531BB7}">
+										<Image FileName="1869407788" Left="21" Top="356" Right="130" Bottom="375" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Model Mappings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".navigation-menu__item__modelMappings &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/span/div[3]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-fact-type-page/div/dcn-navigation-menu/div/span/div[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Selectors>
+									<Selector>
+										<Value Value="tr:nth-child(8) &gt; .entity_name &gt; .link_med" />
+									</Selector>
+									<Selector>
+										<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[8]/td[5]/a" />
+									</Selector>
+									<Selector>
+										<Value Value="(//a[contains(@href, &apos;p&apos;)])[1386]" />
+									</Selector>
+									<Selector>
+										<Value Value="//tr[8]/td[5]/a" />
+									</Selector>
+									<Selector>
+										<Value Value="//a[contains(.,&apos;Task,assignee of task &amp; approver of MM are same user,verify the FT tabs and actions of MM with approval strategy ALL&apos;)]" />
+									</Selector>
+								</Selectors>
+							</Child>
+							<Child Name="linkTaskAssigneeOfTaskApproverOf" Key="{A3E01AE1-CB26-4703-8DEE-FE1739E8CFE7}">
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Selectors>
+									<Selector>
+										<Value Value="tr:nth-child(7) &gt; .entity_name &gt; .link_med" />
+									</Selector>
+									<Selector>
+										<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[7]/td[5]/a" />
+									</Selector>
+									<Selector>
+										<Value Value="(//a[contains(@href, &apos;p&apos;)])[1382]" />
+									</Selector>
+									<Selector>
+										<Value Value="//tr[7]/td[5]/a" />
+									</Selector>
+									<Selector>
+										<Value Value="//a[contains(.,&apos;Task,assignee of task &amp; approver of MM are different user,verify the FT tabs and actions of MM with approval strategy ALL&apos;)]" />
+									</Selector>
+								</Selectors>
+							</Child>
+							<Child Name="cell3" Key="{8135CC4A-2B09-4B35-9187-EDA20E37983A}">
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Selectors>
+									<Selector>
+										<Value Value="tr:nth-child(4) &gt; .entity_name" />
+									</Selector>
+									<Selector>
+										<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[4]/td[5]" />
+									</Selector>
+									<Selector>
+										<Value Value="//tr[4]/td[5]" />
+									</Selector>
+									<Selector>
+										<Value Value="(//td[contains(.,&apos;Task, Fact type Tab, Approved Fact type, Unused, Edit, Unchanged Asset&apos;)])[2]" />
+									</Selector>
+								</Selectors>
+							</Child>
+							<Child Name="textnodeToggleNavigationDecision" Key="{F9918756-D525-4911-968A-5B008D459CD1}">
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Selectors>
+									<Selector>
+										<Value Value="//body[contains(., &apos;Toggle navigation&apos;)]" />
+									</Selector>
+									<Selector>
+										<Value Value="body" />
+									</Selector>
+									<Selector>
+										<Value Value="//body" />
+									</Selector>
+								</Selectors>
+							</Child>
+							<Child Name="cell2" Key="{BB921663-8A40-48C5-9CCA-56D16993D4C8}">
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Selectors>
+									<Selector>
+										<Value Value="tr:nth-child(5) &gt; .entity_name" />
+									</Selector>
+									<Selector>
+										<Value Value="//div[@id=&apos;grid_table_js&apos;]/table/tbody[2]/tr[5]/td[5]" />
+									</Selector>
+									<Selector>
+										<Value Value="//tr[5]/td[5]" />
+									</Selector>
+									<Selector>
+										<Value Value="//td[contains(.,&apos;Task,assignee of task &amp; approver of MM are different user,verify the FT tabs and actions of MM with approval strategy Any&apos;)]" />
+									</Selector>
+								</Selectors>
+							</Child>
+							<Child Name="cell" Key="{790D85A8-B3B9-49B8-8235-36A59E0EF97E}">
+								<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+								<Selectors>
+									<Selector>
+										<Value Value="//th[contains(., &apos;Id&apos;)]" />
+									</Selector>
+									<Selector>
+										<Value Value=".qsortdesc" />
+									</Selector>
+									<Selector>
+										<Value Value="//thead[@id=&apos;appcues_tour_common_entities_list_header&apos;]/tr/th[2]" />
+									</Selector>
+									<Selector>
+										<Value Value="//th[2]" />
+									</Selector>
+								</Selectors>
+							</Child>
+							<Child Name="BrowserWindow3" Key="{5616654C-85DE-46AB-B5D9-66751EEFE62E}">
+								<Image FileName="30274115" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+										<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+												<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}">
+														<Image FileName="-520287055" Left="201" Top="410" Right="380" Bottom="425" />
+														<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow4" Key="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}">
+								<Image FileName="-505667610" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="3" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="BrowserWindow5" Key="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}">
+								<Image FileName="-300670615" Left="-8" Top="-8" Right="1368" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="6" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageProductManagementPatAutomati" Key="{41907C12-5315-4B55-A003-B5EBB038667D}">
+								<Image FileName="842031172" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sapiens365.sharepoint.com.mcas.ms/teams/Sapiens_Decision/productmanagement/Documents/Forms/AllItems.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkProductmanagement" Key="{ECB5ADEB-F43E-42EC-91E1-8D8C4CBBF915}">
+										<Image FileName="1470195821" Left="80" Top="175" Right="180" Bottom="236" />
+
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-additional-info-side-bar/div/div/dcn-sidebar/p-sidebar/div/dcn-additional-info/div/div/dcn-tab-view/p-tabview/div/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/dcn-tab-view/p-tabview/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode27" Key="{DCBB606F-1F8F-4B07-8CC5-B8CCED9949B3}">
+										<Image FileName="286185334" Left="936" Top="321" Right="1060" Bottom="360" />
+
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-77 &gt; .ng-star-inserted:nth-child(1) &gt; .additional-info-tab-carousel:nth-child(1) &gt; .ui-carousel:nth-child(1) &gt; .ui-carousel-viewport:nth-child(2) &gt; .ui-carousel-items:nth-child(1) &gt; .ui-carousel-item:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;44 Rule Families&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-77&apos;]/dcn-carousel/p-carousel/div/div[2]/ul/li[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-tabpanel[2]/div/dcn-carousel/p-carousel/div/div[2]/ul/li[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link44RuleFamilies" Key="{EFBAD30C-CF4F-4171-B889-9FA9355E6CA5}">
+										<Image FileName="286185334" Left="949" Top="332" Right="1047" Bottom="350" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;44 Rule Families&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-77&apos;]/dcn-carousel/p-carousel/div/div[2]/ul/li[4]/span/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-tabpanel[2]/div/dcn-carousel/p-carousel/div/div[2]/ul/li[4]/span/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5253,6 +5570,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
+
 									<Child Name="panel29" Key="{FFA9180E-AA8A-4CF5-8A17-EB4AB309F3E7}">
 										<Image FileName="1560482035" Left="131" Top="103" Right="271" Bottom="163" />
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
@@ -6214,6 +6532,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
+
 								</Children>
 							</Child>
 						</Children>
@@ -6972,6 +7291,7 @@
 				<Child Name="panel28" Owner="{77A7A4DD-9870-4546-A9E3-9F40B7FC462A}" />
 				<Child Name="panel29" Owner="{FFA9180E-AA8A-4CF5-8A17-EB4AB309F3E7}" />
 				<Child Name="textnodeModelMappings" Owner="{6B2270CD-3429-424F-A115-91478A531BB7}" />
+
 				<Child Name="textnode7_new2" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnodeRevisionTasks" Owner="{40A4A576-1E61-4C08-B36A-4AB3B128A6AE}" />
 				<Child Name="panel28_new" Owner="{5F92E4CC-E453-46FC-A736-9E1A28A4325C}" />
@@ -7003,6 +7323,7 @@
 				<Child Name="panel41" Owner="{CE72068A-0018-40F0-8BAD-83410A825E6A}" />
 				<Child Name="panel42" Owner="{5AEE4F4A-24A7-45A9-A44E-8D0450497FA2}" />
 				<Child Name="buttonCancel" Owner="{AFBFB96B-F331-49D3-A2A7-FC30722CFBFB}" />
+
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
