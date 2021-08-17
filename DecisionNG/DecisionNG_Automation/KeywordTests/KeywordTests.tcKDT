@@ -153,19 +153,23 @@
 			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 		</folder>
-
 		<folder name="End to End">
-			<folder name="Gills Demo">
-				<child name="Gills_Demo_E2E" key="{C842DB6E-752D-4B54-881D-EE1573642C0E}" path="Gills_Demo_E2E.tcKDTest" />
+			<folder name="Gill&apos;s Demo">
+				<child name="DF_Open_Repository" key="{C842DB6E-752D-4B54-881D-EE1573642C0E}" path="DF_Open_Repository.tcKDTest" />
+				<child name="DF_Open_SubFlow" key="{628A0D3C-D169-408C-A99A-89800C55982C}" path="DF_Open_SubFlow.tcKDTest" />
+				<child name="DV_Open_From_DF" key="{9BB84698-D126-46C6-9FEF-E478B414BD28}" path="DV_Open_From_DF.tcKDTest" />
+				<child name="DRF_Open" key="{2B634DBB-0C99-43A9-964C-EB64287020AF}" path="DRF_Open.tcKDTest" />
+				<child name="HomeScreen_Create_New_task" key="{F80B6045-49B0-440E-B555-47A7633F2594}" path="HomeScreen_Create_New_task.tcKDTest" />
+				<child name="Navigateto_Tasks_Claim" key="{A411FAB9-3F02-4B31-8DB3-33F1BA740021}" path="Navigateto_Tasks_Claim.tcKDTest" />
+				<child name="Repository_DV_Edit" key="{75DD461F-BFF4-4820-9C62-3554F14F2AE4}" path="Repository_DV_Edit.tcKDTest" />
+				<child name="RF_Enable_Editing" key="{B3BCC17D-40EB-43C2-A7CB-3818C5A66C25}" path="RF_Enable_Editing.tcKDTest" />
+				<child name="DecisionScreen_RF_Add_FT" key="{2096DA67-7536-4CA2-AAE5-13B96A8B9938}" path="DecisionScreen_RF_Add_FT.tcKDTest" />
+				<child name="DecisionScreen_Edit_FT" key="{C95580AE-EEE3-4D2E-B0D3-B115F3118709}" path="DecisionScreen_Edit_FT.tcKDTest" />
+				<child name="DecisionScreen_Add_FT_MappedName" key="{02E6ADC1-84CC-4542-91D7-FB6549E885D4}" path="DecisionScreen_Add_FT_MappedName.tcKDTest" />
+				<child name="MM_Add_FT_Mapped_Name_Value" key="{EFA0370E-1C50-469C-A9C6-2178AB19D6A2}" path="MM_Add_FT_Mapped_Name_Value.tcKDTest" />
+				<child name="Insert_Message" key="{D8A689A4-8E76-4E3D-A852-D876F13DC6A8}" path="Insert_Message.tcKDTest" />
+				<child name="RF_Update_Logic" key="{0D6009FE-5D91-4CE0-A268-6CBC4A8705A0}" path="RF_Update_Logic.tcKDTest" />
 			</folder>
 		</folder>
-
-		<folder name="E2E">
-			<folder name="Gils Demo Trial">
-				<child name="Gil_Demo" key="{3A21741A-361D-47F2-9236-A0214277A7AD}" path="Gil_Demo.tcKDTest" />
-			</folder>
-		</folder>
-		<child name="Test2" key="{CFF43A06-C0BF-41B7-941C-BE020F8FBBA0}" path="Test2.tcKDTest" />
-
 	</children>
 </Root>
