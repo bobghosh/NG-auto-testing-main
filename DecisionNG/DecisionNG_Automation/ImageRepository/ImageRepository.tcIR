@@ -3,7 +3,5 @@
 	<config nodeName="ImageRepository" />
 	<testData />
 	<data />
-	<children>
-		<child key="{C6C54E80-E74A-4C78-8BAA-C8248559B6CE}" path="ImageSet1.tcIRIS" />
-	</children>
+	<children />
 </Root>

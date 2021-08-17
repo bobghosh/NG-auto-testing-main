@@ -1,7 +1,7 @@
 ﻿var Revision_Buttons = require("Revision_Buttons");
-function Create_New_Tag()
+function Create_New_Tag(TagName)
 {
-  let TagName  = "Varsha";
+//  let TagName  = "Varsha";
   
   //User should be on Revision Page
   //Create New Tag

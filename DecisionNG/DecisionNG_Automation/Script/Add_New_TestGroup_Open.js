@@ -107,7 +107,9 @@ if(Asset == "Decision" || Asset == "Flow")
     Aliases.browser.pageSapiensDecision.form.buttonCancel.ClickButton();   
   }
   
-  Delay(300);
+  Delay(1000);
+  
+  Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]"), 10000);
   
 //  Item_Availability.Item_Availability(TGName); 
   

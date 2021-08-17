@@ -1,6 +1,6 @@
-﻿function Tasks_FactTypes_ClaimAll()
+﻿function Tasks_FactTypes_ClaimAll(TaskName)
 {
-    let TaskName = "Model Mapping Task";
+//    let TaskName = "Model Mapping Task";
       
     let flag = 0;
     let Paginator;

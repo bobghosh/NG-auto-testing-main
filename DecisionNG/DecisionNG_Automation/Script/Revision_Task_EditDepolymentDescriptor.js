@@ -1,12 +1,13 @@
 ﻿var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
 var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
-function Revision_Task_EditDepolymentDescriptor()
+function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month)
 {
   //Set Descriptive View
-  RevisionTasks_Buttons.DescriptiveView("On");
+  RevisionTasks_Buttons.DescriptiveView(Descriptive_View);
   
-  let AssetName = "ATR QM Decision Flow [V1.1]";
+//  let AssetName = "ATR QM Decision Flow [V1.1]";
+//  let Month = "Sep"; "Aug" "Jul" "Dec"
   
   //Navigate to the Desired Asset to Edit Deployment Description
   let AssetList = Aliases.browser.pageSapiensDecision.FindElements("//*[contains(@class,'ui-table-frozen-view')]//tbody//tr");
@@ -29,7 +30,7 @@ function Revision_Task_EditDepolymentDescriptor()
       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeTg1626167000507, "contentText", cmpContains, "Edit Deployment Descriptor");
   
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//*[@class='wj-glyph-calendar']").Click();
-      SelectingDateFromCalendar.CalendarSelection("No","2021" , "Jul", "1");
+      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "1");
   
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//*[@class='wj-glyph-clock']").Click();
       SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
@@ -39,7 +40,7 @@ function Revision_Task_EditDepolymentDescriptor()
       Log.Message(EffectiveDate);
       
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-expiration-date-field']//*[@class='wj-glyph-calendar']").Click();
-      SelectingDateFromCalendar.CalendarSelection("No","2021" , "Jul", "31");
+      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "31");
   
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-expiration-date-field']//*[@class='wj-glyph-clock']").Click();
       SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:45 AM" , "No");

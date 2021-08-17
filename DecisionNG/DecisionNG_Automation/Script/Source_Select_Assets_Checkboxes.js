@@ -17,7 +17,7 @@
       Aliases.browser.pageSapiensDecision2.linkCustomProperties.textbox.SetText(SearchAsset[0].trim());
       Log.Message(Aliases.browser.pageSapiensDecision2.linkCustomProperties.textbox.Text);
       
-      Delay(3000);
+      Delay(10000);
       
       let Decisioncount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-expandable-selectable-list-item//*[contains(@class,'icon-decision')]//ancestor::span");
  
@@ -42,7 +42,7 @@
       Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName.SetText(SearchAsset[0].trim());
       Log.Message(Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName.Text); 
       
-      Delay(3000);
+      Delay(10000);
       
       let Flowscount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-expandable-selectable-list-item//*[contains(@class,'icon-flow')]//ancestor::span");
  

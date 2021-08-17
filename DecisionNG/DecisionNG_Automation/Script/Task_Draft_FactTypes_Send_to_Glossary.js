@@ -34,11 +34,13 @@ function Draft_FactTypes_Send_to_Glossary()
         
                 Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[9]//button//dcn-approval-lifecycle-actions//dcn-overlay//i").Click();
         
-                Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Send for Fact Type Approval']").Click();
+//                Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Send for Fact Type Approval']").Click();
+        
+                Aliases.browser.pageSapiensDecision.FindElement("//ul//li[1]").Click();
         
                 Delay(200);
                 
-                aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Submit task to 'Send for Fact Type Approval'");
+                aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Submit task to 'Glossary Administrator'");
   
                 Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Plesae Approve the Request");
                 

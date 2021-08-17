@@ -5,7 +5,7 @@ var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDro
 var Community_VG_Folder_Select = require("Community_VG_Folder_Select");
 var Expand_Icon_Click_Verify = require("Expand_Icon_Click_Verify");
 var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
-function Add_Assets_to_RevisionTasks(Tabs_Assets)
+function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Folder_Name)
 {
 //  let Tabs_Assets = "Decision-Mortgage Effective Income Amount (View: Base) [V1.8],DecisionFlows-ATR QM Decision Flow [V1.1]";
   
@@ -35,10 +35,10 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets)
   
   
   //Click on Expand icons
-  Expand_Icon_Click_Verify.Community_Expand_Verify("WORLD,Ability To Repay");
+  Expand_Icon_Click_Verify.Community_Expand_Verify(CommunityName);
   
   //Select Community 
-  Community_VG_Folder_Select.Community_VG_Folder_Select("Ability To Repay");
+  Community_VG_Folder_Select.Community_VG_Folder_Select(Community_VG_Folder_Name);
   
   //Select ViewGroup & Enable below code if Viewgroup folder is also involved
   //Expand_Icon_Click_Verify.Community_Expand_Verify("Underwriting");  
