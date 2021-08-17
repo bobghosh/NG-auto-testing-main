@@ -12,7 +12,7 @@
 		</folder>
 		<folder name="Generic">
 			<child name="SelectingDateFromCalendar" key="{1C228B8F-429C-4585-993D-33F48E0A2C40}" path="SelectingDateFromCalendar.js" />
-			<child name="SelectingOptionfromDropDown_Only1DDexsists" key="{16C9A004-789F-45C0-8DDA-22255D4A6CCF}" path="SelectingOptionfromDropDown_Only1DDexsists.js" />
+			<child name="SelectingOptionfromDropDown_Role" key="{16C9A004-789F-45C0-8DDA-22255D4A6CCF}" path="SelectingOptionfromDropDown_Role.js" />
 			<child name="SelectingItem_SingleItem_Match_MultipleRows" key="{B9E11F6A-C297-4A3F-B2A8-7B05F1449819}" path="SelectingItem_SingleItem_Match_MultipleRows.js" />
 			<child name="SelectingTimeFromDropDown" key="{CC41117D-AD67-4632-B025-1B0D629294EE}" path="SelectingTimeFromDropDown.js" />
 			<child name="SelectingDate_Time_FromCalendar" key="{A1B2BB02-498E-4D76-A7FA-95C7D445253B}" path="SelectingDate_Time_FromCalendar.js" />
@@ -26,6 +26,11 @@
 			<child name="SelectingOptionfromDropdown_UL_LI" key="{F36173A3-A88C-4DF2-A441-D01B89123EA0}" path="SelectingOptionfromDropdown_UL_LI.js" />
 			<child name="Close_Dialog_Box" key="{CCC3C283-2EC6-4314-BDD8-483CFE2AAC4B}" path="Close_Dialog_Box.js" />
 			<child name="SelectRow_SingleItem_MultipleRows" key="{03F6BB23-5E20-4AD1-9EAD-7B05CFD98BA6}" path="SelectRow_SingleItem_MultipleRows.js" />
+			<child name="SelectingOptionfromDropdown_UL_LI" key="{F7A083E7-C8B1-4368-991C-EAB76EB907FB}" path="SelectingOptionfromDropdown_UL_LI.js" />
+			<child name="RightClickOnElement_Select" key="{757FC150-486B-4025-B63C-C05E2B82F7AE}" path="RightClickOnElement_Select.js" />
+			<child name="Breadcrumb_Verify_Navigation" key="{DB119A13-DC09-44D1-BBD4-181E55F9D021}" path="Breadcrumb_Verify_Navigation.js" />
+			<child name="Generate_Random_Number" key="{ED4A959A-5F75-4C42-B0DE-64DF209E0197}" path="Generate_Random_Number.js" />
+
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
@@ -38,6 +43,7 @@
 			</folder>
 			<folder name="Generic">
 				<child name="Select_Community" key="{26A3DA5A-3283-4CB8-9FD0-9A86DBF25D60}" path="Select_Community.js" />
+				<child name="Repository_Select_SubTabs" key="{18D0C724-ED91-42A1-8C7F-2B57BA0A3FF8}" path="Repository_Select_SubTabs.js" />
 			</folder>
 			<folder name="Community Tree">
 				<child name="Community_VG_Folder_Select" key="{CB489412-FCD0-45DB-A247-A1C981FF2543}" path="Community_VG_Folder_Select.js" />
@@ -78,6 +84,7 @@
 						<child name="ReleaseProjects_Open_Branches" key="{D3804293-8D44-459E-A727-CFA36DF824AA}" path="ReleaseProjects_Open_Branches.js" />
 						<child name="Add_New_Release_Project" key="{AC9F0ABF-04BE-4055-B723-C16CD7919511}" path="Add_New_Release_Project.js" />
 					</folder>
+
 				</folder>
 			</folder>
 		</folder>
@@ -86,6 +93,7 @@
 				<folder name="General">
 					<child name="DetailsTab_testValues_StringMultipleInput" key="{29130691-266F-441F-9EFC-F7842440A8FB}" path="DetailsTab_testValues_StringMultipleInput.js" />
 					<child name="Facttype_Availablility_Check" key="{2B585453-BCE2-46EF-89E1-967BDC17D297}" path="Facttype_Availablility_Check.js" />
+					<child name="FTSummary_Edit_Details" key="{77EBEE54-5626-4AD0-B295-11AEF2B1E76C}" path="FTSummary_Edit_Details.js" />
 				</folder>
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
@@ -120,14 +128,25 @@
 			</folder>
 			<folder name="Rule Family">
 				<child name="Condition_ColumnHeader_Actions" key="{5AC9E90B-0341-4470-8332-48E7C0A65E6D}" path="Condition_ColumnHeader_Actions.js" />
+
 				<child name="RF_Insert_From_Conclusion_Column" key="{B887F89C-660A-4F5F-BBD0-F32BC1C808E5}" path="RF_Insert_From_Conclusion_Column.js" />
 				<child name="RF_Add_MessageCategory" key="{CFA5ADA7-D794-4D2E-AC81-020E5C920991}" path="RF_Add_MessageCategory.js" />
 				<child name="RF_ConclusionColumn_Options" key="{77DDDCC2-5AA4-477F-B811-79A8D4D14AA4}" path="RF_ConclusionColumn_Options.js" />
+
+				<child name="RF_Logic_Build" key="{16FD5C3E-9BCA-41E1-B04D-D4A187442931}" path="RF_Logic_Build.js" />
+				<child name="Insert_And_Remove_Rows" key="{227E714D-BB41-4A1C-94CE-BD186CC53122}" path="Insert_And_Remove_Rows.js" />
+				<child name="RF_Edit" key="{902FD494-C604-48A6-96E3-7390D0A6EFA5}" path="RF_Edit.js" />
+				<child name="Message_Category_Add_Message" key="{00D6CB10-0259-4F6D-8967-A2540AD700A1}" path="Message_Category_Add_Message.js" />
+				<child name="Message_Category_AddColumn" key="{8760DD97-A102-4619-9304-1D7134A0CCF8}" path="Message_Category_AddColumn.js" />
+
 			</folder>
 			<folder name="Decision">
 				<child name="DRF_DBLClick_Open" key="{A8992DD3-ED1A-4E68-B880-4E8CDBFBC8CC}" path="DRF_DBLClick_Open.js" />
 				<child name="DecisionScreen_Add_Facttype" key="{6523B528-9659-48D2-9141-1EB8CB66AE11}" path="DecisionScreen_Add_Facttype.js" />
 				<child name="DecisionScreen_Enable_Editing" key="{9B5A7441-AB8E-45D2-BBD1-80F3A061A096}" path="DecisionScreen_Enable_Editing.js" />
+
+				<child name="DecisionScreen_EditFT" key="{2EF515F3-64F6-418A-A1D2-DE836103986F}" path="DecisionScreen_EditFT.js" />
+
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
@@ -141,6 +160,9 @@
 				<child name="Add_Existing_Knowledge_Source" key="{3D6C596A-3D62-488F-8888-B4771B947689}" path="Add_Existing_Knowledge_Source.js" />
 				<child name="KS_Details_and_Associations" key="{17A498A1-0FDE-4C42-BC04-67A0128E22A8}" path="KS_Details_and_Associations.js" />
 				<child name="Verify_KS_Heading" key="{DAFC8042-3E63-49A4-AFDD-8E694B44605A}" path="Verify_KS_Heading.js" />
+
+				<child name="Validation" key="{3E451ED2-A18A-4271-9B20-A8BCBFF15A88}" path="Validation.js" />
+
 			</folder>
 		</folder>
 		<folder name="Tasks_Queue">
@@ -244,6 +266,12 @@
 				<child name="QuickSearch_Input_Search_Results" key="{55D45882-4AFE-4D2A-B62B-B01E24CA9418}" path="QuickSearch_Input_Search_Results.js" />
 				<child name="QuickSearch_SearchAllVersions" key="{628539F2-E0B6-48B3-BB99-2CA682D8F052}" path="QuickSearch_SearchAllVersions.js" />
 			</folder>
+		</folder>
+		<folder name="Additional Information">
+			<child name="AI_Click_Verify_Title" key="{EA6B97C1-2778-484D-9066-A871EB95D1AE}" path="AI_Click_Verify_Title.js" />
+			<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
+			<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
+			<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 	</children>

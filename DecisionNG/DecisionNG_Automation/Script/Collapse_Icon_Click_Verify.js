@@ -1,4 +1,4 @@
-﻿function Community_Collapse_Verify(CommunityName)
+function Community_Collapse_Verify(CommunityName)
 {
   CommunityArray= CommunityName.toString().split(",");
   //Log.Message(CommunityArray.length);
@@ -53,4 +53,4 @@ function ViewGroup_Collapse_Verify(VGName)
       Log.warning("ViewGroup is already Collapsed");
     }
   }
-} 
+}

@@ -96,8 +96,8 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{76129CE8-43A8-46CA-8C7E-B5401652ADF3}">
-		<Parameter0 Name="URL" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="http://bdmsuat8:8854/login.jsp" Description="" />
-		<Parameter1 Name="UserName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="sgp" Description="" />
+		<Parameter0 Name="URL" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="UserName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 		<Parameter2 Name="Password" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decision1" Description="" />
 	</Parameters>
 </Root>

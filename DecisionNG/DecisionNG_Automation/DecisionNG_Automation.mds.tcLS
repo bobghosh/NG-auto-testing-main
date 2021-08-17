@@ -21,10 +21,117 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="logs">
-				<Prp name="key" type="S" value="{D2023CF8-9436-4DC5-A945-203C66F60066}"/>
+
+				<Prp name="key" type="S" value="{DB0666A8-7114-4AE6-BC71-FA49306659F1}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
-			<Node name="variables"/>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Prp name="name" type="S" value="URL_UAT"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="UserName"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="Details_testValues_Dayoftheweeklong"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="Details_testValues_MonthLong"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="Details_testValues_Time"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="Details_TestValues_DayOfWeekShort"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="Permission_Matrix"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="Roles"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="PermissionGroupsColumnNames"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="Create_NewUser_Details"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="ImportGlossary"/>
+					</Node>
+					<Node name="var19">
+						<Prp name="name" type="S" value="MD_CustomProperty"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="Password"/>
+					</Node>
+					<Node name="var20">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="MM_AllowedValues"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="MM_AllowedValues_AfterEdit"/>
+					</Node>
+					<Node name="var22">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="MM_CustomProperty_BeforeEdit"/>
+					</Node>
+					<Node name="var23">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="MM_CustomProperty_AfterEdit"/>
+					</Node>
+					<Node name="var24">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F00330033003100350035003400"/>
+						</Node>
+						<Prp name="name" type="S" value="NewTaskName"/>
+					</Node>
+					<Node name="var25">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="360035003100350035003600"/>
+						</Node>
+						<Prp name="name" type="S" value="RandomNumber"/>
+					</Node>
+					<Node name="var26">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="46006C006F006F00640020005A006F006E0069006E00670020004300680061006E00670065003800380031003100350035003600"/>
+						</Node>
+						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="Password1"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="Create_New_FactType"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="TaskName"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="Var1"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="Details_TestValues_StringValues"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="Details_TestValues_NumericValues"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="Details_TestValues_DropDown_Numbers"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
 	</Node>

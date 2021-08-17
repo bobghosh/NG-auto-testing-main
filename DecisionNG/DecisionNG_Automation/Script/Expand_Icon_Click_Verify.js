@@ -1,9 +1,10 @@
-﻿function Community_Expand_Verify(CommunityName)
+function Community_Expand_Verify(CommunityName)
 { 
   CommunityArray= CommunityName.toString().split(",");
   Log.Message(CommunityArray.length);
   for(let i=0;i<CommunityArray.length;i++)
   {
+    Delay(500);
   let Expand_Collapse_Icon = Aliases.browser.pageSapiensDecision2.FindElement("//*[text()="+"'"+""+CommunityArray[i]+""+"'"+"]//ancestor::span/parent::div/span[contains(@class,'ui-tree-toggler pi pi-fw ui-unselectable-text')]")
   if(Expand_Collapse_Icon.getAttribute('class').includes('pi-caret-right'))
   {
@@ -52,5 +53,3 @@ function ViewGroup_Expand_Verify(VGName)
     }
   }
 }
-module.exports.Community_Expand_Verify = Community_Expand_Verify;
-module.exports.ViewGroup_Expand_Verify = ViewGroup_Expand_Verify;

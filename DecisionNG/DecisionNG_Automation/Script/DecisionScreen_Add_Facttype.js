@@ -1,11 +1,11 @@
-﻿function GetTextBlockCustom(anObject, aPattern)
+var Generate_Random_Number = require("Generate_Random_Number");
+function GetTextBlockCustom(anObject, aPattern)
 {
-  // Recognize the text the specified onscreen object shows
+  
   var obj = OCR.Recognize(anObject);
-  if (obj.FullText != "" && obj.BlockCount > 0)
+  if (obj.FullText != "" && obj.BlockCount > 1)
   {
-    // Iterate through text blocks
-    // until the one that matches the regular expression is found is found
+
     for (var i = 0; i < obj.BlockCount; i ++)
     {
       var re = new RegExp(aPattern);
@@ -13,13 +13,12 @@
       Matches = obj.Block(i).Text.match(re);
       if (Matches != null)
       {
-        // Return the first block that matches the regular expression
+        
         return obj.Block(i+1);
       }
 
     }
-  // If no text block matches the specified regular expression,
-  // return null
+
   return null;
   }
   else
@@ -29,11 +28,14 @@
 
 function EnterTextInFacttypetextbox(FacttypeName)
 {
+  let num = Generate_Random_Number.randomNumber()
   let page= Aliases.browser.pageSapiensDecision
-  page.FindElement("//p-autocomplete//input").SetText(FacttypeName);
+  page.FindElement("//p-autocomplete//input").SetText(FacttypeName+num);
+  Project.Variables.FTCreatedFromDVScreen = FacttypeName+num
+  Delay(5000)
   page.Keys("[Enter]")
 }
-function Main(RFname,FacttypeName)
+function DecisionScreen_ADD_FT(RFname,FacttypeName)
 {
   // The search condition (a regular expression)
 //  var RFname = "Condo Project Local Jurisdiction Document Issuance Indicator";
@@ -45,7 +47,7 @@ function Main(RFname,FacttypeName)
   var b = GetTextBlockCustom(obj, RFname);
   if (b != null)
   {
-    // Simulate user actions on the text block
+    
     b.Click();
   
   }

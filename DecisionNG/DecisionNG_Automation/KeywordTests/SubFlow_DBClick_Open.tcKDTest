@@ -10,7 +10,7 @@
 			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
 				<Data Description="Simulates a user action over the area that contains the recognized text." Action="DblClick" TBlockIntType="1">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Income" />
+						<Parameter Name="Selected Text" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="DF_Name" />
 						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-11">
 							<Values>
 								<Value Type="1" Value="-10" Text="spNone" />
@@ -39,5 +39,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{ABA6B94E-EF12-4742-B799-EE0927D68475}" />
+	<Parameters Key="{ABA6B94E-EF12-4742-B799-EE0927D68475}">
+		<Parameter0 Name="DF_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Non-Residential/Com" Description="" />
+	</Parameters>
 </Root>
