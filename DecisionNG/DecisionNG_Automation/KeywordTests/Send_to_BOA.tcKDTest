@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{1A7D682A-9488-4F7C-9829-612CED73C65C}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Send_to_BOA" Unit="Approval_Process_buttons" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{8CB68A37-EEFA-4124-9ED0-C49120138D2A}" />
+</Root>

@@ -1,4 +1,4 @@
-﻿function Community_Expand_Verify(CommunityName)
+function Community_Expand_Verify(CommunityName)
 { 
   CommunityArray= CommunityName.toString().split(",");
   Log.Message(CommunityArray.length);

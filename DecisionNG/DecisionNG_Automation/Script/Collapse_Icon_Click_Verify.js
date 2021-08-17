@@ -1,4 +1,4 @@
-﻿function Community_Collapse_Verify(CommunityName)
+function Community_Collapse_Verify(CommunityName)
 {
   CommunityArray= CommunityName.toString().split(",");
   //Log.Message(CommunityArray.length);

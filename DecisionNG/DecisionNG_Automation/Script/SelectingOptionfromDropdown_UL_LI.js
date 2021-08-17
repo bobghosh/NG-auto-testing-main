@@ -1,5 +1,6 @@
 ﻿function SelectingOptionfromDropdown(option,flag)
 {
+
   if(flag=="Yes")
   {
     Aliases.browser.pageSapiensDecision.form.form2.form4.button10.ClickButton();    
@@ -26,4 +27,5 @@
   
   
  }
+
 module.exports.SelectingOptionfromDropdown = SelectingOptionfromDropdown;

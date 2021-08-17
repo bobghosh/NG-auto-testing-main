@@ -4,6 +4,8 @@
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
+				<child name="Navigate_to_Knowledge_Sources_Tab" key="{42D6503E-B088-4735-9F42-ED2DC4AD4979}" path="Navigate_to_Knowledge_Sources_Tab.tcKDTest" />
+				<child name="Navigate_to_Associations_Tab" key="{CC03AF4D-8F82-4BCA-8882-CC797AD2D644}" path="Navigate_to_Associations_Tab.tcKDTest" />
 			</folder>
 			<folder name="Administration_Navigations">
 				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
@@ -15,8 +17,21 @@
 				<child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
 				<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
 			</folder>
-			<folder name="Tasks_Menu_Navigatios" />
+			<folder name="Tasks_Menu_Navigations" />
 			<folder name="Repository Navigation">
+				<folder name="Release Projects Navigations">
+					<folder name="Release Project">
+						<child name="Navigate_to_Branches" key="{D8CAC8B4-360A-479C-8F10-87F41CAC8C0E}" path="Navigate_to_Branches.tcKDTest" />
+						<child name="Navigate_to_RevisionTasks" key="{C79B14B2-EDE7-4D07-8E30-2E011151ACF8}" path="Navigate_to_RevisionTasks.tcKDTest" />
+						<child name="Navigate_to_ProjectDetails" key="{8B547BAD-D6BA-4E58-975C-F2124044CC29}" path="Navigate_to_ProjectDetails.tcKDTest" />
+					</folder>
+					<folder name="Revision">
+						<child name="Navigate_to_RevisionDetails" key="{D841D36A-3714-4186-AC74-B458010A06FB}" path="Navigate_to_RevisionDetails.tcKDTest" />
+						<child name="Navigate_to_Assets" key="{F598D90A-1AEC-4066-A906-CD676687A579}" path="Navigate_to_Assets.tcKDTest" />
+						<child name="Navigate_to_DeploymentHistory" key="{9BBDF773-842E-4465-B28D-F17ECD984334}" path="Navigate_to_DeploymentHistory.tcKDTest" />
+						<child name="Navigate_to_MappedEntities" key="{1C134533-84EB-4D8D-A757-9CBD00E73F6A}" path="Navigate_to_MappedEntities.tcKDTest" />
+					</folder>
+				</folder>
 				<child name="Navigate_to_Release_Project" key="{1EFDC7DD-A76A-4EA2-A6C4-B5892E490157}" path="Navigate_to_Release_Project.tcKDTest" />
 			</folder>
 		</folder>
@@ -69,7 +84,9 @@
 				<folder name="Test Case Specific" />
 			</folder>
 			<folder name="Rule Family">
-				<folder name="General" />
+				<folder name="General">
+					<child name="Insert_Column_From_Conclusion_Column" key="{0C696659-7C1E-46A8-8A9A-39AB399F6924}" path="Insert_Column_From_Conclusion_Column.tcKDTest" />
+				</folder>
 				<folder name="Test Case Specific" />
 				<folder name="Pre-requisite" />
 			</folder>
@@ -169,6 +186,40 @@
 				<child name="MM_Add_FT_Mapped_Name_Value" key="{EFA0370E-1C50-469C-A9C6-2178AB19D6A2}" path="MM_Add_FT_Mapped_Name_Value.tcKDTest" />
 				<child name="Insert_Message" key="{D8A689A4-8E76-4E3D-A852-D876F13DC6A8}" path="Insert_Message.tcKDTest" />
 				<child name="RF_Update_Logic" key="{0D6009FE-5D91-4CE0-A268-6CBC4A8705A0}" path="RF_Update_Logic.tcKDTest" />
+			</folder>
+
+			<folder name="Testing">
+				<child name="Testing_Step" key="{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" path="Testing_Step.tcKDTest" />
+			</folder>
+			<folder name="Validation">
+				<child name="Validation_Step" key="{27852749-477B-4CD5-86F4-1772BA75444E}" path="Validation_Step.tcKDTest" />
+			</folder>
+			<folder name="Release Project">
+				<child name="Add_Open_Release_Project" key="{52B036DA-2BD4-470A-83F1-9D0A88831146}" path="Add_Open_Release_Project.tcKDTest" />
+				<child name="Open_Branches_Release_Project" key="{57460FB4-123F-4E04-BC1C-42F166CC21F9}" path="Open_Branches_Release_Project.tcKDTest" />
+				<child name="Create_Revision_Task" key="{A28769B9-E214-43E5-AF13-E0CF77C3746F}" path="Create_Revision_Task.tcKDTest" />
+				<child name="Add_Assets" key="{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" path="Add_Assets.tcKDTest" />
+				<child name="Edit_Deployment_Descriptor" key="{8FFF5EC5-A32F-4F0C-920E-ED1BC4EBEB86}" path="Edit_Deployment_Descriptor.tcKDTest" />
+				<child name="Submit_Revision_Task" key="{822521FE-5542-4AB7-B418-EC19B891D365}" path="Submit_Revision_Task.tcKDTest" />
+				<child name="Create_New_Tag" key="{9F66C028-8737-428F-92CA-ED121C14DEC4}" path="Create_New_Tag.tcKDTest" />
+				<child name="Deploy_Tag_Verify_History" key="{91A84CAC-1D24-4DDF-9B26-EEBBECB94138}" path="Deploy_Tag_Verify_History.tcKDTest" />
+			</folder>
+			<folder name="Generic">
+				<child name="Breadcrumb_Navigations" key="{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" path="Breadcrumb_Navigations.tcKDTest" />
+				<child name="ConflictCheck_Resolve" key="{970F243A-0F2B-43F7-AAC5-0DB130D4B856}" path="ConflictCheck_Resolve.tcKDTest" />
+				<child name="Claim_and_Open_Task" key="{E13C6919-AE74-4E45-AC90-6FD623F345FB}" path="Claim_and_Open_Task.tcKDTest" />
+			</folder>
+			<folder name="Fact Type Approval">
+				<child name="FactType_Send_For_Approval" key="{29C4D1E8-A9AA-432A-B805-0D829F186040}" path="FactType_Send_For_Approval.tcKDTest" />
+				<child name="FactType_Claim_Approve" key="{75EC3950-3DDB-4A97-A282-E5C772A8B5D8}" path="FactType_Claim_Approve.tcKDTest" />
+			</folder>
+			<folder name="Task Approval">
+				<child name="Send_to_BOA" key="{2373236C-1BCC-47EB-8F62-0573F69C6A6D}" path="Send_to_BOA.tcKDTest" />
+				<child name="MyTask_Navigate_to_Task" key="{01C8D7B0-4CAC-49F8-AFBA-CBD4D784A0C8}" path="MyTask_Navigate_to_Task.tcKDTest" />
+				<child name="Send_to_RM" key="{62A43E8B-4193-4D81-9A13-D333973D631F}" path="Send_to_RM.tcKDTest" />
+			</folder>
+			<folder name="Search">
+				<child name="Search_Assets" key="{39B709CB-38F9-4965-A085-E7591633FE60}" path="Search_Assets.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

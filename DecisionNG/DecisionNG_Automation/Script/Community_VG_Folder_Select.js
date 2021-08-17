@@ -1,4 +1,4 @@
-﻿function Community_VG_Folder_Select(SelectOption,Community_VG_Folder_Name)
+function Community_VG_Folder_Select(SelectOption,Community_VG_Folder_Name)
 {
   let page= Aliases.browser.pageSapiensDecision2
   //let Community = page.FindElement("//*[@role='treeitem']//span[text()="+"'"+""+Community_VG_Folder_Name+""+"'"+"]")
