@@ -216,6 +216,7 @@
 				<child name="Send_to_BOA" key="{2373236C-1BCC-47EB-8F62-0573F69C6A6D}" path="Send_to_BOA.tcKDTest" />
 				<child name="MyTask_Navigate_to_Task" key="{01C8D7B0-4CAC-49F8-AFBA-CBD4D784A0C8}" path="MyTask_Navigate_to_Task.tcKDTest" />
 				<child name="Send_to_RM" key="{62A43E8B-4193-4D81-9A13-D333973D631F}" path="Send_to_RM.tcKDTest" />
+				<child name="Complete_Task" key="{D9C94161-D6C4-4573-841C-8459878F67ED}" path="Complete_Task.tcKDTest" />
 			</folder>
 			<folder name="Search">
 				<child name="Search_Assets" key="{39B709CB-38F9-4965-A085-E7591633FE60}" path="Search_Assets.tcKDTest" />

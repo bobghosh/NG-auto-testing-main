@@ -93,7 +93,7 @@
 						<Node name="value">
 							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003100310033003100320031003600"/>
 						</Node>
-						<Prp name="name" type="S" value="NewTaskName"/>
+						<Prp name="name" type="S" value="E2ETaskName"/>
 					</Node>
 					<Node name="var25">
 						<Node name="value">
@@ -104,6 +104,12 @@
 					<Node name="var26">
 						<Node name="value">
 							<Prp name="strvalue" type="H" value="360031003100320031003800"/>
+						</Node>
+						<Prp name="name" type="S" value="RandomNumber"/>
+					</Node>
+					<Node name="var27">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>

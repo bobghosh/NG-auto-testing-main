@@ -64,23 +64,23 @@ function Send_to_RM()
 {
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
   
-  let RM_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Revision Manager')]");
+  let RM_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Release Management')]");
   
   Log.Message(RM_Button.length);
   
   if(RM_Button.length > 0)
   {
-    Aliases.browser.pageSapiensDecision2.FindElement("//*[(text()='Revision Manager')]").Click();
+    Aliases.browser.pageSapiensDecision2.FindElement("//*[(text()='Release Management')]").Click();
      
      Delay(200);
                 
-     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Revision Manager'");
+     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Release Management'");
   
      Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
                 
      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
-     Delay(300);
+     Delay(1000);
      
      //Check for Asset to be sent in Candidate Status
      if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "APPROVED")
@@ -100,20 +100,61 @@ function Send_to_RM()
   
 }
 
+function Complete_Task()
+{
+//  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
+  
+  let Complete_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='COMPLETE')]");
+  
+  Log.Message(Complete_Button.length);
+  
+  if(Complete_Button.length > 0)
+  {
+    Aliases.browser.pageSapiensDecision2.FindElement("//*[(text()='COMPLETE')]").Click();
+     
+     Delay(200);
+                
+     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'COMPLETE'");
+  
+     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
+                
+     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+                
+     Delay(3000);
+     
+     //Check for Asset to be sent in Candidate Status
+     if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "COMPLETED")
+     {
+       Log.Checkpoint("Task is successfully COMPLETED");
+       
+     }
+     else
+     {
+       Log.Error("Task is not Completed");
+     }
+  }
+  else
+  {
+    Log.Checkpoint("Button is disabled");
+  }
+  
+}
+
 //Generic Approval Button without any specific Role
-//function Send_For_Approval_Button()
-//{
-//  let Approval_Button = Aliases.browser.pageSapiensDecision2.FindElement("//p-splitbutton//button[1]");
+//function Send_For_Approval_Button(Role)
+//{//p-splitbutton//button[1]
+//  let Approval_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='"+Role+"')]");
 //  
 //  Log.Message(Approval_Button.Text);
 //  
 //  if(Approval_Button.Enabled == true)
 //  {
-//     Approval_Button.Click();
+//Aliases.browser.pageSapiensDecision2.FindElement("//*[(text()='"+Role+"')]").Click();
+//  
 //     
 //     Delay(200);
 //                
-//     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to");
+//     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to '"+Role +"'");
 //  
 //     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
 //                
