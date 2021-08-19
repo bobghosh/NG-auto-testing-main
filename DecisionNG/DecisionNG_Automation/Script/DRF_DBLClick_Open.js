@@ -1,6 +1,6 @@
-﻿function DRF_DBClick_Open()
+﻿function DRF_DBClick_Open(DRFName)
 {
-  let DRFName= "Policy Renewal Method"
+  
   OCR.Recognize(Aliases.browser.pageSapiensDecision2.canvas).BlockByText(DRFName).ClickNextTo(toBottom, 20)
   let x= Sys.Desktop.MouseX
   let y = Sys.Desktop.MouseY-50;

@@ -23,12 +23,12 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44426.7697743171"/>
+				<Prp name="datetime" type="D" value="44427.5107016435"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{F841D364-B176-4FDE-B5A6-24E12C1E5735}"/>
+				<Prp name="key" type="S" value="{D4A58E95-F9F9-4DC9-A89E-CEC2D2A15697}"/>
 				<Prp name="nameofroot" type="S" value="DecisionNG_Automation"/>
-				<Prp name="relpath" type="S" value="18-08-2021_18_28_28_501\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="relpath" type="S" value="19-08-2021_12_15_24_622\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

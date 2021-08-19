@@ -38,7 +38,7 @@
 										<TypeInfo Item0="{64580919-C120-492D-A49C-6A7197EE70A7}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[text()=&apos;Vars&apos;]" />
+												<Value Value="//div[text()=&apos;Vars&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value=".wj-form-control:nth-child(1)" />
@@ -428,6 +428,9 @@
 										<Selectors>
 											<Selector>
 												<Value Value="[name=&apos;displayFormat&apos;]:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; [type=&apos;text&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&apos;FactTypeMappedName&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
