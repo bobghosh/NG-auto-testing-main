@@ -102,7 +102,7 @@ function FactTypes_Tab(SearchAsset)
           Log.Checkpoint("Asset is available");
           
           Aliases.browser.pageSapiensDecision.FindElement("//div//p-tabpanel[4]//dcn-expandable-selectable-list-item["+i +"]//dcn-asset-display-details-name//i").click();
-//          assetName.Click();
+//          to open the Asset assetName.Click();
       
           Log.Message("Asset is selected");
           break;

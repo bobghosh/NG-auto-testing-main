@@ -1,4 +1,4 @@
-function Community_Expand_Verify(CommunityName)
+﻿function Community_Expand_Verify(CommunityName)
 { 
   CommunityArray= CommunityName.toString().split(",");
   Log.Message(CommunityArray.length);
@@ -53,3 +53,5 @@ function ViewGroup_Expand_Verify(VGName)
     }
   }
 }
+module.exports.Community_Expand_Verify = Community_Expand_Verify;
+module.exports.ViewGroup_Expand_Verify = ViewGroup_Expand_Verify;
