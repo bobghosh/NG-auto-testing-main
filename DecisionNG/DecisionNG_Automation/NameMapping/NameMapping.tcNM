@@ -38,16 +38,16 @@
 										<TypeInfo Item0="{64580919-C120-492D-A49C-6A7197EE70A7}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[text()=&apos;Vars&apos;]" Enabled="False" />
-											</Selector>
-											<Selector>
 												<Value Value=".wj-form-control:nth-child(1)" />
 											</Selector>
 											<Selector>
 												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/div" />
 											</Selector>
 											<Selector>
-												<Value Value="//div/div/div/div" />
+												<Value Value="//div/div/div/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="Add selector" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -130,10 +130,13 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-dialog-title-17" />
+												<Value Value="//h1[contains(text(), &apos;Fact Type Summary:&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//h1[contains(text(), &apos;Fact Type Summary:&apos;)]" />
+												<Value Value="//h1[contains(text(), &apos; Choose task to edit Decision &apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-dialog-title-17" />
 											</Selector>
 											<Selector>
 												<Value Value="//h1[@id=&apos;mat-dialog-title-17&apos;]" />
@@ -428,9 +431,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="[name=&apos;displayFormat&apos;]:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; [type=&apos;text&apos;]:nth-child(1)" />
-											</Selector>
-											<Selector>
-												<Value Value="//*[@name=&apos;FactTypeMappedName&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
@@ -2036,6 +2036,9 @@
 										<Image FileName="-858411844" Left="432" Top="362" Right="1311" Bottom="398" />
 										<TypeInfo Item0="{DAACA483-0474-4746-9C33-F245689F9281}" />
 										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&quot;taskName&quot;]" />
+											</Selector>
 											<Selector>
 												<Value Value="*[name=&apos;sor-name&apos;]" />
 											</Selector>
@@ -5196,6 +5199,50 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeModelMappings" Key="{6B2270CD-3429-424F-A115-91478A531BB7}">
+										<Image FileName="1869407788" Left="21" Top="356" Right="130" Bottom="375" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Model Mappings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".navigation-menu__item__modelMappings &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-fact-type-page/div/dcn-navigation-menu/div/span/div[3]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-fact-type-page/div/dcn-navigation-menu/div/span/div[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{5C5A411C-057F-4CCD-BB1A-E9A1A1638100}">
+										<Image FileName="-1486005190" Left="1056" Top="223" Right="1126" Bottom="244" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-revision-task/div/dcn-navigation-menu/div/div/dcn-revision-task-assets/div/dcn-revision-task-assets-action-buttons-panel/div/div[2]/div/fx-field/div/div/span/dcn-descriptor-view-toggle/dcn-switch-button/div/div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-descriptor-view-toggle/dcn-switch-button/div/div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel30" Key="{6100CCC0-0913-4AD1-B3A2-3345E574849F}">
+										<Image FileName="-1486005190" Left="1056" Top="223" Right="1126" Bottom="244" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="dcn-descriptor-view-toggle:nth-child(1) &gt; dcn-switch-button:nth-child(1) &gt; .u-flex-container:nth-child(1) &gt; .u-margin-right--three-quaters:nth-child(2) &gt; .switch:nth-child(1) &gt; .switch-wrapper:nth-child(2) &gt; .slide-button:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-revision-task/div/dcn-navigation-menu/div/div/dcn-revision-task-assets/div/dcn-revision-task-assets-action-buttons-panel/div/div[2]/div/fx-field/div/div/span/dcn-descriptor-view-toggle/dcn-switch-button/div/div[2]/label/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-descriptor-view-toggle/dcn-switch-button/div/div[2]/label/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6172,6 +6219,10 @@
 				<Child Name="textnode26" Owner="{564B7527-A6AC-4B13-BC5A-88EEC0155A07}" />
 				<Child Name="panel28" Owner="{77A7A4DD-9870-4546-A9E3-9F40B7FC462A}" />
 				<Child Name="panel29" Owner="{FFA9180E-AA8A-4CF5-8A17-EB4AB309F3E7}" />
+				<Child Name="textnodeModelMappings" Owner="{6B2270CD-3429-424F-A115-91478A531BB7}" />
+				<Child Name="label2" Owner="{5C5A411C-057F-4CCD-BB1A-E9A1A1638100}">
+					<Child Name="panel30" Owner="{6100CCC0-0913-4AD1-B3A2-3345E574849F}" />
+				</Child>
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
