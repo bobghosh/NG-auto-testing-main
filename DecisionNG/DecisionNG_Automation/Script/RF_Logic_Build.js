@@ -88,7 +88,7 @@ function RuleFamily_Logic(string)
                 }
                 default:{
                         Delay(2000)
-                    if(page.FindElement("//dcn-string-input//child::input").Exists)
+                    if(page.FindElements("//dcn-string-input//child::input").length > 0)
                     {
                       isFieldVisible = true;
                     }                                        
@@ -161,21 +161,25 @@ function RuleFamily_Logic(string)
                     }
                     default:{ 
                         //await common.enterTextValueAndEnter(element(by.xpath("//input[contains(@class,'ng-star-inserted')]")), rowValues[1]);
-                        
+                        let isDropdownVisible;
                         let isNumberFieldVisible;
                         let isDateFieldVisible;
                         let isTextFieldVisible;
                         Log.Message("default")  
-                        if(page.FindElement("//dcn-number-input//input").Exists)
+                        if(page.FindElements("//dcn-number-input//input").length>0)
                         {
                            isNumberFieldVisible = true;
                         }
+                        else if(page.FindElements("//dcn-domain-input/div/div/div/format-values-drop-down").length > 0)
+                        {
+                          isDropdownVisible = true;
+                        }
         
-                        else if(page.FindElement("//dcn-date-picker//input").Exists)                            
+                        else if(page.FindElements("//dcn-date-picker//input").length > 0)                            
                         {
                            isDateFieldVisible=  true;
                         }
-                        else if( page.FindElement("//dcn-string-input//input").Exists)
+                        else if( page.FindElements("//dcn-string-input//input").length > 0)
                         {
                            isTextFieldVisible = true;
                         }
@@ -193,6 +197,15 @@ function RuleFamily_Logic(string)
                              page.FindElement("//dcn-number-input//input").click();
                              page.FindElement("//dcn-number-input//input").settext(parseInt(rowValues[1]));
                              page.FindElement("//dcn-number-input//input").Keys('[Tab]');
+                            //await browser.sleep(5000);
+                            break;
+                        }
+                        else if(isDropdownVisible == true){
+                             
+                             page.FindElement("//*[@class='valid-value-combobox-spec']//button").Click();
+                             SelectingOptionfromDropDown.SelectingOptionfromDropdown(rowValues[1])
+                             //page.FindElement("//dcn-number-input//input").settext(parseInt(rowValues[1]));
+                             page.FindElement("//*[@class='valid-value-combobox-spec']//button").Keys('[Tab]');
                             //await browser.sleep(5000);
                             break;
                         }

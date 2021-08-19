@@ -33,7 +33,7 @@ function DecisionScreen_EditFT(FacttypeName)
   var obj = Aliases.browser.pageSapiensDecision2.canvas;
 
 
-  var b = GetTextBlockCustom(obj,FacttypeName );
+  var b = GetTextBlockCustom(obj,FacttypeName);
   if (b != null)
   {
     b.ClickR();

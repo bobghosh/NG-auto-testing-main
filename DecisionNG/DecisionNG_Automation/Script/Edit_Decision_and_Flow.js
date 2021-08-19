@@ -12,7 +12,7 @@ function Edit_Decision_and_Flow(Task)
     page.FindElement("//dcn-autocomplete[@name='task']//button").Click();
     DropDown_SelectOption.SelectingOptionfromDropdown(Task,'No');
     page.form.buttonOk.ClickButton();
-    page.WaitElement(page.FindElement("//dcn-laundry-line//span"),20000);
+    page.WaitElement(page.FindElement("//dcn-laundry-line//span"),30000);
     aqObject.CheckProperty(page.FindElement("//dcn-laundry-line//span"),"contentText", cmpEqual, "DRAFT");
   }
   else

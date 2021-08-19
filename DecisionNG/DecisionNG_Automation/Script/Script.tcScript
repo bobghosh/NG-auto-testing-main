@@ -133,12 +133,14 @@
 				<child name="RF_Edit" key="{902FD494-C604-48A6-96E3-7390D0A6EFA5}" path="RF_Edit.js" />
 				<child name="Message_Category_Add_Message" key="{00D6CB10-0259-4F6D-8967-A2540AD700A1}" path="Message_Category_Add_Message.js" />
 				<child name="Message_Category_AddColumn" key="{8760DD97-A102-4619-9304-1D7134A0CCF8}" path="Message_Category_AddColumn.js" />
+				<child name="Message_Catagory_Remove_Column" key="{E36F2E38-2C8C-431C-9D5B-0600BCFD5A03}" path="Message_Catagory_Remove_Column.js" />
 			</folder>
 			<folder name="Decision">
 				<child name="DRF_DBLClick_Open" key="{A8992DD3-ED1A-4E68-B880-4E8CDBFBC8CC}" path="DRF_DBLClick_Open.js" />
 				<child name="DecisionScreen_Add_Facttype" key="{6523B528-9659-48D2-9141-1EB8CB66AE11}" path="DecisionScreen_Add_Facttype.js" />
 				<child name="DecisionScreen_Enable_Editing" key="{9B5A7441-AB8E-45D2-BBD1-80F3A061A096}" path="DecisionScreen_Enable_Editing.js" />
 				<child name="DecisionScreen_EditFT" key="{2EF515F3-64F6-418A-A1D2-DE836103986F}" path="DecisionScreen_EditFT.js" />
+				<child name="Task_Decision_Open" key="{40EB8A47-105D-469F-8E24-485ABDFA3C34}" path="Task_Decision_Open.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
@@ -263,5 +265,7 @@
 			<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
+		<child name="Unit1" key="{91D309F2-5172-44EF-828A-68D56CC5932C}" path="Unit1.js" />
+		<child name="Unit2" key="{3F9C294E-C4CA-4F8A-90C4-DCA7F2D786D7}" path="Unit2.js" />
 	</children>
 </Root>

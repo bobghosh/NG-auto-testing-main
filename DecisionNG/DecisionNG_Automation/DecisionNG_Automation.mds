@@ -428,6 +428,1012 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
+									<testItem name="SelectingItemGetData" key="{5A79A434-E44D-4CB1-A275-7A8841FE1F1B}" group="False" parallel="False" enabled="True" testMoniker="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}SelectingItemGetData" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Navigate_Administration_Roles" key="{B7BE1F9E-0D65-4A14-B75D-E9263E5ED949}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="SelectingItemGetData_2" key="{1E126817-6222-4F8B-B495-164E8A17819B}" group="False" parallel="False" enabled="True" testMoniker="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}SelectingItemGetData" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_2" key="{7F2ED4CA-8B98-4830-BC10-E3E1FC676746}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children>
+											<testItem name="Import Glossary XML Verification" key="{878792FF-453F-456A-B6EA-90B5A1D99862}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Login_5" key="{8E399E04-E177-4088-9E66-70B456B89B3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
+														<testParameters>
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:6144/login.jsp#" />
+															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
+															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Navigate_To_Repository" key="{9838047F-9685-4C17-9873-29082504A192}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Import_Glossary_Verification" key="{FB11394E-F2A6-4BE0-855D-A91902E8E45A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{393E21B7-120B-43C6-92C2-0D7655062D45}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Logout_3" key="{22E307E8-7D7B-48EA-98D9-550C5AFA1BF6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+										</children>
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Administration" key="{A95458CF-ABA6-4826-91AE-51175129D96E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Settings" key="{BF814CDB-CE6F-48C6-B323-1FD95B23C168}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children>
+											<testItem name="Model Definition" key="{826EB0FC-3AC4-4F39-9383-7E1EA745565A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Pre-requisite" key="{0CA1E778-CE7F-4798-8764-A132F9A14469}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Login_7" key="{F24FCAA0-5A3A-4A12-83FD-2026212B521F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp" />
+																	<param1 name="UserName" type="1" localVarName="" value="Vars" />
+																	<param2 name="Password" type="1" localVarName="" value="Decision1" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Navigate_To_Administration_2" key="{3A3398C9-8403-4B28-9FDA-38B027A4290C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Navigate_Model_Definition_2" key="{8037D9AF-FBC5-4965-B625-94045AA39400}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test ID: 01_AddNew_ModelDefinition_ClickFail" key="{DFD056A4-5170-422D-A555-04888428964D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Model_Definition" key="{FCBFFC2D-518D-48BF-B8B2-3335F7205B72}" group="False" parallel="False" enabled="True" testMoniker="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}Add_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="Create" type="3" localVarName="" varType="8" value="No" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test ID MD02_AddNew_ModelDefinition_ClickOK" key="{F0DDF25D-2F66-490F-A2E4-41038168D8C4}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Model_Definition_2" key="{337E5D07-B010-44DA-8098-7365DC2A0F3F}" group="False" parallel="False" enabled="True" testMoniker="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}Add_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Create" type="3" localVarName="" varType="8" value="Yes" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC3_Rename_ModelDefinition_Verify" key="{C7780040-5720-4E8C-9555-40D3EB9494C0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Search_Open_Model_Definition" key="{DF280C24-34E9-457C-A276-92BB12CAD24E}" group="False" parallel="False" enabled="True" testMoniker="{2D38663A-88BE-490F-A32E-5C99B31A845D}Search_Open_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Edit_Name_Model_Definition" key="{81991EE3-0B6F-4448-B197-52AAE2D8BD76}" group="False" parallel="False" enabled="True" testMoniker="{542A16B9-213D-4AF4-ABAB-2C14E549376C}Edit_Name_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Breadcrumb" key="{34FD09A6-7213-46C2-A1BF-356FF66BA200}" group="False" parallel="False" enabled="True" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="BreadcrumbName" type="3" localVarName="" varType="8" value="Model Definition" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Model_Definition_Availability_Check" key="{FC555E3A-98FE-4BE9-A223-EFF19DADF5F0}" group="False" parallel="False" enabled="True" testMoniker="{1990EDD2-1B2C-4A1E-BCDE-C743748C9398}Model_Definition_Availability_Check" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC4_Model_Definition_Clone_Version&#13;&#10;" key="{2AC0F839-1E07-4A79-BF9C-F51239A755FE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Search_Open_Model_Definition_2" key="{B7A5EEFC-D912-407F-8EAC-0CD54965C236}" group="False" parallel="False" enabled="True" testMoniker="{2D38663A-88BE-490F-A32E-5C99B31A845D}Search_Open_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Model_Definition_Clone_Version" key="{5FC87B43-E945-4685-BCA3-23A30AFD532E}" group="False" parallel="False" enabled="True" testMoniker="{E7344724-18B5-4061-BDF4-E491FC195F4A}Model_Definition_Clone_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="Version" type="3" localVarName="" varType="8" value="1.0.0" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC5_ModelDefinition_Rename_Cloned_Version&#13;&#10;" key="{B1C31E59-E295-40E4-B28D-819082246C53}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Model_Definition_Update_VersionName" key="{1E6D36F3-6D8C-4AC6-88BE-8E3C4BA6AC8C}" group="False" parallel="False" enabled="True" testMoniker="{41BCF052-F6A5-4F70-B942-8F6106A9FC5D}Model_Definition_Update_VersionName" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="EditVersionName" type="3" localVarName="" varType="8" value="1.0.0" />
+																	<param1 name="NewVersion" type="3" localVarName="" varType="8" value="VarshaVersion" />
+																	<param2 name="Update" type="3" localVarName="" varType="8" value="Yes" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC6_ModelDefinition_Freeze_Cloned_Version&#13;&#10;" key="{56F8BEAC-B4C4-43B3-B603-9822A35EEA33}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Model_Definition_Freeze_Version" key="{AF3DD423-3065-471A-ADCF-86DE5526B4D1}" group="False" parallel="False" enabled="True" testMoniker="{2DF10A51-D4C4-4B86-B979-67E434B46BE2}Model_Definition_Freeze_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="Version" type="3" localVarName="" varType="8" value="VarshaVersion" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC7_ModelDefinition_Unfreeze_Cloned_Version&#13;&#10;" key="{669097A2-82A0-4E3D-AD81-D8E4935C602F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Model_Definition_Unfreeze_Version" key="{1800ACCB-861A-4C2B-952F-1915EDFDC827}" group="False" parallel="False" enabled="True" testMoniker="{193B9F59-3BF6-437B-849D-EE3CA365592C}Model_Definition_Unfreeze_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="Version" type="3" localVarName="" varType="8" value="VarshaVersion" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC8_ModelDefinition_Remove_Version_Cancel&#13;&#10;" key="{18D0AC6A-74F3-4938-AA27-D1AEECFF1466}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Model_Definition_Remove_Version" key="{88BCF922-3721-4383-BD75-B11337B1F0F7}" group="False" parallel="False" enabled="True" testMoniker="{EC8952C6-66B8-495A-B27C-C7459B9FA319}Model_Definition_Remove_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="RemoveVersion" type="3" localVarName="" varType="8" value="No" />
+																	<param1 name="RemoveVersionName" type="3" localVarName="" varType="8" value="VarshaVersion" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC9_ModelDefinition_Remove_Version_Ok&#13;&#10;" key="{549DFCA9-F965-44C6-B16F-67680A3FD8C0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Model_Definition_Remove_Version_2" key="{13FE836A-4B70-4509-8000-B6674932EA42}" group="False" parallel="False" enabled="True" testMoniker="{EC8952C6-66B8-495A-B27C-C7459B9FA319}Model_Definition_Remove_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="RemoveVersion" type="3" localVarName="" varType="8" value="Yes" />
+																	<param1 name="RemoveVersionName" type="3" localVarName="" varType="8" value="VarshaVersion" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC10_ModelDefinition_ViewMappedEntities_Version&#13;&#10;" key="{25EE2685-CFD8-45BB-8BDA-D57DD170B80E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Model_Definition_ViewMappedEntities_Version" key="{1790C554-9834-45B6-AB89-7A792DB9F519}" group="False" parallel="False" enabled="True" testMoniker="{B272A6AE-2B05-4CBB-8238-8CBD15D1A3B3}Model_Definition_ViewMappedEntities_Version" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC11_ModelDefinition_ApprovalStrategy_None&#13;&#10;" key="{F0E8F412-BACD-4A86-8EF5-F090DC1E4352}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Approval_Strategy" key="{B70504AA-1F72-49E2-91DB-9C0226C9E659}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="8" value="Automatically Approved" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="8" value="" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC12_ModelDefinition_ApprovalStrategy_Any&#13;&#10;" key="{942A9D8E-CD94-43E8-928C-895F4C45CE54}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Approval_Strategy_2" key="{3E9F7C9F-E9D1-461C-88C1-A36105330B32}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="0" value="" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC13_ModelDefinition_ApprovalStrategy_All&#13;&#10;" key="{614941FB-F709-4B08-BF7F-759D89FA2F81}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Approval_Strategy_3" key="{488F5DEE-3386-477D-8B0D-0297D0337EA1}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="0" value="" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC14_ModelDefinition_ApprovalStrategy_Any_Distinct&#13;&#10;" key="{16BF1258-3167-4A7D-9013-FA86E33A43C4}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Approval_Strategy_4" key="{F1297525-A4E6-43B3-A39E-33438A5EAB28}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="0" value="" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC15_ModelDefinition_ApprovalStrategy_All_Distinct&#13;&#10;" key="{21E65690-A6C6-4CEA-8EA3-2693C918948C}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Approval_Strategy_5" key="{3FB0E2CF-B875-4D57-A323-7091C4529A8B}" group="False" parallel="False" enabled="True" testMoniker="{2AD217F0-5968-4FC3-90D7-3B3FFCDFB8D7}Add_Approval_Strategy" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="ImportApprovalStrategy" type="3" localVarName="" varType="0" value="" />
+																	<param2 name="DistinctUser" type="3" localVarName="" varType="0" value="" />
+																	<param3 name="Users" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC16_ModelDefinition_CustomProperty_AddNew&#13;&#10;" key="{1149DAA2-2837-4F0A-931C-4A02C36617C4}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Add_Custom_Properties_Single" key="{14421433-73FC-4DFA-866E-3F43B1F46028}" group="False" parallel="False" enabled="True" testMoniker="{13BD6634-1029-4D50-A028-8522DB391CBD}Add_Custom_Properties_Single" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="AllowedValue" type="3" localVarName="" varType="8" value="Any Value" />
+																	<param1 name="DataType" type="3" localVarName="" varType="8" value="Text" />
+																	<param2 name="DisplayFormat" type="3" localVarName="" varType="8" value="Text" />
+																	<param3 name="set_values" type="3" localVarName="" varType="0" value="" />
+																	<param4 name="Required" type="3" localVarName="" varType="8" value="Yes" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC17_ModelDefinition_CustomProperty_Edit_Name&#13;&#10;" key="{B1C2AA08-B06F-4D90-9308-B568DFBF4DEE}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All" key="{6EA78533-7E7C-4E5F-BE92-F69ECFD35EA2}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC18_ModelDefinition_CustomProperty_Edit_MarkRequired&#13;&#10;" key="{108E3F0B-A5DB-468E-AC9B-3696571DCBCE}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All_2" key="{0F688DD9-283A-4B01-A7DC-534AB3B1D6C5}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC19_ModelDefinition_CustomProperty_Edit_UnmarkRequired&#13;&#10;" key="{15D11F9E-8345-4B94-9AC1-2D03575347B3}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All_3" key="{325544FC-0D95-4C33-A154-C038FD65DFED}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC20_ModelDefinition_CustomProperty_Edit_MarkRetired&#13;&#10;" key="{B59284C9-F636-4F4A-AB5A-0C166EA171BF}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All_4" key="{F2B8305D-E6C7-485B-A2FA-EE8C759F16A3}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC21_ModelDefinition_CustomProperty_Edit_UnmarkRetired&#13;&#10;" key="{2B4882EA-9B39-4BF8-B21A-43699ACACD16}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All_5" key="{643EA4E7-CF88-4A15-AFB3-F95812E8DA3B}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC22_ModelDefinition_CustomProperty_Edit_UpdateDT_DF&#13;&#10;" key="{4623F791-BC5E-4238-A3C9-D659E9B4CE53}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All_6" key="{5C8F3A71-CB59-444E-A0A3-41E3A5318B77}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC23_ModelDefinition_CustomProperty_Edit_UpdateAll&#13;&#10;" key="{90044CF3-8086-4AED-8889-AB5DB54CA88F}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Edit_Custom_Property_All_7" key="{36C0CA59-CEDE-43DD-AF26-67FD6B7B547F}" group="False" parallel="False" enabled="True" testMoniker="{DEEBDD1D-3549-4976-AE0B-6E0046D424E5}Edit_Custom_Property_All" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CP_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="CP_Edit_Attribute_Value" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC24_ModelDefinition_CustomProperty_Remove_Cancel&#13;&#10;" key="{8CBF41FE-F27C-49F2-99F7-A5D165888F21}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Remove_Custom_property" key="{2AC1C390-BAC6-45B3-8655-B202B0D6B7F9}" group="False" parallel="False" enabled="True" testMoniker="{F7FF2C27-2992-4010-A6B6-34B35F281DF4}Remove_Custom_property" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CustomProprety_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="RemoveCP" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC25_ModelDefinition_CustomProperty_Remove_Ok&#13;&#10;" key="{B0F57B70-F447-4DB0-AD42-726E81354467}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Remove_Custom_property_2" key="{1EDD7323-EC80-454D-87C0-1428F2D5BD10}" group="False" parallel="False" enabled="True" testMoniker="{F7FF2C27-2992-4010-A6B6-34B35F281DF4}Remove_Custom_property" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="CustomProprety_Name" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="RemoveCP" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC26_ModelDefinition_Remove_Cancel&#13;&#10;" key="{6BA349D6-AA32-435D-A2A2-32C172216537}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Remove_Model_Definition" key="{7CDAD357-4655-4313-A408-7879CAC4006E}" group="False" parallel="False" enabled="True" testMoniker="{29CB57A8-F752-4AC1-B833-50099527B16D}Remove_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ModelDefinitionName" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="RemoveModelDefinition" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC27_ModelDefinition_Remove_Ok&#13;&#10;" key="{3DB59B89-EAAF-4A62-9D03-E4CF6A2B32E8}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Remove_Model_Definition_2" key="{22FFEF9F-AACF-43D3-A456-61F2CDAF1451}" group="False" parallel="False" enabled="True" testMoniker="{29CB57A8-F752-4AC1-B833-50099527B16D}Remove_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="ModelDefinitionName" type="3" localVarName="" varType="0" value="" />
+																	<param1 name="RemoveModelDefinition" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="TC27_ModelDefinition_CustomProperties_AllDataType" key="{161D0E00-893B-4DCB-8124-98FB24E1FA64}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Navigate_To_Administration" key="{B3DE7A77-EA3C-42EC-A197-73E17BBA99EA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Navigate_Model_Definition" key="{507E8A18-915C-406D-8580-6DAD84664018}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Add_Model_Definition_4" key="{CDBA40F2-BE11-4EF7-8543-7DF983A159CF}" group="False" parallel="False" enabled="True" testMoniker="{ADD27BDB-2053-46A0-ADE0-A5E6EB6053A3}Add_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="Create" type="3" localVarName="" varType="0" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Search_Open_Model_Definition_4" key="{46B15473-44C9-4D00-878F-55F92507B1DB}" group="False" parallel="False" enabled="True" testMoniker="{2D38663A-88BE-490F-A32E-5C99B31A845D}Search_Open_Model_Definition" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Add_Custom_Property" key="{D79659C5-022A-46BA-9F15-BAA23C3F3402}" group="False" parallel="False" enabled="True" testMoniker="{765C643C-CE7D-425C-B395-0429C2122BF1}Add_Custom_Property" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Post Execution" key="{F796244D-4DFE-4986-8FC7-A6E494EA932D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Logout_4" key="{B157FB15-124C-44C7-8034-BE8564CDBB39}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="Model Definition Test Cases" key="{97FA256A-61A7-46C8-8A6B-C18E96C21AF9}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Pre-requisite_1" key="{CBB919C3-41B2-4E3C-8836-136B9F2D7008}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<children>
+															<testItem name="Login_7_1" key="{6D88DF78-8D0C-4728-A791-A005F26D7E83}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters>
+																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:6501/login.jsp" />
+																	<param1 name="UserName" type="1" localVarName="" value="Vars" />
+																	<param2 name="Password" type="1" localVarName="" value="Decision1" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Navigate_To_Administration_2_1" key="{7937BE8E-FA3B-4E18-937A-FCC78C0C75CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Navigate_Model_Definition_2_1" key="{6EED4483-AF7E-4761-8E0D-98F1E4419340}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
+													</testItem>
+													<testItem name="Test_ID_01_AddNew_MD_ClickFail" key="{57AC703C-FAEF-4153-8B7B-79BF69C36B70}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E954C58-78BC-4176-884F-9C5A41B638CB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_02_AddNew_MD_ClickOk" key="{76C4BD2B-E975-4141-84AD-8E82C1003228}" group="False" parallel="False" enabled="True" testMoniker="KDT\{62A01BB1-C8ED-47F5-989B-A03BD7BB0F58}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_03_Rename_MD_Verify" key="{ADAD4452-4D29-46EB-BF04-F552C00D8E0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{58269395-9314-4507-A92B-1FEC74F10E4C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_04_MD_Clone_Version" key="{02877321-5CCE-461A-9DAA-B46D86159782}" group="False" parallel="False" enabled="True" testMoniker="KDT\{88CABF96-93B7-464D-A116-B9171D3C97F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_05_MD_Rename_Version" key="{02850E8C-DE20-4DA8-92CD-25E9FA778C0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{617F9AE5-309D-41B2-A8A4-0AE881B72FCF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_06_MD_Freezed_Version" key="{168F23C1-7F5C-46CD-A546-D11A8F9B8D4B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B7E84DD8-2F00-4502-B675-E4B8062599C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_07_MD_Unfreezed_Version" key="{E4D2FC5E-DB10-41A3-B0CF-7D707E3B7ED4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A099FB9-5231-4673-8C45-4E4D12275DA9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test_ID_08_MD_Remove_Version_Cancel" key="{C238CB0B-F58A-4DB4-B627-587966AE85AB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{97B70F4C-C379-4824-9291-91569B1F0B29}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+										</children>
+									</testItem>
+								</children>
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="End to End&apos;s" key="{268AA200-3485-4A80-875B-85286535B6FE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Merge With Sumants" key="{EF49FF8F-E682-42FA-AD42-1A9B00CDF533}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Claim_and_Open_Task_DA" key="{9614E93D-F16C-44E9-8776-38BB94E37940}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="" value="MyFirstAutomationTask" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validate_RuleFamily_Step" key="{6A70940C-1A93-40DD-BB2A-97EBC416D9A6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{27852749-477B-4CD5-86F4-1772BA75444E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="ValidationMessages" type="1" localVarName="" value="This Rule Family is valid." />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test_RuleFamily_Step" key="{9C1BE029-B1FA-44BC-80F4-281E24BD7C7F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
+											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
+											<param2 name="Persistent_TestGroup" type="1" localVarName="" value="Yes" />
+											<param3 name="Create_TestGroup" type="1" localVarName="" value="Yes" />
+											<param4 name="Asset_TestGroup" type="1" localVarName="" value="RuleFamily" />
+											<param5 name="SelectAll_GenerateTCs" type="1" localVarName="" value="No" />
+											<param6 name="SelectTestValue_GenerateTCs" type="1" localVarName="" value="User-entered values,Fact Type test values,Rule Family operands,Fact Type domain values,Range values,Small deviation range values,Large deviation range values" />
+											<param7 name="Number_GenerateTC" type="1" localVarName="" value="1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validate_Decision_Step" key="{C7106EA6-E199-4941-BF32-2D25DE41BA99}" group="False" parallel="False" enabled="False" testMoniker="KDT\{27852749-477B-4CD5-86F4-1772BA75444E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="ValidationMessages" type="1" localVarName="" value="This Decision is valid." />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test_Decision_Step" key="{494553FA-EE4B-4237-99B0-29DAFEAD03D5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
+											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
+											<param2 name="Persistent_TestGroup" type="1" localVarName="" value="Yes" />
+											<param3 name="Create_TestGroup" type="1" localVarName="" value="Yes" />
+											<param4 name="Asset_TestGroup" type="1" localVarName="" value="Decision" />
+											<param5 name="SelectAll_GenerateTCs" type="1" localVarName="" value="No" />
+											<param6 name="SelectTestValue_GenerateTCs" type="1" localVarName="" value="User-entered values,Fact Type test values,Rule Family operands,Fact Type domain values,Range values,Small deviation range values,Large deviation range values" />
+											<param7 name="Number_GenerateTC" type="1" localVarName="" value="3" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validate_Flow_Step" key="{84FF97D2-6F19-43B6-91C0-9876CB103B06}" group="False" parallel="False" enabled="False" testMoniker="KDT\{27852749-477B-4CD5-86F4-1772BA75444E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="ValidationMessages" type="1" localVarName="" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test_Flow_Step" key="{60D40D21-7DE4-44E6-8274-9E13E27EAEF7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
+											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
+											<param2 name="Persistent_TestGroup" type="1" localVarName="" value="Yes" />
+											<param3 name="Create_TestGroup" type="1" localVarName="" value="Yes" />
+											<param4 name="Asset_TestGroup" type="1" localVarName="" value="Flow" />
+											<param5 name="SelectAll_GenerateTCs" type="1" localVarName="" value="No" />
+											<param6 name="SelectTestValue_GenerateTCs" type="1" localVarName="" value="User-entered values,Fact Type test values,Rule Family operands,Fact Type domain values,Range values,Small deviation range values,Large deviation range values" />
+											<param7 name="Number_GenerateTC" type="1" localVarName="" value="10" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Breadcrumb_Navigations" key="{7795B45F-335E-4B2D-9CAC-BFFCBFFE51CD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Breadcrumb" type="1" localVarName="" value="MyFirstAutomationTask" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_BOA_Disabled_Button" key="{52284B9A-CB20-4205-9E80-0EDEF9E59D68}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2373236C-1BCC-47EB-8F62-0573F69C6A6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Navigate_to_FactType_Tab_from_Decision_Tab_4" key="{46B81690-56B0-49F3-B7D2-F2704A65AD74}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="FactType_Send_For_Approval" key="{9646516E-9479-4AD8-BF24-C43E7C6A139E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{29C4D1E8-A9AA-432A-B805-0D829F186040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_DA" key="{9A80DC50-B749-460D-9289-37AED1F2DF54}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_GA" key="{5595C2EF-07B7-40EA-8E08-44AADE83EFE8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:1102/dm/" />
+											<param1 name="UserName" type="1" localVarName="" value="Glossary Administrator" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="FactType_Claim_Approve" key="{C8F87AF5-1FA8-4A3D-9BC0-D7072DC9C513}" group="False" parallel="False" enabled="False" testMoniker="KDT\{75EC3950-3DDB-4A97-A282-E5C772A8B5D8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="GroupTab" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="GroupSubTab" type="1" localVarName="" value="Fact Type Tasks" />
+											<param2 name="ClaimedTab" type="1" localVarName="" value="My Tasks" />
+											<param3 name="ClaimedSubTab" type="1" localVarName="" value="Tasks" />
+											<param4 name="TaskName" type="1" localVarName="" value="MyFirstAutomationTask" />
+											<param5 name="FTNameAction" type="1" localVarName="" value="TestVars1 [V1.0] ,Approve" />
+											<param6 name="FactTypeName" type="1" localVarName="" value="TestVars1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_GA" key="{9104B5BE-D43B-44D3-BDBD-81A2149424D1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_DA" key="{FDCDF97A-4174-4DBC-BA2A-E421B0246739}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:1102/dm" />
+											<param1 name="UserName" type="1" localVarName="" value="Vars" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="MyTask_Navigate_to_Task" key="{0B156A13-336F-41BE-AF99-1E38C3B27ADE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{01C8D7B0-4CAC-49F8-AFBA-CBD4D784A0C8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="" value="MyFirstAutomationTask" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_BOA_Enabled" key="{CCB9C30F-A6C6-4A37-9E77-78A32798FFB9}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2373236C-1BCC-47EB-8F62-0573F69C6A6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_DA" key="{B6CB40E5-7D30-4337-A6A8-491D7BE69353}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_BOA" key="{5926EDB8-F4B4-4226-83B4-3FA390FB0D99}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:8854/login.jsp" />
+											<param1 name="UserName" type="1" localVarName="" value="sgp" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Claim_and_Open_Task_BOA" key="{0C1E007F-0FD6-4049-9FB7-FF314701883C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="" value="MyFirstAutomationTask" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_RM" key="{FB4B10AD-283E-4E0A-8B71-12DBE75E10F2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{62A43E8B-4193-4D81-9A13-D333973D631F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_BOA" key="{0F91A0C0-9C96-4D23-9A96-27937EAC9061}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_RM" key="{7A2FBA36-350F-4880-8C44-872D513F0009}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:1102/dm" />
+											<param1 name="UserName" type="1" localVarName="" value="Revision Manager" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Claim_and_Open_Task" key="{13E7C9F1-ED6B-45BF-A3A7-0E1D1ECB922C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="" value="MyFirstAutomationTask" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Navigate_To_Repository_2" key="{93BE1358-FD90-457E-9F62-98B467771395}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Add_Open_Release_Project" key="{583E97CF-A4D0-4E13-81AC-C422236926FC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{52B036DA-2BD4-470A-83F1-9D0A88831146}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Create" type="1" localVarName="" value="" />
+											<param1 name="ProjectName" type="1" localVarName="" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Open_Branches_Release_Project" key="{1E8CA612-8929-4EC9-B411-8DB3D893113A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{57460FB4-123F-4E04-BC1C-42F166CC21F9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="BranchName" type="1" localVarName="" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Create_Revision_Task" key="{9F2353E1-6026-4B20-9BDC-8D2640DF3476}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A28769B9-E214-43E5-AF13-E0CF77C3746F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Add_Assets" key="{616890CA-998B-421F-8FF2-52C20D9AB53E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabAssets" type="1" localVarName="" value="" />
+											<param1 name="Expand_CommunityName" type="1" localVarName="" value="" />
+											<param2 name="CommunityName" type="1" localVarName="" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Edit_Deployment_Descriptor" key="{F2025360-BFAF-44F4-8A78-DE3ABC0ACB49}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8FFF5EC5-A32F-4F0C-920E-ED1BC4EBEB86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="DescriptiveView" type="1" localVarName="" value="On" />
+											<param1 name="AssetName" type="1" localVarName="" value="" />
+											<param2 name="Month" type="1" localVarName="" value="Aug" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Submit_Revision_Task" key="{CB4BA4F5-8610-453D-8F7A-27276D8A3F14}" group="False" parallel="False" enabled="False" testMoniker="KDT\{822521FE-5542-4AB7-B418-EC19B891D365}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Create_New_Tag" key="{2A06F4D5-55D3-44C6-9AB1-AB5C2E5D34DF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9F66C028-8737-428F-92CA-ED121C14DEC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TagName" type="1" localVarName="" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Deploy_Tag_Verify_History" key="{2A0E9862-24C6-420F-A50F-481C68C1C759}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91A84CAC-1D24-4DDF-9B26-EEBBECB94138}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Gill&apos;s Demo" key="{830ABE92-A4C6-4A41-BF77-E87D6040FB1D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Login_8" key="{C70017C0-B643-4E37-9C08-560E12356E34}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:1102/dm/login.jsp" />
+											<param1 name="UserName" type="1" localVarName="" value="sgp" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DF_Open_Repository" key="{6F4E847C-5FDA-4F95-8BA7-676BF47327E5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C842DB6E-752D-4B54-881D-EE1573642C0E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+										<testParameters>
+											<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD" />
+											<param1 name="Community_To_Select" type="1" localVarName="" value="QM" />
+											<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+											<param3 name="Flow" type="1" localVarName="" value="CFPB Qualified Mortgage Service Process [V1.0]" />
+											<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DF_Open_SubFlow" key="{E3CEC87C-B2D3-4155-AA7A-8FCE611D6183}" group="False" parallel="False" enabled="False" testMoniker="KDT\{628A0D3C-D169-408C-A99A-89800C55982C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="breadcrumb_Toverify" type="1" localVarName="" value="Evaluate Loan Data Quality" />
+											<param1 name="DF_Name" type="1" localVarName="" value="Evaluate Loan Data" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Breadcrumb_2" key="{FEEA3938-6631-4446-8AD7-173BD8CE973B}" group="False" parallel="False" enabled="False" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="BreadcrumbName" type="3" localVarName="" varType="8" value="CFPB Qualified Mortgage Service Process [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DV_Open_From_DF" key="{8B25C92E-5CAB-47F0-B6B8-417D3A1DBBDA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9BB84698-D126-46C6-9FEF-E478B414BD28}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Decision" type="1" localVarName="" value="Borrower Ability to" />
+											<param1 name="breadcrumb_Toverify_Flow" type="1" localVarName="" value="Borrower Ability to Repay Status (View: Base) [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DRF_Open" key="{EBD03BC4-913A-45BD-A8E7-7449830DD18A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2B634DBB-0C99-43A9-964C-EB64287020AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="DRF" type="1" localVarName="" value="QM Status" />
+											<param1 name="breadcrumb_verify" type="1" localVarName="" value="QM Status (View: Base) [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="HomeScreen_Create_New_task" key="{2B2F0CB2-FB1B-4616-ACED-16F330937059}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F80B6045-49B0-440E-B555-47A7633F2594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Community" type="1" localVarName="" value="P&amp;C Underwriting Community" />
+											<param1 name="TaskName" type="1" localVarName="" value="Gils Demo" />
+											<param2 name="ModelingProjectName" type="1" localVarName="" value="Gil&apos;s Demo" />
+											<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo Asset Flow" />
+											<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Repository_DV_Edit" key="{B754633C-29D6-4764-989D-29C3F7FC84D5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{75DD461F-BFF4-4820-9C62-3554F14F2AE4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
+											<param1 name="Community_To_Select" type="1" localVarName="" value="P&amp;C Underwriting ViewGroup" />
+											<param2 name="Select_SubTab" type="1" localVarName="" value="Decisions" />
+											<param3 name="Decision" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.0]" />
+											<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="VG" />
+											<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="RF_Enable_Editing" key="{E72C0C36-002D-46CB-8F42-60F573175CC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B3BCC17D-40EB-43C2-A7CB-3818C5A66C25}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="RF_Name" type="1" localVarName="" value="Policy Renewal Method" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DecisionScreen_RF_Add_FT" key="{553D3706-0A36-4114-98D7-6781F3C1AD3E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2096DA67-7536-4CA2-AAE5-13B96A8B9938}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="RF_Name" type="1" localVarName="" value="Policy Renewal Method" />
+											<param1 name="Facttype_Name" type="1" localVarName="" value="Flood_Zoning Change" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DecisionScreen_Edit_FT" key="{F73A1E91-1E0B-434D-A14A-BC31C6C2E616}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C95580AE-EEE3-4D2E-B0D3-B115F3118709}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="FactTypeName" type="1" localVarName="FTCreatedFromDVScreen" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="MM_Add_FT_Mapped_Name_Value" key="{E2107520-61DC-4829-A0CD-C6DF296D8C4C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EFA0370E-1C50-469C-A9C6-2178AB19D6A2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Edit_FactType" type="1" localVarName="FTCreatedFromDVScreen" localVarLevel="1" value="" />
+											<param1 name="Model_Definition" type="1" localVarName="" value="FHA" />
+											<param2 name="Model_Definition_Version" type="1" localVarName="" value="1.0.0" />
+											<param3 name="Mapped_name" type="1" localVarName="RandomNumber" localVarLevel="1" value="" />
+											<param4 name="Allowed_Values" type="1" localVarName="" value="True-Mapped Value" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="BreadCrumb_navigate_OpenDV" key="{1265DFAD-5FE2-4CCE-B052-8BDBC2D7C919}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A2A19EA8-11CD-44D1-B6E8-45922343F9E7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="BreadCrumb" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+											<param1 name="Decision" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DRF_Open_2" key="{9647B555-4C4E-45F8-9C65-17D10B32298F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2B634DBB-0C99-43A9-964C-EB64287020AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="DRF" type="1" localVarName="" value="Policy Renewal Method" />
+											<param1 name="breadcrumb_verify" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Message_Catagory_Remove_Column" key="{0FB5170E-8E33-4F21-A526-323E04F65F9F}" group="False" parallel="False" enabled="True" testMoniker="{E36F2E38-2C8C-431C-9D5B-0600BCFD5A03}Message_Catagory_Remove_Column" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="category" type="3" localVarName="" varType="8" value="Informational" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="RF_Update_Logic" key="{ACDB4542-85CD-46F4-A438-0D8E6989CF23}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D6009FE-5D91-4CE0-A268-6CBC4A8705A0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Logic1" type="1" localVarName="" value=":;:;:;Is:True; Manual Renewal Process " />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Insert_Message" key="{85561795-4C2D-4B10-936F-79E4F5AF78E2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D8A689A4-8E76-4E3D-A852-D876F13DC6A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Message_Catagory" type="1" localVarName="" value="Critical" />
+											<param1 name="String" type="1" localVarName="" value="Text Message in second Row" />
+											<param2 name="Row_Number" type="1" localVarName="" value="2" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
 								</children>
 							</testItem>
 						</children>
@@ -436,8 +1442,140 @@
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{6B4E4E09-5209-45C6-8C71-A8B89C400E8E}" />
-	<settings key="{EBE4F8B4-DC19-4C67-8004-066A0E9613D0}">
+	<variables key="{E94FA621-4497-42BA-B67F-37504B13DBEC}">
+		<data Version="4">
+			<Items>
+				<Variable Name="URL_UAT" Type="String" Local="False" Descr="Env available on bdmsuat8">
+					<DefValue StrValue="https://dev-app.dm.sapiens.com/dm/login.jsp" />
+				</Variable>
+				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
+					<DefValue StrValue="sumant" />
+				</Variable>
+				<Variable Name="Password" Type="String" Local="False" Descr="SuperUser">
+					<DefValue StrValue="Decision1" />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003300460034004400380046003300460034004500430039003800410037003900310044004100460043004500330031004600350043003000350035003400320034003800320032003100310041003600430034004400330031004400360035003200" />
+				</Variable>
+				<Variable Name="Create_New_FactType" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="CreateNewFactTypeData$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="TaskName" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="TaskNames$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Var1" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="CreateNewFactTypeData$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_TestValues_StringValues" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns ColumnName0="TestValues" />
+						<Row No="0" Cell0="String #1" />
+						<Row No="1" Cell0="String #2" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_TestValues_NumericValues" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns ColumnName0="TestValues" />
+						<Row No="0" Cell0="1992" />
+						<Row No="1" Cell0="1997" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_TestValues_DropDown_Numbers" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns ColumnName0="TestValues" />
+						<Row No="0" Cell0="3" />
+						<Row No="1" Cell0="7" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_testValues_Dayoftheweeklong" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns ColumnName0="TestValues" />
+						<Row No="0" Cell0=" Monday " />
+						<Row No="1" Cell0=" Friday " />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_testValues_MonthLong" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns />
+						<Row No="0" Cell0=" February " />
+						<Row No="1" Cell0=" October " />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_testValues_Time" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns ColumnName0="TestValues" />
+						<Row No="0" Cell0="5:45 PM" />
+						<Row No="1" Cell0="10:30 PM" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Details_TestValues_DayOfWeekShort" Type="Table" Local="False">
+					<DefValue RowCount="2" ColumnCount="1">
+						<Columns ColumnName0="TestValues" />
+						<Row No="0" Cell0=" Wed " />
+						<Row No="1" Cell0=" Fri " />
+					</DefValue>
+				</Variable>
+				<Variable Name="Permission_Matrix" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Roles" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Roles$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="PermissionGroupsColumnNames" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Create_NewUser_Details" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Users$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="ImportGlossary" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="ImportGlossary$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="MD_CustomProperty" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="MDCustomProperty$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="MM_AllowedValues" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="MM_AllowedValues_AfterEdit" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="MM_CustomProperty_BeforeEdit" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="MM_CustomProperty_AfterEdit" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="NewTaskName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="FTCreatedFromDVScreen" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="RandomNumber" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<settings key="{02A77E4B-D105-4DE1-91B8-F09122987DDF}">
 		<settingsVersion value="14.91" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -500,7 +1638,7 @@
 			</data>
 		</setting>
 		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
-		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="DraggingDelay" type="2" value="1" />
 		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
 		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
 		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
@@ -536,8 +1674,8 @@
 		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
 		<setting name="HipTest_TestRunID" type="5" value="" />
 		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
-		<setting name="KeyPressingDelay" type="2" value="0" />
-		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="KeyPressingDelay" type="2" value="1" />
+		<setting name="MouseMovementDelay" type="2" value="1" />
 		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
 			<columns>
 				<column type="5" enabled="True" />
@@ -630,7 +1768,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
-		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="35" colIndex="9">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
@@ -644,43 +1782,41 @@
 				<column type="2" enabled="True" />
 			</columns>
 			<data>
-				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="0" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="0" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="4" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="6" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="6" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="9" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="14" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="16" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;id-33&quot; or &quot;id__14&quot;" val5="RegExp" val6="^id[_0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="21" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="26" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="31" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="31" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="31" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
-				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="32" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="32" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
 			</data>
 		</setting>
@@ -771,7 +1907,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -819,12 +1955,12 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
-		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="40000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="200" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
@@ -906,16 +2042,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{C978FB6C-F681-4D37-AF6B-3AED2013CDBA}" />
+	<analysis key="{6D0BEC0C-C36E-45C4-8092-250FBA24E385}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{844DEC8C-0703-41D6-82DF-47DA0783CDAB}">
+	<issueTracking key="{A8F9574A-811E-4ABC-8EFF-BDF788FEAFA3}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{E27C521C-D42A-48D8-9013-62BF00480B79}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{7C62A4BD-EFAA-40A6-9C46-FEE99D9E7F29}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{905AE078-D434-40D4-8BBF-13D95A3F7360}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{A78BFC92-76D2-4A60-B96B-382DB239A2EE}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>
