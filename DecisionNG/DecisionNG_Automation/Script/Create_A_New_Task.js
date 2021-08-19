@@ -17,7 +17,7 @@ function Create_A_New_Task(Community, TaskName, ModelingProjectName, AssetApprov
   
   SelectingOptionfromDropdown(Community, "No");
   
-  page.formF.textboxSorName.SetText(TaskName+Num);
+  page.FindElement("//input[@name='taskName']").SetText(TaskName+Num);
   
   Project.Variables.NewTaskName = TaskName+Num;
   

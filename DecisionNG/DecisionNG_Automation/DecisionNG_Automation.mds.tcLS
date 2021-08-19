@@ -91,21 +91,21 @@
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="0D000A005400610073006B00460069006E0061006C003100"/>
+							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003100310033003100320031003600"/>
 						</Node>
 						<Prp name="name" type="S" value="E2ETaskName"/>
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065003800350032003100320031003800"/>
 						</Node>
-						<Prp name="name" type="S" value="NewTaskName"/>
+						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
+							<Prp name="strvalue" type="H" value="360031003100320031003800"/>
 						</Node>
-						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
+						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
 					<Node name="var27">
 						<Node name="value">
