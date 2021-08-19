@@ -146,6 +146,7 @@
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
 				<child name="Assets_Ellipses_Options" key="{DEA5D211-7C25-4B1B-AE03-E35AA66A6FD5}" path="Assets_Ellipses_Options.js" />
 				<child name="Verify_Validation_Messages" key="{FA9EF229-7D00-4B00-A473-E95766DB2013}" path="Verify_Validation_Messages.js" />
+				<child name="Asset_Validation" key="{27E9323D-1453-41D4-9BDF-DAFEE6198BC7}" path="Asset_Validation.js" />
 			</folder>
 			<folder name="Knowledge Source">
 				<child name="Add_New_Knowledge_Source" key="{102849E1-B98F-44F0-8098-16C27F44DCED}" path="Add_New_Knowledge_Source.js" />
