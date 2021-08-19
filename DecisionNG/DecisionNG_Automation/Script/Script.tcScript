@@ -266,7 +266,5 @@
 			<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
-		<child name="Unit1" key="{91D309F2-5172-44EF-828A-68D56CC5932C}" path="Unit1.js" />
-		<child name="Unit2" key="{3F9C294E-C4CA-4F8A-90C4-DCA7F2D786D7}" path="Unit2.js" />
 	</children>
 </Root>
