@@ -2,9 +2,8 @@
 
 function FactType_Approve_Reject(FactType_Action)
 {
-//  Input the Fact Type Name along with the Version
+//  Input the Fact Type Name along with the Version and space at the back
 //  let FactType_Action = "Name,Approve";
-
   FactTypeAction = FactType_Action.split(",");
   let FactType = FactTypeAction[0];
   let Action = FactTypeAction[1];
@@ -24,11 +23,12 @@ function FactType_Approve_Reject(FactType_Action)
   
   do
   {   
-    
+      Delay(1000);
       let FactTypeList = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr");  
   
       for(var i = 1; i <= FactTypeList.length ; i++)
       {
+        
         
         let FactTypeName = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[1]");
         let Status = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[3]");          

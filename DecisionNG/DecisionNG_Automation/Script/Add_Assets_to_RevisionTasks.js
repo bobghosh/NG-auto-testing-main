@@ -1,7 +1,9 @@
-﻿var Source_Select_Assets_Checkboxes = require("Source_Select_Assets_Checkboxes");
+﻿var Collapse_Icon_Click_Verify = require("Collapse_Icon_Click_Verify");
+var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role");
+var Source_Select_Assets_Checkboxes = require("Source_Select_Assets_Checkboxes");
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
 var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
-var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDropDown_Only1DDexsists");
+//var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDropDown_Only1DDexsists");
 var Community_VG_Folder_Select = require("Community_VG_Folder_Select");
 var Expand_Icon_Click_Verify = require("Expand_Icon_Click_Verify");
 var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
@@ -25,20 +27,20 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
   
   //Select Respective Dropdowns
   Aliases.browser.pageSapiensDecision2.FindElement("//mat-dialog-container//dcn-multiple-combo-box/div[1]//button").Click();
-  SelectingOptionfromDropDown_Only1DDexsists.SelectingOptionfromDropdown("Version: All","No");
+  SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown("Version: All","No");
   
   Aliases.browser.pageSapiensDecision2.FindElement("//mat-dialog-container//dcn-multiple-combo-box/div[2]//button").Click();
-  SelectingOptionfromDropDown_Only1DDexsists.SelectingOptionfromDropdown("Location: All","No");
+  SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown("Location: All","No");
   
   Aliases.browser.pageSapiensDecision2.FindElement("//mat-dialog-container//dcn-multiple-combo-box/div[3]//button").Click();
-  SelectingOptionfromDropDown_Only1DDexsists.SelectingOptionfromDropdown("Status: Approved","No");
+  SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown("Status: Approved","No");
   
   
   //Click on Expand icons
   Expand_Icon_Click_Verify.Community_Expand_Verify(CommunityName);
   
   //Select Community 
-  Community_VG_Folder_Select.Community_VG_Folder_Select(Community_VG_Folder_Name);
+  Community_VG_Folder_Select.Community_VG_Folder_Select("Community",Community_VG_Folder_Name)
   
   //Select ViewGroup & Enable below code if Viewgroup folder is also involved
   //Expand_Icon_Click_Verify.Community_Expand_Verify("Underwriting");  

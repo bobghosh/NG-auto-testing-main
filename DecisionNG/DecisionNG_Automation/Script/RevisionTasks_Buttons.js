@@ -31,25 +31,28 @@ function Assets_Remove()
 function DescriptiveView(Descriptive_View)
 {
 //  let Descriptive_View = "Off";
-  if(Descriptive_View == "On" && (Aliases.browser.pageSapiensDecision2.panel34.Exists == false))
+  
+  if(Descriptive_View == "Off" && Aliases.browser.pageSapiensDecision2.FindElement("//dcn-descriptor-view-toggle//dcn-switch-button//label[@class='switch']/div/div/div[2]").getAttribute("class").includes("icon--off"))
   {
-      Aliases.browser.pageSapiensDecision2.label2.panel33.Click();
-      if((Aliases.browser.pageSapiensDecision2.panel34.Exists == true))
-      {
-      Log.Message("Switch is set to On")
-      }
-  }
-  else if (Descriptive_View == "Off" && (Aliases.browser.pageSapiensDecision2.panel34.Exists == true))
-  {
-      Aliases.browser.pageSapiensDecision2.label2.panel33.Click();  
-      if((Aliases.browser.pageSapiensDecision2.panel34.Exists == false))
+      Aliases.browser.pageSapiensDecision2.FindElement("//dcn-descriptor-view-toggle//dcn-switch-button//label[@class='switch']/div/div/div[1]").Click();
+      Delay(500);
+      if(Aliases.browser.pageSapiensDecision2.FindElement("//dcn-descriptor-view-toggle//dcn-switch-button//label[@class='switch']/div/div/div[1]").getAttribute("class").includes("icon--on"))
       {
       Log.Message("Switch is set to Off")
       }
   }
+  else if (Descriptive_View == "On" && Aliases.browser.pageSapiensDecision2.FindElement("//dcn-descriptor-view-toggle//dcn-switch-button//label[@class='switch']/div/div/div[1]").getAttribute("class").includes("icon--on"))
+  {
+      Aliases.browser.pageSapiensDecision2.FindElement("//dcn-descriptor-view-toggle//dcn-switch-button//label[@class='switch']/div/div/div[2]").Click();
+      Delay(500);
+      if(Aliases.browser.pageSapiensDecision2.FindElement("//dcn-descriptor-view-toggle//dcn-switch-button//label[@class='switch']/div/div/div[2]").getAttribute("class").includes("icon--off"))
+      {
+      Log.Message("Switch is set to On")
+      }
+  }
   else
   {
-    Log.Message("Switch is already set to" + Descriptive_View);
+    Log.Message("Switch is already set to " + Descriptive_View);
   }
 }
 
