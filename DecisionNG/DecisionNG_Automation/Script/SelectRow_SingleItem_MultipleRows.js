@@ -66,7 +66,7 @@
     
 }
 
-function Select_Single_Row_FactType_Task(Item)
+function Select_Single_Row_FactType_Task_through_TaskName(Item)
 {
   
     let flag = 0;
@@ -92,9 +92,9 @@ function Select_Single_Row_FactType_Task(Item)
           
           for(var j = 1; j <= ItemCount.length ; j++)
           {
-                var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[2]//a");
+                var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[7]//a");
 
-                //If the Item Name matches 
+                //If the Task Name matches 
                 if(HighlightedItemName.textContent == Item )
                 {          
                         //To select amy row click on any icon available on the row

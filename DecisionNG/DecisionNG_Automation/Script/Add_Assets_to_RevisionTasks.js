@@ -7,7 +7,7 @@ var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
 var Community_VG_Folder_Select = require("Community_VG_Folder_Select");
 var Expand_Icon_Click_Verify = require("Expand_Icon_Click_Verify");
 var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
-function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Folder_Name)
+function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Folder_Name, Month)
 {
 //  let Tabs_Assets = "Decision-Mortgage Effective Income Amount (View: Base) [V1.8],DecisionFlows-ATR QM Decision Flow [V1.1]";
   
@@ -56,7 +56,7 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
   if(EffectiveDate == "Yes")
   {  
     Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='effective-date ng-star-inserted']//*[@class='wj-glyph-calendar']").Click();
-    SelectingDateFromCalendar.CalendarSelection("No","2021" , "Jul", "1");
+    SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "1");
   
     Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='effective-date ng-star-inserted']//*[@class='wj-glyph-clock']").Click();
     SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
@@ -66,6 +66,8 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
   
   //Click on Okay
   Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+  
+  Delay(3000);
   
   //Verify the Assets Available  
   let Asset_Type_Name = Tabs_Assets.split(',');

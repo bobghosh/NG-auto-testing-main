@@ -5,13 +5,13 @@ function Revision_Task_Validate_Submit()
     
   RevisionTasks_Buttons.Assets_Validate().WaitProperty("Enabled", true, 100000);
   
-  if(Aliases.browser.pageSapiensDecision2.panel35.Exists == true)
+  if(Aliases.browser.pageSapiensDecision2.panelRevisionTaskValidation.Exists == true)
   {
     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.panel16, "contentText", cmpEqual, "Revision Task validation completed successfully");
 
     if(Aliases.browser.pageSapiensDecision.panel16.textContent == "Revision Task validation completed successfully")
     {
-      Aliases.browser.pageSapiensDecision2.panel35.Click();
+      Aliases.browser.pageSapiensDecision2.panelRevisionTaskValidation.Click();
       
       //Submit the Pull Request
       Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Submit']").Click();
