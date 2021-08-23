@@ -215,13 +215,15 @@
 					<child name="Complete_Task" key="{D9C94161-D6C4-4573-841C-8459878F67ED}" path="Complete_Task.tcKDTest" />
 					<child name="Claim_and_Open_Task" key="{E13C6919-AE74-4E45-AC90-6FD623F345FB}" path="Claim_and_Open_Task.tcKDTest" />
 					<child name="ConflictCheck_Resolve" key="{970F243A-0F2B-43F7-AAC5-0DB130D4B856}" path="ConflictCheck_Resolve.tcKDTest" />
-					<child name="Breadcrumb_Navigations" key="{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" path="Breadcrumb_Navigations.tcKDTest" />
 				</folder>
 				<folder name="Testing">
 					<child name="Testing_Step" key="{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" path="Testing_Step.tcKDTest" />
 				</folder>
 				<folder name="Validation">
 					<child name="Validation_Step" key="{27852749-477B-4CD5-86F4-1772BA75444E}" path="Validation_Step.tcKDTest" />
+				</folder>
+				<folder name="Generic">
+					<child name="Breadcrumb_Navigations" key="{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" path="Breadcrumb_Navigations.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

@@ -97,19 +97,19 @@
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F00330037003100380034003800"/>
+							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003400310038003100320034003400"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065003200360036003100380035003600"/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065003900350030003100320034003700"/>
 						</Node>
 						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var27">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="3600370039003100380035003500"/>
+							<Prp name="strvalue" type="H" value="3700380036003100320034003700"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
