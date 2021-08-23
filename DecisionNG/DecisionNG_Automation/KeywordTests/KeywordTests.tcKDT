@@ -6,6 +6,9 @@
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 				<child name="Navigate_to_Knowledge_Sources_Tab" key="{42D6503E-B088-4735-9F42-ED2DC4AD4979}" path="Navigate_to_Knowledge_Sources_Tab.tcKDTest" />
 				<child name="Navigate_to_Associations_Tab" key="{CC03AF4D-8F82-4BCA-8882-CC797AD2D644}" path="Navigate_to_Associations_Tab.tcKDTest" />
+				<child name="Navigate_to_Decision_Flows" key="{603E8196-B630-4C18-810A-F10EF2609298}" path="Navigate_to_Decision_Flows.tcKDTest" />
+				<child name="Navigate_to_Decisions" key="{56D360B4-FF23-43AE-A953-23C878EEB44B}" path="Navigate_to_Decisions.tcKDTest" />
+				<child name="Navigate_to_Rule_Families" key="{B61A401C-499C-4655-A254-8AABF111ACA8}" path="Navigate_to_Rule_Families.tcKDTest" />
 			</folder>
 			<folder name="Administration_Navigations">
 				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />

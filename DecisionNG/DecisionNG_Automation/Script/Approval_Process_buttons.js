@@ -18,11 +18,17 @@ function Discard_or_Reject_button()
 function Start_button()
 {  
   Aliases.browser.pageSapiensDecision.FindElement("//*[(text()='Start')]").Click();
+  
+  //Verify that Add Fact TYpe Button should become disabled
+  Aliases.browser.pageSapiensDecision.buttonAddFactType.WaitProperty("Enabled", false, 10000);
+  Delay(500);
+  
 }
 
 function Send_to_BOA()
 {
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
+  Delay(5000);
   
   let BOA_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Business Owner Approver')]");
   
@@ -40,7 +46,7 @@ function Send_to_BOA()
                 
      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
-     Delay(1000);
+     Delay(3000);
      
      //Check for Asset to be sent in Candidate Status
      if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "CANDIDATE")
@@ -62,6 +68,7 @@ function Send_to_BOA()
 
 function Send_to_RM()
 {
+  Delay(5000);
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
   
   let RM_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Release Management')]");
@@ -103,6 +110,7 @@ function Send_to_RM()
 function Complete_Task()
 {
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
+  Delay(5000);
   
   let Complete_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='COMPLETE')]");
   
@@ -116,7 +124,7 @@ function Complete_Task()
                 
      aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'COMPLETE'");
   
-     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
+     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Complete the Task");
                 
      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 

@@ -7,26 +7,23 @@
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Check_Conflicts_Button" Unit="Task_Page_buttons">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="AssetName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decision Flows" />
-					</Parameters>
-				</Data>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_to_Decision_Flows" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Check_Conflicts_Button" Unit="Task_Page_buttons">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="AssetName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decisions" />
-					</Parameters>
-				</Data>
+				<Data Description="Runs a script routine." TestName="Resolve_Conflicts_Decision_Flows" Unit="Check_Conflict_Button" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_to_Decisions" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Check_Conflicts_Button" Unit="Task_Page_buttons">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="AssetName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Rule Families" />
-					</Parameters>
-				</Data>
+				<Data Description="Runs a script routine." TestName="Resolve_Conflicts_Decisions" Unit="Check_Conflict_Button" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_to_Rule_Families" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Resolve_Conflicts_Rule_Families" Unit="Check_Conflict_Button" />
 			</Operation>
 		</Children>
 	</TestData>
