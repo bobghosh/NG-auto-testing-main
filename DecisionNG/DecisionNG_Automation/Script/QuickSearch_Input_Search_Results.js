@@ -26,9 +26,10 @@ function QuickSearch_Input_Search(TabName,userInput)
   
   Aliases.browser.pageSapiensDecision.FindElement("//*[contains(text(),'"+ TabName +"')]").Click(); 
 
-  
+//  Aliases.browser.pageSapiensDecision.FindElement("//*[contains(text(),'Searching')]").WaitProperty("Exists", false, 100000)
 //  SelectAssetTab_Search(TabName);
   
+  Delay(5000);
   switch(TabName)
   {
     case "Decision Flows":{      

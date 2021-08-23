@@ -1861,6 +1861,108 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel18" Key="{4E3B9BB6-B922-468B-AD23-D33BC0FEA076}">
+										<Image FileName="1568275995" Left="538" Top="581" Right="1061" Bottom="617" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-paginator" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;1234510&apos;)])[17]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-7&apos;]/dcn-view-group-asset-tab/div/dcn-asset-display-details-list/dcn-asset-display-details-pagination/dcn-paginator/p-paginator/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-paginator/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{0EDD524B-6C50-471E-8960-C6C01FD9A806}">
+										<Image FileName="-1303569093" Left="1064" Top="231" Right="1134" Bottom="252" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="dcn-descriptor-view-toggle .switch" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-revision-task/div/dcn-navigation-menu/div/div/dcn-revision-task-assets/div/dcn-revision-task-assets-action-buttons-panel/div/div[2]/div/fx-field/div/div/span/dcn-descriptor-view-toggle/dcn-switch-button/div/div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-descriptor-view-toggle/dcn-switch-button/div/div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNameLatest" Key="{416E834C-A658-49AD-AE63-344901E3774A}">
+										<Image FileName="-1527630312" Left="308" Top="187" Right="399" Bottom="206" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Name (Latest)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".breadcrumb-holder:nth-child(4) .breadcrumb-holder__tooltip--label" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/dcn-breadcrumb/div/div[4]/a/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#/viewGroups&apos;)])[4]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form6" Key="{ECE7851D-BF7D-4B5D-AA15-901691E23546}">
+										<Image FileName="-486174490" Left="291" Top="153" Right="1091" Bottom="718" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Generate Test Cases&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .ng-pristine" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-generate-test-case-dialog/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-generate-test-case-dialog/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTest23Latest" Key="{42692234-CF37-47F4-968B-E9F1BFB9E4EF}">
+										<Image FileName="1996415667" Left="323" Top="155" Right="446" Bottom="174" />
+										<TypeInfo Item0="{556F109B-69C6-4719-A3E0-E0ACCF56F14E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Test23 (Latest)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a[contains(@class, &apos;breadcrumb-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTest23Latest" Key="{B31518A7-270C-4B45-BDF9-88B79495A47D}">
+										<Image FileName="1996415667" Left="351" Top="155" Right="446" Bottom="174" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Test23 (Latest)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-shell//dcn-breadcrumb//div[4]/a//span[contains(@class, &apos;breadcrumb-holder__tooltip--label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-shell//dcn-breadcrumb//div[4]/a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -5243,6 +5345,189 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelRuleFamilies" Key="{3A2C64E2-BC11-458A-8361-5D39E5A7037D}">
+										<Image FileName="600312615" Left="0" Top="357" Right="180" Bottom="407" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Rule Families&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__ruleFamilies&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/dcn-task//dcn-navigation-menu//div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDecisions" Key="{3B01E051-5C25-45E7-9A95-4E50E52E9656}">
+										<Image FileName="-1774048660" Left="0" Top="307" Right="180" Bottom="357" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Decisions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__decisions&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/dcn-task//dcn-navigation-menu//div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuickSearch" Key="{3B086B6B-2459-4DE6-BEC4-8C2612F666B0}">
+										<Image FileName="-1642197683" Left="0" Top="131" Right="1366" Bottom="262" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-tns-c10-0&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelQuickSearch" Key="{808FEA77-D119-4B37-8EEB-C111331E9686}">
+										<Image FileName="76818458" Left="27" Top="151" Right="115" Bottom="198" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Quick Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;quick-search-form--label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-search-form//form/dcn-quick-search/dcn-quick-search-form//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRevisionTaskValidation" Key="{AC20C4CC-D958-4F1F-B2C0-E3474942F5C9}">
+										<Image FileName="1792045827" Left="409" Top="86" Right="957" Bottom="175" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;toast-success&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;toast-container&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelVrsha156756" Key="{5A41F783-2520-49D3-BD43-DA5C40D8F3D4}">
+										<Image FileName="-383833845" Left="453" Top="184" Right="1083" Bottom="220" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Vrsha156756&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;spec-project-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-11&apos;]//dcn-dialog//div/div/span/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelEnvironmentType" Key="{F0B69DFE-800C-4448-A599-3562C624D5B7}">
+										<Image FileName="-1801645749" Left="283" Top="343" Right="441" Bottom="379" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Environment type&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div//label[contains(@class, &apos;fx-field__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{C66A66EF-94FB-47E6-9B14-D0BB602E54D5}">
+										<Image FileName="-383833845" Left="453" Top="343" Right="1083" Bottom="379" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;spec-environment-type&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label4" Key="{2B2747E9-2D17-4290-8481-6B7F8AAF60BE}">
+										<Image FileName="-383833845" Left="453" Top="396" Right="1083" Bottom="432" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;spec-format-adapter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-11&apos;]//fx-field[2]/div/div/span/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[2]/div/div/span/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label5" Key="{121F4CAA-5239-45C4-AC1E-3EE742849F8D}">
+										<Image FileName="-383833845" Left="453" Top="449" Right="1083" Bottom="485" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;spec-repository-adapter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-11&apos;]//fx-field[3]/div/div/span/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[3]/div/div/span/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label6" Key="{59BC546B-F4D6-4DCC-ACD2-D0A9C3F3D9E5}">
+										<Image FileName="-901566130" Left="453" Top="502" Right="1083" Bottom="538" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;spec-model-definition&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-11&apos;]//fx-field[4]/div/div/span/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[4]/div/div/span/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label7" Key="{A3DC74D1-96B0-416D-A83C-6C5598839BEC}">
+										<Image FileName="-901566130" Left="453" Top="555" Right="1083" Bottom="591" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;spec-model-version&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-11&apos;]//fx-field[5]/div/div/span/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[5]/div/div/span/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDeploymentHistory" Key="{09565E7E-101C-43B8-93DD-47C1F7ADE790}">
+										<Image FileName="-1274110753" Left="21" Top="372" Right="161" Bottom="391" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Deployment History&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/dcn-revision//dcn-navigation-menu//div[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -5905,6 +6190,9 @@
 				<Child Name="textnode6" Owner="{D7CCFDA1-307E-46E5-B7ED-20CEED94461B}">
 					<Child Name="textnode7" Owner="{51DC6D69-9401-4B4E-A1A5-2EA3C92C38FA}" />
 				</Child>
+				<Child Name="linkTest23Latest" Owner="{42692234-CF37-47F4-968B-E9F1BFB9E4EF}">
+					<Child Name="textnodeTest23Latest" Owner="{B31518A7-270C-4B45-BDF9-88B79495A47D}" />
+				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">
@@ -5950,6 +6238,7 @@
 					<Child Name="label" Owner="{4992CEFD-AE2C-4D51-9D19-E8EBEC23761C}">
 						<Child Name="panel10" Owner="{60EBE71A-908D-47D7-A76F-D7C00633C289}" />
 					</Child>
+					<Child Name="labelQuickSearch" Owner="{808FEA77-D119-4B37-8EEB-C111331E9686}" />
 				</Child>
 				<Child Name="linkFacttypeName1111837V0" Owner="{8B22CAC4-731C-42B6-AC5E-43129CCEA0C1}" />
 				<Child Name="buttonValidate" Owner="{792C181D-E738-4B57-8E17-D1DA92E1CD73}" />
@@ -6206,6 +6495,13 @@
 				</Child>
 				<Child Name="form7" Owner="{334B200E-606C-4D15-AD9A-1215BD2BD188}">
 					<Child Name="textboxProjectname" Owner="{24C65F38-049C-4CB6-B86B-0CFA5D71C00C}" />
+					<Child Name="labelVrsha156756" Owner="{5A41F783-2520-49D3-BD43-DA5C40D8F3D4}" />
+					<Child Name="labelEnvironmentType" Owner="{F0B69DFE-800C-4448-A599-3562C624D5B7}" />
+					<Child Name="label3" Owner="{C66A66EF-94FB-47E6-9B14-D0BB602E54D5}" />
+					<Child Name="label4" Owner="{2B2747E9-2D17-4290-8481-6B7F8AAF60BE}" />
+					<Child Name="label5" Owner="{121F4CAA-5239-45C4-AC1E-3EE742849F8D}" />
+					<Child Name="label6" Owner="{59BC546B-F4D6-4DCC-ACD2-D0A9C3F3D9E5}" />
+					<Child Name="label7" Owner="{A3DC74D1-96B0-416D-A83C-6C5598839BEC}" />
 				</Child>
 				<Child Name="textnodeBranches" Owner="{A8125558-5C5C-496C-8115-D1FDB1DE62C5}" />
 				<Child Name="panel27" Owner="{1C0DB3AA-96CD-4F57-8883-0D5E9922E261}" />
@@ -6223,6 +6519,11 @@
 				<Child Name="label2" Owner="{5C5A411C-057F-4CCD-BB1A-E9A1A1638100}">
 					<Child Name="panel30" Owner="{6100CCC0-0913-4AD1-B3A2-3345E574849F}" />
 				</Child>
+				<Child Name="panelRuleFamilies" Owner="{3A2C64E2-BC11-458A-8361-5D39E5A7037D}" />
+				<Child Name="panelDecisions" Owner="{3B01E051-5C25-45E7-9A95-4E50E52E9656}" />
+				<Child Name="panelQuickSearch" Owner="{3B086B6B-2459-4DE6-BEC4-8C2612F666B0}" />
+				<Child Name="panelRevisionTaskValidation" Owner="{AC20C4CC-D958-4F1F-B2C0-E3474942F5C9}" />
+				<Child Name="textnodeDeploymentHistory" Owner="{09565E7E-101C-43B8-93DD-47C1F7ADE790}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
