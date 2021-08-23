@@ -29,6 +29,7 @@
 			<child name="RightClickOnElement_Select" key="{757FC150-486B-4025-B63C-C05E2B82F7AE}" path="RightClickOnElement_Select.js" />
 			<child name="Breadcrumb_Verify_Navigation" key="{DB119A13-DC09-44D1-BBD4-181E55F9D021}" path="Breadcrumb_Verify_Navigation.js" />
 			<child name="Generate_Random_Number" key="{ED4A959A-5F75-4C42-B0DE-64DF209E0197}" path="Generate_Random_Number.js" />
+			<child name="WaitElement_ispresent" key="{0BA94474-69FF-4A51-AF9F-37D550DE9A6F}" path="WaitElement_ispresent.js" />
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
@@ -147,6 +148,7 @@
 				<child name="Assets_Ellipses_Options" key="{DEA5D211-7C25-4B1B-AE03-E35AA66A6FD5}" path="Assets_Ellipses_Options.js" />
 				<child name="Verify_Validation_Messages" key="{FA9EF229-7D00-4B00-A473-E95766DB2013}" path="Verify_Validation_Messages.js" />
 				<child name="Asset_Validation" key="{27E9323D-1453-41D4-9BDF-DAFEE6198BC7}" path="Asset_Validation.js" />
+				<child name="Business_Information_Model" key="{D5C44958-CDCC-4F1A-91C0-B704ADBEFE3B}" path="Business_Information_Model.js" />
 			</folder>
 			<folder name="Knowledge Source">
 				<child name="Add_New_Knowledge_Source" key="{102849E1-B98F-44F0-8098-16C27F44DCED}" path="Add_New_Knowledge_Source.js" />
@@ -155,6 +157,9 @@
 				<child name="Add_Existing_Knowledge_Source" key="{3D6C596A-3D62-488F-8888-B4771B947689}" path="Add_Existing_Knowledge_Source.js" />
 				<child name="KS_Details_and_Associations" key="{17A498A1-0FDE-4C42-BC04-67A0128E22A8}" path="KS_Details_and_Associations.js" />
 				<child name="Verify_KS_Heading" key="{DAFC8042-3E63-49A4-AFDD-8E694B44605A}" path="Verify_KS_Heading.js" />
+			</folder>
+			<folder name="Decision Flow">
+				<child name="FlowScreen_Add_Draft_Decision" key="{F9A40E76-DD26-40E9-B5D5-5ED83A93F1D2}" path="FlowScreen_Add_Draft_Decision.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks_Queue">
@@ -179,6 +184,9 @@
 				<child name="Group_Task_Buttons" key="{3731A6EB-B882-4AA3-B06B-4168F58E0AFC}" path="Group_Task_Buttons.js" />
 				<child name="Tasks_FactTypes_ClaimAll" key="{4F257767-B836-416B-ADFE-62C12660E5BB}" path="Tasks_FactTypes_ClaimAll.js" />
 				<child name="Fact_Type_Tasks_Buttons" key="{D26C88BE-F967-45BA-BDCA-9470F619EFD7}" path="Fact_Type_Tasks_Buttons.js" />
+			</folder>
+			<folder name="User_Tasks">
+				<child name="Tasks_TabNavigation" key="{5E2085FA-4F52-446E-9195-A0A6A381C3F6}" path="Tasks_TabNavigation.js" />
 			</folder>
 			<child name="Tasks_MyTasks" key="{4E8686FE-27B3-4B65-BD31-8D0DA1D142AA}" path="Tasks_MyTasks.js" />
 		</folder>

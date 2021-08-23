@@ -189,6 +189,8 @@
 				<child name="Insert_Message" key="{D8A689A4-8E76-4E3D-A852-D876F13DC6A8}" path="Insert_Message.tcKDTest" />
 				<child name="RF_Update_Logic" key="{0D6009FE-5D91-4CE0-A268-6CBC4A8705A0}" path="RF_Update_Logic.tcKDTest" />
 				<child name="BreadCrumb_navigate_OpenDV" key="{A2A19EA8-11CD-44D1-B6E8-45922343F9E7}" path="BreadCrumb_navigate_OpenDV.tcKDTest" />
+				<child name="DV_Validation" key="{F9665006-E0F5-4D33-8952-EC3C93A92F9F}" path="DV_Validation.tcKDTest" />
+				<child name="DF_Edit" key="{4F53194F-ED13-41F7-93DC-0708FDAA5CDC}" path="DF_Edit.tcKDTest" />
 			</folder>
 			<folder name="Generic Steps">
 				<folder name="Fact Type Approval">
