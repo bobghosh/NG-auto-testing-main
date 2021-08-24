@@ -1,6 +1,6 @@
 ﻿//This Script contains functions for Split button, Start button, Discard button, Send to BOA and Verify, Send to RM and Verify
 //Generic code is written for clicking on any button at the place of Start button it will work for all the buttons at that place
-//Need to write Script for DPR and Complete
+//Need to write Script for DPR
 
 function Split_button()
 {
@@ -28,7 +28,7 @@ function Start_button()
 function Send_to_BOA()
 {
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
-  Delay(5000);
+//  Delay(5000);
   
   let BOA_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Business Owner Approver')]");
   
@@ -40,15 +40,16 @@ function Send_to_BOA()
      
      Delay(200);
                 
-     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Business Owner Approver'");
+//     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Business Owner Approver'");
      aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpContains, "Submit task to 'Business Owner Approver'");
 
      
 //     Aliases.browser.pageSapiensDecision..Keys("Please Approve the Request");
-     Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");
-             
+     Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");  
                 
-     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+
+      Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
                 
      Delay(5000);
      
@@ -91,8 +92,9 @@ function Send_to_RM()
 //     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
      Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");
      
-                
-     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+     Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+                   
+//     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
      Delay(3000);
      
@@ -136,8 +138,10 @@ function Complete_Task()
 //     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Complete the Task");
      Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Complete the Task");
         
+     Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
              
-     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
      Delay(3000);
      

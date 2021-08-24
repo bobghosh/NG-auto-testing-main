@@ -6573,6 +6573,7 @@
 				<Child Name="cell8" Owner="{B76BDAC3-9533-4CF5-A239-9F996EE18D39}" />
 				<Child Name="panelDecisionFlows" Owner="{46AEC531-5CE2-40F9-944B-3B6F08BDF3F1}" />
 				<Child Name="textnode7_new2" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new3" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

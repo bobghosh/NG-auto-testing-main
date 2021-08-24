@@ -52,7 +52,9 @@
               }
             }
           }          
-        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();          
+//        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();       
+        Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+           
         }
       }
     } 
@@ -118,7 +120,9 @@ function Resolve_Conflicts_Decisions()
               }
             }
           }          
-        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();          
+//        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+        Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+                  
       }
     }
     }
@@ -185,7 +189,9 @@ function Resolve_Conflicts_Rule_Families()
             }
           }
           
-        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+          Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
+//        Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
           
       }
 

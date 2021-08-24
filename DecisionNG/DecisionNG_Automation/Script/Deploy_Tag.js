@@ -26,7 +26,9 @@ function Tag_Deploy_Verify_Deployed_Tag_Status()
   
   Delay(300);
   
-  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+  Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
   //Deploy pop up should be closed  
   
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.panelRevisionTaskValidation, "Exists", cmpEqual, true);

@@ -65,7 +65,10 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
   }
   
   //Click on Okay
-  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+  
+  Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
   
   Delay(3000);
   

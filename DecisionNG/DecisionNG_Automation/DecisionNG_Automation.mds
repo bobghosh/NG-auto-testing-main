@@ -1206,6 +1206,7 @@
 									<testItem name="RF_Update_Logic" key="{ACDB4542-85CD-46F4-A438-0D8E6989CF23}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D6009FE-5D91-4CE0-A268-6CBC4A8705A0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="Logic1" type="1" localVarName="" value=":;:;:;Is:True; Manual Renewal Process" />
+
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1403,7 +1404,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="Add_Open_ReleaseProject_Open_Branches" key="{A52EC52B-39E6-4048-9D7C-1EA66D9476BE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52B036DA-2BD4-470A-83F1-9D0A88831146}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Add_Open_ReleaseProject_Open_Branches" key="{A52EC52B-39E6-4048-9D7C-1EA66D9476BE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52B036DA-2BD4-470A-83F1-9D0A88831146}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 										<testParameters>
 											<param0 name="Create" type="1" localVarName="" value="Yes" />
 											<param1 name="BranchName" type="1" localVarName="" value="Main" />
@@ -1418,7 +1419,8 @@
 									</testItem>
 									<testItem name="Add_Assets" key="{3AC58349-E900-4D09-B492-74F14D0EF929}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Policy Renewal Method (View: Base) [V1.1]" />
+
+											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Policy Renewal Method (View: Base) [V1.0]" />
 											<param1 name="Expand_CommunityName" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
 											<param2 name="CommunityName" type="1" localVarName="" value="P&amp;C Underwriting Community" />
 											<param3 name="Month" type="1" localVarName="" value="Aug" />

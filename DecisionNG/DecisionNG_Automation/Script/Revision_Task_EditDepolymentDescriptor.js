@@ -50,7 +50,9 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
       Log.Message(ExpirationDate);
       
       //Closing the Edit Deplotment Descriptor Pop up
-      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+      Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
       
       Delay(300);
          

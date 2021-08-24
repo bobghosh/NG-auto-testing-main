@@ -90,9 +90,13 @@
        
             Aliases.browser.pageSapiensDecision.FindElement("//*[@name='tc-number']").WaitProperty("Enabled", true, 100000);
             
+            Delay(200);
+            
             Aliases.browser.pageSapiensDecision.FindElement("//*[@name='tc-number']").SetText(numberOfTestCasesGenerated);
 
-            Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//            Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+            
+            Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
             
             Aliases.browser.pageSapiensDecision2.panel25.WaitProperty("Exists",false,100000);
             
