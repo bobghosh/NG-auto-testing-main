@@ -39,5 +39,6 @@
 	</TestData>
 	<Parameters Key="{C50F6E56-8125-432A-AFDE-4693CBCC1F8E}">
 		<Parameter0 Name="Create" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="BranchName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

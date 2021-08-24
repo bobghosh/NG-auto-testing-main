@@ -41,12 +41,16 @@ function Send_to_BOA()
      Delay(200);
                 
      aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Business Owner Approver'");
-  
-     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
+     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpContains, "Submit task to 'Business Owner Approver'");
+
+     
+//     Aliases.browser.pageSapiensDecision..Keys("Please Approve the Request");
+     Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");
+             
                 
      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
-     Delay(3000);
+     Delay(5000);
      
      //Check for Asset to be sent in Candidate Status
      if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "CANDIDATE")
@@ -81,13 +85,16 @@ function Send_to_RM()
      
      Delay(200);
                 
-     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Release Management'");
-  
-     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
+//     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Release Management'");
+     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpContains, "Submit task to 'Release Management'");
+
+//     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Please Approve the Request");
+     Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");
+     
                 
      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
-     Delay(1000);
+     Delay(3000);
      
      //Check for Asset to be sent in Candidate Status
      if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "APPROVED")
@@ -122,10 +129,14 @@ function Complete_Task()
      
      Delay(200);
                 
-     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'COMPLETE'");
+//     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'COMPLETE'");
+     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpContains, "Submit task to 'COMPLETE'");
   
-     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Complete the Task");
-                
+  
+//     Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Complete the Task");
+     Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Complete the Task");
+        
+             
      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
      Delay(3000);

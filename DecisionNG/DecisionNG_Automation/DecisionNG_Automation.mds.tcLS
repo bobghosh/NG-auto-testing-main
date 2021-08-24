@@ -97,21 +97,33 @@
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003400310038003100320034003400"/>
+							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F00320037003800320033003100"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065003900350030003100320034003700"/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E0067006500360031003200320033003400"/>
 						</Node>
 						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var27">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="3700380036003100320034003700"/>
+							<Prp name="strvalue" type="H" value="330032003300320033003400"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
+					</Node>
+					<Node name="var28">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0033005D00"/>
+						</Node>
+						<Prp name="name" type="S" value="GillsDemoAssetName"/>
+					</Node>
+					<Node name="var29">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="ModelDefinitionName"/>
 					</Node>
 					<Node name="var3">
 						<Prp name="name" type="S" value="Password1"/>

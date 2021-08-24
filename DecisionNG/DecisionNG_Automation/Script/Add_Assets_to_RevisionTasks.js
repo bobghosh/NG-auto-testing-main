@@ -13,7 +13,7 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
   
   RevisionTasks_Buttons.Assets_Add().Click();
   
-  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Add Assets to the Revision Task");
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Add Assets to the Revision Task");
 
   //Source should be selected
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnode2.textnodeSource, "className", cmpContains, "ui-tabview-selected");

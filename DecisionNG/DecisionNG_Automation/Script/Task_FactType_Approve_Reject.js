@@ -32,13 +32,19 @@ function FactType_Approve()
             Aliases.browser.pageSapiensDecision.FindElement("//ul//li[1]").Click();
                 
             Delay(200);
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1")
                 
-            aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Submit task to 'COMPLETE'");
+            aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpEqual, "Submit task to 'COMPLETE'");
   
-            Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Approved the Request");
+//            Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Approved the Request");
+//                
+//            Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+            
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Approved the Request");
                 
-            Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
-              
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[text()=' OK ']").ClickButton();
+                
+                  
             Delay(1000);    
                   
             aqObject.CheckProperty(Status, "contentText", cmpEqual, "APPROVED");                 

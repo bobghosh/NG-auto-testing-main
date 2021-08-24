@@ -40,13 +40,13 @@ function Draft_FactTypes_Send_to_Glossary()
         
                 Delay(200);
                 
-                aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Submit task to 'Glossary Administrator'");
+                aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpEqual, "Submit task to 'Glossary Administrator'");
   
-                Aliases.browser.pageSapiensDecision.form.form2.form3.textareaDescription.Keys("Plesae Approve the Request");
+                Aliases.browser.pageSApiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");
                 
-                Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+                Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[text()=' OK ']").click();
                 
-                Delay(300);
+                Delay(1000);
                 
                 aqObject.CheckProperty(Status, "contentText", cmpEqual, "CANDIDATE");
           }
