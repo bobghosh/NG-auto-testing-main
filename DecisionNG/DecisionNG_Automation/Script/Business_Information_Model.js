@@ -48,10 +48,12 @@ var editBimCancelBtn= ()=>
 function BIM_DragAndDropFT()
 {
   let Source="Policy Discount"
-  let Destination="Child0012"
+  let Destination="Child1"
   let sourceRG = page.FindElement("//mat-dialog-container//span[text()='"+Source+"']");
   let destinationRG = page.FindElement("//dcn-edit-bim-tree//span[text()='"+Destination+"']");
-  page.Drag() 
+  sourceRG.click();
+  screenMouseX = Sys.Desktop.MouseX;
+  screenMouseY = Sys.Desktop.MouseY;
   
 }
 
