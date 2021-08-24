@@ -47,14 +47,31 @@ var editBimCancelBtn= ()=>
 
 function BIM_DragAndDropFT()
 {
-  let Source="Policy Discount"
-  let Destination="Child1"
-  let sourceRG = page.FindElement("//mat-dialog-container//span[text()='"+Source+"']");
-  let destinationRG = page.FindElement("//dcn-edit-bim-tree//span[text()='"+Destination+"']");
-  sourceRG.click();
-  screenMouseX = Sys.Desktop.MouseX;
-  screenMouseY = Sys.Desktop.MouseY;
+  var dragFTAndDropInRG = "Policy Discount-Child1,Policy Grade-Child1"
+  var setValues = dragFTAndDropInRG.split(',');  
   
+     
+  for(var i = 0; i < setValues.length ; i++) 
+  { 
+    var factType_And_RG_Names = setValues[i].split('-');
+    var Source=factType_And_RG_Names[0];
+    var Destination=factType_And_RG_Names[1];
+    Log.Message("Source is "+Source)
+    Log.Message("Destination is "+Destination)
+    let sourceRG = page.FindElement("//mat-dialog-container//span[text()='"+Source+"']");
+    let destinationRG = page.FindElement("//dcn-edit-bim-tree//span[text()='"+Destination+"']");
+    destinationRG.click();
+    Delay(500);
+    const destinationMouseX = Sys.Desktop.MouseX;
+    const destinationMouseY = Sys.Desktop.MouseY;
+    sourceRG.click();
+    Delay(500);
+    const sourceMouseX = Sys.Desktop.MouseX;
+    const sourceMouseY = Sys.Desktop.MouseY;
+    LLPlayer.MouseDown(MK_LBUTTON,sourceMouseX,sourceMouseY,2000);
+    LLPlayer.MouseMove(destinationMouseX,destinationMouseY,2000);
+    LLPlayer.MouseUp(MK_LBUTTON,destinationMouseX,destinationMouseY,2000);
+  }
 }
 
 function Delete_BIM_Child()
