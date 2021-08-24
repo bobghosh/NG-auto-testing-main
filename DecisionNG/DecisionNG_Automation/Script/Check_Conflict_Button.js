@@ -27,7 +27,7 @@
         {         
           Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[6]//dcn-asset-conflict-indicator//i").Click();  
       
-          aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
+//          aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
   
           Conflicted_AssetList = Aliases.browser.pageSapiensDecision.FindElements("//dcn-dialog//tbody//tr//p-checkbox/div/div[2]");
           
@@ -93,7 +93,7 @@ function Resolve_Conflicts_Decisions()
       {        
           Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[6]//dcn-asset-conflict-indicator//i").Click();  
       
-          aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
+//          aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
   
           Conflicted_AssetList = Aliases.browser.pageSapiensDecision.FindElements("//dcn-dialog//tbody//tr//p-checkbox/div/div[2]");
           
@@ -159,7 +159,7 @@ function Resolve_Conflicts_Rule_Families()
       {        
          Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[7]//dcn-asset-conflict-indicator//i").Click();        
      
-         aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
+//         aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
   
          Conflicted_AssetList = Aliases.browser.pageSapiensDecision.FindElements("//dcn-dialog//tbody//tr//p-checkbox/div/div[2]");
           

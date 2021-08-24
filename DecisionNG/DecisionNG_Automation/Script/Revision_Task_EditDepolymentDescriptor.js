@@ -29,11 +29,11 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
       //Verify the pop up and enter Effective and expiration data 
       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeTg1626167000507, "contentText", cmpContains, "Edit Deployment Descriptor");
   
-      Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//*[@class='wj-glyph-calendar']").Click();
-      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "1");
-  
-      Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//*[@class='wj-glyph-clock']").Click();
-      SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
+//      Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//*[@class='wj-glyph-calendar']").Click();
+//      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "1");
+//  
+//      Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//*[@class='wj-glyph-clock']").Click();
+//      SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
       
       let EffectiveDate = Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-effective-date-field']//input").Text;
   

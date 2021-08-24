@@ -163,7 +163,7 @@
             }
             else
             {
-              Log.Error("Fail")
+              Log.Message("Fail" + numberOfTestCasesGenerated)
             } 
           
     

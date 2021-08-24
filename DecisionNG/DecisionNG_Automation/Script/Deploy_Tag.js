@@ -7,20 +7,22 @@ function Tag_Deploy_Verify_Deployed_Tag_Status()
   //Click on Deploy button for Revision
   Aliases.browser.pageSapiensDecision2.FindElement("//*[text()='Deploy ']").ClickButton();
   
-  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Deploy Tag");
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Deploy Tag");
   
-  let Project_Name = Aliases.browser.pageSapiensDecision2.form7.labelVrsha156756.textContent;
-  let Deploy_Name = Aliases.browser.pageSapiensDecision.form.form2.form4.textbox.Text;  
+//  let Project_Name = Aliases.browser.pageSapiensDecision2.form7.labelVrsha156756.textContent;
+//  let Deploy_Name = Aliases.browser.pageSapiensDecision.form.form2.form4.textbox.Text;  
+//  
+//  Aliases.browser.pageSapiensDecision.form.form2.form4.button2.ClickButton();
   
-  Aliases.browser.pageSapiensDecision.form.form2.form4.button2.ClickButton();
-  
+  Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//dcn-revision-environment//button").ClickButton()
+
   SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown("DE", "No");
   
-  let Environment_Type = Aliases.browser.pageSapiensDecision2.form7.label3.textContent;
-  let Format_Adapter = Aliases.browser.pageSapiensDecision2.form7.label4.textContent;
-  let Repository_Adapter = Aliases.browser.pageSapiensDecision2.form7.label5.textContent;
-  let Model_Definition = Aliases.browser.pageSapiensDecision2.form7.label6.textContent;
-  let Model_Version = Aliases.browser.pageSapiensDecision2.form7.label7.textContent;
+//  let Environment_Type = Aliases.browser.pageSapiensDecision2.form7.label3.textContent;
+//  let Format_Adapter = Aliases.browser.pageSapiensDecision2.form7.label4.textContent;
+//  let Repository_Adapter = Aliases.browser.pageSapiensDecision2.form7.label5.textContent;
+//  let Model_Definition = Aliases.browser.pageSapiensDecision2.form7.label6.textContent;
+//  let Model_Version = Aliases.browser.pageSapiensDecision2.form7.label7.textContent;
   
   Delay(300);
   

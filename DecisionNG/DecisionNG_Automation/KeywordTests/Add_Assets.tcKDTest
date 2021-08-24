@@ -13,6 +13,7 @@
 						<Parameter Name="Tabs_Assets" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TabAssets" />
 						<Parameter Name="CommunityName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Expand_CommunityName" />
 						<Parameter Name="Community_VG_Folder_Name" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="CommunityName" />
+						<Parameter Name="Month" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Month" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -22,5 +23,6 @@
 		<Parameter0 Name="TabAssets" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 		<Parameter1 Name="Expand_CommunityName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 		<Parameter2 Name="CommunityName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="Month" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>
