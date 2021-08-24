@@ -1205,7 +1205,8 @@
 									</testItem>
 									<testItem name="RF_Update_Logic" key="{ACDB4542-85CD-46F4-A438-0D8E6989CF23}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D6009FE-5D91-4CE0-A268-6CBC4A8705A0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="Logic1" type="1" localVarName="" value=":;:;:;Is:True; Manual Renewal Process " />
+											<param0 name="Logic1" type="1" localVarName="" value=":;:;:;Is:True; Manual Renewal Process" />
+
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1418,6 +1419,7 @@
 									</testItem>
 									<testItem name="Add_Assets" key="{3AC58349-E900-4D09-B492-74F14D0EF929}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
+
 											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Policy Renewal Method (View: Base) [V1.0]" />
 											<param1 name="Expand_CommunityName" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
 											<param2 name="CommunityName" type="1" localVarName="" value="P&amp;C Underwriting Community" />
@@ -1667,7 +1669,7 @@
 			</data>
 		</setting>
 		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
-		<setting name="DraggingDelay" type="2" value="0" />
+		<setting name="DraggingDelay" type="2" value="1" />
 		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
 		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
 		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
@@ -1703,8 +1705,8 @@
 		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
 		<setting name="HipTest_TestRunID" type="5" value="" />
 		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
-		<setting name="KeyPressingDelay" type="2" value="0" />
-		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="KeyPressingDelay" type="2" value="1" />
+		<setting name="MouseMovementDelay" type="2" value="1" />
 		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
 			<columns>
 				<column type="5" enabled="True" />
@@ -1984,8 +1986,8 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="20000" />
-		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="200" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="30000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="300" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
