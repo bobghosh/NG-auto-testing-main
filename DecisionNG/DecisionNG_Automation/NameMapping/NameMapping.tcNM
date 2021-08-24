@@ -1959,9 +1959,6 @@
 										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;Test23 (Latest)&apos;]" />
-											</Selector>
-											<Selector>
 												<Value Value="//dcn-shell//dcn-breadcrumb//div[4]/a//span[contains(@class, &apos;breadcrumb-holder__tooltip--label&apos;)]" />
 											</Selector>
 											<Selector>
@@ -4438,9 +4435,6 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[text()=&apos;TG1626167000507&apos;]" />
-											</Selector>
-											<Selector>
 												<Value Value=".test-case__header--heading" />
 											</Selector>
 											<Selector>
@@ -4959,6 +4953,9 @@
 										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//h5" />
+											</Selector>
+											<Selector>
 												<Value Value="//h5[text()=&apos;Revision&apos;]" />
 											</Selector>
 											<Selector>
@@ -4966,9 +4963,6 @@
 											</Selector>
 											<Selector>
 												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-revision/div/dcn-navigation-menu/div/span/h5" />
-											</Selector>
-											<Selector>
-												<Value Value="//h5" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6579,6 +6573,7 @@
 				<Child Name="cell8" Owner="{B76BDAC3-9533-4CF5-A239-9F996EE18D39}" />
 				<Child Name="panelDecisionFlows" Owner="{46AEC531-5CE2-40F9-944B-3B6F08BDF3F1}" />
 				<Child Name="textnode7_new2" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new3" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

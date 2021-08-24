@@ -42,8 +42,10 @@ function FactType_Approve()
             
             Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Approved the Request");
                 
-            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[text()=' OK ']").ClickButton();
-                
+//            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[text()=' OK ']").ClickButton();
+              
+            Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+          
                   
             Delay(1000);    
                   

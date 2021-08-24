@@ -44,7 +44,9 @@ function Draft_FactTypes_Send_to_Glossary()
   
                 Aliases.browser.pageSApiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");
                 
-                Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[text()=' OK ']").click();
+//                Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[text()=' OK ']").click();
+                Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
                 
                 Delay(1000);
                 

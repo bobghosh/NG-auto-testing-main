@@ -2,8 +2,8 @@
 {
 //      let Create = "Yes";
       var timestamp = new Date();
-      let ProjectName = "ReleaseProject" + timestamp.getMinutes().toString();
-  
+      let ProjectName = "ReleaseProject1" + timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
+      
     Aliases.browser.pageSapiensDecision2.FindElement("//button[contains(@class,'add-btn')]").click();
   
     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Create New Project");
@@ -22,9 +22,5 @@
     else
     {
         Aliases.browser.pageSapiensDecision2.FindElement("//button[contains(@class,'spec-cancelled')]").click();
-    }
-  
-
-  
-  
+    } 
 }

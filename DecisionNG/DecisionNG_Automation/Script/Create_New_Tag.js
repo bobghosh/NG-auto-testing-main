@@ -11,12 +11,13 @@ function Create_New_Tag(TagName)
   //  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Create New Tag");
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpEqual, "Create New Tag");
    
-  Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName.SetText(TagName);
+  Aliases.browser.pageSapiensDecision.FindElement("//*[@name='tagName']").SetText(TagName);
   
   Delay(500);
-  //button[@class='btn primary spec-confirmed']
   //Aliases.browser.pageSapiensDecision.FindElement("//button[@class='btn primary spec-confirmed']").Click();
-  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+//  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+  Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+        
   
   //Verify the TagName in the breadcrumb
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.linkTest23Latest.textnodeTest23Latest, "contentText", cmpContains, TagName, false);
