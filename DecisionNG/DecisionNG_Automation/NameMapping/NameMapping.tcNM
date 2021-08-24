@@ -397,6 +397,12 @@
 												<Value Value="//button[contains(text(), &apos;OK&apos;)]" />
 											</Selector>
 											<Selector>
+												<Value Value="//button[contains(text(), &apos;Resolve&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Continue Anyway&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value=".primary" />
 											</Selector>
 											<Selector>
@@ -5528,6 +5534,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="cell7" Key="{9E74A4E9-6010-4769-88D2-1B0B4BD93A81}">
+										<Image FileName="623935284" Left="208" Top="279" Right="551" Bottom="328" />
+										<TypeInfo Item0="{2A722ACB-4DF3-4995-BC77-61AC1C6A80FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Decision Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[contains(@class, &apos;ui-state-highlight&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell8" Key="{B76BDAC3-9533-4CF5-A239-9F996EE18D39}">
+										<Image FileName="-1865388487" Left="208" Top="279" Right="551" Bottom="328" />
+										<TypeInfo Item0="{2A722ACB-4DF3-4995-BC77-61AC1C6A80FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Decision Flow Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[contains(@class, &apos;ui-state-highlight&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDecisionFlows" Key="{46AEC531-5CE2-40F9-944B-3B6F08BDF3F1}">
+										<Image FileName="1602097774" Left="8" Top="265" Right="188" Bottom="315" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Decision Flows&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__decisionFlows&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/dcn-task//dcn-navigation-menu//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6524,6 +6575,10 @@
 				<Child Name="panelQuickSearch" Owner="{3B086B6B-2459-4DE6-BEC4-8C2612F666B0}" />
 				<Child Name="panelRevisionTaskValidation" Owner="{AC20C4CC-D958-4F1F-B2C0-E3474942F5C9}" />
 				<Child Name="textnodeDeploymentHistory" Owner="{09565E7E-101C-43B8-93DD-47C1F7ADE790}" />
+				<Child Name="cell7" Owner="{9E74A4E9-6010-4769-88D2-1B0B4BD93A81}" />
+				<Child Name="cell8" Owner="{B76BDAC3-9533-4CF5-A239-9F996EE18D39}" />
+				<Child Name="panelDecisionFlows" Owner="{46AEC531-5CE2-40F9-944B-3B6F08BDF3F1}" />
+				<Child Name="textnode7_new2" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
