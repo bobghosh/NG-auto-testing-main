@@ -58,8 +58,19 @@ function DescriptiveView(Descriptive_View)
 
 function Assets_Submit()
 {
+  let ApprovalStrategy = "Any";
   let SubmitButton =  Aliases.browser.pageSapiensDecision2.FindElement("//button//*[contains(text(),'Submit')]");
-  return SubmitButton;
+  SubmitButton.Click();
+  
+  if(ApprovalStrategy == "None")
+  {
+    Log.Message("Approval Strategy is set to None");
+  }
+  else if(ApprovalStrategy == "Any" || ApprovalStrategy == "ALL")
+  {   
+    Aliases.browser.pageSapiensDecision.FindElement("//button[contains(text(),'Remove')]").WaitProperty("Exists", true, 20000);
+    aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span"), "contentText", cmpEqual, "CANDIDATE");  
+  }
 }
 
 //function Assets_Discard()
