@@ -77,6 +77,7 @@
 						<child name="Add_Assets_to_RevisionTasks" key="{741F9459-5884-4BD2-82DA-053161C6AB9D}" path="Add_Assets_to_RevisionTasks.js" />
 						<child name="Selected_Assets" key="{2FF9AE58-9117-4FEC-BE5B-FD6A5A3996CA}" path="Selected_Assets.js" />
 						<child name="Source_Select_Assets_Checkboxes" key="{0A5BA664-D922-4418-BE12-EA5FA67DA41F}" path="Source_Select_Assets_Checkboxes.js" />
+						<child name="Revision_Task_Approve_Reject" key="{5761458D-AE64-4171-93F8-0BFE42C497BE}" path="Revision_Task_Approve_Reject.js" />
 					</folder>
 					<folder name="Release Project">
 						<child name="Release_Project_Details_Screen" key="{40F5DFE4-A8C5-450F-B30D-76BF4F99109F}" path="Release_Project_Details_Screen.js" />
@@ -163,6 +164,17 @@
 			</folder>
 		</folder>
 		<folder name="Tasks Queue">
+			<folder name="Task Queue Navigation and Actions">
+				<folder name="Task Queue Page">
+					<child name="Group_Task_Buttons" key="{3731A6EB-B882-4AA3-B06B-4168F58E0AFC}" path="Group_Task_Buttons.js" />
+					<child name="Tasks_FactTypes_ClaimAll" key="{4F257767-B836-416B-ADFE-62C12660E5BB}" path="Tasks_FactTypes_ClaimAll.js" />
+				</folder>
+				<folder name="Tab Navigations">
+					<child name="Navigate_Tasks_Subtab" key="{D25916E7-0FCE-41F0-A07F-19125F1D5090}" path="Navigate_Tasks_Subtab.js" />
+					<child name="TaskQueue_Navigate_Sub_Tab" key="{0F6D4ECB-6365-40BB-880E-26856A8EC404}" path="TaskQueue_Navigate_Sub_Tab.js" />
+					<child name="TaskQueue_Navigate_Tab" key="{E4A79D86-5B97-456D-9295-B1E82B791049}" path="TaskQueue_Navigate_Tab.js" />
+				</folder>
+			</folder>
 			<folder name="Tasks Governance">
 				<folder name="Knowledge Sources Tab">
 					<child name="KS_Verify_Open_List" key="{5AD10594-34E2-4BA7-B54A-F7C6660D4F09}" path="KS_Verify_Open_List.js" />
@@ -174,25 +186,16 @@
 					<child name="Approval_Process_buttons" key="{AB550BA2-E677-46F5-A8D8-DFB3054E0421}" path="Approval_Process_buttons.js" />
 					<child name="Check_Conflict_Button" key="{977F6596-7BAE-4D47-A020-7956C2BE53C8}" path="Check_Conflict_Button.js" />
 				</folder>
-				<folder name="Details Tab" />
 				<folder name="Fact Type Tab">
-					<child name="Task_Draft_FactTypes_Send_to_Glossary" key="{B5220BBD-0C68-46F2-A82E-125EFCB68A74}" path="Task_Draft_FactTypes_Send_to_Glossary.js" />
 					<child name="Task_FactType_Approve_Reject" key="{3FDA51F3-C3CC-430C-9119-BB7D9D9CCDD3}" path="Task_FactType_Approve_Reject.js" />
+					<child name="Task_Draft_FactTypes_Send_to_Glossary" key="{B5220BBD-0C68-46F2-A82E-125EFCB68A74}" path="Task_Draft_FactTypes_Send_to_Glossary.js" />
+				</folder>
+				<folder name="Details Tab">
+					<child name="Details_Audit" key="{C665D551-02A8-4A11-AF16-CACDDE6F5F75}" path="Details_Audit.js" />
 				</folder>
 			</folder>
 			<folder name="User Tasks">
 				<child name="Tasks_TabNavigation" key="{5E2085FA-4F52-446E-9195-A0A6A381C3F6}" path="Tasks_TabNavigation.js" />
-			</folder>
-			<folder name="Task Queue Navigation and Actions">
-				<folder name="Tab Navigations">
-					<child name="Navigate_Tasks_Subtab" key="{D25916E7-0FCE-41F0-A07F-19125F1D5090}" path="Navigate_Tasks_Subtab.js" />
-					<child name="TaskQueue_Navigate_Sub_Tab" key="{0F6D4ECB-6365-40BB-880E-26856A8EC404}" path="TaskQueue_Navigate_Sub_Tab.js" />
-					<child name="TaskQueue_Navigate_Tab" key="{E4A79D86-5B97-456D-9295-B1E82B791049}" path="TaskQueue_Navigate_Tab.js" />
-				</folder>
-				<folder name="Task Queue Page">
-					<child name="Group_Task_Buttons" key="{3731A6EB-B882-4AA3-B06B-4168F58E0AFC}" path="Group_Task_Buttons.js" />
-					<child name="Tasks_FactTypes_ClaimAll" key="{4F257767-B836-416B-ADFE-62C12660E5BB}" path="Tasks_FactTypes_ClaimAll.js" />
-				</folder>
 			</folder>
 		</folder>
 		<folder name="Administration">
@@ -257,6 +260,8 @@
 				<child name="Generate_Test_Cases" key="{3DA3C483-6133-41EA-9CA1-319BC1BBE831}" path="Generate_Test_Cases.js" />
 				<child name="Enter_TestcaseValues" key="{BFC2A8CC-A5D9-48D6-B3BF-5524511FF046}" path="Enter_TestcaseValues.js" />
 				<child name="Enter_TC_Label_Verify_PlayBtn" key="{EA1193C1-4FDA-474B-875E-D6AD4EECFB83}" path="Enter_TC_Label_Verify_PlayBtn.js" />
+				<child name="Verify_RepairIcon" key="{18E663E1-B9C7-4575-B0E1-D3EEA31813B1}" path="Verify_RepairIcon.js" />
+				<child name="Repair_Test_Cases" key="{AA6D6876-D091-4D56-8DC2-CD9DB216F10D}" path="Repair_Test_Cases.js" />
 			</folder>
 		</folder>
 		<folder name="Search">

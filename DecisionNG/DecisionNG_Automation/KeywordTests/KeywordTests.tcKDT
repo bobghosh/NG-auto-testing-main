@@ -3,12 +3,16 @@
 	<children>
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
+				<folder name="Details Tab Navigation">
+					<child name="Navigate_to_Details_Audit" key="{305F1B13-E94D-4CD4-9D29-79B397E135C7}" path="Navigate_to_Details_Audit.tcKDTest" />
+				</folder>
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 				<child name="Navigate_to_Knowledge_Sources_Tab" key="{42D6503E-B088-4735-9F42-ED2DC4AD4979}" path="Navigate_to_Knowledge_Sources_Tab.tcKDTest" />
 				<child name="Navigate_to_Associations_Tab" key="{CC03AF4D-8F82-4BCA-8882-CC797AD2D644}" path="Navigate_to_Associations_Tab.tcKDTest" />
 				<child name="Navigate_to_Decision_Flows" key="{603E8196-B630-4C18-810A-F10EF2609298}" path="Navigate_to_Decision_Flows.tcKDTest" />
 				<child name="Navigate_to_Decisions" key="{56D360B4-FF23-43AE-A953-23C878EEB44B}" path="Navigate_to_Decisions.tcKDTest" />
 				<child name="Navigate_to_Rule_Families" key="{B61A401C-499C-4655-A254-8AABF111ACA8}" path="Navigate_to_Rule_Families.tcKDTest" />
+				<child name="Navigate_to_Details_Tab" key="{B8A7BF8B-8BC7-4476-A3CC-22A94811845A}" path="Navigate_to_Details_Tab.tcKDTest" />
 			</folder>
 			<folder name="Administration_Navigations">
 				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
@@ -216,6 +220,7 @@
 					<child name="Complete_Task" key="{D9C94161-D6C4-4573-841C-8459878F67ED}" path="Complete_Task.tcKDTest" />
 					<child name="Claim_and_Open_Task" key="{E13C6919-AE74-4E45-AC90-6FD623F345FB}" path="Claim_and_Open_Task.tcKDTest" />
 					<child name="ConflictCheck_Resolve" key="{970F243A-0F2B-43F7-AAC5-0DB130D4B856}" path="ConflictCheck_Resolve.tcKDTest" />
+					<child name="Verify_Asset_Version" key="{923314A5-F626-4AE7-8F97-CB0D1B8B56D0}" path="Verify_Asset_Version.tcKDTest" />
 				</folder>
 				<folder name="Testing">
 					<child name="Testing_Step" key="{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" path="Testing_Step.tcKDTest" />
