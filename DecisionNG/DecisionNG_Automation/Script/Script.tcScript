@@ -258,6 +258,8 @@
 				<child name="Execute_Test_Group" key="{27D55002-4969-45DB-854E-6B20BC522EE4}" path="Execute_Test_Group.js" />
 				<child name="Execute_Test_Case" key="{239C4F55-F233-4AB4-86FA-BB112DC44FB0}" path="Execute_Test_Case.js" />
 				<child name="Generate_Test_Cases" key="{3DA3C483-6133-41EA-9CA1-319BC1BBE831}" path="Generate_Test_Cases.js" />
+				<child name="Enter_TestcaseValues" key="{BFC2A8CC-A5D9-48D6-B3BF-5524511FF046}" path="Enter_TestcaseValues.js" />
+				<child name="Enter_TC_Label_Verify_PlayBtn" key="{EA1193C1-4FDA-474B-875E-D6AD4EECFB83}" path="Enter_TC_Label_Verify_PlayBtn.js" />
 				<child name="Verify_RepairIcon" key="{18E663E1-B9C7-4575-B0E1-D3EEA31813B1}" path="Verify_RepairIcon.js" />
 				<child name="Repair_Test_Cases" key="{AA6D6876-D091-4D56-8DC2-CD9DB216F10D}" path="Repair_Test_Cases.js" />
 			</folder>

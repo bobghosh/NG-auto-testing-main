@@ -1,10 +1,10 @@
 ﻿function Validation_Button()
 {
   let page= Aliases.browser.pageSapiensDecision2
-  page.FindElement("//dcn-floating-action-button[@label='Validation']//div[@class='floating-action-button spec-floating-action-button']").Click()
-  page.FindElement("//dcn-floating-action-button[@label='Validation']//button").click();
-  page.WaitElement(page.FindElement("//*[@class='sidebar-container__validation-panel spec-decision-sidebar__validation-panel ng-star-inserted']//span"),10000)
-  let validationMessage = page.FindElements("//*[@class='sidebar-container__validation-panel spec-decision-sidebar__validation-panel ng-star-inserted']//span");
+  page.FindElement("//dcn-floating-action-button[contains(@class,'validation-button')]/div").Click()
+  page.FindElement("//dcn-floating-action-button//button").click();
+  page.WaitElement(page.FindElement("//div[contains(@class,'sidebar-container__validation-message ')]//span"),10000)
+  let validationMessage = page.FindElements("//div[contains(@class,'sidebar-container__validation-message ')]//span");
   let ValidationIcon = Aliases.browser.pageSapiensDecision.FindElement("//div[contains(@class,'decision-sidebar-actions__validation-button')]//div/i");
   let isAssetValid;
   let isAssetInvalid;
@@ -48,5 +48,5 @@
     }
     
   }
-  page.FindElement("//dcn-floating-action-button[@label='Validation']//div[contains(@class,'floating-action-button spec-floating-action-button')]").Click()
+  page.FindElement("//dcn-floating-action-button[contains(@class,'validation-button')]/div").Click()
 }

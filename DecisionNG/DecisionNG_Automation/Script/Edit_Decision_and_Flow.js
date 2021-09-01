@@ -8,7 +8,7 @@ function Edit_Decision_and_Flow(Task)
   if(text ==='EDIT')
   {
     Edit_Btn.Click();
-    aqObject.CheckProperty(page.FindElement("//h1[contains(text(), ' Choose task to edit Decision ')]"), "contentText", cmpEqual, "Choose task to edit Decision");   
+    //aqObject.CheckProperty(page.FindElement("//h1[contains(text(), ' Choose task to edit Decision ')]"), "contentText", cmpEqual, "Choose task to edit Decision");   
     page.FindElement("//dcn-autocomplete[@name='task']//button").Click();
     DropDown_SelectOption.SelectingOptionfromDropdown(Task,'No');
     page.form.buttonOk.ClickButton();

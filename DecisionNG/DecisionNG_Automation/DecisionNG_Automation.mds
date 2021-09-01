@@ -416,8 +416,8 @@
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:8021/dm/login.jsp" />
-											<param1 name="UserName" type="1" localVarName="" value="Sam_SU" />
+											<param0 name="URL" type="1" localVarName="" value=" http://bdmsuat75:5893/dm/" />
+											<param1 name="UserName" type="1" localVarName="" value="dg" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
 										<environments activeCloud="CBT" />
@@ -1264,6 +1264,40 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
+									<testItem name="DF_CopytoWb_Edit" key="{F2AF46B5-1F5E-44D3-899D-83C63470C4B4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AC990E07-3932-41E3-ADA1-E7C5704836C3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Insurance" />
+											<param1 name="Community_To_Select" type="1" localVarName="" value="P&amp;C Underwriting Community" />
+											<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+											<param3 name="Flow" type="1" localVarName="" value="Policy Renewal Method Flow [V1.2]" />
+											<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+											<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+											<param6 name="DVSearchPattern" type="1" localVarName="" value="Policy Renewal Method" />
+											<param7 name="DVToSearch" type="1" localVarName="" value="Policy Renewal Method" />
+											<param8 name="DVToSelectFromDropDown" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validation_Button" key="{DD25B44F-8339-4F07-B2E5-18C0E02270E3}" group="False" parallel="False" enabled="False" testMoniker="{27E9323D-1453-41D4-9BDF-DAFEE6198BC7}Validation_Button" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test_Flow" key="{1BCC71DA-D2AD-4254-9F1D-3FCD28BE4C99}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
+											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
+											<param2 name="Persistent_TestGroup" type="1" localVarName="" value="Yes" />
+											<param3 name="Create_TestGroup" type="1" localVarName="" value="Yes" />
+											<param4 name="Asset_TestGroup" type="1" localVarName="" value="Flow" />
+											<param5 name="SelectAll_GenerateTCs" type="1" localVarName="" value="No" />
+											<param6 name="SelectTestValue_GenerateTCs" type="1" localVarName="" value="User-entered values,Fact Type test values,Rule Family operands,Fact Type domain values,Range values,Small deviation range values,Large deviation range values" />
+											<param7 name="Number_GenerateTC" type="1" localVarName="" value="2" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
 									<testItem name="Breadcrumb_Navigations_Task" key="{B1A4BEC3-68FA-43FC-A139-08F6EE8C242A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="Breadcrumb" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
@@ -1403,7 +1437,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="Add_Open_ReleaseProject_Open_Branches" key="{A52EC52B-39E6-4048-9D7C-1EA66D9476BE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{52B036DA-2BD4-470A-83F1-9D0A88831146}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+									<testItem name="Add_Open_ReleaseProject_Open_Branches" key="{A52EC52B-39E6-4048-9D7C-1EA66D9476BE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{52B036DA-2BD4-470A-83F1-9D0A88831146}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="Create" type="1" localVarName="" value="Yes" />
 											<param1 name="BranchName" type="1" localVarName="" value="Main" />
@@ -1418,7 +1452,7 @@
 									</testItem>
 									<testItem name="Add_Assets" key="{3AC58349-E900-4D09-B492-74F14D0EF929}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Policy Renewal Method (View: Base) [V1.0]" />
+											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Policy Renewal Method (View: Base) [V1.12]" />
 											<param1 name="Expand_CommunityName" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
 											<param2 name="CommunityName" type="1" localVarName="" value="P&amp;C Underwriting Community" />
 											<param3 name="Month" type="1" localVarName="" value="Aug" />
@@ -1429,7 +1463,7 @@
 									<testItem name="Edit_Deployment_Descriptor" key="{BF23ECCA-F857-4C10-A83D-DCD94062F97F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8FFF5EC5-A32F-4F0C-920E-ED1BC4EBEB86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="DescriptiveView" type="1" localVarName="" value="On" />
-											<param1 name="AssetName" type="1" localVarName="GillsDemoAssetName" localVarLevel="1" value="" />
+											<param1 name="AssetName" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.12]" />
 											<param2 name="Month" type="1" localVarName="" value="Aug" />
 										</testParameters>
 										<environments activeCloud="CBT" />
