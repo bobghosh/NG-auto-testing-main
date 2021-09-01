@@ -3,12 +3,16 @@
 	<children>
 		<folder name="Pages Navigations">
 			<folder name="Task_Tab_Navigations">
+				<folder name="Details Tab Navigation">
+					<child name="Navigate_to_Details_Audit" key="{305F1B13-E94D-4CD4-9D29-79B397E135C7}" path="Navigate_to_Details_Audit.tcKDTest" />
+				</folder>
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 				<child name="Navigate_to_Knowledge_Sources_Tab" key="{42D6503E-B088-4735-9F42-ED2DC4AD4979}" path="Navigate_to_Knowledge_Sources_Tab.tcKDTest" />
 				<child name="Navigate_to_Associations_Tab" key="{CC03AF4D-8F82-4BCA-8882-CC797AD2D644}" path="Navigate_to_Associations_Tab.tcKDTest" />
 				<child name="Navigate_to_Decision_Flows" key="{603E8196-B630-4C18-810A-F10EF2609298}" path="Navigate_to_Decision_Flows.tcKDTest" />
 				<child name="Navigate_to_Decisions" key="{56D360B4-FF23-43AE-A953-23C878EEB44B}" path="Navigate_to_Decisions.tcKDTest" />
 				<child name="Navigate_to_Rule_Families" key="{B61A401C-499C-4655-A254-8AABF111ACA8}" path="Navigate_to_Rule_Families.tcKDTest" />
+				<child name="Navigate_to_Details_Tab" key="{B8A7BF8B-8BC7-4476-A3CC-22A94811845A}" path="Navigate_to_Details_Tab.tcKDTest" />
 			</folder>
 			<folder name="Administration_Navigations">
 				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
@@ -109,9 +113,7 @@
 				<child name="Tasks_AddFT_Validation_Name_is_required" key="{358D64D1-5F97-4123-BA84-19788629FA99}" path="Tasks_AddFT_Validation_Name_is_required.tcKDTest" />
 			</folder>
 		</folder>
-		<folder name="Tasks_Queue">
-			<child name="MyTasks_Tasks" key="{AA75FF4A-62AE-4A94-9F28-1E635458F976}" path="MyTasks_Tasks.tcKDTest" />
-		</folder>
+		<folder name="Tasks Queue" />
 		<folder name="HomePage">
 			<child name="Create_A_New_Task" key="{CB484438-418D-4625-A65F-9871C147C003}" path="Create_A_New_Task.tcKDTest" />
 		</folder>
@@ -174,7 +176,7 @@
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 		</folder>
 		<folder name="End to End">
-			<folder name="Gill&apos;s Demo">
+			<folder name="Gil&apos;s Demo">
 				<child name="DF_Open_Repository" key="{C842DB6E-752D-4B54-881D-EE1573642C0E}" path="DF_Open_Repository.tcKDTest" />
 				<child name="DF_Open_SubFlow" key="{628A0D3C-D169-408C-A99A-89800C55982C}" path="DF_Open_SubFlow.tcKDTest" />
 				<child name="DV_Open_From_DF" key="{9BB84698-D126-46C6-9FEF-E478B414BD28}" path="DV_Open_From_DF.tcKDTest" />
@@ -217,6 +219,7 @@
 					<child name="Complete_Task" key="{D9C94161-D6C4-4573-841C-8459878F67ED}" path="Complete_Task.tcKDTest" />
 					<child name="Claim_and_Open_Task" key="{E13C6919-AE74-4E45-AC90-6FD623F345FB}" path="Claim_and_Open_Task.tcKDTest" />
 					<child name="ConflictCheck_Resolve" key="{970F243A-0F2B-43F7-AAC5-0DB130D4B856}" path="ConflictCheck_Resolve.tcKDTest" />
+					<child name="Verify_Asset_Version" key="{923314A5-F626-4AE7-8F97-CB0D1B8B56D0}" path="Verify_Asset_Version.tcKDTest" />
 				</folder>
 				<folder name="Testing">
 					<child name="Testing_Step" key="{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" path="Testing_Step.tcKDTest" />

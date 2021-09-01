@@ -1,5 +1,5 @@
 ﻿var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
-function Revision_Task_Validate_Submit()
+function Revision_Task_Validate_Submit(ApprovalStrategy)
 {
   RevisionTasks_Buttons.Assets_Validate().Click();
     
@@ -16,9 +16,17 @@ function Revision_Task_Validate_Submit()
       //Submit the Pull Request
       Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Submit']").Click();
       
+      if(ApprovalStrategy == "None")
+      {      
       //User should be navigated to the Revision Page
       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision");
-  
+      }
+      else if(ApprovalStrategy == "Any" || ApprovalStrategy == "ALL")
+      {
+        aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span"), "contentText", cmpEqual, "CANDIDATE");
+        aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision Tasks");
+      }
+      
 //     Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
 //     Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Discard']").HoverMouse();
     }
