@@ -1966,6 +1966,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelDetails" Key="{CE63FA42-80D1-41A8-9D62-A51E9CB1590D}">
+										<Image FileName="764265923" Left="8" Top="215" Right="188" Bottom="265" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-task/div/dcn-navigation-menu/div/span/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGeneral" Key="{7568F171-49ED-4AA8-9531-350F7CC51E29}">
+										<Image FileName="-1892890635" Left="208" Top="279" Right="1374" Bottom="316" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;GENERAL&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;ui-tabview-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAudit" Key="{9013A90E-D642-4904-9447-70D8B35B8F43}">
+										<Image FileName="-1892890635" Left="581" Top="280" Right="644" Bottom="316" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;AUDIT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -5573,6 +5618,65 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeDetails" Key="{A160CE87-9B75-4990-B49E-3D5319F05DB5}">
+										<Image FileName="-1937923037" Left="21" Top="222" Right="66" Bottom="241" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//dcn-navigation-menu/div/span/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUiTabpanel17Label" Key="{8210D731-14F4-4420-9F3D-8F032BF994B9}">
+										<Image FileName="-2070824974" Left="585" Top="272" Right="624" Bottom="305" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-17-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;AUDIT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAudit" Key="{CBC43BF2-3801-49A7-94FB-CB2970E46C2A}">
+										<Image FileName="-2070824974" Left="585" Top="280" Right="624" Bottom="298" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;AUDIT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;ui-tabview-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-17-label&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel31" Key="{AA3611CD-4E47-4E6F-A8A2-60401B8B29D4}">
+										<Image FileName="1141911872" Left="333" Top="203" Right="880" Bottom="233" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;test-case__header--error-message-panel&apos;)]/div[contains(@class, &apos;test-case__header--error-message-panel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6238,6 +6342,10 @@
 				<Child Name="linkTest23Latest" Owner="{42692234-CF37-47F4-968B-E9F1BFB9E4EF}">
 					<Child Name="textnodeTest23Latest" Owner="{B31518A7-270C-4B45-BDF9-88B79495A47D}" />
 				</Child>
+				<Child Name="panelDetails" Owner="{CE63FA42-80D1-41A8-9D62-A51E9CB1590D}" />
+				<Child Name="textnodeGeneral" Owner="{7568F171-49ED-4AA8-9531-350F7CC51E29}">
+					<Child Name="textnodeAudit" Owner="{9013A90E-D642-4904-9447-70D8B35B8F43}" />
+				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">
@@ -6307,6 +6415,9 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeSource" Owner="{A5D8AE1A-ECF0-4C60-B45E-D91AE77D67BC}" />
+					<Child Name="linkUiTabpanel17Label" Owner="{8210D731-14F4-4420-9F3D-8F032BF994B9}">
+						<Child Name="textnodeAudit" Owner="{CBC43BF2-3801-49A7-94FB-CB2970E46C2A}" />
+					</Child>
 				</Child>
 				<Child Name="panel6" Owner="{39D15F2A-7728-451B-A17E-C6F03741ABCE}" />
 				<Child Name="textnodeRecentlyViewed" Owner="{C8B22E34-A9E9-4A14-BE50-8899D69F11A8}" />
@@ -6574,6 +6685,9 @@
 				<Child Name="panelDecisionFlows" Owner="{46AEC531-5CE2-40F9-944B-3B6F08BDF3F1}" />
 				<Child Name="textnode7_new2" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new3" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnodeDetails" Owner="{A160CE87-9B75-4990-B49E-3D5319F05DB5}" />
+				<Child Name="panel31" Owner="{AA3611CD-4E47-4E6F-A8A2-60401B8B29D4}" />
+				<Child Name="textnode7_new4" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

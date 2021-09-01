@@ -162,13 +162,8 @@
 				<child name="FlowScreen_Add_Draft_Decision" key="{F9A40E76-DD26-40E9-B5D5-5ED83A93F1D2}" path="FlowScreen_Add_Draft_Decision.js" />
 			</folder>
 		</folder>
-		<folder name="Tasks_Queue">
-			<folder name="Navigation_Scripts">
-				<child name="Navigate_Tasks_Subtab" key="{D25916E7-0FCE-41F0-A07F-19125F1D5090}" path="Navigate_Tasks_Subtab.js" />
-				<child name="TaskQueue_Navigate_Sub_Tab" key="{0F6D4ECB-6365-40BB-880E-26856A8EC404}" path="TaskQueue_Navigate_Sub_Tab.js" />
-				<child name="TaskQueue_Navigate_Tab" key="{E4A79D86-5B97-456D-9295-B1E82B791049}" path="TaskQueue_Navigate_Tab.js" />
-			</folder>
-			<folder name="Tasks_Governance">
+		<folder name="Tasks Queue">
+			<folder name="Tasks Governance">
 				<folder name="Knowledge Sources Tab">
 					<child name="KS_Verify_Open_List" key="{5AD10594-34E2-4BA7-B54A-F7C6660D4F09}" path="KS_Verify_Open_List.js" />
 				</folder>
@@ -179,16 +174,26 @@
 					<child name="Approval_Process_buttons" key="{AB550BA2-E677-46F5-A8D8-DFB3054E0421}" path="Approval_Process_buttons.js" />
 					<child name="Check_Conflict_Button" key="{977F6596-7BAE-4D47-A020-7956C2BE53C8}" path="Check_Conflict_Button.js" />
 				</folder>
-				<child name="Task_Draft_FactTypes_Send_to_Glossary" key="{B5220BBD-0C68-46F2-A82E-125EFCB68A74}" path="Task_Draft_FactTypes_Send_to_Glossary.js" />
-				<child name="Task_FactType_Approve_Reject" key="{3FDA51F3-C3CC-430C-9119-BB7D9D9CCDD3}" path="Task_FactType_Approve_Reject.js" />
-				<child name="Group_Task_Buttons" key="{3731A6EB-B882-4AA3-B06B-4168F58E0AFC}" path="Group_Task_Buttons.js" />
-				<child name="Tasks_FactTypes_ClaimAll" key="{4F257767-B836-416B-ADFE-62C12660E5BB}" path="Tasks_FactTypes_ClaimAll.js" />
-				<child name="Fact_Type_Tasks_Buttons" key="{D26C88BE-F967-45BA-BDCA-9470F619EFD7}" path="Fact_Type_Tasks_Buttons.js" />
+				<folder name="Details Tab" />
+				<folder name="Fact Type Tab">
+					<child name="Task_Draft_FactTypes_Send_to_Glossary" key="{B5220BBD-0C68-46F2-A82E-125EFCB68A74}" path="Task_Draft_FactTypes_Send_to_Glossary.js" />
+					<child name="Task_FactType_Approve_Reject" key="{3FDA51F3-C3CC-430C-9119-BB7D9D9CCDD3}" path="Task_FactType_Approve_Reject.js" />
+				</folder>
 			</folder>
-			<folder name="User_Tasks">
+			<folder name="User Tasks">
 				<child name="Tasks_TabNavigation" key="{5E2085FA-4F52-446E-9195-A0A6A381C3F6}" path="Tasks_TabNavigation.js" />
 			</folder>
-			<child name="Tasks_MyTasks" key="{4E8686FE-27B3-4B65-BD31-8D0DA1D142AA}" path="Tasks_MyTasks.js" />
+			<folder name="Task Queue Navigation and Actions">
+				<folder name="Tab Navigations">
+					<child name="Navigate_Tasks_Subtab" key="{D25916E7-0FCE-41F0-A07F-19125F1D5090}" path="Navigate_Tasks_Subtab.js" />
+					<child name="TaskQueue_Navigate_Sub_Tab" key="{0F6D4ECB-6365-40BB-880E-26856A8EC404}" path="TaskQueue_Navigate_Sub_Tab.js" />
+					<child name="TaskQueue_Navigate_Tab" key="{E4A79D86-5B97-456D-9295-B1E82B791049}" path="TaskQueue_Navigate_Tab.js" />
+				</folder>
+				<folder name="Task Queue Page">
+					<child name="Group_Task_Buttons" key="{3731A6EB-B882-4AA3-B06B-4168F58E0AFC}" path="Group_Task_Buttons.js" />
+					<child name="Tasks_FactTypes_ClaimAll" key="{4F257767-B836-416B-ADFE-62C12660E5BB}" path="Tasks_FactTypes_ClaimAll.js" />
+				</folder>
+			</folder>
 		</folder>
 		<folder name="Administration">
 			<folder name="Security">
@@ -244,19 +249,14 @@
 			<child name="CreateTask_Buttons" key="{FFEEA37A-09CF-48D4-9862-B71E5338D6E8}" path="CreateTask_Buttons.js" />
 		</folder>
 		<folder name="Testing">
-			<folder name="Decision" />
-			<folder name="Decision Flow">
-				<folder name="Generic" />
-			</folder>
-			<folder name="Rule Family">
-				<folder name="Generic" />
-			</folder>
 			<folder name="Generic">
 				<child name="Add_New_TestGroup_Open" key="{E64F70D7-BE8D-4864-B55D-D148607840E5}" path="Add_New_TestGroup_Open.js" />
 				<child name="Open_TestGroup" key="{867B48DE-0C1D-411A-A318-C021FC0954C1}" path="Open_TestGroup.js" />
 				<child name="Execute_Test_Group" key="{27D55002-4969-45DB-854E-6B20BC522EE4}" path="Execute_Test_Group.js" />
 				<child name="Execute_Test_Case" key="{239C4F55-F233-4AB4-86FA-BB112DC44FB0}" path="Execute_Test_Case.js" />
 				<child name="Generate_Test_Cases" key="{3DA3C483-6133-41EA-9CA1-319BC1BBE831}" path="Generate_Test_Cases.js" />
+				<child name="Enter_TestcaseValues" key="{BFC2A8CC-A5D9-48D6-B3BF-5524511FF046}" path="Enter_TestcaseValues.js" />
+				<child name="Enter_TC_Label_Verify_PlayBtn" key="{EA1193C1-4FDA-474B-875E-D6AD4EECFB83}" path="Enter_TC_Label_Verify_PlayBtn.js" />
 			</folder>
 		</folder>
 		<folder name="Search">
@@ -274,6 +274,5 @@
 			<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
-		<child name="Unit1" key="{B7FF6023-4888-4AA7-9A48-5284D1551CB9}" path="Unit1.js" />
 	</children>
 </Root>

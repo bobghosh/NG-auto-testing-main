@@ -4,11 +4,11 @@
 //  
 //}
 
-function GetTextBlockCustom()
+function GetTextBlockCustom(aPattern,searchDV,selectDV)
 {
   var page= Aliases.browser.pageSapiensDecision2;
   anObject= Aliases.browser.pageSapiensDecision2.canvas;
-  aPattern="Policy Renewal Method"
+  //aPattern="Policy Renewal Method"
   var obj = OCR.Recognize(anObject);
   if (obj.FullText != "" && obj.BlockCount > 1)
   {
@@ -24,12 +24,12 @@ function GetTextBlockCustom()
       if (Matches != null)
       {
         obj.Block(i).DblClick();
-        page.FindElement("//*[@placeholder='decision name']").Keys('Policy Renewal Method');
+        page.FindElement("//*[@placeholder='decision name']").Keys(searchDV);
         page.WaitElement(page.FindElement("//*[@role='option']"),10000);
-        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown('Policy Renewal Method (View: Base) [1.0]')
+        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(selectDV);
         break;
       }
-
+//Policy Renewal Method (View: Base) [1.9]
  
 
     }
