@@ -1,6 +1,11 @@
 ﻿var page = Aliases.browser.pageSapiensDecision2;
 var bimPleateBtn= page.FindElement("//dcn-floating-action-button/div[contains(@class,'decision-sidebar-actions decision-sidebar-actions__bim-button floating-button__bim')]");
 
+function BIM_Open()
+{
+  bimPleateBtn.Click();
+}
+
 function BIM_Plete_Open_EditIcon_Click()
 {
   bimPleateBtn.Click()
@@ -46,10 +51,10 @@ var editBimCancelBtn= ()=>
 }
 
 function BIM_DragAndDropFT()
-{
-  var dragFTAndDropInRG = "Policy Discount-Child1,Policy Grade-Child1"
+{  
+  //FTName and Destination Group
+  var dragFTAndDropInRG = "TestRG Persistent1-Root"
   var setValues = dragFTAndDropInRG.split(',');  
-  
      
   for(var i = 0; i < setValues.length ; i++) 
   { 
@@ -88,3 +93,19 @@ function Edit_BIMChild()
   editBimOkBtn();
 }
 
+function Expand_BIM_Group(RG_Name)
+{
+  let plusIcon = Aliases.browser.pageSapiensDecision.FindElement("//dcn-edit-bim-tree//*[text()='"+ RG_Name +"']//ancestor::div[@class='ui-treenode-content ui-treenode-selectable']/span[1]");
+  if(plusIcon.getAttribute("class").includes("pi-caret-right"))
+  {
+    plusIcon.click();
+    if(plusIcon.getAttribute("class").includes("pi-caret-right"))
+    {
+      Log.Error("Still + is selected")
+    }
+    else
+    {
+      Log.Message("- is selected")
+    }    
+  }
+}

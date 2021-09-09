@@ -98,3 +98,4 @@
   Log.Message("Note - " + note.textContent);  
     
 }
+module.exports.Verify_Audit_Record = Verify_Audit_Record;

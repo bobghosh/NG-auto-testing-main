@@ -3,11 +3,11 @@ function Draft_FactTypes_Send_to_Glossary()
 {
   //User should be on Fact Type Tab 
 //  let FactTypeName = "w [V0]";
-  let PtableCount = Aliases.browser.PageSapiensDecision.FindElement("//p-table/div").ChildCount;
+  let PtableCount = Aliases.browser.PageSapiensDecision.FindElements("//a[@ng-reflect-klass='ui-paginator-next ui-paginator']").length;
   let flag = 0;
   let hasNext = true;
   
-  if(PtableCount>1)
+  if(PtableCount>0)
   {
     Log.Message("Pagination is available");
   } 
@@ -20,7 +20,7 @@ function Draft_FactTypes_Send_to_Glossary()
       {
         let FactTypeName = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[1]");
         let Status = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[3]");          
-        let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr["+i+"]//td[5]//dcn-validation-state//div").getAttribute('class')
+        let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr["+i+"]//td[6]//dcn-validation-state//div").getAttribute('class')
 //        Log.Message(Status)
 //        Log.Message(errorIcon)
           
@@ -29,10 +29,10 @@ function Draft_FactTypes_Send_to_Glossary()
           if(Status.textContent == "DRAFT" && errorIcon.includes('icon-validation_success'))
           {        
 
-                Log.Message(FactTypeName)
-                Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[9]//dcn-approval-lifecycle-actions//dcn-overlay//i").HoverMouse();
+                Log.Message(FactTypeName.textContent)
+                Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[10]//dcn-approval-lifecycle-actions//dcn-overlay//i").HoverMouse();
         
-                Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[9]//button//dcn-approval-lifecycle-actions//dcn-overlay//i").Click();
+                Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[10]//button//dcn-approval-lifecycle-actions//dcn-overlay//i").Click();
         
 //                Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Send for Fact Type Approval']").Click();
         
@@ -65,7 +65,7 @@ function Draft_FactTypes_Send_to_Glossary()
     
       
       
-      if(PtableCount>1)
+      if(PtableCount>0)
       {         
         
           var Next_Page_Button = Aliases.browser.pageSapiensDecision.FindElement("//a[@ng-reflect-klass='ui-paginator-next ui-paginator']");
@@ -89,9 +89,8 @@ function Draft_FactTypes_Send_to_Glossary()
   }
   while(hasNext == true)
   
-  let PtableCount2 = Aliases.browser.PageSapiensDecision.FindElement("//p-table/div").ChildCount;
-        
-  if(PtableCount2 >1)
+  let PtableCount2 = Aliases.browser.PageSapiensDecision.FindElements("//a[@ng-reflect-klass='ui-paginator-next ui-paginator']").length;      
+  if(PtableCount2 >0)
   {
     var FirstPage = Aliases.browser.pageSapiensDecision.FindElement("//a[contains(@class,'ui-paginator-first')]");
     FirstPage.click();

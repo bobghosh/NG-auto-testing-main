@@ -32,7 +32,7 @@ do{
           var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'icon-decision_view')]/following-sibling::div/a");
 
           //If the Item Name matches 
-          if(HighlightedItemName.textContent == Item )
+          if(HighlightedItemName.textContent.trim() == Item )
           {          
                  HighlightedItemName.click();
                  page.WaitElement(page.canvas,30000)

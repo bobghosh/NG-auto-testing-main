@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{0C76C0BB-2A05-4536-B7F7-EE11E15E0AD3}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44441.6629976852" objectName="Aliases.browser.pageSapiensDecision2.textnode2.linkUiTabpanel56Label.buttonChangeProject" objectLeft="914" objectTop="337" objectRight="999" objectBottom="354" clickPointX="933" clickPointY="352" imageFileName="tcvi1443651517560.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44441.6634606481" objectName="Aliases.browser.pageSapiensDecision.form.form2.form4.button2" objectLeft="1047" objectTop="369" objectRight="1083" objectBottom="405" clickPointX="1063" clickPointY="386" imageFileName="tcvi1447606217561.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,5 +1,17 @@
 ﻿function SelectingItem(Item)
 {
+  
+  let Paginator;
+    if(Aliases.browser.pageSapiensDecision.FindElements("//p-paginator//div").length > 0)
+    {
+      Paginator = "Yes";
+    }
+    else
+    {
+      Paginator = "No";
+    }
+    
+    Log.Message(Paginator);
 
     var ItemCount;
     var flag = 0;
@@ -33,17 +45,20 @@ do{
         break;
       }
       
-      Delay(1000);
-      var Next_Page_Button = Aliases.browser.pageSapiensDecision.FindElement("//a[@ng-reflect-klass='ui-paginator-next ui-paginator']");
-      
-      if(Next_Page_Button.getAttribute("class") == "ui-paginator-next ui-paginator-element ui-state-default ui-corner-all")
+      if(Paginator == "Yes")
       {
-        Next_Page_Button.click();          
+        if(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
+        { 
+          hasNext = "false";
+        }
+        else
+        {
+          Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").click();         
+        }
       }
-    
       else
       {
-          hasNext = false;
+        hasNext = "false";
       }
 
    }while(hasNext == true)

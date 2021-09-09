@@ -5,6 +5,8 @@
 			<folder name="Task_Tab_Navigations">
 				<folder name="Details Tab Navigation">
 					<child name="Navigate_to_Details_Audit" key="{305F1B13-E94D-4CD4-9D29-79B397E135C7}" path="Navigate_to_Details_Audit.tcKDTest" />
+					<child name="Navigate_to_Details_General" key="{35016326-FEE9-435C-8C5F-635E7BE5B29A}" path="Navigate_to_Details_General.tcKDTest" />
+					<child name="Navigate_to_Release_Management" key="{6D171054-2A28-4EE6-A38B-7F33F501ECE4}" path="Navigate_to_Release_Management.tcKDTest" />
 				</folder>
 				<child name="Navigate_to_FactType_Tab_from_Decision_Tab" key="{7CE97A00-A5DA-4CF2-8314-F5EF9C9CDF15}" path="Navigate_to_FactType_Tab_from_Decision_Tab.tcKDTest" />
 				<child name="Navigate_to_Knowledge_Sources_Tab" key="{42D6503E-B088-4735-9F42-ED2DC4AD4979}" path="Navigate_to_Knowledge_Sources_Tab.tcKDTest" />
@@ -208,7 +210,8 @@
 					<child name="Edit_Deployment_Descriptor" key="{8FFF5EC5-A32F-4F0C-920E-ED1BC4EBEB86}" path="Edit_Deployment_Descriptor.tcKDTest" />
 					<child name="Submit_Revision_Task" key="{822521FE-5542-4AB7-B418-EC19B891D365}" path="Submit_Revision_Task.tcKDTest" />
 					<child name="Create_New_Tag" key="{9F66C028-8737-428F-92CA-ED121C14DEC4}" path="Create_New_Tag.tcKDTest" />
-					<child name="Deploy_Tag_Verify_History" key="{91A84CAC-1D24-4DDF-9B26-EEBBECB94138}" path="Deploy_Tag_Verify_History.tcKDTest" />
+					<child name="Approve_Revision_Task_All" key="{9E534EF2-B646-4FAC-BF27-CEF60CBE3520}" path="Approve_Revision_Task_All.tcKDTest" />
+					<child name="Approve_Revision_Task_Any" key="{9C29478E-289E-416F-9A59-FA5B6743DC58}" path="Approve_Revision_Task_Any.tcKDTest" />
 				</folder>
 				<folder name="Search">
 					<child name="Search_Assets" key="{39B709CB-38F9-4965-A085-E7591633FE60}" path="Search_Assets.tcKDTest" />
@@ -231,6 +234,15 @@
 				<folder name="Generic">
 					<child name="Breadcrumb_Navigations" key="{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" path="Breadcrumb_Navigations.tcKDTest" />
 				</folder>
+				<folder name="Deploy">
+					<child name="Approve_Deployment_All" key="{99186513-26E4-434F-A6E3-F3956CA3C296}" path="Approve_Deployment_All.tcKDTest" />
+					<child name="Approve_Deployment_Any" key="{20DE8B27-722B-49D2-8954-AB66E942340C}" path="Approve_Deployment_Any.tcKDTest" />
+					<child name="Deploy_Tag_Verify_History" key="{91A84CAC-1D24-4DDF-9B26-EEBBECB94138}" path="Deploy_Tag_Verify_History.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="E2E - 385">
+				<child name="Move_FT_from_RG_to_Root" key="{0E7DA51D-4844-4585-8B34-552F23ADE86F}" path="Move_FT_from_RG_to_Root.tcKDTest" />
+				<child name="Repair_TestGroups" key="{9B5B52FD-07AD-4E55-A1E6-9AEEFA50837F}" path="Repair_TestGroups.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

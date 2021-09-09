@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*:*" />
+										<Value Value="https://dev-app*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1715,10 +1715,10 @@
 										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[text()=&apos;An error occurred: Please click this message to refresh&apos;]" />
+												<Value Value="[aria-live=&apos;polite&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="[aria-live=&apos;polite&apos;]" />
+												<Value Value="//div[text()=&apos;An error occurred: Please click this message to refresh&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;toast-container&apos;]/div/div[2]" />
@@ -2011,6 +2011,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeReleaseManagement" Key="{773D1B0A-B674-489D-81F2-CFC9E73405A7}">
+										<Image FileName="85485473" Left="644" Top="280" Right="817" Bottom="316" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;RELEASE MANAGEMENT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -2042,7 +2054,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*:*" />
+										<Value Value="https://dev-app*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2068,6 +2080,9 @@
 										<TypeInfo Item0="{DAACA483-0474-4746-9C33-F245689F9281}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//*[@placeholder=&apos;Username&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="*[name=&apos;username&apos;]" />
 											</Selector>
 											<Selector>
@@ -2091,6 +2106,9 @@
 										<Image FileName="1642647658" Left="522" Top="496" Right="842" Bottom="540" />
 										<TypeInfo Item0="{DAACA483-0474-4746-9C33-F245689F9281}" />
 										<Selectors>
+											<Selector>
+												<Value Value="//*[@placeholder=&apos;Password&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="*[name=&apos;password&apos;]" />
 											</Selector>
@@ -5677,6 +5695,77 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxUsername2" Key="{7BF905FB-363B-4EC8-9F7D-4883F8BCB156}">
+										<Image FileName="-1558384650" Left="353" Top="565" Right="775" Bottom="601" />
+										<TypeInfo Item0="{DAACA483-0474-4746-9C33-F245689F9281}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;user-reassign__username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/fx-field//dcn-user-reassign//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;userName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-118&apos;]//fx-field//dcn-user-reassign//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUiTabpanel56Label" Key="{4A9290FE-A856-4303-AFCF-3E1C90255228}">
+										<Image FileName="-1857706437" Left="648" Top="272" Right="797" Bottom="305" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-tabpanel-56-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;RELEASE MANAGEMENT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeReleaseManagement" Key="{BA2B0041-3C54-4913-B0B3-544298610DD6}">
+										<Image FileName="-1857706437" Left="648" Top="280" Right="797" Bottom="298" />
+										<TypeInfo Item0="{00BDD1A3-FB9E-4A88-A12F-12BFA8EA09F8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;RELEASE MANAGEMENT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a/span[contains(@class, &apos;ui-tabview-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-tabpanel-56-label&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonChangeProject" Key="{4088418E-133F-4EA1-AB43-3AD05A7E5F2B}">
+										<Image FileName="-1933749541" Left="914" Top="337" Right="999" Bottom="354" />
+										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Change Project&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;spec-change-project--button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-56&apos;]//fx-field//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6345,6 +6434,7 @@
 				<Child Name="panelDetails" Owner="{CE63FA42-80D1-41A8-9D62-A51E9CB1590D}" />
 				<Child Name="textnodeGeneral" Owner="{7568F171-49ED-4AA8-9531-350F7CC51E29}">
 					<Child Name="textnodeAudit" Owner="{9013A90E-D642-4904-9447-70D8B35B8F43}" />
+					<Child Name="textnodeReleaseManagement" Owner="{773D1B0A-B674-489D-81F2-CFC9E73405A7}" />
 				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
@@ -6417,6 +6507,10 @@
 					<Child Name="textnodeSource" Owner="{A5D8AE1A-ECF0-4C60-B45E-D91AE77D67BC}" />
 					<Child Name="linkUiTabpanel17Label" Owner="{8210D731-14F4-4420-9F3D-8F032BF994B9}">
 						<Child Name="textnodeAudit" Owner="{CBC43BF2-3801-49A7-94FB-CB2970E46C2A}" />
+					</Child>
+					<Child Name="linkUiTabpanel56Label" Owner="{4A9290FE-A856-4303-AFCF-3E1C90255228}">
+						<Child Name="textnodeReleaseManagement" Owner="{BA2B0041-3C54-4913-B0B3-544298610DD6}" />
+						<Child Name="buttonChangeProject" Owner="{4088418E-133F-4EA1-AB43-3AD05A7E5F2B}" />
 					</Child>
 				</Child>
 				<Child Name="panel6" Owner="{39D15F2A-7728-451B-A17E-C6F03741ABCE}" />
@@ -6643,6 +6737,7 @@
 				<Child Name="panel25" Owner="{5EC91173-FEC9-4BD5-8113-BAA166A2F6B2}" />
 				<Child Name="form6" Owner="{C137E6F3-5B52-4059-942D-1E4638DE159F}">
 					<Child Name="panel26" Owner="{48D39D56-8E06-43E3-9FD3-C5C94645CC7E}" />
+					<Child Name="textboxUsername2" Owner="{7BF905FB-363B-4EC8-9F7D-4883F8BCB156}" />
 				</Child>
 				<Child Name="textnodeAssetsModelingProjectsRe" Owner="{2B3FA6D5-D31B-4735-B097-EC5649DB8518}">
 					<Child Name="linkReleaseProjects" Owner="{F4F159FF-0ACE-4E89-B5AE-431AB33CFE26}">
@@ -6688,6 +6783,7 @@
 				<Child Name="textnodeDetails" Owner="{A160CE87-9B75-4990-B49E-3D5319F05DB5}" />
 				<Child Name="panel31" Owner="{AA3611CD-4E47-4E6F-A8A2-60401B8B29D4}" />
 				<Child Name="textnode7_new4" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new5" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
