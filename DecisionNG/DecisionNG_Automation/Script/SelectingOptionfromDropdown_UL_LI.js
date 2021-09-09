@@ -11,7 +11,7 @@
       {
         var Optiontext=Option[i].textContent;
         //Log.Message(Optiontext)
-        if(Optiontext.includes(option))
+        if(Optiontext == option)
           {
             Option[i].Click();
             break;

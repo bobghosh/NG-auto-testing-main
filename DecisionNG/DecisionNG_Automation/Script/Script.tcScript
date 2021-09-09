@@ -30,6 +30,7 @@
 			<child name="Breadcrumb_Verify_Navigation" key="{DB119A13-DC09-44D1-BBD4-181E55F9D021}" path="Breadcrumb_Verify_Navigation.js" />
 			<child name="Generate_Random_Number" key="{ED4A959A-5F75-4C42-B0DE-64DF209E0197}" path="Generate_Random_Number.js" />
 			<child name="WaitElement_ispresent" key="{0BA94474-69FF-4A51-AF9F-37D550DE9A6F}" path="WaitElement_ispresent.js" />
+			<child name="SelectingOptionfromDropDown_MultipleSelection" key="{A77A674D-A158-43DF-BAF0-76F053F45942}" path="SelectingOptionfromDropDown_MultipleSelection.js" />
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
@@ -262,6 +263,7 @@
 				<child name="Enter_TC_Label_Verify_PlayBtn" key="{EA1193C1-4FDA-474B-875E-D6AD4EECFB83}" path="Enter_TC_Label_Verify_PlayBtn.js" />
 				<child name="Verify_RepairIcon" key="{18E663E1-B9C7-4575-B0E1-D3EEA31813B1}" path="Verify_RepairIcon.js" />
 				<child name="Repair_Test_Cases" key="{AA6D6876-D091-4D56-8DC2-CD9DB216F10D}" path="Repair_Test_Cases.js" />
+				<child name="Enter_TestcaseValues_BIM" key="{4193A361-1DD5-4BE8-AA23-9ACE38A3F36E}" path="Enter_TestcaseValues_BIM.js" />
 			</folder>
 		</folder>
 		<folder name="Search">
@@ -279,5 +281,6 @@
 			<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
 		</folder>
 		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
+		<child name="Unit1" key="{5BECBEA3-8A43-452D-9405-BD8BF66B5E0A}" path="Unit1.js" />
 	</children>
 </Root>
