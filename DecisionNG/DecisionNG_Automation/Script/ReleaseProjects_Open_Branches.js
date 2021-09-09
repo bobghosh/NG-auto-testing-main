@@ -9,16 +9,3 @@ function ReleaseProjects_Open_Branches(BranchName)
     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision");
         
 }
-
-function Edit_Branch()
-{
-  
-  //i[@class='icon-edit']
-}
-
-function Retire_Branch()
-{
-  
-}
-
-

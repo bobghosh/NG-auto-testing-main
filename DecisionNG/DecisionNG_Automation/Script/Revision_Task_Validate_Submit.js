@@ -1,6 +1,7 @@
 ﻿var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
 function Revision_Task_Validate_Submit(ApprovalStrategy)
 {
+  Delay(500);
   RevisionTasks_Buttons.Assets_Validate().Click();
     
   RevisionTasks_Buttons.Assets_Validate().WaitProperty("Enabled", true, 100000);

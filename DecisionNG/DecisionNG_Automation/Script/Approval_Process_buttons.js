@@ -1,10 +1,67 @@
-﻿//This Script contains functions for Split button, Start button, Discard button, Send to BOA and Verify, Send to RM and Verify
+﻿var Details_Audit = require("Details_Audit");
+var Navigate_to_Details_Audit = require("Navigate_to_Details_Audit");
+var Navigate_to_Details_General = require("Navigate_to_Details_General");
+var Navigate_to_Details_Tab = require("Navigate_to_Details_Tab");
+//This Script contains functions for Split button, Start button, Discard button, Send to BOA and Verify, Send to RM and Verify
 //Generic code is written for clicking on any button at the place of Start button it will work for all the buttons at that place
 //Need to write Script for DPR
 
+function Start_button()
+{  
+  Split_button();
+  
+  Aliases.browser.pageSapiensDecision.FindElement("//*[(text()='Start')]").Click();
+  
+  //Verify that Button should become disabled
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//p-splitbutton/div"), "className", cmpContains, "ui-state-disabled");
+  
+  Delay(500);
+//  
+//  Navigate_to_Details_Tab.Navigate_to_Details_Tab();
+//  
+//  Navigate_to_Details_General.Navigate_to_Details_General();
+//  
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form6.textboxUsername2, "Text", cmpEqual, "unassigned");
+//  
+//  Navigate_to_Details_Audit.Navigate_to_Details_Audit();
+//  
+//  Details_Audit.Verify_Audit_Record("Yes","Start","No","","No","","No","","No","");
+//  
+  
+}
+
+function Start_and_Claim_button()
+{  
+  let userName = "Vars"
+  Split_button();
+  Aliases.browser.pageSapiensDecision.FindElement("//*[(text()='Start and Claim')]").Click();
+  
+  //Verify that Add Fact TYpe Button should become disabled
+//  Aliases.browser.pageSapiensDecision.buttonAddFactType.WaitProperty("Enabled", false, 10000);
+  Delay(500);
+  
+  Navigate_to_Details_Tab.Navigate_to_Details_Tab();
+  
+  Navigate_to_Details_General.Navigate_to_Details_General();
+  
+  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form6.textboxUsername2, "Text", cmpEqual, userName);
+  
+  Navigate_to_Details_Audit.Navigate_to_Details_Audit();
+  
+  Details_Audit.Verify_Audit_Record("Yes","Claim","No","","No","","No","","No","");
+  
+}
 function Split_button()
 {
-  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
+  let SplitButtonAvailability =  Aliases.browser.pageSapiensDecision.FindElements("//button[contains(@class,'ui-splitbutton-menubutton')]");
+  if(SplitButtonAvailability.length > 0)
+  {
+    Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();      
+  }
+  else
+  {
+    Log.Message("Split Button is not present");
+  }
 
 }
 
@@ -13,16 +70,6 @@ function Discard_or_Reject_button()
   Split_button();
   Aliases.browser.pageSapiensDecision.FindElement("//p-splitbutton//ul//li").Click();
 
-}
-
-function Start_button()
-{  
-  Aliases.browser.pageSapiensDecision.FindElement("//*[(text()='Start')]").Click();
-  
-  //Verify that Add Fact TYpe Button should become disabled
-  Aliases.browser.pageSapiensDecision.buttonAddFactType.WaitProperty("Enabled", false, 10000);
-  Delay(500);
-  
 }
 
 function Send_to_BOA()

@@ -39,9 +39,9 @@ function Create_A_New_Task(Community, TaskName, ModelingProjectName, AssetApprov
   
   SelectingOptionfromDropdown(FactTypeApprovalProcess,"NO");
   
-  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.buttonCancel, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.formF.buttonCreateStart, "Enabled", cmpEqual, true);
-  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//button[contains(text(), 'Create & Open')]"), "Enabled", cmpEqual, true);
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.buttonCancel, "Enabled", cmpEqual, true);
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.formF.buttonCreateStart, "Enabled", cmpEqual, true);
+//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//button[contains(text(), 'Create & Open')]"), "Enabled", cmpEqual, true);
   Aliases.browser.pageSapiensDecision.FindElement("//button[contains(text(), 'Create & Open')]").ClickButton();
   Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.panel15,20000);
   Aliases.browser.pageSapiensDecision.panel15.Click();

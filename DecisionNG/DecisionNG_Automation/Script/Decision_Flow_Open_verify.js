@@ -1,9 +1,10 @@
-﻿
-function Open_Flow(Item)
+﻿function Open_Flow(Item)
 {
-   let Paginator;
-   let page= Aliases.browser.pageSapiensDecision2;
-    if(Aliases.browser.pageSapiensDecision.FindElement("//p-paginator//div").VisibleOnScreen)
+//    let Item = "Policy Renewal Method Flow [V1.2]";
+  
+    let Paginator;
+    let page= Aliases.browser.pageSapiensDecision2;
+    if(Aliases.browser.pageSapiensDecision.FindElements("//p-paginator//div").length > 0)
     {
       Paginator = "Yes";
     }
@@ -16,10 +17,7 @@ function Open_Flow(Item)
     Delay(1000)
     var ItemCount;
     var flag = 0;
-    var ItemName = Item
-    var hasNext = true
-
-  
+    var hasNext = true  
 do{
 
     ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-expandable-selectable-list-item//i[contains(@class,'icon-flow')]/following-sibling::div/a");
@@ -27,11 +25,10 @@ do{
     //Iterate through all the rows and finding the desired Task
     for(var j = 1; j <= ItemCount.length ; j++)
     {
-          Log.Message(ItemCount.length)
           var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'icon-flow')]/following-sibling::div/a");
-          Log.Message(HighlightedItemName.textContent)
+          
           //If the Item Name matches 
-          if(HighlightedItemName.textContent == Item )
+          if(HighlightedItemName.textContent.trim() == Item )
           {          
                  HighlightedItemName.click();
                  page.WaitElement(page.canvas,30000)

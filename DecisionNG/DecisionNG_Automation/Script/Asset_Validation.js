@@ -3,6 +3,7 @@
   let page= Aliases.browser.pageSapiensDecision2
   page.FindElement("//dcn-floating-action-button[contains(@class,'validation-button')]/div").Click()
   page.FindElement("//dcn-floating-action-button//button").click();
+  //span[contains(@class,'sidebar-container__validation-message ')]//span
   page.WaitElement(page.FindElement("//div[contains(@class,'sidebar-container__validation-message ')]//span"),10000)
   let validationMessage = page.FindElements("//div[contains(@class,'sidebar-container__validation-message ')]//span");
   let ValidationIcon = Aliases.browser.pageSapiensDecision.FindElement("//div[contains(@class,'decision-sidebar-actions__validation-button')]//div/i");
