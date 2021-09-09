@@ -416,8 +416,8 @@
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value=" http://bdmsuat75:5893/dm/" />
-											<param1 name="UserName" type="1" localVarName="" value="dg" />
+											<param0 name="URL" type="1" localVarName="" value=" http://bdmsuat75:7072/dm/login.jsp#/home" />
+											<param1 name="UserName" type="1" localVarName="" value="admin" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
 										<environments activeCloud="CBT" />
@@ -1858,17 +1858,17 @@
 				</Variable>
 				<Variable Name="Permission_Matrix" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V710.xlsx" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Roles" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="Roles$" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V710.xlsx" Table="Roles$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="PermissionGroupsColumnNames" Type="DB Table" Local="False">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Permissions V700 - internal.xlsm" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
+						<ConnectionInfo FileName="..\Permissions V710.xlsx" Table="&apos;Permission Groups$&apos;" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
 				<Variable Name="Create_NewUser_Details" Type="DB Table" Local="False">
