@@ -21,4 +21,6 @@ function Create_New_Tag(TagName)
   
   //Verify the TagName in the breadcrumb
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.linkTest23Latest.textnodeTest23Latest, "contentText", cmpContains, TagName, false);
+
+  Project.Variables.Tag_Name = TagName;
 }

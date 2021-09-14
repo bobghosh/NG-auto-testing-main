@@ -117,5 +117,14 @@ if(Asset == "Decision" || Asset == "Flow")
   
   TestGroupName = TGName ;
   
+  if(Asset == "Decision")
+  {
+    Project.Variables.TestGroup_Name_Decision = TGName;
+  }
+  else if(Asset == "Flow")
+  {
+    Project.Variables.TestGroup_Name_DecisionFlow = TGName;
+  }
+  
   
 }

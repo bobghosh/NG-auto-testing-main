@@ -1,4 +1,4 @@
-﻿var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDropDown_Only1DDexsists");
+﻿var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role");
 function Release_Project_Details_Screen(ApprovalStrategy,DistinctUser,Users)
 {
 //        let ApprovalStrategy = "Any";
@@ -7,7 +7,7 @@ function Release_Project_Details_Screen(ApprovalStrategy,DistinctUser,Users)
         
         aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Release Project");
 
-        Aliases.browser.pageSapiensDecision2.FindElement("//*[@name='projectName']").SetText("TestP45");
+//        Aliases.browser.pageSapiensDecision2.FindElement("//*[@name='projectName']").SetText("TestP45");
         
         Log.Message(Aliases.browser.pageSapiensDecision2.FindElement("//*[@name='projectName']").Text);
     
@@ -16,7 +16,7 @@ function Release_Project_Details_Screen(ApprovalStrategy,DistinctUser,Users)
         
         Aliases.browser.pageSapiensDecision2.FindElement("//dcn-combo-box[@class='spec-approval-strategy-value']//button").click();
         
-        SelectingOptionfromDropDown_Only1DDexsists.SelectingOptionfromDropdown(ApprovalStrategy, "No");
+        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(ApprovalStrategy, "No");
         
         if(ApprovalStrategy == "All" || ApprovalStrategy == "Any")
         {
@@ -76,7 +76,7 @@ function Release_Project_Details_Screen(ApprovalStrategy,DistinctUser,Users)
                 Aliases.browser.pageSapiensDecision2.FindElement("//button[contains(@class,'approval-strategy--add-btn')]").click();
                 
                 Aliases.browser.pageSapiensDecision2.FindElement("//dcn-combo-box[contains(@class,'spec-approval-strategy--approver-list__datagrid__combo-box')]//button").click();
-                SelectingOptionfromDropDown_Only1DDexsists.SelectingOptionfromDropdown(User_array[i],'No');
+                SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(User_array[i],'No');
 
                 Aliases.browser.pageSapiensDecision2.FindElement("//i[@class='icon-valid']").click();
     
@@ -110,15 +110,15 @@ function Release_Project_Details_Screen(ApprovalStrategy,DistinctUser,Users)
           
         }
         
-        //*[contains(@class,'custom-properties-container__body')]//fx-field//input
-        let CustProp_subarray=[];
-        let CustompropertyExist=Aliases.browser.pageSapiensDecision.FindElement("//dcn-model-mapping-custom-properties//div//div//div").Child(0).getAttribute("class")
-        Log.Message(CustompropertyExist);
-        if(!CustompropertyExist.includes('no-data spec-no-custom-properties'))
-        {
-          
-        }
-        
+//        //*[contains(@class,'custom-properties-container__body')]//fx-field//input
+//        let CustProp_subarray=[];
+//        let CustompropertyExist=Aliases.browser.pageSapiensDecision.FindElement("//dcn-model-mapping-custom-properties//div//div//div").Child(0).getAttribute("class")
+//        Log.Message(CustompropertyExist);
+//        if(!CustompropertyExist.includes('no-data spec-no-custom-properties'))
+//        {
+//          
+//        }
+//        
         
         
         

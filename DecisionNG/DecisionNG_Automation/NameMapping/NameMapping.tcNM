@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://dev-app*" />
+										<Value Value="http://bdms*:*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2023,6 +2023,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeProjectDetails" Key="{8971DE66-0655-4661-A66F-6AF24CDECCF6}">
+										<Image FileName="489778068" Left="29" Top="230" Right="131" Bottom="249" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Project Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-project/dcn-navigation-menu/div/span/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelProjectDetails" Key="{021E2397-345F-493D-A069-AF64F0FA39EE}">
+										<Image FileName="-1590059892" Left="8" Top="215" Right="188" Bottom="265" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Project Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-project/dcn-navigation-menu/div/span/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -2054,7 +2081,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://dev-app*" />
+										<Value Value="http://bdms*:*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6436,6 +6463,8 @@
 					<Child Name="textnodeAudit" Owner="{9013A90E-D642-4904-9447-70D8B35B8F43}" />
 					<Child Name="textnodeReleaseManagement" Owner="{773D1B0A-B674-489D-81F2-CFC9E73405A7}" />
 				</Child>
+				<Child Name="textnodeProjectDetails" Owner="{8971DE66-0655-4661-A66F-6AF24CDECCF6}" />
+				<Child Name="panelProjectDetails" Owner="{021E2397-345F-493D-A069-AF64F0FA39EE}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">
@@ -6784,6 +6813,7 @@
 				<Child Name="panel31" Owner="{AA3611CD-4E47-4E6F-A8A2-60401B8B29D4}" />
 				<Child Name="textnode7_new4" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new5" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new6" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
