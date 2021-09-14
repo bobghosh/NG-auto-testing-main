@@ -8,7 +8,11 @@
 		</Data>
 		<Children>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Tag_Deploy_Verify_Deployed_Tag_Status" Unit="Deploy_Tag" />
+				<Data Description="Runs a script routine." TestName="Tag_Deploy_Verify_Deployed_Tag_Status" Unit="Deploy_Tag">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="deployment_Environment" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="DE" />
+					</Parameters>
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Navigate_to_DeploymentHistory" />

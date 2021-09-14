@@ -1,8 +1,6 @@
 ﻿var page= Aliases.browser.pageSapiensDecision2
-function Enter_TC_Label_Verify()
-{  
-  let Label ="Sumant"
-   
+function Enter_TC_Label_Verify(Label)
+{   
    page.WaitElement(page.FindElement("//div[@class='test-case__details--title']//span//input"),10000);
    let labelTextFeild = page.FindElement("//div[@class='test-case__details--title']//span//input");
    

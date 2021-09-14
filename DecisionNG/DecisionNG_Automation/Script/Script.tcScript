@@ -215,6 +215,7 @@
 				<child name="Verify_RepairIcon" key="{18E663E1-B9C7-4575-B0E1-D3EEA31813B1}" path="Verify_RepairIcon.js" />
 				<child name="Repair_Test_Cases" key="{AA6D6876-D091-4D56-8DC2-CD9DB216F10D}" path="Repair_Test_Cases.js" />
 				<child name="Enter_TestcaseValues_BIM" key="{4193A361-1DD5-4BE8-AA23-9ACE38A3F36E}" path="Enter_TestcaseValues_BIM.js" />
+				<child name="TestGroup_Ellipsis_Menu_Actions" key="{A8051AB2-6048-4D31-86B9-28FEC0A6DAEF}" path="TestGroup_Ellipsis_Menu_Actions.js" />
 			</folder>
 		</folder>
 		<folder name="Search">

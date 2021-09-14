@@ -14,7 +14,7 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
   
   for(var i = 1; i <=AssetList.length ; i++)
   {
-    let Asset_Name = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'ui-table-frozen-view')]//tbody//tr["+i+"]//td[3]").textContent;
+    let Asset_Name = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'ui-table-frozen-view')]//tbody//tr["+i+"]//td[3]").textContent.trim();
       
     if(AssetName.trim() == Asset_Name.trim())
     {

@@ -34,7 +34,7 @@
   
   
  if(isAssetValid == true)
- {
+  {
     Log.Checkpoint("Valid Messages: "+validMessage); 
   }
   
