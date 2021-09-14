@@ -4,7 +4,7 @@
   page.FindElement("//dcn-floating-action-button[contains(@class,'validation-button')]/div").Click()
   page.FindElement("//dcn-floating-action-button//button").click();
   //span[contains(@class,'sidebar-container__validation-message ')]//span
-  page.WaitElement(page.FindElement("//div[contains(@class,'sidebar-container__validation-message ')]//span"),10000)
+  page.WaitElement(page.FindElement("//*[contains(@class,'sidebar-container__validation-message ')]"),10000)
   let validationMessage = page.FindElements("//div[contains(@class,'sidebar-container__validation-message ')]//span");
   let ValidationIcon = Aliases.browser.pageSapiensDecision.FindElement("//div[contains(@class,'decision-sidebar-actions__validation-button')]//div/i");
   let isAssetValid;
@@ -22,6 +22,7 @@
   else if(ValidationIcon.getAttribute("class").includes("icon-valid"))
   {
     Log.Checkpoint("Asset is Valid");
+    var validMessage = page.FindElement("//*[contains(@class,'sidebar-container__validation-message ')]").textContent
     isAssetValid = true;
   }
   
@@ -31,14 +32,17 @@
     isAssetInvalid = true;
   }
   
-  for(let i=0; i<validationMessage.length;i++)
-  {
-    if(isAssetValid == true)
-    {
-      Log.Checkpoint("Valid Messages: "+validationMessage[i].textcontent); 
-    }
+  
+ if(isAssetValid == true)
+ {
+    Log.Checkpoint("Valid Messages: "+validMessage); 
+  }
+  
+  else {
     
-    else if(assetHasWarning == true)
+  for(let i=0; i<validationMessage.length;i++)
+  {    
+    if(assetHasWarning == true)
     {
       Log.Checkpoint("Warning Messages: "+validationMessage[i].textcontent);
     }
@@ -49,5 +53,8 @@
     }
     
   }
+  
+  }
+  
   page.FindElement("//dcn-floating-action-button[contains(@class,'validation-button')]/div").Click()
 }

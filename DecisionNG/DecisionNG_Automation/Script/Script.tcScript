@@ -87,7 +87,6 @@
 				<child name="DecisionScreen_Add_Facttype" key="{6523B528-9659-48D2-9141-1EB8CB66AE11}" path="DecisionScreen_Add_Facttype.js" />
 				<child name="DecisionScreen_Enable_Editing" key="{9B5A7441-AB8E-45D2-BBD1-80F3A061A096}" path="DecisionScreen_Enable_Editing.js" />
 				<child name="DecisionScreen_EditFT" key="{2EF515F3-64F6-418A-A1D2-DE836103986F}" path="DecisionScreen_EditFT.js" />
-				<child name="Task_Decision_Open" key="{40EB8A47-105D-469F-8E24-485ABDFA3C34}" path="Task_Decision_Open.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
@@ -95,6 +94,7 @@
 				<child name="Verify_Validation_Messages" key="{FA9EF229-7D00-4B00-A473-E95766DB2013}" path="Verify_Validation_Messages.js" />
 				<child name="Asset_Validation" key="{27E9323D-1453-41D4-9BDF-DAFEE6198BC7}" path="Asset_Validation.js" />
 				<child name="Business_Information_Model" key="{D5C44958-CDCC-4F1A-91C0-B704ADBEFE3B}" path="Business_Information_Model.js" />
+				<child name="Task_Open_Asset" key="{40EB8A47-105D-469F-8E24-485ABDFA3C34}" path="Task_Open_Asset.js" />
 			</folder>
 			<folder name="Knowledge Source">
 				<child name="Add_New_Knowledge_Source" key="{102849E1-B98F-44F0-8098-16C27F44DCED}" path="Add_New_Knowledge_Source.js" />
@@ -238,6 +238,11 @@
 					<child name="Navigate_to_Details_General" key="{20FE65D1-6234-41EF-AC5A-6BBC17EEE86A}" path="Navigate_to_Details_General.js" />
 				</folder>
 				<child name="Navigate_to_Details_Tab" key="{AE6AB6D7-818F-4BA2-8131-7DF4E8429A12}" path="Navigate_to_Details_Tab.js" />
+			</folder>
+			<folder name="Repository Navigations">
+				<folder name="Release Project">
+					<child name="Navigate_to_Deployment_History" key="{2BF60DFA-7580-41AF-A498-6E515A4C2980}" path="Navigate_to_Deployment_History.js" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Repository">

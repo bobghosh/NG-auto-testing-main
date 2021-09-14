@@ -1,4 +1,4 @@
-﻿function Select_Decision_Openfromtask(Item)
+﻿function Select_Asset_Openfromtask(Item)
 {
   
     let flag = 0;
@@ -27,7 +27,7 @@
                 var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
 
                 //If the Item Name matches 
-                if(HighlightedItemName.textContent == Item )
+                if(HighlightedItemName.textContent.trim() == Item.trim() )
                 {          
                         //To select amy row click on any icon available on the row
                         Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+j+"]//a").Click();

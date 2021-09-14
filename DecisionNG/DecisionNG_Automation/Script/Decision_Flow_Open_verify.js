@@ -1,7 +1,7 @@
 ﻿function Open_Flow(Item)
 {
 //    let Item = "Policy Renewal Method Flow [V1.2]";
-  
+    Delay(1000)
     let Paginator;
     let page= Aliases.browser.pageSapiensDecision2;
     if(Aliases.browser.pageSapiensDecision.FindElements("//p-paginator//div").length > 0)
@@ -14,7 +14,6 @@
     }
     
     Log.Message(Paginator);
-    Delay(1000)
     var ItemCount;
     var flag = 0;
     var hasNext = true  

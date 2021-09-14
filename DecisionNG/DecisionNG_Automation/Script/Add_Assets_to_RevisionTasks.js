@@ -70,7 +70,7 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
   Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
         
   
-  Delay(3000);
+  Delay(5000);
   
   //Verify the Assets Available  
   let Asset_Type_Name = Tabs_Assets.split(',');
@@ -86,7 +86,7 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
     {
       let Asset_Name = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[3]").textContent;
       
-      if(AssetName == Asset_Name)
+      if(AssetName.trim() == Asset_Name.trim())
       {
         Log.Message("Selected Asset is Available");
       }

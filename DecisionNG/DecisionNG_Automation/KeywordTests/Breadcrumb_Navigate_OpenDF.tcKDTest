@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
-	<TestData Description="" Key="{C56582DA-5348-4590-8B05-C3B01E299146}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{C6A93EFF-27EB-4B51-8A67-18F079775448}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -23,7 +23,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Navigate_to_Decisions" />
+				<Data Description="Runs a keyword test." TestName="Navigate_to_Decision_Flows" />
 			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
@@ -50,7 +50,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{3F5F8B44-D91E-41E8-A7A4-CFB067B196B9}">
+	<Parameters Key="{9B478F6B-E041-461D-B8D1-99E78B1CF149}">
 		<Parameter0 Name="BreadCrumb" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 		<Parameter1 Name="Decision" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>

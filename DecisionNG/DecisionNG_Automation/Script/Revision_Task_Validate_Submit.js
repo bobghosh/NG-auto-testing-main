@@ -22,7 +22,7 @@ function Revision_Task_Validate_Submit(ApprovalStrategy)
       //User should be navigated to the Revision Page
       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision");
       }
-      else if(ApprovalStrategy == "Any" || ApprovalStrategy == "ALL")
+      else if(ApprovalStrategy == "Any" || ApprovalStrategy == "All")
       {
         aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span"), "contentText", cmpEqual, "CANDIDATE");
         aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision Tasks");
