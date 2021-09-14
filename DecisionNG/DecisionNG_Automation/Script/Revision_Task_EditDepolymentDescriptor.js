@@ -16,7 +16,7 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
   {
     let Asset_Name = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'ui-table-frozen-view')]//tbody//tr["+i+"]//td[3]").textContent.trim();
       
-    if(AssetName == Asset_Name)
+    if(AssetName.trim() == Asset_Name.trim())
     {
       Log.Message("Selected Asset is Available");
       

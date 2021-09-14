@@ -1,8 +1,9 @@
-﻿var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role");
+﻿var Navigate_to_Deployment_History = require("Navigate_to_Deployment_History");
+var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role");
 //var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDropDown_Only1DDexsists");
 
 var Revision_Buttons = require("Revision_Buttons");
-function Tag_Deploy_Verify_Deployed_Tag_Status(deployment_Environment)
+function Tag_Deploy_Verify_Deployed_Tag_Status(deployment_Environment,ApprovalStrategy)
 {
   //Click on Deploy button for Revision
   Aliases.browser.pageSapiensDecision2.FindElement("//*[text()='Deploy ']").ClickButton();
@@ -47,5 +48,28 @@ function Tag_Deploy_Verify_Deployed_Tag_Status(deployment_Environment)
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.panelRevisionTaskValidation, "Exists", cmpEqual, true);
   Log.Message(Aliases.browser.pageSapiensDecision2.panelRevisionTaskValidation.textContent);
   Aliases.browser.pageSapiensDecision2.panelRevisionTaskValidation.click(); 
+  
+  if(ApprovalStrategy == "Any" || ApprovalStrategy == "All")
+  {
+    Log.Message("Approval Strategy is set to " + ApprovalStrategy)
+    Navigate_to_Deployment_History.Navigate_to_Deployment_History();
+    
+    Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-table-frozen-view')]//tbody//tr[1]"), 10000);
+  
+    let Status = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-table-frozen-view')]//tbody//tr[1]//td[2]");
+  
+    if(Status == "REQUESTED")
+    {
+      Log.Checkpoint("Deployment status is requested")
+    }
+    else
+    {
+      Log.Error("Deployment status is not Requested");
+    }
+  }
+  else
+  {
+    Log.Message("Approval Strategy is set to None")    
+  }
  
 }

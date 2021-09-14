@@ -10,7 +10,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Assets_Ellipses_Options" Unit="Assets_Ellipses_Options">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="SelectOption" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Test Groups" />
+						<Parameter Name="SelectOption" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Option" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -20,14 +20,24 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Open_TestGroup" Unit="Open_TestGroup">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="TG1631104563279" />
+						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TestGroup_Name" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Verify_Repair_and_Click" Unit="Repair_Test_Cases" />
+				<Data Description="Runs a script routine." TestName="Verify_Repair_and_Click" Unit="Repair_Test_Cases">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="condition" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Repair_Condition" />
+						<Parameter Name="factType_Name" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="FactType_Name" />
+					</Parameters>
+				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{BC5FFFC8-EBEF-4E40-B9EF-EFD8DB19DD9F}" />
+	<Parameters Key="{BC5FFFC8-EBEF-4E40-B9EF-EFD8DB19DD9F}">
+		<Parameter0 Name="TestGroup_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Option" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Repair_Condition" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="FactType_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
 </Root>

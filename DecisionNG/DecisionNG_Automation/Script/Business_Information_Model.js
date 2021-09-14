@@ -1,7 +1,7 @@
 ﻿var page = Aliases.browser.pageSapiensDecision2;
 var bimPleateBtn= page.FindElement("//dcn-floating-action-button/div[contains(@class,'decision-sidebar-actions decision-sidebar-actions__bim-button floating-button__bim')]");
 
-function BIM_Open()
+function BIM_Open_Close()
 {
   bimPleateBtn.Click();
 }
@@ -50,10 +50,10 @@ var editBimCancelBtn= ()=>
   return bimCancelBtn = page.FindElement("//i[@class='icon-fail']/parent::button").click();
 }
 
-function BIM_DragAndDropFT()
+function BIM_DragAndDropFT(dragFTAndDropInRG)
 {  
   //FTName and Destination Group
-  var dragFTAndDropInRG = "TestRG Persistent1-Root"
+//  var dragFTAndDropInRG = "TestRG Persistent1-Root"
   var setValues = dragFTAndDropInRG.split(',');  
      
   for(var i = 0; i < setValues.length ; i++) 

@@ -8,6 +8,8 @@ var Navigate_to_Details_Tab = require("Navigate_to_Details_Tab");
 
 function Start_button()
 {  
+  Delay(2000);
+  
   Split_button();
   
   Aliases.browser.pageSapiensDecision.FindElement("//*[(text()='Start')]").Click();
@@ -16,17 +18,17 @@ function Start_button()
 //  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//p-splitbutton/div"), "className", cmpContains, "ui-state-disabled");
   
   Delay(500);
-//  
-//  Navigate_to_Details_Tab.Navigate_to_Details_Tab();
-//  
-//  Navigate_to_Details_General.Navigate_to_Details_General();
-//  
-//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form6.textboxUsername2, "Text", cmpEqual, "unassigned");
-//  
-//  Navigate_to_Details_Audit.Navigate_to_Details_Audit();
-//  
-//  Details_Audit.Verify_Audit_Record("Yes","Start","No","","No","","No","","No","");
-//  
+  
+  Navigate_to_Details_Tab.Navigate_to_Details_Tab();
+  
+  Navigate_to_Details_General.Navigate_to_Details_General();
+  
+  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form6.textboxUsername2, "Text", cmpEqual, "unassigned");
+  
+  Navigate_to_Details_Audit.Navigate_to_Details_Audit();
+  
+  Details_Audit.Verify_Audit_Record("Yes","Start","No","","No","","No","","No","");
+  
   
 }
 

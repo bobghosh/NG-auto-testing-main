@@ -91,7 +91,7 @@
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F00320034003600310037003600"/>
+							<Prp name="strvalue" type="H" value="450032004500200033003800350020003300340031003200330033003300"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
@@ -121,7 +121,7 @@
 					</Node>
 					<Node name="var29">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F006400650076002D006100700070002E0064006D002E00730061007000690065006E0073002E0063006F006D002F0064006D002F006C006F00670069006E002E006A0073007000"/>
+							<Prp name="strvalue" type="H" value="68007400740070003A002F002F00620064006D007300750061007400370035003A0035003800390033002F0064006D002F006C006F00670069006E002E006A0073007000"/>
 						</Node>
 						<Prp name="name" type="S" value="E2E_URL"/>
 					</Node>
@@ -130,9 +130,27 @@
 					</Node>
 					<Node name="var30">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
+							<Prp name="strvalue" type="H" value="540047003100360033003100350035003600340032003300380037003800"/>
 						</Node>
-						<Prp name="name" type="S" value="Var2"/>
+						<Prp name="name" type="S" value="TestGroup_Name_Decision"/>
+					</Node>
+					<Node name="var31">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="540047003100360033003100350035003600340039003300300038003000"/>
+						</Node>
+						<Prp name="name" type="S" value="TestGroup_Name_DecisionFlow"/>
+					</Node>
+					<Node name="var32">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A006500630074003100370039003800300034003700"/>
+						</Node>
+						<Prp name="name" type="S" value="Release_Project_Name"/>
+					</Node>
+					<Node name="var33">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5400610067004E0061006D0065004E0065007700"/>
+						</Node>
+						<Prp name="name" type="S" value="Tag_Name"/>
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>

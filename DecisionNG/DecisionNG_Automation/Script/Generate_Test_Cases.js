@@ -23,7 +23,7 @@
 //            Aliases.browser.pageSapiensDecision.form.buttonCancel.WaitProperty("Exists", true, 100000)  
 
             //Click on Select Test Value button  
-            Aliases.browser.pageSapiensDecision2.form4.buttonSelectTestValues.ClickButton();
+            Aliases.browser.pageSapiensDecision2.FindElement("//button[text()='Select Test Values ']").ClickButton();
         
             //If All the Checkboxes needs to be selected
             if(SelectAll == "Yes")
