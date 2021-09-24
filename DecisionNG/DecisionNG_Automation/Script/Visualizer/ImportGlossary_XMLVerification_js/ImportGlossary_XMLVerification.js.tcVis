@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{425733C6-AEC9-46F1-BFC6-7BF47E03000A}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="319" kind="0" dateTime="44462.5828819444" objectName="Aliases.browser.pageSapiensDecision.form.buttonOk" objectLeft="982" objectTop="351" objectRight="1083" objectBottom="387" clickPointX="999" clickPointY="369" imageFileName="tcvi29195545392440.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="321" kind="0" dateTime="44462.5829282407" objectName="Aliases.browser.pageSapiensDecision2.dlgOpen.cbxFileName" objectLeft="201" objectTop="440" objectRight="419" objectBottom="455" clickPointX="-1" clickPointY="-1" imageFileName="tcvi291958468236800.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="322" kind="0" dateTime="44462.5829976852" objectName="Aliases.browser.pageSapiensDecision2.dlgOpen.btnOpen" objectLeft="451" objectTop="464" objectRight="539" objectBottom="490" clickPointX="488" clickPointY="474" imageFileName="tcvi291965625236803.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{425733C6-AEC9-46F1-BFC6-7BF47E03000A}" />
 </Root>

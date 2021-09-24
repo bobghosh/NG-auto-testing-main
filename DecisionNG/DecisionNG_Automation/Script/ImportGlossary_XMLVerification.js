@@ -137,7 +137,6 @@ function ImportGlossaryXMLVerification()
       
                 Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//button[text()='Browse']").ClickButton();
       
-                
                 Aliases.browser.pageSapiensDecision2.dlgOpen.cbxFileName.SetText("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name"));
       
                 Aliases.browser.pageSapiensDecision2.dlgOpen.btnOpen.ClickButton();
@@ -312,13 +311,43 @@ function t()
  
 }
 
-
-function fs()
+function test34()
 {
-  let browser = Aliases.browser;
-  browser.BrowserWindow2.Maximize();
-  browser.pageSapiensDecision.form.buttonOk.ClickButton();
-  let dlgOpen = browser.pageSapiensDecision2.dlgOpen;
-  dlgOpen.cbxFileName.SetText("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\");
-  dlgOpen.btnOpen.ClickButton();
+  Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']"), )
+
+  Log.Message(Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']").hasAttribute("disabled"));
+  
+  let hasNext = "true";
+  
+  Delay(10000);
+  
+  do
+  {
+      Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Refresh']").click();
+      Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']").hasAttribute("disabled")
+      
+      if(Status.textContent == "DEPLOYED")
+      {
+        Log.Message("Tag is deployed");
+        hasNext = false;
+      }  
+      else if(Status.textContent == "FAILED")
+      {
+        Log.Message("Tag is failed");
+        hasNext = false;
+      }
+      else if(Status.textContent == "REQUESTED")
+      {
+        Log.Message("Tag is still in requested status");
+        hasNext = true;
+      }
+  }while(hasNext == true)
+  
+}
+
+function test()
+{
+  
+  Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//button[text()='Browse']").ClickButton();
+  Aliases.browser.dlgOpen.OpenFile(("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\ImportGlossary_TEXT_ANY_VALUE_REGULAR_New_SORNameChange_UncheckSOR"), "XML Document");
 }

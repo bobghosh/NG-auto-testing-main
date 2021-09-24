@@ -5941,60 +5941,6 @@
 									</Property>
 								</Properties>
 							</Child>
-							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
-								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="#32770" />
-									</Property>
-									<Property Name="WndCaption">
-										<Value Value="Open" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="cbxFileName" Key="{DBE83866-21A0-4702-A8C2-43410176A96D}">
-										<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="ComboBoxEx32" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="ComboBox" Key="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
-												<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="ComboBox" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="Edit" Key="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}">
-														<Image FileName="-520287055" Left="201" Top="410" Right="380" Bottom="425" />
-														<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="Edit" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
-									</Child>
-									<Child Name="btnOpen" Key="{E02870FF-15BC-4B97-9A94-A66E935D0ABD}">
-										<Image FileName="67400586" Left="1145" Top="674" Right="1233" Bottom="700" />
-										<TypeInfo Item0="{C9EB360F-2AFD-4D7F-B3A1-BED8EED12CCC}" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="Button" />
-											</Property>
-											<Property Name="WndCaption">
-												<Value Value="&amp;Open" />
-											</Property>
-										</Properties>
-									</Child>
-								</Children>
-							</Child>
 							<Child Name="BrowserWindow4" Key="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}">
 								<Image FileName="-505667610" Left="-8" Top="-8" Right="1368" Bottom="736" />
 								<Properties>
@@ -6068,6 +6014,48 @@
 												<Value Value="//a/img" />
 											</Selector>
 										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}" ExtendedFind="True">
+								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{DBE83866-21A0-4702-A8C2-43410176A96D}" ExtendedFind="True">
+										<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{3E7BB5C0-203B-476A-8560-E402D20A60FE}" ExtendedFind="True">
+												<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" ExtendedFind="True">
+														<Image FileName="-520287055" Left="201" Top="410" Right="380" Bottom="425" />
+														<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -6237,7 +6225,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}">
+							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}" ExtendedFind="True">
 								<Image FileName="839582406" Left="0" Top="0" Right="683" Bottom="480" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6306,7 +6294,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}">
+							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}" ExtendedFind="True">
 								<Image FileName="-1042702428" Left="0" Top="0" Right="366" Bottom="140" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6748,17 +6736,6 @@
 					<Child Name="textnodeDelete" Owner="{BBEAB02B-F59A-4032-886A-E7A5834732D7}" />
 				</Child>
 				<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
-				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
-					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
-						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
-							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
-						</Child>
-					</Child>
-					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
-					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
-					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
-					<Child Name="btnOpen" Owner="{E02870FF-15BC-4B97-9A94-A66E935D0ABD}" />
-				</Child>
 				<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
 					<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
 						<Child Name="TrayButton" Owner="{35F4A218-1B03-4A3F-AEE9-75EBCE8CFAE1}" />
@@ -6775,6 +6752,10 @@
 					<Child Name="wndMultitaskingViewFrame" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}" />
 					<Child Name="wndMultitaskingViewFrame2" Owner="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}" />
 					<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
+					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+					<Child Name="wndTaskListThumbnailWnd2" Owner="{7E4AA41A-38B4-496D-95C4-4E00D7EA816E}" />
 					<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
 						<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
 							<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
@@ -6782,10 +6763,6 @@
 							</Child>
 						</Child>
 					</Child>
-					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
-					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
-					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
-					<Child Name="wndTaskListThumbnailWnd2" Owner="{7E4AA41A-38B4-496D-95C4-4E00D7EA816E}" />
 				</Child>
 				<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
 				<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
@@ -6859,6 +6836,17 @@
 				<Child Name="textnode7_new5" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new6" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="panelAdministration" Owner="{75A3BD87-5910-47C9-A06A-A7107AAD86ED}" />
+				<Child Name="textnode7_new7" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				</Child>
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
@@ -6905,6 +6893,13 @@
 			<Child Name="pageProductManagementPatAutomati" Owner="{41907C12-5315-4B55-A003-B5EBB038667D}">
 				<Child Name="linkProductmanagement" Owner="{ECB5ADEB-F43E-42EC-91E1-8D8C4CBBF915}">
 					<Child Name="imageGetsitelogoType1Mcasctx1" Owner="{8E2C244C-F134-46F5-A2B4-E6BD902E7530}" />
+				</Child>
+			</Child>
+			<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+				<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+					<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+						<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+					</Child>
 				</Child>
 			</Child>
 		</Child>

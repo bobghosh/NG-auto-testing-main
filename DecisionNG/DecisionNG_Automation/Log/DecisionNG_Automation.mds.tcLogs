@@ -462,6 +462,96 @@
 				<Prp name="relpath" type="S" value="9_23_2021_7_28 PM_20_192\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0049">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7086877894"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{49D92CB6-A671-4FCF-ACD5-6EDC9664788A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\fs]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_00 PM_30_626\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0050">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7098676736"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{63B8EBD8-8715-4C37-B618-CE9977052E40}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\fs]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_02 PM_12_567\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0051">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7116756829"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{753FEE5E-D8CC-44C4-B3B1-C83DECD88197}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\fs]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_04 PM_48_779\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0052">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7138217593"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{48880E9F-5CFF-4CF8-A7FD-22F4162FC64B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\fs]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_07 PM_54_200\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0053">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7145677778"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8CA6CB4B-1337-4BF7-878E-62ADC8EFB6D7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\fs]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_08 PM_58_656\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0054">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7156517593"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{78874091-0660-40BD-9BAF-3933ECEECAF6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\fs]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_10 PM_32_312\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7297495718"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{23C227B7-ECF0-4148-9ADF-1F748F70F383}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\test34]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_30 PM_50_364\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0056">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7301109491"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BE5BFE5E-7600-4844-8A5D-8E0466BA098A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\test34]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_31 PM_21_586\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0057">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.7363839005"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{54B03B62-CDD2-4100-AE72-E705C919CF13}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\test]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_40 PM_23_569\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0058">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44463.736638287"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F466402D-26B1-4DC8-B9A4-DCA05910B20A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [ImportGlossary_XMLVerification\test]"/>
+				<Prp name="relpath" type="S" value="9_24_2021_5_40 PM_45_548\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
