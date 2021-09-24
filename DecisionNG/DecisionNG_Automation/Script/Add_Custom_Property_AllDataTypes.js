@@ -1,10 +1,10 @@
 ﻿var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
-var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Only1DDexsists");
+var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Role");
 
 function Add_Custom_Property()
 { 
-  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.linkCustomProperties.textnode10;
+  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.FindElement("//span[contains(text(),'Custom Properties')]//ancestor::a/span[1]");
   if(CustomPropertiesTab.getAttribute("class").includes("pi-chevron-right"))
   {
       CustomPropertiesTab.click();
@@ -65,33 +65,36 @@ function Add_Custom_Property()
         if((DataType=="Date")||(DataType == "Month & year"))
         {      
           //Select on Calender icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='from']//*[@class='wj-glyph-down']").Click();		
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='from']//*[@class='wj-glyph-down']").Click();		
       		SelectingDateFromCalendar.CalendarSelection("No", "1989" , "Mar", "8");      
 
-      		Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='to']//*[@class='wj-glyph-down']").Click();		
+      		Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='to']//*[@class='wj-glyph-down']").Click();		
       		SelectingDateFromCalendar.CalendarSelection("No", "1998" , "Mar", "18"); 
           
           //Clicking on + icon
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();                                      
+//          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='u-flex-container spec-add-button add-btn']").ClickButton();
+                                                     
         }
         
         else if(DataType=="Date & time")
         {      
           //Select on Calender icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='from']//*[@class='wj-glyph-calendar']").Click();		
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='from']//*[@class='wj-glyph-calendar']").Click();		
       		SelectingDateFromCalendar.CalendarSelection("No", "1989" , "Mar", "8");
           //Select on Clock icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='from']//*[@class='wj-glyph-clock']").Click();
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='from']//*[@class='wj-glyph-clock']").Click();
           SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
 
-      		Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='to']//*[@class='wj-glyph-calendar']").Click();		
+      		Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='to']//*[@class='wj-glyph-calendar']").Click();		
       		SelectingDateFromCalendar.CalendarSelection("No", "1998", "Jul", "27");       
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='to']//*[@class='wj-glyph-clock']").Click();                        
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='to']//*[@class='wj-glyph-clock']").Click();                        
           SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:45 PM" , "No");
           
           //Clicking on + icon
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
-  
+//          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+          Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='u-flex-container spec-add-button add-btn']").ClickButton();
+               
         }
         else if((DataType =="Day")||(DataType =="Month"))
         {
@@ -114,7 +117,9 @@ function Add_Custom_Property()
             page = browser.pageSapiensDecision2;
             page.FindElement("//dcn-domain-input[@placeholder='to']//button").Click()
             SelectingOptionfromDropDown.SelectingOptionfromDropdown(toData,"No");
-            button.button5.ClickButton();        
+//            button.button5.ClickButton();   
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='u-flex-container spec-add-button add-btn']").ClickButton();
+                    
           } 
           
         }
@@ -133,7 +138,7 @@ function Add_Custom_Property()
             Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='to']").Click();
             Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='to']").SetText(toData);
               
-            Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='u-flex-container spec-add-button add-btn']").ClickButton();
                   
           }
     
@@ -147,22 +152,25 @@ function Add_Custom_Property()
         
         if((DataType=="Date")||(DataType == "Month & year"))
         {
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//*[@class='wj-glyph-down']").Click();		
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//*[@class='wj-glyph-down']").Click();		
           SelectingDateFromCalendar.CalendarSelection("No", "1998", "Jul", "27");
           
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();                                
+//          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+          Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+                                                 
         }
         else if(DataType=="Date & time")
         {      
           //Select on Calender icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//*[@class='wj-glyph-calendar']").Click();		
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//*[@class='wj-glyph-calendar']").Click();		
       		SelectingDateFromCalendar.CalendarSelection("No", "1989" , "Mar", "8");
           //Select on Clock icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//*[@class='wj-glyph-clock']").Click();
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//*[@class='wj-glyph-clock']").Click();
           SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
 
           //Clicking on + icon
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+         Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+                     
   
         }
         else if((DataType =="Day")||(DataType =="Month"))
@@ -172,9 +180,11 @@ function Add_Custom_Property()
           for(var i = 0; i < str_array.length; i++) 
           { 
             
-            Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//button").Click();		
+            Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//button").Click();		
             SelectingOptionfromDropDown.SelectingOptionfromDropdown(str_array[i],"No");
-            Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+//            Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+               
                            
           }
         
@@ -190,7 +200,9 @@ function Add_Custom_Property()
           let AddValue = Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='Add a value']");		
           AddValue.Click();
           AddValue.SetText(str_array[i]);     
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+//          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+               
           }
             
         }
@@ -203,24 +215,26 @@ function Add_Custom_Property()
         
         if((DataType=="Date")||(DataType == "Month & year"))
         {
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//*[@class='wj-glyph-down']").Click();		
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//*[@class='wj-glyph-down']").Click();		
           SelectingDateFromCalendar.CalendarSelection("No", "1998", "Jul", "27");
           
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
-                                
+//          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+          Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+                                    
         }
         else if(DataType=="Date & time")
         {      
           //Select on Calender icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//*[@class='wj-glyph-calendar']").Click();		
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//*[@class='wj-glyph-calendar']").Click();		
       		SelectingDateFromCalendar.CalendarSelection("No", "1989" , "Mar", "8");
           //Select on Clock icon
-          Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//*[@class='wj-glyph-clock']").Click();
+          Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//*[@class='wj-glyph-clock']").Click();
           SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:15 AM" , "No");
 
           //Clicking on + icon
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
-  
+//          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+          Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='u-flex-container spec-add-button add-btn']").ClickButton();
+                  
         }
         else if((DataType =="Day")||(DataType =="Month"))
         {
@@ -228,9 +242,11 @@ function Add_Custom_Property()
           var str_array = set_values.split(',');
           for(var i = 0; i < str_array.length; i++) 
           { 
-            Aliases.browser.pageSapiensDecision.FindElement("//*[@ng-reflect-placeholder='Add a value']//button").Click();		
+            Aliases.browser.pageSapiensDecision.FindElement("//*[@placeholder='Add a value']//button").Click();		
             SelectingOptionfromDropDown.SelectingOptionfromDropdown(str_array[i],"No");
-            Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();                           
+//            Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton(); 
+            Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+                                            
           }        
     
          }
@@ -243,7 +259,9 @@ function Add_Custom_Property()
               let AddValue = Aliases.browser.pageSapiensDecision.FindElement("//input[@placeholder='Add a value']");		
               AddValue.Click();
               AddValue.SetText(str_array[i]);         
-              Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+//              Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+              Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='add-btn spec-add-button']").ClickButton();
+                
            }
           }
         

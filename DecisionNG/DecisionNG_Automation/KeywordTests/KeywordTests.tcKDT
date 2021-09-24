@@ -128,34 +128,20 @@
 			<folder name="Settings">
 				<folder name="Model Definition">
 					<folder name="Test Case">
-						<child name="Test_ID_01_AddNew_MD_ClickFail" key="{6E954C58-78BC-4176-884F-9C5A41B638CB}" path="Test_ID_01_AddNew_MD_ClickFail.tcKDTest" />
-						<child name="Test_ID_02_AddNew_MD_ClickOk" key="{62A01BB1-C8ED-47F5-989B-A03BD7BB0F58}" path="Test_ID_02_AddNew_MD_ClickOk.tcKDTest" />
-						<child name="Test_ID_03_Rename_MD_Verify" key="{58269395-9314-4507-A92B-1FEC74F10E4C}" path="Test_ID_03_Rename_MD_Verify.tcKDTest" />
-						<child name="Test_ID_04_MD_Clone_Version" key="{88CABF96-93B7-464D-A116-B9171D3C97F7}" path="Test_ID_04_MD_Clone_Version.tcKDTest" />
-						<child name="Test_ID_05_MD_Rename_Version" key="{617F9AE5-309D-41B2-A8A4-0AE881B72FCF}" path="Test_ID_05_MD_Rename_Version.tcKDTest" />
-						<child name="Test_ID_06_MD_Freezed_Version" key="{B7E84DD8-2F00-4502-B675-E4B8062599C4}" path="Test_ID_06_MD_Freezed_Version.tcKDTest" />
-						<child name="Test_ID_07_MD_Unfreezed_Version" key="{6A099FB9-5231-4673-8C45-4E4D12275DA9}" path="Test_ID_07_MD_Unfreezed_Version.tcKDTest" />
-						<child name="Test_ID_08_MD_Remove_Version_Cancel" key="{97B70F4C-C379-4824-9291-91569B1F0B29}" path="Test_ID_08_MD_Remove_Version_Cancel.tcKDTest" />
-						<child name="Test_ID_09_MD_Remove_Version_Ok" key="{BA3E045E-5DE5-4DEA-8998-896A982CE619}" path="Test_ID_09_MD_Remove_Version_Ok.tcKDTest" />
-						<child name="Test_ID_10_MD_ViewMappedEntities_Version" key="{194F15E3-300B-494A-A89C-62287AC0F73D}" path="Test_ID_10_MD_ViewMappedEntities_Version.tcKDTest" />
-						<child name="Test_ID_11_MD_ApprovalStrategy_None" key="{C5FFF5FB-D676-4B58-B315-B0D48B7C4A65}" path="Test_ID_11_MD_ApprovalStrategy_None.tcKDTest" />
-						<child name="Test_ID_12_MD_ApprovalStrategy_Any" key="{F58D7776-CA98-4014-9EC1-DEBB30482397}" path="Test_ID_12_MD_ApprovalStrategy_Any.tcKDTest" />
-						<child name="Test_ID_13_MD_ApprovalStrategy_All" key="{FEEC2BB9-B18A-4EEC-800D-DB5737228C63}" path="Test_ID_13_MD_ApprovalStrategy_All.tcKDTest" />
-						<child name="Test_ID_14_MD_ApprovalStrategy_Any_Distinct" key="{CB713728-FE1C-4D37-A4F6-2FA3488D25D4}" path="Test_ID_14_MD_ApprovalStrategy_Any_Distinct.tcKDTest" />
-						<child name="Test_ID_15_MD_ApprovalStrategy_All_Distinct" key="{FE4B4114-E6D5-4E10-A83E-B3B1FB102A59}" path="Test_ID_15_MD_ApprovalStrategy_All_Distinct.tcKDTest" />
-						<child name="Test_ID_16_MD_CustomProperty_AddNew" key="{8977B52E-FC2F-45DA-82B1-54036015D001}" path="Test_ID_16_MD_CustomProperty_AddNew.tcKDTest" />
-						<child name="Test_ID_17_MD_CustomProperty_EditName" key="{AB8F8057-52CD-4623-AAAE-72A9736472EA}" path="Test_ID_17_MD_CustomProperty_EditName.tcKDTest" />
-						<child name="Test_ID_18_MD_CustomProperty_Edit_MarkRequired" key="{B99FF0E5-DAEE-43EB-9918-D5BD4F455C25}" path="Test_ID_18_MD_CustomProperty_Edit_MarkRequired.tcKDTest" />
-						<child name="Test_ID_19_MD_CustomProperty_Edit_UnmarkRequired" key="{2B8E1A7F-2014-442F-B84B-02CBB919F2A7}" path="Test_ID_19_MD_CustomProperty_Edit_UnmarkRequired.tcKDTest" />
-						<child name="Test_ID_20_MD_CustomProperty_Edit_MarkRetired" key="{051435FF-F343-43AC-99AE-B73B233BBA0F}" path="Test_ID_20_MD_CustomProperty_Edit_MarkRetired.tcKDTest" />
-						<child name="Test_ID_22_MD_CustomProperty_Edit_UnmarkRetired" key="{E2981E0F-ABB7-48F4-AD38-B9BD7D16B49B}" path="Test_ID_22_MD_CustomProperty_Edit_UnmarkRetired.tcKDTest" />
-						<child name="Test_ID_21_MD_CP_Edit_DataType_DisplayFormat" key="{2FA989EC-6E56-40A7-9B3F-C94C91855CC3}" path="Test_ID_21_MD_CP_Edit_DataType_DisplayFormat.tcKDTest" />
-						<child name="Test_ID_23_MD_CustomProperty_Edit_All" key="{7A45FF35-E1AF-4D1B-A861-7DD8FE844C31}" path="Test_ID_23_MD_CustomProperty_Edit_All.tcKDTest" />
-						<child name="Test_ID_24_MD_CustomProperty_Remove_Cancel" key="{0AB2C230-18A3-4B4F-8401-B2407ECC6122}" path="Test_ID_24_MD_CustomProperty_Remove_Cancel.tcKDTest" />
-						<child name="Test_ID_25_MD_CustomProperty_Remove_Ok" key="{AF885422-E76D-4B4F-BAD6-726EDB944FF6}" path="Test_ID_25_MD_CustomProperty_Remove_Ok.tcKDTest" />
-						<child name="Test_ID_26_MD_Remove_Cancel" key="{F38B779F-E6D3-497E-89DF-FE099C22468F}" path="Test_ID_26_MD_Remove_Cancel.tcKDTest" />
-						<child name="Test_ID_27_MD_Remove_Ok" key="{CA019541-6EF8-4493-B1B6-4DFF02C2C17A}" path="Test_ID_27_MD_Remove_Ok.tcKDTest" />
-						<child name="Test_ID_28_MD_CP_AllDataTypes" key="{85447879-114F-47EB-9C13-2EB302BFE128}" path="Test_ID_28_MD_CP_AllDataTypes.tcKDTest" />
+						<child name="MD_Add_New" key="{6E954C58-78BC-4176-884F-9C5A41B638CB}" path="MD_Add_New.tcKDTest" />
+						<child name="MD_Rename_Verify" key="{58269395-9314-4507-A92B-1FEC74F10E4C}" path="MD_Rename_Verify.tcKDTest" />
+						<child name="MD_Clone_Version" key="{88CABF96-93B7-464D-A116-B9171D3C97F7}" path="MD_Clone_Version.tcKDTest" />
+						<child name="MD_Rename_Version" key="{617F9AE5-309D-41B2-A8A4-0AE881B72FCF}" path="MD_Rename_Version.tcKDTest" />
+						<child name="MD_Freezed_Version" key="{B7E84DD8-2F00-4502-B675-E4B8062599C4}" path="MD_Freezed_Version.tcKDTest" />
+						<child name="MD_Unfreezed_Version" key="{6A099FB9-5231-4673-8C45-4E4D12275DA9}" path="MD_Unfreezed_Version.tcKDTest" />
+						<child name="MD_Remove_Version" key="{97B70F4C-C379-4824-9291-91569B1F0B29}" path="MD_Remove_Version.tcKDTest" />
+						<child name="MD_ViewMappedEntities_Version" key="{194F15E3-300B-494A-A89C-62287AC0F73D}" path="MD_ViewMappedEntities_Version.tcKDTest" />
+						<child name="MD_ApprovalStrategy" key="{C5FFF5FB-D676-4B58-B315-B0D48B7C4A65}" path="MD_ApprovalStrategy.tcKDTest" />
+						<child name="MD_CustomProperty_AddNew" key="{8977B52E-FC2F-45DA-82B1-54036015D001}" path="MD_CustomProperty_AddNew.tcKDTest" />
+						<child name="MD_CustomProperty_Edit" key="{7A45FF35-E1AF-4D1B-A861-7DD8FE844C31}" path="MD_CustomProperty_Edit.tcKDTest" />
+						<child name="MD_CustomProperty_Remove" key="{AF885422-E76D-4B4F-BAD6-726EDB944FF6}" path="MD_CustomProperty_Remove.tcKDTest" />
+						<child name="MD_Remove" key="{F38B779F-E6D3-497E-89DF-FE099C22468F}" path="MD_Remove.tcKDTest" />
+						<child name="MD_Add_CP_AllDataTypes" key="{85447879-114F-47EB-9C13-2EB302BFE128}" path="MD_Add_CP_AllDataTypes.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -229,6 +215,9 @@
 				</folder>
 				<folder name="Testing">
 					<child name="Testing_Step" key="{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" path="Testing_Step.tcKDTest" />
+					<child name="Repair_TestGroups" key="{9B5B52FD-07AD-4E55-A1E6-9AEEFA50837F}" path="Repair_TestGroups.tcKDTest" />
+					<child name="Export_Test_Group" key="{6B1AB1E9-95D7-4773-89AD-725070859829}" path="Export_Test_Group.tcKDTest" />
+					<child name="Verify_ExecutionStatus" key="{E9B737EE-074A-4088-AB0A-02E94353A4B9}" path="Verify_ExecutionStatus.tcKDTest" />
 				</folder>
 				<folder name="Validation">
 					<child name="Validation_Step" key="{27852749-477B-4CD5-86F4-1772BA75444E}" path="Validation_Step.tcKDTest" />
@@ -249,7 +238,6 @@
 			</folder>
 			<folder name="E2E - 385">
 				<child name="Move_FT_from_RG_to_Root" key="{0E7DA51D-4844-4585-8B34-552F23ADE86F}" path="Move_FT_from_RG_to_Root.tcKDTest" />
-				<child name="Repair_TestGroups" key="{9B5B52FD-07AD-4E55-A1E6-9AEEFA50837F}" path="Repair_TestGroups.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

@@ -23,7 +23,7 @@
           {          
                  //HighlightedItemName.click();
                  flag =1;
-                Log.Checkpoint("Model Definition is available");     
+                Log.Checkpoint("Custom Property is available");     
            }
            if(flag == 1)
            {
@@ -34,7 +34,7 @@
   
   if(flag == 0)
   {
-    Log.Checkpoint("Model Definition is not found");
+    Log.Checkpoint("Custom Property is not found");
   }
 }
 module.exports.Custom_Property_Availability = Custom_Property_Availability;

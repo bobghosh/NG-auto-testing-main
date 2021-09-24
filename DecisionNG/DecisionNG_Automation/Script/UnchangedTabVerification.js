@@ -1,18 +1,18 @@
 ﻿function UnchangedTabVerification(FactTypeNameparameter)
 {
-  let UnchangedFactTypes = Aliases.browser.pageSapiensDecision.FindElements("//*[contains(@ng-reflect-header,'Unchanged (')]//p-listbox//ul//li");
+  let UnchangedFactTypes = Aliases.browser.pageSapiensDecision.FindElements("//p-tabpanel[5]//p-listbox//ul//li");
   for (var l = 1; l<=UnchangedFactTypes.length; l++)
   {
-    let UnchangedFactType = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[contains(@ng-reflect-header,'Unchanged')]//p-listbox//ul//li["+l+"]");
+    let UnchangedFactType = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[5]//p-listbox//ul//li["+l+"]");
     UnchangedFactType.Click();
     
     let textbox = Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName;
     aqObject.CheckProperty(textbox, "Text", cmpEqual, FactTypeNameparameter);
     aqObject.CheckProperty(textbox, "Enabled", cmpEqual, false);
     
-    aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.FindElement("//*[contains(@ng-reflect-header,'Unchanged')]//textarea"), "Enabled", cmpEqual, false);
+    aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.FindElement("//p-tabpanel[5]//textarea"), "Enabled", cmpEqual, false);
     
-    let UnchangedFTSingleValuebutton = Aliases.browser.pageSapiensDecision2.FindElement("//*[contains(@ng-reflect-header,'Unchanged (')]//*[@aria-label='Single Value']");
+    let UnchangedFTSingleValuebutton = Aliases.browser.pageSapiensDecision2.FindElement("//p-tabpanel[5]//*[@aria-label='Single Value']");
     if(UnchangedFTSingleValuebutton.getAttribute("class").includes("ui-state-disabled"))
     {
         Log.Message("Single Value Button is disabled");
@@ -22,7 +22,7 @@
         Log.Error("Enabled");
     }
               
-    let UnchangedFTMultipleValuebutton = Aliases.browser.pageSapiensDecision2.FindElement("//*[contains(@ng-reflect-header,'Unchanged (')]//*[@aria-label='Multiple Values']");
+    let UnchangedFTMultipleValuebutton = Aliases.browser.pageSapiensDecision2.FindElement("//p-tabpanel[5]//*[@aria-label='Multiple Values']");
     if(UnchangedFTMultipleValuebutton.getAttribute("class").includes("ui-state-disabled"))
     {
         Log.Message("Multiple Value Button is disabled");
@@ -32,7 +32,7 @@
         Log.Error("Enabled");                     
     }
              
-    let UnchangedFTDataType = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Unchanged')]//*[@name='dataType']//input");
+    let UnchangedFTDataType = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[5]//*[@name='dataType']//input");
     if(UnchangedFTDataType.getAttribute("disabled") == "true")
     {
         Log.Message("Data Type is disabled");
@@ -42,7 +42,7 @@
         Log.Error("Enabled");
     }
              
-    let UnchangedFTDispayFormat = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Unchanged')]//*[@name='displayFormat']//input");
+    let UnchangedFTDispayFormat = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[5]//*[@name='displayFormat']//input");
     if(UnchangedFTDataType.getAttribute("disabled") == "true")
     {
         Log.Message("Display Format is disabled");
@@ -52,18 +52,15 @@
         Log.Error("Enabled");
     }
               
-    let UnchangedFTAllowedValues = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Unchanged (')]//*[@name='allowedValues']");
-    if(UnchangedFTAllowedValues.getAttribute("ng-reflect-disabled").includes("true"))
+    let UnchangedFTAllowedValues = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[5]//*[@name='allowedValues']//input");
+    if(UnchangedFTAllowedValues.getAttribute("disabled") == "true")
     {
         Log.Message("Allowed Value is disabled");
     }
     else
     {
         Log.Error("Enabled");
-    }
-    
-    Log.Message(UnchangedFTAllowedValues.getAttribute("ng-reflect-model")); 
-    
+    }    
   }
 }
 module.exports.UnchangedTabVerification = UnchangedTabVerification;

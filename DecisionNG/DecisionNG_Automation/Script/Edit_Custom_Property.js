@@ -1,9 +1,9 @@
-﻿var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Only1DDexsists");
+﻿var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Role");
 var Open_Custom_Property = require("Open_Custom_Property");
 function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
 {
     
-  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.linkCustomProperties.textnode10;
+  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.FindElement("//span[contains(text(),'Custom Properties')]//ancestor::a/span[1]");
   if(CustomPropertiesTab.getAttribute("class").includes("pi-chevron-right"))
   {
       CustomPropertiesTab.click();
@@ -26,39 +26,40 @@ function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
     var FieldName = CP_data[0].trim();
     var EditedValue = CP_data[1];
     //var Condition = CP_data[2];
+    Log.Message("--"+FieldName)
+    Log.Message("--"+EditedValue)
     
     if (FieldName == "Name")
     {
       let CPName = Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']");
-      CPName.SetText(EditedValue);                           
+      CPName.SetText(EditedValue);                                  
     }
     
     if(FieldName == "Required")
     {
-       RequiredCheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[@name='required']");  
-       Log.Message(RequiredCheckbox.getAttribute("ng-reflect-model"));
+       RequiredCheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[@name='required']//span");  
+       Log.Message(RequiredCheckbox.getAttribute("class"));
        if(EditedValue == "Yes")
        {      
-         if(RequiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         if(RequiredCheckbox.getAttribute("class").includes("pi pi-check"))
          {
            Log.Checkpoint("Required is Selected");
          }
          else
          {
-           RequiredCheckbox.Click();
+           Aliases.browser.pageSapiensDecision.FindElement("//*[@name='required']//div[2]").Click();
            Log.Checkpoint("Required is Selected");
          }
        }
        else
        {
-         if(RequiredCheckbox.getAttribute("ng-reflect-model") == "true")
-         {
-           RequiredCheckbox.Click();
+         if(RequiredCheckbox.getAttribute("class").includes("pi pi-check"))
+         {           
+           Aliases.browser.pageSapiensDecision.FindElement("//*[@name='required']//div[2]").Click();
            Log.Checkpoint("Required is unselected");
          }
          else
-         {
-           
+         {           
            Log.Checkpoint("Required is unselected");
          }         
        }
@@ -66,24 +67,24 @@ function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
     
     if(FieldName == "Retired")
     {
-       RetiredCheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[@name='retired']");
+       RetiredCheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[@name='retired']//span");
        if(EditedValue == "Yes")
        {      
-         if(RetiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         if(RetiredCheckbox.getAttribute("class").includes("pi pi-check"))
          {
            Log.Checkpoint("Retired is Selected");
          }
          else
          {
-           RetiredCheckbox.Click();
+           Aliases.browser.pageSapiensDecision.FindElement("//*[@name='retired']//div[2]").Click();
            Log.Checkpoint("Retired is Selected");
          }
        }
        else
        {
-         if(RetiredCheckbox.getAttribute("ng-reflect-model") == "true")
+         if(RetiredCheckbox.getAttribute("class").includes("pi pi-check"))
          {
-           RetiredCheckbox.Click();
+           Aliases.browser.pageSapiensDecision.FindElement("//*[@name='retired']//div[2]").Click();
            Log.Checkpoint("Retired is not Selected");
          }
          else
@@ -116,6 +117,8 @@ function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
   
   let CustomPropertyName = Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']").Text;
   Log.Message(CustomPropertyName);
+  
+  Project.Variables.Common_CP_MD = CustomPropertyName;   
   
   Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
   
@@ -223,21 +226,17 @@ function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
         else if(EditedFieldName == "Required" && EditedUpdatedValue == "No")
         {
           let RequiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[5]");
-          if(RequiredValue.length == 0)
-          {
-            Log.Checkpoint("Required is Unmarked");
-          }
-          else
+          Log.Message(RequiredValue.textContent.trim().toUpperCase())
+          if(RequiredValue.textContent.trim().toUpperCase() == "REQUIRED")
           {
             Log.Error("Required is not unmarked");
           }
+          else
+          {
+            Log.Checkpoint("Required is Unmarked");
+          }
         }
-      
-//        if(EditedFieldName == "Retired" && EditedUpdatedValue == "Yes")
-//        {      
-//        let RetiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[6]");
-//        }
-        
+                
         if(EditedFieldName == "Retired" && EditedUpdatedValue == "Yes")
         {
           let RetiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[6]");
@@ -256,13 +255,14 @@ function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
         else if(EditedFieldName == "Retired" && EditedUpdatedValue == "No")
         {
           let RetiredValue = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[6]");
-          if(RetiredValue.length == 0)
+          Log.Message(RetiredValue.textContent.trim().toUpperCase())
+          if(RetiredValue.textContent.trim().toUpperCase() == "RETIRED")
           {
-            Log.Checkpoint("Retired is Unmarked");
+            Log.Error("Retired is not unmarked");
           }
           else
           {
-            Log.Error("Retired is not unmarked");
+            Log.Checkpoint("Retired is Unmarked"); 
           }
         }
     

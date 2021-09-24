@@ -1,20 +1,21 @@
 ﻿function NewVersionTabVerification(FactTypeNameparameter)
 {
-  let NewVersionsFactTypecheckbox = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'New Versions (')]//dcn-checkbox");
-  if(NewVersionsFactTypecheckbox.getAttribute("ng-reflect-model") == "false")
-  {
-      NewVersionsFactTypecheckbox.click();
-  }
-  else
+  let NewVersionsFactTypecheckbox = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//dcn-checkbox[contains(@class,'spec-multi-selectable-checkbox__header__checkbox')]//span");
+  if(NewVersionsFactTypecheckbox.getAttribute("class").includes("pi pi-check"))
   {
       Log.Message("Fact Types are already selected");
   }
+  else
+  {
+    Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//dcn-checkbox[contains(@class,'spec-multi-selectable-checkbox__header__checkbox')]//div[2]").Click()
+    Log.Message("All Fact Types are selected");
+  }
   
-  let NewVersionFactTypeList = Aliases.browser.pageSapiensDecision.FindElements("//*[contains(@ng-reflect-header,'New Versions (')]//p-listbox//ul//li");
+  let NewVersionFactTypeList = Aliases.browser.pageSapiensDecision.FindElements("//p-tabpanel[2]//p-listbox//ul//li");
             
   for (var j = 1; j<=NewVersionFactTypeList.length; j++)
   {
-    let NewVersionFactTypeName = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'New Versions (')]//p-listbox//ul//li[" +j+ "]");
+    let NewVersionFactTypeName = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//p-listbox//ul//li[" +j+ "]");
     NewVersionFactTypeName.click();
     
     let browser = Aliases.browser;
@@ -25,9 +26,9 @@
     aqObject.CheckProperty(textbox3, "Text", cmpEqual, FactTypeNameparameter);
     aqObject.CheckProperty(textbox3, "Enabled", cmpEqual, false);
       
-    aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'New Versions (')]//textarea"), "isContentEditable", cmpEqual, false);
+    aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//textarea"), "isContentEditable", cmpEqual, false);
     
-    let NewVersionFTSingleValuebutton = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'New Versions (')]//*[@aria-label='Single Value']");
+    let NewVersionFTSingleValuebutton = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//*[@aria-label='Single Value']");
     if(NewVersionFTSingleValuebutton.getAttribute("class").includes("ui-state-disabled"))
     {
       Log.Message("Single Value Button is disabled");
@@ -36,7 +37,7 @@
       Log.Error("Enabled");
     }
                 
-    let NewVersionFTMultipleValuebutton = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'New Versions (')]//*[@aria-label='Multiple Values']");
+    let NewVersionFTMultipleValuebutton = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//*[@aria-label='Multiple Values']");
     if(NewVersionFTMultipleValuebutton.getAttribute("class").includes("ui-state-disabled"))
     {
       Log.Message("Multiple Value Button is disabled");
@@ -45,7 +46,7 @@
       Log.Error("Enabled");
     }
     
-    let NewVersionFTDataType = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Versions (')]//*[@name='dataType']//input");
+    let NewVersionFTDataType = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//*[@name='dataType']//input");
     if(NewVersionFTDataType.getAttribute("disabled") == "true")
     {
       Log.Message("Data Type is disabled");
@@ -54,7 +55,7 @@
       Log.Error("Enabled");
     }
     
-    let NewVersionFTDispayFormat = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Versions (')]//*[@name='displayFormat']//input");
+    let NewVersionFTDispayFormat = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//*[@name='displayFormat']//input");
     if(NewVersionFTDispayFormat.getAttribute("disabled")== "true")
     {
       Log.Message("Display Format is disabled");
@@ -63,17 +64,14 @@
       Log.Error("Enabled");
     }
                 
-    let NewVersionFTAllowedValues = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Versions (')]//*[@name='allowedValues']");
-    if(NewVersionFTAllowedValues.getAttribute("ng-reflect-disabled") == "true")
+    let NewVersionFTAllowedValues = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[2]//*[@name='allowedValues']//input");
+    if(NewVersionFTAllowedValues.getAttribute("disabled")== "true")
     {
       Log.Message("Allowed Value is disabled");
     }else
     {
       Log.Error("Enabled");
-    }
-    
-    Log.Message(NewVersionFTAllowedValues.getAttribute("ng-reflect-model")); 
-    
+    } 
                 
   }
 }

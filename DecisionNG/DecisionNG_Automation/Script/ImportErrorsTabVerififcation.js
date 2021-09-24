@@ -1,15 +1,15 @@
 ﻿function ImportErrorsTabVerifications(FactTypeNameparameter)
 {
-  let ErrorFactTypesList = Aliases.browser.pageSapiensDecision.FindElements("//*[contains(@ng-reflect-header,'Import Errors (')]//p-listbox//ul//li");
+  let ErrorFactTypesList = Aliases.browser.pageSapiensDecision.FindElements("//p-tabpanel[4]//p-listbox//ul//li");
            
   for (var k = 1; k<=ErrorFactTypesList.length; k++)
   {
                   
-  let ErrorFactType = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Import Errors (')]//p-listbox//ul//li["+k+"]");
+  let ErrorFactType = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[4]//p-listbox//ul//li["+k+"]");
   
   aqObject.CheckProperty(ErrorFactType, "textContent", cmpEqual, " "+FactTypeNameparameter+" ");
                  
-  let ErrorMessage = Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@ng-reflect-header,'Import Errors (')]//dcn-bullet//span");
+  let ErrorMessage = Aliases.browser.pageSapiensDecision.FindElement("//p-tabpanel[4]//dcn-bullet//span");
                                 
   Log.Message(ErrorFactType.textContent + " Fact Type cannot be imported due to following error Message "+ ErrorMessage.textContent);
            

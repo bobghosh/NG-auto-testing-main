@@ -40,7 +40,7 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
       Log.Message(EffectiveDate);
       
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-expiration-date-field']//*[@class='wj-glyph-calendar']").Click();
-      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "31");
+      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "30");
   
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-expiration-date-field']//*[@class='wj-glyph-clock']").Click();
       SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:45 AM" , "No");

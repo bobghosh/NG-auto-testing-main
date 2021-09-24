@@ -2050,6 +2050,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeModelDefinition" Key="{FA547F49-BF06-4381-83A7-9152AF13C863}">
+										<Image FileName="690791999" Left="28" Top="199" Right="295" Bottom="242" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Model Definition&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;page-container-top-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -5793,6 +5808,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelAdministration" Key="{75A3BD87-5910-47C9-A06A-A7107AAD86ED}">
+										<Image FileName="278079689" Left="699" Top="79" Right="839" Bottom="139" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Administration&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__admin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -5950,6 +5980,18 @@
 												</Children>
 											</Child>
 										</Children>
+									</Child>
+									<Child Name="btnOpen" Key="{E02870FF-15BC-4B97-9A94-A66E935D0ABD}">
+										<Image FileName="67400586" Left="1145" Top="674" Right="1233" Bottom="700" />
+										<TypeInfo Item0="{C9EB360F-2AFD-4D7F-B3A1-BED8EED12CCC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -6465,6 +6507,7 @@
 				</Child>
 				<Child Name="textnodeProjectDetails" Owner="{8971DE66-0655-4661-A66F-6AF24CDECCF6}" />
 				<Child Name="panelProjectDetails" Owner="{021E2397-345F-493D-A069-AF64F0FA39EE}" />
+				<Child Name="textnodeModelDefinition" Owner="{FA547F49-BF06-4381-83A7-9152AF13C863}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">
@@ -6714,6 +6757,7 @@
 					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
 					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
 					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+					<Child Name="btnOpen" Owner="{E02870FF-15BC-4B97-9A94-A66E935D0ABD}" />
 				</Child>
 				<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
 					<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
@@ -6814,6 +6858,7 @@
 				<Child Name="textnode7_new4" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new5" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new6" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="panelAdministration" Owner="{75A3BD87-5910-47C9-A06A-A7107AAD86ED}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
