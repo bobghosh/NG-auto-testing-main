@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*:*" />
+										<Value Value="http://bdms*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2081,7 +2081,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*:*" />
+										<Value Value="http://bdms*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5911,7 +5911,7 @@
 									</Property>
 								</Properties>
 							</Child>
-							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}" ExtendedFind="True">
 								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6195,7 +6195,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}">
+							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}" ExtendedFind="True">
 								<Image FileName="839582406" Left="0" Top="0" Right="683" Bottom="480" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6264,7 +6264,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}">
+							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}" ExtendedFind="True">
 								<Image FileName="-1042702428" Left="0" Top="0" Right="366" Bottom="140" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6860,6 +6860,13 @@
 			<Child Name="pageProductManagementPatAutomati" Owner="{41907C12-5315-4B55-A003-B5EBB038667D}">
 				<Child Name="linkProductmanagement" Owner="{ECB5ADEB-F43E-42EC-91E1-8D8C4CBBF915}">
 					<Child Name="imageGetsitelogoType1Mcasctx1" Owner="{8E2C244C-F134-46F5-A2B4-E6BD902E7530}" />
+				</Child>
+			</Child>
+			<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+				<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+					<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+						<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+					</Child>
 				</Child>
 			</Child>
 		</Child>

@@ -79,7 +79,7 @@
 					</Node>
 					<Node name="var22">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
+							<Prp name="strvalue" type="H" value="2C00"/>
 						</Node>
 						<Prp name="name" type="S" value="MM_CustomProperty_BeforeEdit"/>
 					</Node>
@@ -91,7 +91,7 @@
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="450032004500200033003800350020003300340031003200330033003300"/>
+							<Prp name="strvalue" type="H" value="5400610073006B00380032003300320033003600"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
@@ -103,7 +103,7 @@
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="39003700310037003900"/>
+							<Prp name="strvalue" type="H" value="36003900320033003600"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
