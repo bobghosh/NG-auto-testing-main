@@ -79,7 +79,7 @@
 					</Node>
 					<Node name="var22">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
+							<Prp name="strvalue" type="H" value="2C00"/>
 						</Node>
 						<Prp name="name" type="S" value="MM_CustomProperty_BeforeEdit"/>
 					</Node>
@@ -97,19 +97,19 @@
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E0067006500370032003200310037003900"/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E0067006500390034003500310038003600"/>
 						</Node>
 						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="39003700310037003900"/>
+							<Prp name="strvalue" type="H" value="350036003700310039003500"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
 					<Node name="var27">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0032005D00"/>
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0030005D00"/>
 						</Node>
 						<Prp name="name" type="S" value="GillsDemoAssetName"/>
 					</Node>
@@ -121,7 +121,7 @@
 					</Node>
 					<Node name="var29">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="68007400740070003A002F002F00620064006D007300750061007400370035003A0035003800390033002F0064006D002F006C006F00670069006E002E006A0073007000"/>
+							<Prp name="strvalue" type="H" value="68007400740070003A002F002F00620064006D00730075006100740037003A0031003100320031002F0064006D002F006C006F00670069006E002E006A0073007000"/>
 						</Node>
 						<Prp name="name" type="S" value="E2E_URL"/>
 					</Node>
