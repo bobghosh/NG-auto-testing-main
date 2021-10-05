@@ -45,7 +45,6 @@
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FT_Tab_FTSummary_DetailsTab_Verify.js" />
 					<child name="FactTypeTab_AddNewFactType_Verify_Single" key="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}" path="FactTypeTab_AddNewFactType_Verify_Single.js" />
 					<child name="FactTypeTab_Remove_FT_Verify" key="{2A9D6567-13CF-4F46-B4E7-434EF8EE6D82}" path="FactTypeTab_Remove_FT_Verify.js" />
-					<child name="Test" key="{ADE4238F-03E7-4C07-82EB-DA966510FE48}" path="Test.js" />
 				</folder>
 				<folder name="ModelMapping">
 					<child name="Generic_code" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="Generic_code.js" />
