@@ -1,13 +1,15 @@
-﻿var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
+﻿var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Role");
+var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
 var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
-var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role");
-function Enter_Custom_Property(CP_name_DT_AV_InputValue)
+//var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Only1DDexsists");
+
+function AI_Enter_Custom_Property()
 {
-   
-  let CustompropertyExist=Aliases.browser.pageSapiensDecision.FindElement("//dcn-model-mapping-custom-properties//div//div//div").Child(0).getAttribute("class")
+  let CP_name_DT_AV_InputValue = "Re-Text-Any Value-9/9/2021" 
+  let CustompropertyExist=Aliases.browser.pageSapiensDecision.FindElement("//dcn-additional-info-custom-property-tab//div//div//div").Child(0).getAttribute("class")
   Log.Message(CustompropertyExist);
   
-  if(!CustompropertyExist.includes('no-data spec-no-custom-properties'))
+  if(!CustompropertyExist.includes('no-data spec-no-assets'))
   {
     let CustomProperty_count;
     let page=Aliases.browser.pageSapiensDecision2;
@@ -23,23 +25,23 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
           var cust_Property_AllowedValue=CP_data[2]
           var cust_property_Input=CP_data[3];
 
-          CustomProperty_count= page.FindElements("//dcn-model-mapping-custom-properties//fx-field//label");
+          CustomProperty_count= page.FindElements("//dcn-additional-info-custom-property-tab//fx-field//label");
 
           for(let j=0; j<CustomProperty_count.length; j++)
           {
             
-            let CP_App_data= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//label").textContent.trim();
+            let CP_App_data= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//label").textContent.trim();
           
             if(CP_App_data == cust_Property)       
             {
               switch(cust_Property_AllowedValue)
               {
               case "Regular Set":{
-                                      let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                      let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                       if(CP_textbox.Enabled==true)
                                       {
-                                          let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                          let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                           dropDownbtn.click();
                                           SelectingOptionfromDropDown.SelectingOptionfromDropdown(cust_property_Input,"No");
                                           break;
@@ -54,11 +56,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                   }
                                   
             case "Dynamic Set": {
-                                      let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                      let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                       if(CP_textbox.Enabled==true)
                                       {
-                                          let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                          let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                           dropDownbtn.click();
                                           SelectingOptionfromDropDown.SelectingOptionfromDropdown(cust_property_Input,"No");
                                           break;
@@ -81,11 +83,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                               let Date=CalendarValues[0];
                                               let Month=CalendarValues[1];
                                               let Year=CalendarValues[2]
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
-                                                  let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                                  let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                                   dropDownbtn.click();
                                                   SelectingDateFromCalendar.CalendarSelection("No",Year,Month,Date);
                                                   break;
@@ -109,11 +111,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                               let Month=CalendarValues[1];
                                               let Year=CalendarValues[2];
                                               let Time=CalendarValues[3];
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
-                                                  let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                                  let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                                   dropDownbtn.click();
                                                   SelectingDateFromCalendar.CalendarSelection("No",Year,Month,Date);
                                                   SelectingTimeFromDropDown.SelectingTimeFromDropdown(Time,"Yes")
@@ -135,11 +137,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                               let Date=CalendarValues[0];
                                               let Month=CalendarValues[1];
                                               let Year=CalendarValues[2]
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
-                                                  let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                                  let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                                   dropDownbtn.click();
                                                   SelectingDateFromCalendar.CalendarSelection("No",Year,Month,Date);
                                                   break;
@@ -156,11 +158,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                           
                                     case "Month":
                                           {
-                                            let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                            let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                                                           
                                             if(CP_textbox.Enabled==true)
                                             {
-                                              let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                              let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                               dropDownbtn.click();
                                               SelectingOptionfromDropDown.SelectingOptionfromDropdown(cust_property_Input,"No");
                                               break;
@@ -178,7 +180,7 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                           
                                     default:
                                           {
-                                            let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                            let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                             if(CP_textbox.Enabled==true)
                                             {
@@ -209,11 +211,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                               let Date=CalendarValues[0];
                                               let Month=CalendarValues[1];
                                               let Year=CalendarValues[2]
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
-                                                  let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                                  let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                                   dropDownbtn.click();
                                                   SelectingDateFromCalendar.CalendarSelection("No",Year,Month,Date);
                                                   break;
@@ -238,11 +240,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                               let Month=CalendarValues[1];
                                               let Year=CalendarValues[2];
                                               let Time=CalendarValues[3];
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
-                                                  let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                                  let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                                   dropDownbtn.click();
                                                   SelectingDateFromCalendar.CalendarSelection("No",Year,Month,Date);
                                                   SelectingTimeFromDropDown.SelectingTimeFromDropdown(Time,"Yes")
@@ -265,11 +267,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                               let Date=CalendarValues[0];
                                               let Month=CalendarValues[1];
                                               let Year=CalendarValues[2]
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
-                                                  let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                                  let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                                   dropDownbtn.click();
                                                   SelectingDateFromCalendar.CalendarSelection("No",Year,Month,Date);
                                                   break;
@@ -287,11 +289,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                           
                                     case "Month":
                                           {
-                                            let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                            let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                                                           
                                             if(CP_textbox.Enabled==true)
                                             {
-                                              let dropDownbtn= page.Findelement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//button")
+                                              let dropDownbtn= page.Findelement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//button")
                                               dropDownbtn.click();
                                               SelectingOptionfromDropDown.SelectingOptionfromDropdown(cust_property_Input,"No");
                                               break;
@@ -309,7 +311,7 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
                                           break;
                                           default:
                                           {
-                                              let CP_textbox= page.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//span//input")
+                                              let CP_textbox= page.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//span//input")
                
                                               if(CP_textbox.Enabled==true)
                                               {
@@ -342,10 +344,9 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
   
   else
   {
-    Log.Message("The selected Model Definition has no Properties ")
-    let textNode = Aliases.browser.pageSapiensDecision2.textnodeTheSelectedModelDefiniti;
-    aqObject.CheckProperty(textNode, "contentText", cmpEqual, "The selected Model Definition has no Properties");
-    aqObject.CheckProperty(textNode, "Exists", cmpEqual, true);
+    Log.Message("The selected Asset has no Properties ")
+    let textNode = Aliases.browser.pageSapiensDecision2.FindElement("//dcn-additional-info-custom-property-tab//div//div//div/span").textContent
+    Log.Message("message: "+textNode);
   }
  
 }
@@ -356,11 +357,11 @@ function Enter_Custom_Property(CP_name_DT_AV_InputValue)
 var verifyError ={
 rangeError : function (j)
 {
-    let textboxCount= Aliases.browser.pageSapiensDecision2.FindElement("//dcn-model-mapping-custom-properties//fx-field["+(j+1)+"]//div//div").childElementCount
+    let textboxCount= Aliases.browser.pageSapiensDecision2.FindElement("//dcn-additional-info-custom-property-tab//fx-field["+(j+1)+"]//div//div").childElementCount
     
     if(textboxCount>1)
     {
-      let ErrorMessage=Aliases.browser.pageSapiensDecision2.FindElement("//dcn-model-mapping-custom-properties//fx-field[1]//div//div//label").textContent;
+      let ErrorMessage=Aliases.browser.pageSapiensDecision2.FindElement("//dcn-additional-info-custom-property-tab//fx-field[1]//div//div//label").textContent;
       Log.Message(ErrorMessage); 
     }
     else

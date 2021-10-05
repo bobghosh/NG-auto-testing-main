@@ -105,7 +105,7 @@ function MessageCategory_Add_Messages(string,rowNumber)
             default:{
                  page.FindElement("//dcn-combo-box//button").Click();
                  SelectingOptionfromDropDown.SelectingOptionfromDropdown("\"Text\"","No");
-                 page.FindElement("//dcn-message-element-editor//input").settext(category[i]);
+                 page.FindElement("//dcn-message-element-editor//textarea").Keys(category[i]);
                  page.FindElement("//button[contains(@class,'spec-icon-add')]").Click();
                  break;
             }

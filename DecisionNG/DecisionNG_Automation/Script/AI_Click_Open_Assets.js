@@ -1,4 +1,4 @@
-﻿function Click_Open_Assets()
+﻿function Click_Open_Assets(Asset)
 {
   let page =Aliases.browser.pageSapiensDecision2
   let E = page.FindElements("//dcn-additional-info-decision-tab//dcn-link-label/parent ::div")
@@ -10,7 +10,7 @@
     Log.Message(E[i].TextContent)
     if(E[i].childcount == '1')
     {
-      if(E[i].TextContent == "Clothes (View: Base) [V2.0]")
+      if(E[i].TextContent == Asset)
       {
         E[i].click();
         Log.Message("clicked");

@@ -31,6 +31,7 @@
 			<child name="Generate_Random_Number" key="{ED4A959A-5F75-4C42-B0DE-64DF209E0197}" path="Generate_Random_Number.js" />
 			<child name="WaitElement_ispresent" key="{0BA94474-69FF-4A51-AF9F-37D550DE9A6F}" path="WaitElement_ispresent.js" />
 			<child name="SelectingOptionfromDropDown_MultipleSelection" key="{A77A674D-A158-43DF-BAF0-76F053F45942}" path="SelectingOptionfromDropDown_MultipleSelection.js" />
+			<child name="GenerateRandomNumber" key="{21BC5768-6BA3-4941-8760-BD3A002D03FE}" path="GenerateRandomNumber.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -226,10 +227,28 @@
 			</folder>
 		</folder>
 		<folder name="Additional Information">
-			<child name="AI_Click_Verify_Title" key="{EA6B97C1-2778-484D-9066-A871EB95D1AE}" path="AI_Click_Verify_Title.js" />
-			<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
-			<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
-			<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
+			<folder name="Details">
+				<folder name="Notes">
+					<child name="Add_New_Note" key="{2F9D2342-9708-496A-B03A-CB8A84C14072}" path="Add_New_Note.js" />
+					<child name="Verify_If_Notes_Exists" key="{1479988B-8399-4FA6-829A-BAC56EB2BB3B}" path="Verify_If_Notes_Exists.js" />
+					<child name="Verify_Version_User_Date_Sub_Text" key="{277DCB9A-27A8-4D6D-B046-ABFE6CE9B82C}" path="Verify_Version_User_Date_Sub_Text.js" />
+					<child name="Remove_Note" key="{CBBB5420-4DEA-40B1-B15D-3EE9F6D0714B}" path="Remove_Note.js" />
+					<child name="Verify_Subject_Text" key="{7F122013-B55F-4E15-BC07-7D013106F7E1}" path="Verify_Subject_Text.js" />
+				</folder>
+				<folder name="General" />
+				<folder name="Custom Properties">
+					<child name="AI_Enter_CustomProperties" key="{F8E720BA-329A-44CD-8656-5DB8A2E7A8CC}" path="AI_Enter_CustomProperties.js" />
+				</folder>
+			</folder>
+			<folder name="Associations">
+				<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
+			</folder>
+			<folder name="Deployments" />
+			<folder name="Generic">
+				<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
+				<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
+				<child name="AI_Click_Verify_Title" key="{EA6B97C1-2778-484D-9066-A871EB95D1AE}" path="AI_Click_Verify_Title.js" />
+			</folder>
 		</folder>
 		<folder name="Page Navigations">
 			<folder name="Task_Tab_Navigations">
