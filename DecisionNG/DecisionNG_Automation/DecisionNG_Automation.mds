@@ -17,7 +17,7 @@
 					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Fact Type" key="{ACB0FBBE-3E46-41A7-8461-7FC51A4F4566}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -411,12 +411,12 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:3684/shell.html" />
+											<param0 name="URL" type="1" localVarName="" value="${URL}" />
 											<param1 name="UserName" type="1" localVarName="" value="DG" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
@@ -489,7 +489,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Administration" key="{A95458CF-ABA6-4826-91AE-51175129D96E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Administration" key="{A95458CF-ABA6-4826-91AE-51175129D96E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Settings" key="{BF814CDB-CE6F-48C6-B323-1FD95B23C168}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -521,7 +521,7 @@
 																<children />
 															</testItem>
 														</children>
-													</testItem> 
+													</testItem>
 													<testItem name="Test ID MD01_AddNew_ModelDefinition_ClickFail" key="{DFD056A4-5170-422D-A555-04888428964D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
@@ -666,7 +666,7 @@
 															</testItem>
 														</children>
 													</testItem>
-                          <testItem name="Test ID MD11_ModelDefinition_ApprovalStrategy_None&#13;&#10;" key="{F0E8F412-BACD-4A86-8EF5-F090DC1E4352}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID MD11_ModelDefinition_ApprovalStrategy_None&#13;&#10;" key="{F0E8F412-BACD-4A86-8EF5-F090DC1E4352}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
 															<testItem name="Test_ID_11_MD_ApprovalStrategy_None" key="{63F3320A-4599-49E0-B141-C5DE3B2458A1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C5FFF5FB-D676-4B58-B315-B0D48B7C4A65}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -1916,14 +1916,6 @@
 						</children>
 					</testItem>
 				</children>
-			</testItem>
-			<testItem name="Test2" key="{ED6411DF-CF3E-4A9B-AA77-F3823B1D6683}" group="False" parallel="False" enabled="True" testMoniker="KDT\{98A3A781-3763-43E6-90B9-96D7BF174FEE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="Param1" type="1" localVarName="" value="" />
-					<param1 name="Param2" type="1" localVarName="" value="" />
-				</testParameters>
-				<environments activeCloud="CBT" />
-				<children />
 			</testItem>
 		</children>
 	</testItems>
