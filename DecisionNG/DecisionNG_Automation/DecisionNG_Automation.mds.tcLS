@@ -159,7 +159,7 @@
 						<Prp name="name" type="S" value="Common_CP_MD"/>
 					</Node>
 					<Node name="var35">
-						<Prp name="name" type="S" value="Password2"/>
+						<Prp name="name" type="S" value="ImportGlossary_CSV"/>
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>

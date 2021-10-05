@@ -44,7 +44,6 @@
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FT_Tab_FTSummary_DetailsTab_Verify.js" />
 					<child name="FactTypeTab_AddNewFactType_Verify_Single" key="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}" path="FactTypeTab_AddNewFactType_Verify_Single.js" />
 					<child name="FactTypeTab_Remove_FT_Verify" key="{2A9D6567-13CF-4F46-B4E7-434EF8EE6D82}" path="FactTypeTab_Remove_FT_Verify.js" />
-					<child name="Test" key="{ADE4238F-03E7-4C07-82EB-DA966510FE48}" path="Test.js" />
 				</folder>
 				<folder name="ModelMapping">
 					<child name="Generic_code" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="Generic_code.js" />
@@ -208,7 +207,6 @@
 				<child name="Add_New_TestGroup_Open" key="{E64F70D7-BE8D-4864-B55D-D148607840E5}" path="Add_New_TestGroup_Open.js" />
 				<child name="Open_TestGroup" key="{867B48DE-0C1D-411A-A318-C021FC0954C1}" path="Open_TestGroup.js" />
 				<child name="Execute_Test_Group" key="{27D55002-4969-45DB-854E-6B20BC522EE4}" path="Execute_Test_Group.js" />
-				<child name="Execute_Test_Case" key="{239C4F55-F233-4AB4-86FA-BB112DC44FB0}" path="Execute_Test_Case.js" />
 				<child name="Generate_Test_Cases" key="{3DA3C483-6133-41EA-9CA1-319BC1BBE831}" path="Generate_Test_Cases.js" />
 				<child name="Enter_TestcaseValues" key="{BFC2A8CC-A5D9-48D6-B3BF-5524511FF046}" path="Enter_TestcaseValues.js" />
 				<child name="Enter_TC_Label_Verify_PlayBtn" key="{EA1193C1-4FDA-474B-875E-D6AD4EECFB83}" path="Enter_TC_Label_Verify_PlayBtn.js" />
@@ -249,13 +247,9 @@
 		</folder>
 		<folder name="Repository">
 			<folder name="Import Glossary">
-				<child name="ImportErrorsTabVerififcation" key="{29572FDB-6BBD-416A-A7AE-E2B38E3B7510}" path="ImportErrorsTabVerififcation.js" />
-				<child name="NewTabVerification" key="{BC253689-57B5-4514-B748-3C7367642399}" path="NewTabVerification.js" />
-				<child name="NewVersionTabVerification" key="{413FABA3-CBBF-4330-BC25-3A351DEC831A}" path="NewVersionTabVerification.js" />
-				<child name="UnchangedTabVerification" key="{2040C69B-0DED-4932-8F88-956CE4FFD0FB}" path="UnchangedTabVerification.js" />
-				<child name="ChangedTabVerification" key="{1B153149-2A1A-41E8-82B1-AE71168353FC}" path="ChangedTabVerification.js" />
 				<child name="ImportGlossary_XMLVerification" key="{425733C6-AEC9-46F1-BFC6-7BF47E03000A}" path="ImportGlossary_XMLVerification.js" />
 				<child name="Tabs_Verification" key="{EA3FF2FD-D434-43CF-81BC-26CD4AAA500A}" path="Tabs_Verification.js" />
+				<child name="Import_Glossary_CSV" key="{AA0724AB-7993-4286-8E3D-C7AD93C00283}" path="Import_Glossary_CSV.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Select_Community" key="{26A3DA5A-3283-4CB8-9FD0-9A86DBF25D60}" path="Select_Community.js" />

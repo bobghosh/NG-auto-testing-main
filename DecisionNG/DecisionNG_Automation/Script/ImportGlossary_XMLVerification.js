@@ -1,9 +1,4 @@
 ﻿var Tabs_Verification = require("Tabs_Verification");
-var ImportErrorsTabVerififcation = require("ImportErrorsTabVerififcation");
-var NewTabVerification = require("NewTabVerification");
-var NewVersionTabVerification = require("NewVersionTabVerification");
-var UnchangedTabVerification = require("UnchangedTabVerification");
-var ChangedTabVerification = require("ChangedTabVerification");
 function ImportGlossaryXMLVerification()
 { 
       let FTName, SORID;
@@ -136,10 +131,8 @@ function ImportGlossaryXMLVerification()
                 aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpEqual, "Import Glossary to WORLD");
       
                 Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//button[text()='Browse']").ClickButton();
-      
-                Aliases.browser.pageSapiensDecision2.dlgOpen.cbxFileName.SetText("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name"));
-      
-                Aliases.browser.pageSapiensDecision2.dlgOpen.btnOpen.ClickButton();
+         
+                Aliases.browser.dlgOpen.OpenFile(("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name")), "Custom Files");
 
                 if (Project.Variables.ImportGlossary.Value("AllowUpdateSOR") == "Yes")
                 {          
@@ -156,7 +149,6 @@ function ImportGlossaryXMLVerification()
                     NewTab.Click();
                     if((NewTab.getAttribute("class")).includes("ui-state-active")) 
                     {
-//                      NewTabVerification.NewTabVerification(FTName);
                       Tabs_Verification.NewTabVerification(FTName);
                     }
                     else 
@@ -171,7 +163,6 @@ function ImportGlossaryXMLVerification()
                     
                     if((NewVersionTab.getAttribute("class")).includes("ui-state-active")) 
                     {
-//                      NewVersionTabVerification.NewVersionTabVerification(FTName);
                       Tabs_Verification.NewVersionTabVerification(FTName);
                     }
                     else 
@@ -187,7 +178,6 @@ function ImportGlossaryXMLVerification()
                     
                     if((ChangedTab.getAttribute("class")).includes("ui-state-active")) 
                     {
-//                      ChangedTabVerification.ChangedTabVerification(FTName);
                       Tabs_Verification.ChangedTabVerification(FTName);
                     }
                     else
@@ -203,7 +193,6 @@ function ImportGlossaryXMLVerification()
                     
                     if((ImportErrorTab.getAttribute("class")).includes("ui-state-active")) 
                     {
-//                      ImportErrorsTabVerififcation.ImportErrorsTabVerifications(FTName);
                       Tabs_Verification.ImportErrorsTabVerifications(FTName);
                     }
                     else
@@ -218,7 +207,6 @@ function ImportGlossaryXMLVerification()
                     
                     if((UnchangedTab.getAttribute("class")).includes("ui-state-active")) 
                     {
-//                      UnchangedTabVerification.UnchangedTabVerification(FTName);
                       Tabs_Verification.UnchangedTabVerification(FTName)
                     }
                     else
@@ -238,26 +226,32 @@ function ImportGlossaryXMLVerification()
                   aqObject.CheckProperty(ToasterOne, "contentText", cmpEqual, "Import Glossary process has started");
                   //ToasterOne.Click();
                           
-                  Delay(40000);
+                  Delay(2000);
                   
-                  if (Aliases.browser.pageSapiensDecision.buttonSendToGlossary.WaitProperty("Enabled", true, 100000))
+                  let hasNext = true
+  
+                  do
                   {
-                    let Toastertwo = Aliases.browser.pageSapiensDecision.FindElement("//div[contains(text(),'Fact Types were imported')]");  
-                    Log.Message((Toastertwo).textContent);
-                    Log.Message("File Successfully Imported.");
-                    //Toastertwo.click();        
-                  }
-                  else
-                  {
-                    Log.Error("File Failed to Import.");
-                  }
+                  
+                      if(Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']").hasAttribute("disabled") == false)
+                      {
+                        let Toastertwo = Aliases.browser.pageSapiensDecision.FindElement("//div[contains(text(),'Fact Types were imported')]");  
+                        Log.Message((Toastertwo).textContent);
+                        Log.Message("File Successfully Imported.");
+                        hasNext = false;
+                      }  
+                      else 
+                      {
+                        hasNext = true;
+                      }
+                  }while(hasNext == true)
         
                   Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Glossary (Fact Types)']").Click;
                   let SearchFactType = Aliases.browser.pageSapiensDecision.FindElement("//input[@name='searchInput']");
                   //SearchFactType.Click();
                   SearchFactType.SetText(FTName);
                 
-                  Delay(5000);
+                  Delay(2000);
         
                   Aliases.browser.pageSapiensDecision.FindElement("//a[contains(text(),'"+ FTName +"')]").Click();
         
@@ -283,71 +277,4 @@ function ImportGlossaryXMLVerification()
         Project.Variables.ImportGlossary.Next();  
   }   
     
-}
-
-function t()
-{
-  
-  Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//button[text()=' Import ']").ClickButton();
-  let ToasterOne = Aliases.browser.pageSapiensDecision.FindElement("//div[text()='Import Glossary process has started']");                  
-  aqObject.CheckProperty(ToasterOne, "contentText", cmpEqual, "Import Glossary process has started");
-  //ToasterOne.Click();
-  
-  
-//  Log.Message(Aliases.browser.pageSapiensDecision.buttonSendToGlossary.Enabled());
-  Log.Message(Aliases.browser.pageSapiensDecision.buttonSendToGlossary.Enabled);    
-                 
-  if (Aliases.browser.pageSapiensDecision.buttonSendToGlossary.WaitProperty("Enabled", true, 100000))
-  {
-    let Toastertwo = Aliases.browser.pageSapiensDecision.FindElement("//div[contains(text(),'Fact Types were imported')]");  
-    Log.Message((Toastertwo).textContent);
-    Log.Message("File Successfully Imported.");
-    //Toastertwo.click();        
-  }
-  else
-  {
-    Log.Error("File Failed to Import.");
-  }
- 
-}
-
-function test34()
-{
-  Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']"), )
-
-  Log.Message(Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']").hasAttribute("disabled"));
-  
-  let hasNext = "true";
-  
-  Delay(10000);
-  
-  do
-  {
-      Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Refresh']").click();
-      Aliases.browser.pageSapiensDecision.FindElement("//button[text()=' Import Glossary ']").hasAttribute("disabled")
-      
-      if(Status.textContent == "DEPLOYED")
-      {
-        Log.Message("Tag is deployed");
-        hasNext = false;
-      }  
-      else if(Status.textContent == "FAILED")
-      {
-        Log.Message("Tag is failed");
-        hasNext = false;
-      }
-      else if(Status.textContent == "REQUESTED")
-      {
-        Log.Message("Tag is still in requested status");
-        hasNext = true;
-      }
-  }while(hasNext == true)
-  
-}
-
-function test()
-{
-  
-  Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//button[text()='Browse']").ClickButton();
-  Aliases.browser.dlgOpen.OpenFile(("C:\\Users\\Varsha.Chitray\\Desktop\\Import Files\\ImportGlossary_TEXT_ANY_VALUE_REGULAR_New_SORNameChange_UncheckSOR"), "XML Document");
 }

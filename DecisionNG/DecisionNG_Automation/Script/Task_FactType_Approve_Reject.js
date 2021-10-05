@@ -13,7 +13,7 @@ function FactType_Approve()
         
     let FactTypeName = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[1]");
     let Status = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[3]");          
-    let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr["+i+"]//td[6]//dcn-validation-state//div").getAttribute('class')
+    let errorIcon= Aliases.browser.pageSapiensDecision.FindElement("//body//tr["+i+"]//dcn-validation-state//div").getAttribute('class')
   //        Log.Message(Status)
   //        Log.Message(errorIcon)
           
@@ -23,9 +23,9 @@ function FactType_Approve()
       {        
             Log.Message(FactTypeName.textContent)
                 
-            Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[10]//dcn-approval-lifecycle-actions//dcn-overlay//i").HoverMouse();
+            Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//dcn-approval-lifecycle-actions//dcn-overlay//i").HoverMouse();
         
-            Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[10]//button//dcn-approval-lifecycle-actions//dcn-overlay//i").Click();
+            Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//button//dcn-approval-lifecycle-actions//dcn-overlay//i").Click();
                 
   //          Aliases.browser.pageSapiensDecision.FindElement("//*[text()='Approve']").Click();
                 

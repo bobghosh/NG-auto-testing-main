@@ -1457,7 +1457,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="TestSet #385-End-to-End: Invalidate TG (Repeating Groups) and Repair, Include Test Groups in Export Package, XML Regression Only" key="{8DCD2264-0E2D-4535-8E1B-A824353FA72A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="TestSet #385-End-to-End: Invalidate TG (Repeating Groups) and Repair, Include Test Groups in Export Package, XML Regression Only" key="{8DCD2264-0E2D-4535-8E1B-A824353FA72A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login_MPM" key="{EA06F6AF-B87C-4B9F-8429-1150513D1F80}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -2069,6 +2069,11 @@
 				</Variable>
 				<Variable Name="Common_CP_MD" Type="String" Local="True">
 					<DefValue />
+				</Variable>
+				<Variable Name="ImportGlossary_CSV" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="ImportGlossary_CSV$" HasColumnNames="True" />
+					</DefValue>
 				</Variable>
 			</Items>
 		</data>
