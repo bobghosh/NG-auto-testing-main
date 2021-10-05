@@ -15,7 +15,7 @@ function Model_Definition_Remove_Version(RemoveVersion, RemoveVersionName)
       let VersionName = Aliases.browser.pageSapiensDecision2.FindElement("//dcn-model-definition-versions//tbody//tr["+ i +"]//td[1]/div/div[1]");
       Log.Message(VersionName.textContent);
       
-      if(VersionName.textContent == RemoveVersionName)
+      if(VersionName.textContent.trim() == RemoveVersionName)
       {
           Aliases.browser.pageSapiensDecision2.FindElement("//*[contains(@class,'model-definition-versions')]//tr["+i+"]//i[contains(@class,'icon-close')]").click();
           

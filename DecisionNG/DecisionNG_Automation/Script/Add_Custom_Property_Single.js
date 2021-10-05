@@ -1,10 +1,10 @@
-﻿var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
+﻿var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Role");
+var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
-var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Only1DDexsists");
 function Add_Custom_Properties_Single(AllowedValue, DataType,DisplayFormat, set_values, Required)
 {     
   
-  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.linkCustomProperties.textnode10;
+  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.FindElement("//span[contains(text(),'Custom Properties')]//ancestor::a/span[1]");
   if(CustomPropertiesTab.getAttribute("class").includes("pi-chevron-right"))
   {
       CustomPropertiesTab.click();
@@ -245,7 +245,7 @@ function Add_Custom_Properties_Single(AllowedValue, DataType,DisplayFormat, set_
       Log.Message(CustomPropertiesCount.length);
       for(var j = 1; j <= CustomPropertiesCount.length ; j++)
       {
-            var SelectedCustomProperty = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[1]");
+            var SelectedCustomProperty = Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody//tr["+j+"]//td[1]//a");
             //Log.Message(SelectedCustomProperty.textContent);
             
             //If the Item Name matches 
@@ -297,7 +297,7 @@ function Add_Custom_Properties_Single(AllowedValue, DataType,DisplayFormat, set_
                   }
                   
                   //Verify the Custom Property Edit box
-                  Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody/tr["+j+"]/td[1]").Click();
+                  Aliases.browser.pageSapiensDecision.FindElement("//dcn-custom-properties-details//tbody//tr["+j+"]//td[1]//a").Click();
                   if (Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']").Text.trim().toUpperCase() == CustomProperty_Name.toUpperCase())
                   {
                     Log.Checkpoint("Custom Property name matches");
@@ -357,6 +357,8 @@ function Add_Custom_Properties_Single(AllowedValue, DataType,DisplayFormat, set_
         
         
         Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+        
+        Project.Variables.Common_CP_MD = CustomProperty_Name;
 
         
         

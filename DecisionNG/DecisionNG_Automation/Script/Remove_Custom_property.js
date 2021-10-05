@@ -1,7 +1,7 @@
 ﻿var Custom_Property_Availability = require("Custom_Property_Availability");
 function Remove_Custom_property(CustomProprety_Name,RemoveCP)
 {  
-  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.linkCustomProperties.textnode10;
+  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.FindElement("//span[contains(text(),'Custom Properties')]//ancestor::a/span[1]");
   if(CustomPropertiesTab.getAttribute("class").includes("pi-chevron-right"))
   {
       CustomPropertiesTab.click();

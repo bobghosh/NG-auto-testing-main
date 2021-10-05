@@ -25,7 +25,7 @@ function Revision_Task_Validate_Submit(ApprovalStrategy)
       else if(ApprovalStrategy == "Any" || ApprovalStrategy == "All")
       {
         aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span"), "contentText", cmpEqual, "CANDIDATE");
-        aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision Tasks");
+        aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.textnodeRevision, "contentText", cmpEqual, "Revision Task");
       }
       
 //     Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();

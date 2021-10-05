@@ -13,7 +13,7 @@
       let VersionName = Aliases.browser.pageSapiensDecision2.FindElement("//tbody//tr["+ i +"]//td[1]/div/div[1]");
       Log.Message(VersionName.textContent);
       
-      if(VersionName.textContent == EditVersionName)
+      if(VersionName.textContent.trim() == EditVersionName)
       {
           VersionName.HoverMouse();          
           Aliases.browser.pageSapiensDecision2.FindElement("//*[contains(@class,'model-definition-versions')]//tr["+ i +"]//td[3]//i[@class='icon-edit']").click();
@@ -43,7 +43,7 @@
     for(let j = 1; j <= NewVersionCount.length; j++)
     {
       let NewVersionName = Aliases.browser.pageSapiensDecision2.FindElement("//tbody//tr["+ j +"]//td[1]/div/div[1]");
-      if(NewVersionName.textContent == NewVersion)
+      if(NewVersionName.textContent.trim() == NewVersion)
       {
         Log.Message("Version Name is updated to "+ NewVersion);
         break;

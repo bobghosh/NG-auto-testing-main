@@ -91,7 +91,7 @@
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="5400610073006B00350036003500310039003400"/>
+							<Prp name="strvalue" type="H" value="45003200450020003300380035002000350035003100300033003800"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
@@ -115,9 +115,9 @@
 					</Node>
 					<Node name="var28">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
+							<Prp name="strvalue" type="H" value="4D0044003600310038003100360033003200320034003400300032003400360031003800"/>
 						</Node>
-						<Prp name="name" type="S" value="ModelDefinitionName"/>
+						<Prp name="name" type="S" value="CommonModelDefinitionName"/>
 					</Node>
 					<Node name="var29">
 						<Node name="value">
@@ -130,30 +130,36 @@
 					</Node>
 					<Node name="var30">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003300300039003200300035003100300032003700"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003100380035003500350032003200360039003600"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_Decision"/>
 					</Node>
 					<Node name="var31">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003300300039003200310033003000320034003700"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003100380035003500350039003000360038003000"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_DecisionFlow"/>
 					</Node>
 					<Node name="var32">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003600320039003100380031003800"/>
+							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003400310030003100300034003900"/>
 						</Node>
 						<Prp name="name" type="S" value="Release_Project_Name"/>
 					</Node>
 					<Node name="var33">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="4E0065007700540061006700"/>
+							<Prp name="strvalue" type="H" value="4E00650077005400610067004E0061006D006500"/>
 						</Node>
 						<Prp name="name" type="S" value="Tag_Name"/>
 					</Node>
 					<Node name="var34">
-						<Prp name="name" type="S" value="Training"/>
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5600610072007300680061003100320033003400"/>
+						</Node>
+						<Prp name="name" type="S" value="Common_CP_MD"/>
+					</Node>
+					<Node name="var35">
+						<Prp name="name" type="S" value="ImportGlossary_CSV"/>
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>
