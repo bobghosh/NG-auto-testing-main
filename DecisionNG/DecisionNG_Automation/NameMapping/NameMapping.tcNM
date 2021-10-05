@@ -2050,6 +2050,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeModelDefinition" Key="{FA547F49-BF06-4381-83A7-9152AF13C863}">
+										<Image FileName="690791999" Left="28" Top="199" Right="295" Bottom="242" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Model Definition&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;page-container-top-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -5793,6 +5808,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelAdministration" Key="{75A3BD87-5910-47C9-A06A-A7107AAD86ED}">
+										<Image FileName="278079689" Left="699" Top="79" Right="839" Bottom="139" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Administration&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__admin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -5911,48 +5941,6 @@
 									</Property>
 								</Properties>
 							</Child>
-							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
-								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="#32770" />
-									</Property>
-									<Property Name="WndCaption">
-										<Value Value="Open" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="cbxFileName" Key="{DBE83866-21A0-4702-A8C2-43410176A96D}">
-										<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="ComboBoxEx32" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="ComboBox" Key="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
-												<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="ComboBox" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="Edit" Key="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}">
-														<Image FileName="-520287055" Left="201" Top="410" Right="380" Bottom="425" />
-														<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="Edit" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
 							<Child Name="BrowserWindow4" Key="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}">
 								<Image FileName="-505667610" Left="-8" Top="-8" Right="1368" Bottom="736" />
 								<Properties>
@@ -6024,6 +6012,153 @@
 											</Selector>
 											<Selector>
 												<Value Value="//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOpen" Key="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}" ExtendedFind="True">
+								<Image FileName="-520287055" Left="0" Top="0" Right="625" Bottom="480" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{DBE83866-21A0-4702-A8C2-43410176A96D}" ExtendedFind="True">
+										<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{3E7BB5C0-203B-476A-8560-E402D20A60FE}" ExtendedFind="True">
+												<Image FileName="-520287055" Left="197" Top="405" Right="400" Bottom="429" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" ExtendedFind="True">
+														<Image FileName="-520287055" Left="201" Top="410" Right="380" Bottom="425" />
+														<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAcademySmartbearSoftware" Key="{9FB2C176-3FE9-4D2A-B79D-629DDD42D4A7}">
+								<Image FileName="-498022911" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/academy/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{E1E05490-D0D5-4BDD-B4F0-848B7861BF1A}">
+										<Image FileName="-498022911" Left="0" Top="103" Right="1349" Bottom="3021" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;academy&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{587BFE25-A925-4E49-85DC-0FEEFDA40295}">
+										<Image FileName="-498022911" Left="0" Top="103" Right="0" Bottom="103" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProducts" Key="{320BED5F-CE82-4035-B818-4C78E1067B89}">
+										<Image FileName="-498022911" Left="401" Top="103" Right="521" Bottom="168" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProducts" Key="{1471473E-C5B0-4CC4-80B9-2E2E4D77683A}">
+										<Image FileName="-498022911" Left="418" Top="103" Right="503" Bottom="168" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBitbar" Key="{24201EDB-D166-400C-9B8C-343E5A1AC9F7}">
+										<Image FileName="1835867616" Left="167" Top="235" Right="479" Bottom="281" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;BitBar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{1B0F2421-4539-413F-B542-F563E3ECFCE2}">
+										<Image FileName="1835867616" Left="202" Top="261" Right="479" Bottom="280" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Cloud-Based Mobile App Testing Solution&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span[contains(@class, &apos;item-desc&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;bitbar.com&apos;)]/span[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span[3]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6195,7 +6330,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}">
+							<Child Name="dlgSaveAs" Key="{AEE5320A-0FCA-4654-A994-A9F1DA7F3EAF}" ExtendedFind="True">
 								<Image FileName="839582406" Left="0" Top="0" Right="683" Bottom="480" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6264,7 +6399,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}">
+							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}" ExtendedFind="True">
 								<Image FileName="-1042702428" Left="0" Top="0" Right="366" Bottom="140" />
 								<Properties>
 									<Property Name="WndClass">
@@ -6332,6 +6467,349 @@
 									</Property>
 									<Property Name="WndCaption">
 										<Value Value="Calculator" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="EXCEL" Key="{1159B8B0-C073-4698-A573-D0327F0B722D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="EXCEL" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXLMAIN" Key="{21F3E8E9-FB09-465B-BA14-6F0F939044C5}">
+								<Image FileName="-814111940" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Book5 - Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="XLDESK" Key="{3EA24DA5-024D-4B7C-9D7E-C3CFF0FBF754}">
+										<Image FileName="-814111940" Left="0" Top="237" Right="1366" Bottom="706" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="XLDESK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Book5" Key="{6BC627AD-016B-4375-88DE-ADD434E92690}">
+												<Image FileName="-814111940" Left="0" Top="237" Right="1366" Bottom="706" />
+												<TypeInfo Item0="{DAA4E013-698F-4D05-A225-FA67B59ADCAA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL7" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Book5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndExcel" Key="{E0CF2ABE-33BC-4C8D-88CE-874DB9C79716}">
+								<Image FileName="1577261640" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="FullpageUIHost" Key="{C7478742-1F89-4A3F-AFC3-B5A2F04B2089}">
+										<Image FileName="1577261640" Left="0" Top="0" Right="1366" Bottom="728" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="FullpageUIHost" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NetUIHWND" Key="{63B251B3-CFAD-4CB7-BDF2-734F09B5F57D}">
+												<Image FileName="1577261640" Left="0" Top="0" Right="1366" Bottom="728" />
+												<TypeInfo Item0="{DAA4E013-698F-4D05-A225-FA67B59ADCAA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="NetUIHWND" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="XLDESK" Key="{1F6C02D2-D0FE-437A-B16A-D12F5B920724}">
+										<Image FileName="-864319296" Left="0" Top="237" Right="1366" Bottom="706" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="XLDESK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Book1" Key="{B0274944-55EF-4617-8CE4-AF6C0241C2B7}">
+												<Image FileName="-864319296" Left="0" Top="237" Right="1366" Bottom="706" />
+												<TypeInfo Item0="{DAA4E013-698F-4D05-A225-FA67B59ADCAA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL7" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Book1" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="EXCEL6" Key="{66B022CE-E9E5-4438-B798-419C66375CAD}">
+												<Image FileName="2049512403" Left="26" Top="257" Right="89" Bottom="276" />
+												<TypeInfo Item0="{DAA4E013-698F-4D05-A225-FA67B59ADCAA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL6" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSaveAs" Key="{C2F7390E-3DFA-4BD3-A607-E272F18EA76C}">
+								<Image FileName="2098179283" Left="0" Top="0" Right="683" Bottom="506" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{C65A38F4-C59D-4FA9-A223-56CE1BF90521}">
+										<Image FileName="2098179283" Left="8" Top="66" Right="675" Bottom="446" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DirectUIHWND" Key="{7A03BACE-13A4-4D0B-B2B7-AEB249CA1907}">
+												<Image FileName="2098179283" Left="8" Top="66" Right="675" Bottom="446" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DirectUIHWND" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FloatNotifySink" Key="{AB253230-C2D7-4949-B24A-E3870E880F6B}">
+														<Image FileName="2098179283" Left="133" Top="331" Right="670" Bottom="354" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="FloatNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBox" Key="{B79879E2-8914-41C1-987A-DB86E61C4E89}">
+																<Image FileName="2098179283" Left="133" Top="331" Right="670" Bottom="354" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="ComboBox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="FloatNotifySink2" Key="{DBF120B3-6271-48DD-9623-908C4D806FE9}">
+														<Image FileName="-112008869" Left="133" Top="356" Right="670" Bottom="379" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="FloatNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBox" Key="{54B72A21-7100-40D7-8234-A93851417592}">
+																<Image FileName="-112008869" Left="133" Top="356" Right="670" Bottom="379" />
+																<TypeInfo Item0="{0AB84A03-C9D9-4375-999A-B3CBE1F77917}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="ComboBox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnSave" Key="{5DB4CBDB-50CB-409A-BA81-432BE5991679}">
+										<Image FileName="-553915324" Left="470" Top="434" Right="558" Bottom="460" />
+										<TypeInfo Item0="{46FF61FD-046C-477F-A824-0D828CF9A5C6}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Save" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndXLMAIN2" Key="{A60B5534-9A6D-4483-AD93-D647796652B3}">
+								<Image FileName="1777407242" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Test234 - Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="XLDESK" Key="{92CBEE40-8E22-4FA6-B0E9-5797E1D480C5}">
+										<Image FileName="1777407242" Left="0" Top="237" Right="1366" Bottom="706" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="XLDESK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Test234" Key="{9520AD37-FBD6-48A9-887A-432D03BDFCD4}">
+												<Image FileName="1777407242" Left="0" Top="237" Right="1366" Bottom="706" />
+												<TypeInfo Item0="{DAA4E013-698F-4D05-A225-FA67B59ADCAA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL7" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Test234" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgConfirmSaveAs" Key="{CF5B27E9-C977-4AE1-B824-FB06C75DEFBF}">
+								<Image FileName="-881175800" Left="0" Top="0" Right="366" Bottom="140" />
+								<TypeInfo Item0="{A40BF891-9202-4D59-9CC6-B756825B8BB4}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Confirm Save As" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DirectUIHWND" Key="{14D5E7F5-B2B9-4F85-B368-BAF1EEB78B32}">
+										<Image FileName="-1098883075" Left="8" Top="31" Right="358" Bottom="132" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DirectUIHWND" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{23773209-1C66-44CA-862F-55909E5114C6}">
+												<Image FileName="-1098883075" Left="206" Top="100" Right="274" Bottom="123" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnYes" Key="{51051F48-BCF0-4893-8BEA-9B125699A9B3}">
+														<Image FileName="-1098883075" Left="206" Top="100" Right="274" Bottom="123" />
+														<TypeInfo Item0="{46FF61FD-046C-477F-A824-0D828CF9A5C6}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="&amp;Yes" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndXLMAIN3" Key="{C5E60BAA-EB13-42FA-8A98-D2F2E7DAEEE4}">
+								<TypeInfo Item0="{4AA4B269-48A0-4FF1-BF29-87D2137F4FA0}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Book1 - Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="XLDESK" Key="{2AA48DB6-F177-4B38-8BE4-8FBB1BD7241F}">
+										<Image FileName="-1966943939" Left="0" Top="237" Right="1366" Bottom="706" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="XLDESK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Book1" Key="{AA673002-69AA-4815-BAB9-3896EB0C8333}">
+												<Image FileName="-1966943939" Left="0" Top="237" Right="1366" Bottom="706" />
+												<TypeInfo Item0="{DAA4E013-698F-4D05-A225-FA67B59ADCAA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL7" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Book1" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Teams" Key="{695874F0-DAC4-475E-9907-B490D7175B35}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Teams" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{7DAE58A4-2A8E-497F-81E9-D7F5D05CDB80}">
+								<TypeInfo Item0="{4AA4B269-48A0-4FF1-BF29-87D2137F4FA0}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Sumant Pattanshetti | Microsoft Teams [QSP]" />
 									</Property>
 								</Properties>
 							</Child>
@@ -6465,6 +6943,7 @@
 				</Child>
 				<Child Name="textnodeProjectDetails" Owner="{8971DE66-0655-4661-A66F-6AF24CDECCF6}" />
 				<Child Name="panelProjectDetails" Owner="{021E2397-345F-493D-A069-AF64F0FA39EE}" />
+				<Child Name="textnodeModelDefinition" Owner="{FA547F49-BF06-4381-83A7-9152AF13C863}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" />
 			<Child Name="pagePractitestTestLibraryList" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}">
@@ -6705,16 +7184,6 @@
 					<Child Name="textnodeDelete" Owner="{BBEAB02B-F59A-4032-886A-E7A5834732D7}" />
 				</Child>
 				<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
-				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
-					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
-						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
-							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
-						</Child>
-					</Child>
-					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
-					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
-					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
-				</Child>
 				<Child Name="explorer" Owner="{824DA3A9-8E99-4E73-9135-1C230A925DBE}">
 					<Child Name="wndShell_TrayWnd" Owner="{5E30D3DC-B922-4E84-8149-CC8E978E69C3}">
 						<Child Name="TrayButton" Owner="{35F4A218-1B03-4A3F-AEE9-75EBCE8CFAE1}" />
@@ -6731,6 +7200,10 @@
 					<Child Name="wndMultitaskingViewFrame" Owner="{5E5E8360-847C-4268-BC74-6AC46788740E}" />
 					<Child Name="wndMultitaskingViewFrame2" Owner="{9DD44E1D-08E1-4F57-89FC-6027DD6B443C}" />
 					<Child Name="BrowserWindow3" Owner="{5616654C-85DE-46AB-B5D9-66751EEFE62E}" />
+					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+					<Child Name="wndTaskListThumbnailWnd2" Owner="{7E4AA41A-38B4-496D-95C4-4E00D7EA816E}" />
 					<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
 						<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
 							<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
@@ -6738,10 +7211,6 @@
 							</Child>
 						</Child>
 					</Child>
-					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
-					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
-					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
-					<Child Name="wndTaskListThumbnailWnd2" Owner="{7E4AA41A-38B4-496D-95C4-4E00D7EA816E}" />
 				</Child>
 				<Child Name="BrowserWindow4" Owner="{1FD52E0D-04AB-4395-9E04-2BBD56BD24DE}" />
 				<Child Name="BrowserWindow5" Owner="{C9510E8A-D1E3-43F8-8502-FEF3E7739CBE}" />
@@ -6814,6 +7283,19 @@
 				<Child Name="textnode7_new4" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new5" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new6" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="panelAdministration" Owner="{75A3BD87-5910-47C9-A06A-A7107AAD86ED}" />
+				<Child Name="textnode7_new7" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+					<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+						<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+							<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeTheSelectedModelDefiniti" Owner="{2BBEC152-D3A5-4717-885E-62E114035174}" />
+					<Child Name="textnodeFactTypeHasNoAllowedValu" Owner="{2A879719-6F27-47C1-A936-924B1C417E17}" />
+					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				</Child>
+				<Child Name="textnode7_new8" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
@@ -6862,9 +7344,77 @@
 					<Child Name="imageGetsitelogoType1Mcasctx1" Owner="{8E2C244C-F134-46F5-A2B4-E6BD902E7530}" />
 				</Child>
 			</Child>
+			<Child Name="dlgOpen" Owner="{C9BF7C02-37C3-4ED5-B0D5-64AC6B99C163}">
+				<Child Name="cbxFileName" Owner="{DBE83866-21A0-4702-A8C2-43410176A96D}">
+					<Child Name="ComboBox" Owner="{3E7BB5C0-203B-476A-8560-E402D20A60FE}">
+						<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageAcademySmartbearSoftware" Owner="{9FB2C176-3FE9-4D2A-B79D-629DDD42D4A7}">
+				<Child Name="form" Owner="{E1E05490-D0D5-4BDD-B4F0-848B7861BF1A}">
+					<Child Name="headerPLtHeader" Owner="{587BFE25-A925-4E49-85DC-0FEEFDA40295}">
+						<Child Name="textnodeProducts" Owner="{320BED5F-CE82-4035-B818-4C78E1067B89}">
+							<Child Name="linkProducts" Owner="{1471473E-C5B0-4CC4-80B9-2E2E4D77683A}" />
+						</Child>
+						<Child Name="linkBitbar" Owner="{24201EDB-D166-400C-9B8C-343E5A1AC9F7}">
+							<Child Name="textnode" Owner="{1B0F2421-4539-413F-B542-F563E3ECFCE2}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="ApplicationFrameHost" Owner="{10F01863-94E5-4434-975D-013FA6AB4BEE}">
 			<Child Name="wndCalculator" Owner="{102974BB-416B-48C1-BD88-E98A7B2121E4}" />
+		</Child>
+		<Child Name="EXCEL" Owner="{1159B8B0-C073-4698-A573-D0327F0B722D}">
+			<Child Name="wndXLMAIN" Owner="{21F3E8E9-FB09-465B-BA14-6F0F939044C5}">
+				<Child Name="XLDESK" Owner="{3EA24DA5-024D-4B7C-9D7E-C3CFF0FBF754}">
+					<Child Name="Book5" Owner="{6BC627AD-016B-4375-88DE-ADD434E92690}" />
+				</Child>
+			</Child>
+			<Child Name="wndExcel" Owner="{E0CF2ABE-33BC-4C8D-88CE-874DB9C79716}">
+				<Child Name="FullpageUIHost" Owner="{C7478742-1F89-4A3F-AFC3-B5A2F04B2089}">
+					<Child Name="NetUIHWND" Owner="{63B251B3-CFAD-4CB7-BDF2-734F09B5F57D}" />
+				</Child>
+				<Child Name="XLDESK" Owner="{1F6C02D2-D0FE-437A-B16A-D12F5B920724}">
+					<Child Name="Book1" Owner="{B0274944-55EF-4617-8CE4-AF6C0241C2B7}" />
+					<Child Name="EXCEL6" Owner="{66B022CE-E9E5-4438-B798-419C66375CAD}" />
+				</Child>
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{C2F7390E-3DFA-4BD3-A607-E272F18EA76C}">
+				<Child Name="DUIViewWndClassName" Owner="{C65A38F4-C59D-4FA9-A223-56CE1BF90521}">
+					<Child Name="DirectUIHWND" Owner="{7A03BACE-13A4-4D0B-B2B7-AEB249CA1907}">
+						<Child Name="FloatNotifySink" Owner="{AB253230-C2D7-4949-B24A-E3870E880F6B}">
+							<Child Name="ComboBox" Owner="{B79879E2-8914-41C1-987A-DB86E61C4E89}" />
+						</Child>
+						<Child Name="FloatNotifySink2" Owner="{DBF120B3-6271-48DD-9623-908C4D806FE9}">
+							<Child Name="ComboBox" Owner="{54B72A21-7100-40D7-8234-A93851417592}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnSave" Owner="{5DB4CBDB-50CB-409A-BA81-432BE5991679}" />
+			</Child>
+			<Child Name="wndXLMAIN2" Owner="{A60B5534-9A6D-4483-AD93-D647796652B3}">
+				<Child Name="XLDESK" Owner="{92CBEE40-8E22-4FA6-B0E9-5797E1D480C5}">
+					<Child Name="Test234" Owner="{9520AD37-FBD6-48A9-887A-432D03BDFCD4}" />
+				</Child>
+			</Child>
+			<Child Name="dlgConfirmSaveAs" Owner="{CF5B27E9-C977-4AE1-B824-FB06C75DEFBF}">
+				<Child Name="DirectUIHWND" Owner="{14D5E7F5-B2B9-4F85-B368-BAF1EEB78B32}">
+					<Child Name="CtrlNotifySink" Owner="{23773209-1C66-44CA-862F-55909E5114C6}">
+						<Child Name="btnYes" Owner="{51051F48-BCF0-4893-8BEA-9B125699A9B3}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndXLMAIN3" Owner="{C5E60BAA-EB13-42FA-8A98-D2F2E7DAEEE4}">
+				<Child Name="XLDESK" Owner="{2AA48DB6-F177-4B38-8BE4-8FBB1BD7241F}">
+					<Child Name="Book1" Owner="{AA673002-69AA-4815-BAB9-3896EB0C8333}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Teams" Owner="{695874F0-DAC4-475E-9907-B490D7175B35}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{7DAE58A4-2A8E-497F-81E9-D7F5D05CDB80}" />
 		</Child>
 	</LogicalNodes>
 </Root>

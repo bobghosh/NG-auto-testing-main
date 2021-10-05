@@ -26,10 +26,10 @@ do{
     ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-expandable-selectable-list-item//i[contains(@class,'icon-decision_view')]/following-sibling::div/a");
     
     //Iterate through all the rows and finding the desired Task
-    for(var j = 1; j <= ItemCount.length ; j++)
+    for(let j = 1; j <= ItemCount.length ; j++)
     {
           Log.Message(ItemCount.length)
-          var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'icon-decision_view')]/following-sibling::div/a");
+          let HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'icon-decision_view')]/following-sibling::div/a");
 
           //If the Item Name matches 
           if(HighlightedItemName.textContent.trim() == Item )

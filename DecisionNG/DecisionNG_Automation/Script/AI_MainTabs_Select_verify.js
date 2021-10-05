@@ -10,10 +10,18 @@
     Log.Message(tabText)
     if(tabText.toLowerCase() == selectMainTab.toLowerCase())
     {
-      mainTabs[i].Click();
-      page.panel28.WaitProperty("VisibleOnScreen",false,50000);      
+      var istabSelected = mainTabs[i].getAttribute('aria-selected');
+      if(istabSelected == 'true')
+      {
+        Log.Checkpoint(selectMainTab+"Tab is already selected");
+      }
+      else 
+      {
+      mainTabs[i].Click()
+      //page.panel28.WaitProperty("VisibleOnScreen",false,30000);
+      Delay(1000)
       let attr= mainTabs[i].getAttribute("aria-selected");
-      Log.Message(attr)
+      Log.Message(attr);
       if(attr == 'true')
       {
         Log.Checkpoint(""+selectMainTab+" Tab is selected successfully");
@@ -26,6 +34,7 @@
         break;
       }
       
+    }
     }
   }
   
