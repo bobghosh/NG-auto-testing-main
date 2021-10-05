@@ -91,25 +91,25 @@
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="5400610073006B00380032003300320033003600"/>
+							<Prp name="strvalue" type="H" value="5400610073006B00350036003500310039003400"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E0067006500370032003200310037003900"/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E0067006500390034003500310038003600"/>
 						</Node>
 						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="36003900320033003600"/>
+							<Prp name="strvalue" type="H" value="350036003700310039003500"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
 					<Node name="var27">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0032005D00"/>
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0030005D00"/>
 						</Node>
 						<Prp name="name" type="S" value="GillsDemoAssetName"/>
 					</Node>
@@ -121,7 +121,7 @@
 					</Node>
 					<Node name="var29">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="68007400740070003A002F002F00620064006D007300750061007400370035003A0035003800390033002F0064006D002F006C006F00670069006E002E006A0073007000"/>
+							<Prp name="strvalue" type="H" value="68007400740070003A002F002F00620064006D00730075006100740037003A0031003100320031002F0064006D002F006C006F00670069006E002E006A0073007000"/>
 						</Node>
 						<Prp name="name" type="S" value="E2E_URL"/>
 					</Node>
@@ -130,27 +130,30 @@
 					</Node>
 					<Node name="var30">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003100350035003600340032003300380037003800"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003300300039003200300035003100300032003700"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_Decision"/>
 					</Node>
 					<Node name="var31">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003100350035003600340039003300300038003000"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003300300039003200310033003000320034003700"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_DecisionFlow"/>
 					</Node>
 					<Node name="var32">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A006500630074003100370039003800300034003700"/>
+							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003600320039003100380031003800"/>
 						</Node>
 						<Prp name="name" type="S" value="Release_Project_Name"/>
 					</Node>
 					<Node name="var33">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="5400610067004E0061006D0065004E0065007700"/>
+							<Prp name="strvalue" type="H" value="4E0065007700540061006700"/>
 						</Node>
 						<Prp name="name" type="S" value="Tag_Name"/>
+					</Node>
+					<Node name="var34">
+						<Prp name="name" type="S" value="Training"/>
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>

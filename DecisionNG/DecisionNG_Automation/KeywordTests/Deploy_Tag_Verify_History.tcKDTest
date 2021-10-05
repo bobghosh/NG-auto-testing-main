@@ -10,7 +10,8 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Tag_Deploy_Verify_Deployed_Tag_Status" Unit="Deploy_Tag">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="deployment_Environment" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="DE" />
+						<Parameter Name="deployment_Environment" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Deploymet_Environment" />
+						<Parameter Name="ApprovalStrategy" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Approval_Strategy" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -22,5 +23,8 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{4A29B93F-33EA-4FC0-BF11-39163F54E3D0}" />
+	<Parameters Key="{4A29B93F-33EA-4FC0-BF11-39163F54E3D0}">
+		<Parameter0 Name="Deploymet_Environment" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Approval_Strategy" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
 </Root>

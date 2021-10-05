@@ -14,9 +14,10 @@ function SelectingItemGetData ()
   
   do
   { 
-    var Paginator = Aliases.browser.pageSapiensDecision.FindElements("p-dropdown");
+    Delay(3000)
+    var Paginator = Aliases.browser.pageSapiensDecision.FindElement("//p-dropdown");
     //Checking for Pagination
-    if(Paginator>0)
+    if(Paginator.Exists == true)
     {
       Aliases.browser.pageSapiensDecision.FindElement(".ui-dropdown-trigger").Click();
       Aliases.browser.pageSapiensDecision.FindElement("//li[contains(., '100')]").Click();
