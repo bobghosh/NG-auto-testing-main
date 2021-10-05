@@ -27,7 +27,7 @@
                 var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
 
                 //If the Item Name matches 
-                if(HighlightedItemName.textContent == Item )
+                if(HighlightedItemName.textContent.trim() == Item )
                 {          
                         //To select amy row click on any icon available on the row
                         Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+j+"]//i").Click();

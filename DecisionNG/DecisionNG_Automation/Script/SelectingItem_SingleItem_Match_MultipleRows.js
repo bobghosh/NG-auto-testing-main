@@ -15,23 +15,22 @@
 
     var ItemCount;
     var flag = 0;
-    var ItemName = Item
     var hasNext = true
 
   
 do{
 
-    ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//tbody/tr");
+    ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr");
     
     //Iterate through all the rows and finding the desired Task
     for(var j = 1; j <= ItemCount.length ; j++)
     {
-          var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
+          var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+j+"]/td[1]//a");
 
           //If the Item Name matches 
-          if(HighlightedItemName.textContent == Item )
+          if(HighlightedItemName.textContent.trim() == Item )
           {          
-                 HighlightedItemName.click();
+                 HighlightedItemName.Click();
                  flag =1;
                 // Log.Message("Pass");     
            }

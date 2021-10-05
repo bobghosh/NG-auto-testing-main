@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44323.3068981481" objectName="Aliases.browser.pageSapiensDecision2.textnodeAdministration" objectLeft="731" objectTop="122" objectRight="842" objectBottom="144" clickPointX="803" clickPointY="128" imageFileName="tcvi858965781124800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44323.3068981481" objectName="Aliases.browser.pageSapiensDecision2.panelAdministration" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi858965781124800.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

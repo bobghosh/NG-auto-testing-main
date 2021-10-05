@@ -3,9 +3,9 @@ var SelectingOptionfromDropDown_MultipleSelection = require("SelectingOptionfrom
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
 var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role");
 
-function Enter_TestcaseValues()
+function Enter_TestcaseValues(FactTypeName_Values)
 {
-  var FactTypeName_Values= "Mortgage Acceptable DTI Ratio-2,Mortgage LTV Percent-3"
+//  var FactTypeName_Values= "Mortgage Acceptable DTI Ratio-2,Mortgage LTV Percent-3"
   var FTName
   var placeHolder
   var page = Aliases.browser.pageSapiensDecision2;

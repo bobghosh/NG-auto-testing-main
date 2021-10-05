@@ -20,10 +20,10 @@ function Ellipsis_Button_Options(option)
   }
 }
 
-function Select_Export_Testcase_Details()
+function Select_Export_Testcase_Details(selectEnvironment, exportFormat)
 {
-  var selectEnvironment = "DE";
-  var exportFormat = "JSON";
+//  var selectEnvironment = "DE";
+//  var exportFormat = "JSON";
   var selectEnvironmentBtn= page.FindElement("//*[@name='environment']//button");
   var exportFormatDropdwnBtn = page.FindElement("//*[@name='exportMode']//button");
   

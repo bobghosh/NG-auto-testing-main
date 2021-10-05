@@ -12,7 +12,7 @@
         var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//dcn-model-definition-versions//tr[@class='ui-selectable-row ng-star-inserted']["+j+"]/td[1]");
 
         //If the Item Name matches 
-        if(HighlightedItemName.textContent == Item )
+        if(HighlightedItemName.textContent.trim() == Item )
         {          
               Log.Checkpoint("Model Definition Version is available");
               flag =1;     
