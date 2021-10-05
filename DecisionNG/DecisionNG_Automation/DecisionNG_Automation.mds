@@ -11,10 +11,10 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{87F182F7-AA82-47A5-A515-B46EB955171A}" version="14">
 		<children>
-			<testItem name="Decision_UAT" key="{256D4802-2F49-4A9E-B2EA-33F28FE08796}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Decision_UAT" key="{256D4802-2F49-4A9E-B2EA-33F28FE08796}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
