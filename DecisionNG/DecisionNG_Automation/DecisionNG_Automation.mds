@@ -416,7 +416,7 @@
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="${URL}" />
+											<param0 name="URL" type="1" localVarName="Var2" localVarLevel="1" value="" />
 											<param1 name="UserName" type="1" localVarName="" value="DG" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
@@ -2077,6 +2077,9 @@
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="ImportGlossary_CSV$" HasColumnNames="True" />
 					</DefValue>
+				</Variable>
+				<Variable Name="Environment_URL" Type="String" Local="False">
+					<DefValue StrValue="${envURLl}" />
 				</Variable>
 			</Items>
 		</data>
