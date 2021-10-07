@@ -979,7 +979,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="End to End&apos;s" key="{268AA200-3485-4A80-875B-85286535B6FE}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="End to End&apos;s" key="{268AA200-3485-4A80-875B-85286535B6FE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Gil&apos;s Demo" key="{830ABE92-A4C6-4A41-BF77-E87D6040FB1D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
