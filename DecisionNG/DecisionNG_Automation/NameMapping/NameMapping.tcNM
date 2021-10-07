@@ -6793,6 +6793,17 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndXLMAIN4" Key="{C1864D36-0C57-4307-9A07-BD565FFE8131}">
+								<Image FileName="-561422894" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ImportGlossary_TEXT_ANY_VALUE_REGULAR_New - Saved" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Teams" Key="{695874F0-DAC4-475E-9907-B490D7175B35}">
@@ -7296,6 +7307,7 @@
 					<Child Name="textnode7_new1" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				</Child>
 				<Child Name="textnode7_new8" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new9" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
@@ -7412,6 +7424,7 @@
 					<Child Name="Book1" Owner="{AA673002-69AA-4815-BAB9-3896EB0C8333}" />
 				</Child>
 			</Child>
+			<Child Name="wndXLMAIN4" Owner="{C1864D36-0C57-4307-9A07-BD565FFE8131}" />
 		</Child>
 		<Child Name="Teams" Owner="{695874F0-DAC4-475E-9907-B490D7175B35}">
 			<Child Name="wndChrome_WidgetWin_1" Owner="{7DAE58A4-2A8E-497F-81E9-D7F5D05CDB80}" />
