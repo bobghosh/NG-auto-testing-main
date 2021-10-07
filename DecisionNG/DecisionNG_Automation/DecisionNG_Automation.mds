@@ -113,7 +113,7 @@
 												<children>
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:7072/dm/login.jsp" />
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat7:1121/dm/login.jsp" />
 															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
@@ -402,7 +402,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Validation" key="{1BC31379-92A8-4C73-94F0-968687AFCE6B}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Validation" key="{1BC31379-92A8-4C73-94F0-968687AFCE6B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Fact Type" key="{C7AFB574-590C-462A-ABE7-3DA866977DAD}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -411,13 +411,13 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:3684/shell.html" />
-											<param1 name="UserName" type="1" localVarName="" value="DG" />
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
 										<environments activeCloud="CBT" />
@@ -1923,7 +1923,7 @@
 		<data Version="4">
 			<Items>
 				<Variable Name="URL_UAT" Type="String" Local="False" Descr="Env available on bdmsuat8">
-					<DefValue StrValue="https://dev-app.dm.sapiens.com/dm/login.jsp" />
+					<DefValue StrValue="${URL}" />
 				</Variable>
 				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
 					<DefValue StrValue="sumant" />
@@ -2077,6 +2077,9 @@
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="ImportGlossary_CSV$" HasColumnNames="True" />
 					</DefValue>
+				</Variable>
+				<Variable Name="Environment_URL" Type="String" Local="False">
+					<DefValue StrValue="${envURLl}" />
 				</Variable>
 			</Items>
 		</data>
