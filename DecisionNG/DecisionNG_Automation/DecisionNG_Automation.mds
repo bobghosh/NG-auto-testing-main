@@ -414,6 +414,11 @@
 							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
+									<testItem name="Close_1" key="{21973F5A-5FF6-46B3-BC46-E100430FB4A2}" group="False" parallel="False" enabled="True" testMoniker="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}Close" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
@@ -444,6 +449,11 @@
 										<children />
 									</testItem>
 									<testItem name="Logout_2" key="{7F2ED4CA-8B98-4830-BC10-E3E1FC676746}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Close" key="{DCDEFB2C-3975-4ED0-8228-C03CD3FDC2BF}" group="False" parallel="False" enabled="True" testMoniker="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}Close" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments activeCloud="CBT" />
 										<children />
