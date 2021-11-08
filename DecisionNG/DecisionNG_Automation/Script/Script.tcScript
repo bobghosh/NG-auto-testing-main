@@ -32,6 +32,8 @@
 			<child name="WaitElement_ispresent" key="{0BA94474-69FF-4A51-AF9F-37D550DE9A6F}" path="WaitElement_ispresent.js" />
 			<child name="SelectingOptionfromDropDown_MultipleSelection" key="{A77A674D-A158-43DF-BAF0-76F053F45942}" path="SelectingOptionfromDropDown_MultipleSelection.js" />
 			<child name="GenerateRandomNumber" key="{21BC5768-6BA3-4941-8760-BD3A002D03FE}" path="GenerateRandomNumber.js" />
+			<child name="CloseBrowsers" key="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}" path="CloseBrowsers.js" />
+			<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -68,6 +70,8 @@
 					<child name="FTSummary_MMTab_Get_Mappedvalues" key="{E8DD39BE-E6CD-4C93-B9CC-460A2A3FCBB2}" path="FTSummary_MMTab_Get_Mappedvalues.js" />
 					<child name="FTSummary_MMTab_Get_CustomProperty" key="{1C9218E5-4C8A-4F71-9548-A4F6D3D9A868}" path="FTSummary_MMTab_Get_CustomProperty.js" />
 					<child name="FactTypeSummary_MMTab_Revert" key="{7F2C1464-37DF-4437-A3E7-DA8C63617010}" path="FactTypeSummary_MMTab_Revert.js" />
+					<child name="FactTypeSummary_MlM_Tab_FTMappedName" key="{953E5227-20CD-4B3E-ABC5-2292F029115E}" path="FactTypeSummary_MlM_Tab_FTMappedName.js" />
+					<child name="FTSummary_MMTab_MappedName_VerifyError" key="{E456F1AC-652C-4660-BFB1-09A0FC61428B}" path="FTSummary_MMTab_MappedName_VerifyError.js" />
 				</folder>
 			</folder>
 			<folder name="Rule Family">
@@ -87,6 +91,8 @@
 				<child name="DecisionScreen_Add_Facttype" key="{6523B528-9659-48D2-9141-1EB8CB66AE11}" path="DecisionScreen_Add_Facttype.js" />
 				<child name="DecisionScreen_Enable_Editing" key="{9B5A7441-AB8E-45D2-BBD1-80F3A061A096}" path="DecisionScreen_Enable_Editing.js" />
 				<child name="DecisionScreen_EditFT" key="{2EF515F3-64F6-418A-A1D2-DE836103986F}" path="DecisionScreen_EditFT.js" />
+				<child name="Select_Desired_RF" key="{243D7B9D-61DB-4C04-9CD7-C94A31E59F61}" path="Select_Desired_RF.js" />
+				<child name="Deselect_RF_DecisionScreen" key="{3FCD5EF7-C948-4CDE-92ED-5C18BC333764}" path="Deselect_RF_DecisionScreen.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
@@ -95,6 +101,8 @@
 				<child name="Asset_Validation" key="{27E9323D-1453-41D4-9BDF-DAFEE6198BC7}" path="Asset_Validation.js" />
 				<child name="Business_Information_Model" key="{D5C44958-CDCC-4F1A-91C0-B704ADBEFE3B}" path="Business_Information_Model.js" />
 				<child name="Task_Open_Asset" key="{40EB8A47-105D-469F-8E24-485ABDFA3C34}" path="Task_Open_Asset.js" />
+				<child name="Asset_Change_Type" key="{A9BB5C2E-BE55-4B32-A389-D0468BA781D1}" path="Asset_Change_Type.js" />
+				<child name="Canvas_Select_OnScreenItem" key="{CC747009-CDCA-40D6-9FE4-276C7E87D0F6}" path="Canvas_Select_OnScreenItem.js" />
 			</folder>
 			<folder name="Knowledge Source">
 				<child name="Add_New_Knowledge_Source" key="{102849E1-B98F-44F0-8098-16C27F44DCED}" path="Add_New_Knowledge_Source.js" />
@@ -248,6 +256,9 @@
 				<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
 				<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
 				<child name="AI_Click_Verify_Title" key="{EA6B97C1-2778-484D-9066-A871EB95D1AE}" path="AI_Click_Verify_Title.js" />
+				<child name="AI_Click_Close" key="{09AD2EE4-4592-42C5-8806-B53CE23D1BB3}" path="AI_Click_Close.js" />
+				<child name="AI_Verify_Tab_Selected" key="{82D6ADE3-2269-4299-B581-08D7AC104F21}" path="AI_Verify_Tab_Selected.js" />
+				<child name="AI_Verify_Icon_Title" key="{31873D81-1127-4CD8-9880-745367F43DA8}" path="AI_Verify_Icon_Title.js" />
 			</folder>
 		</folder>
 		<folder name="Page Navigations">
@@ -255,8 +266,18 @@
 				<folder name="Details Tab Navigation">
 					<child name="Navigate_to_Details_Audit" key="{5BD18E08-E6D8-410D-A82D-C36D02EF5835}" path="Navigate_to_Details_Audit.js" />
 					<child name="Navigate_to_Details_General" key="{20FE65D1-6234-41EF-AC5A-6BBC17EEE86A}" path="Navigate_to_Details_General.js" />
+					<child name="Navigate_to_Details_Tab" key="{AE6AB6D7-818F-4BA2-8131-7DF4E8429A12}" path="Navigate_to_Details_Tab.js" />
 				</folder>
-				<child name="Navigate_to_Details_Tab" key="{AE6AB6D7-818F-4BA2-8131-7DF4E8429A12}" path="Navigate_to_Details_Tab.js" />
+				<folder name="Sidebar_MainTab_Navigations">
+					<child name="Nav_Decision_Tab_verify" key="{3FF52D60-5EE5-4986-B8C8-B06D04C2110B}" path="Nav_Decision_Tab_verify.js" />
+					<child name="Nav_Flows_Tab_Verify" key="{6D641042-D647-46BA-9DF6-EC05717092B3}" path="Nav_Flows_Tab_Verify.js" />
+					<child name="Nav_RuleFamily_Tab_Verify" key="{45C148E6-57D8-4590-BC61-1C5EF841E9AB}" path="Nav_RuleFamily_Tab_Verify.js" />
+					<child name="Navigate_FactType_tab" key="{FB019CED-F150-44F1-9742-14B2F251BB64}" path="Navigate_FactType_tab.js" />
+					<child name="Nav_Knowledge_Sources_Tab_verify" key="{8CBFF13E-D57F-4008-8FEF-313D88C5C8F2}" path="Nav_Knowledge_Sources_Tab_verify.js" />
+					<child name="Nav_Details_Tab_Verify" key="{EA094C06-2942-4D4E-BF46-5C9F92399021}" path="Nav_Details_Tab_Verify.js" />
+					<child name="Nav_Associations_Tab_Verify" key="{87BCDC83-1E78-4F0A-8ECB-579E59C4984E}" path="Nav_Associations_Tab_Verify.js" />
+				</folder>
+				<child name="Tab_Navigations_All_Click_verify" key="{F44F4E76-7CC9-4E43-AB87-2B1FA0CDC4DA}" path="Tab_Navigations_All_Click_verify.js" />
 			</folder>
 			<folder name="Repository Navigations">
 				<folder name="Release Project">
@@ -322,7 +343,5 @@
 				</folder>
 			</folder>
 		</folder>
-		<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
-		<child name="CloseBrowsers" key="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}" path="CloseBrowsers.js" />
 	</children>
 </Root>

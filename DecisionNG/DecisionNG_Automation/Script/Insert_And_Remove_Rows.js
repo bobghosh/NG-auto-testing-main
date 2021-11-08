@@ -3,6 +3,8 @@
 function InsertLastRow()
 {
     let page= Aliases.browser.pageSapiensDecision2
+    page.Wait();
+    Delay(2000);
     //No of columns present
     let columns = page.FindElements("//*[contains(@id,'tableColumnHeader')]");
     let columnCount = columns.length;

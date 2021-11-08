@@ -25,6 +25,7 @@
 				<child name="Navigate_To_Administration" key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" path="Navigate_To_Administration.tcKDTest" />
 				<child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
 				<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
+				<child name="Nav_Repo_Community_VG_Select" key="{EEE38769-1781-466F-8688-8D9FC3B91612}" path="Nav_Repo_Community_VG_Select.tcKDTest" />
 			</folder>
 			<folder name="Tasks_Menu_Navigations" />
 			<folder name="Repository Navigation">
@@ -49,7 +50,6 @@
 				<folder name="General">
 					<child name="FactTypeSummary_MoreDetailsLink_Click" key="{767BC81F-1D5E-41C3-B864-D2C489A15E92}" path="FactTypeSummary_MoreDetailsLink_Click.tcKDTest" />
 				</folder>
-				<folder name="Pre-requisite" />
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FT_Tab_FTSummary_DetailsTab_Verify.tcKDTest" />
@@ -64,6 +64,7 @@
 						<child name="FT_MM_No_AllowedValues" key="{199DB8CA-8621-44A5-BE93-EA0939B0BADE}" path="FT_MM_No_AllowedValues.tcKDTest" />
 						<child name="FT_MM_No_CustomProperty" key="{CA4FF312-54CE-47FB-8A56-CFF316C8AF72}" path="FT_MM_No_CustomProperty.tcKDTest" />
 						<child name="FT_MM_Mandatory_CP_Blank_Submit" key="{C5117145-F4F9-478B-93FC-78A5C2A40235}" path="FT_MM_Mandatory_CP_Blank_Submit.tcKDTest" />
+						<child name="FT_MM_ADD_MM_Name_Duplicate_Same_Draft" key="{FB808D38-5B30-4311-AB9F-3483979E1ADF}" path="FT_MM_ADD_MM_Name_Duplicate_Same_Draft.tcKDTest" />
 					</folder>
 					<folder name="Recorded_scripts">
 						<child name="Facttype_MlM_Tab_FTMappedName_Disabled" key="{D1A4D371-797A-46C0-879A-2D7C0AA583F3}" path="Facttype_MlM_Tab_FTMappedName_Disabled.tcKDTest" />
@@ -75,6 +76,9 @@
 						<child name="FactTypeSummary_MMTab_SubmitforApproval" key="{085D238E-C15A-4CDE-94D6-C82785D91F89}" path="FactTypeSummary_MMTab_SubmitforApproval.tcKDTest" />
 						<child name="FactTypeSummary_MMTab_UnMarkForDelete" key="{A4CD59B4-F122-48FA-A3FD-44393792E4A9}" path="FactTypeSummary_MMTab_UnMarkForDelete.tcKDTest" />
 						<child name="ModelMapping" key="{B65886AE-F83D-4A1A-B9E1-0A86DD81D17C}" path="ModelMapping.tcKDTest" />
+					</folder>
+					<folder name="Pre-requisite">
+						<child name="MM_Pre_Requisite" key="{29187F00-1BF9-4FB5-B240-40B3060234D4}" path="MM_Pre_Requisite.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -234,10 +238,38 @@
 				<folder name="Pre requisite">
 					<child name="Create_Release_Project_Setup" key="{AF25BDC2-32E1-4D24-8AC9-5EB62EF68EC2}" path="Create_Release_Project_Setup.tcKDTest" />
 				</folder>
+				<folder name="Additional Info">
+					<child name="Add_Note" key="{93AB3695-32BA-48BF-BA80-FFCBA2BCA009}" path="Add_Note.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="E2E - 385">
 				<child name="Move_FT_from_RG_to_Root" key="{0E7DA51D-4844-4585-8B34-552F23ADE86F}" path="Move_FT_from_RG_to_Root.tcKDTest" />
 			</folder>
+		</folder>
+		<folder name="Additional Information">
+			<folder name="Regression">
+				<folder name="Decision">
+					<child name="Repo_Decision_AI_Present_Click" key="{ABECFF6D-7B27-425D-A62C-2A924C32E5D3}" path="Repo_Decision_AI_Present_Click.tcKDTest" />
+					<child name="Tasks_Decision_AI_Present_Click" key="{3FC541E4-B904-47D1-B51D-F8591870B5C4}" path="Tasks_Decision_AI_Present_Click.tcKDTest" />
+					<child name="AI_Task_Decision_Not_Present_Btndisabled" key="{C16B55FF-773F-4909-AC3A-86851BD28318}" path="AI_Task_Decision_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Repo_Decision_Not_Present_Btndisabled" key="{2D512C8E-9436-468C-8411-FFAFC7C8AD00}" path="AI_Repo_Decision_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Repo_Switch_Decision_To_FT" key="{0946A9B5-B13A-4466-B31F-3E322512FD76}" path="AI_Repo_Switch_Decision_To_FT.tcKDTest" />
+					<child name="AI_Repo_Switch_Decision_To_RF" key="{FF901B4A-94D3-4EBF-9BCE-BB9419D6917C}" path="AI_Repo_Switch_Decision_To_RF.tcKDTest" />
+				</folder>
+				<folder name="Flow">
+					<child name="AI_Repo_Present_Click" key="{84E23426-855D-4B49-B31E-1334A3880F8D}" path="AI_Repo_Present_Click.tcKDTest" />
+					<child name="AI_Tasks_Present_Click" key="{F7FC41C1-02C6-40F9-9342-985AE2E1A481}" path="AI_Tasks_Present_Click.tcKDTest" />
+					<child name="AI_Repo_Flow_Not_Present_Btndisabled" key="{2BA41095-9141-410A-8C30-DBAB21D77A9B}" path="AI_Repo_Flow_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Task_Flow_Not_Present_Btndisabled" key="{D1968065-82AB-4266-A9C5-0C6BA32F4041}" path="AI_Task_Flow_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Repo_Switch_Flow_To_Decision" key="{AD638014-4D84-4B77-873C-1CE1560CDD83}" path="AI_Repo_Switch_Flow_To_Decision.tcKDTest" />
+					<child name="AI_Repo_Switch_Flow_To_GW_FT" key="{A06640CD-C7F5-4B0F-B7F8-607D685B96EA}" path="AI_Repo_Switch_Flow_To_GW_FT.tcKDTest" />
+				</folder>
+				<folder name="Generic" />
+				<folder name="Fact Types" />
+				<folder name="Knowledge Source" />
+				<folder name="RuleFamilies" />
+			</folder>
+			<folder name="Generic" />
 		</folder>
 	</children>
 </Root>

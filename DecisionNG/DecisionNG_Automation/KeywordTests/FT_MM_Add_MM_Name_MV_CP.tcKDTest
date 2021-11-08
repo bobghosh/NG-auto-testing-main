@@ -21,10 +21,10 @@
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="FactTypeSummary_MlM_Tab_FTMappedName">
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="FactTypeSummary_MlM_Tab_FTMappedName" Unit="FactTypeSummary_MlM_Tab_FTMappedName">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MappedName" DefVarType="8" DefValueType="6" DefValueValue="MappedName" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Mapped_Name" />
+						<Parameter Name="MappedName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Mapped_Name" />
 					</Parameters>
 				</Data>
 			</Operation>
