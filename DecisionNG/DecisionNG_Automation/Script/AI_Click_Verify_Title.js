@@ -1,11 +1,17 @@
-﻿function AdditionalInfo_Click_Verify_Title(asset,assetName)
+﻿ var page= Aliases.browser.pageSapiensDecision2
+ var add_InfoBtn = page.FindElement("//dcn-additional-info-side-bar//button")
+  
+function AdditionalInfo_Click_Verify_Title(asset,assetName)
 {
+
+  var add_Info_Disabled = add_InfoBtn.hasAttribute('disabled')
   
-  let page= Aliases.browser.pageSapiensDecision2
+  if(add_Info_Disabled == false)
+  {
+    
+    add_InfoBtn.Click();
   
-  page.FindElement("//dcn-additional-info-side-bar//button").Click();
-  
-  page.WaitElement(page.FindElement("//*[@class='additional-info-container__tab-content']"),5000);
+    page.WaitElement(page.FindElement("//*[@class='additional-info-container__tab-content']"),5000);
   
   //Verify Asset Name and Icon
   switch(asset)
@@ -148,6 +154,37 @@
           }
   }
   
-    
+  }
+  else
+  {
+    Log.Error("Additional Information panel is Disabled")
+  }
   
+}
+
+function verify_Add_Info_Enabled_Disabled(verify_Enabled_Disabled)
+{
+  var add_Info_Disabled = add_InfoBtn.hasAttribute('disabled')
+  if(verify_Enabled_Disabled == "Enabled")
+  {
+    if(add_Info_Disabled == false)
+    {
+      Log.Checkpoint("Additional Information Button is Enabled")
+    }
+    else
+    {
+      Log.Error("Additional Information Button is Disabled")
+    }
+  }
+  else
+  {
+    if(add_Info_Disabled == true)
+    {
+      Log.Checkpoint("Additional Information Button is Disbaled")
+    }
+    else
+    {
+      Log.Error("Additional Information Button is Enabled")
+    }
+  }
 }

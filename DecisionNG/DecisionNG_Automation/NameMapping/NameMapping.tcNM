@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*:*" />
+										<Value Value="http://bdms*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2096,7 +2096,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*:*" />
+										<Value Value="http://bdms*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6965,7 +6965,6 @@
 				<Child Name="linkTaskAssigneeOfTaskApproverOf" Owner="{A3E01AE1-CB26-4703-8DEE-FE1739E8CFE7}" />
 				<Child Name="linkTaskAssigneeOfTaskApproverOf2" Owner="{F20CF37D-6257-443C-9C9D-681726984AF0}" />
 			</Child>
-			<Child Name="BrowserWindow2" Owner="{CBA02945-364A-4C31-9313-90ED89747D66}" />
 			<Child Name="pageSapiensDecision2" Owner="{A3B9C31A-F209-44B5-A1EE-A1440D48E158}">
 				<Child Name="formF" Owner="{16505975-0C54-4FBF-AAC0-3C9612799758}">
 					<Child Name="textboxUsername" Owner="{8918C321-A497-4399-A5EE-B10535D83054}" />

@@ -83,9 +83,9 @@ var Picture_To_Log = require("Picture_To_Log");
             var setValues = str.split(',');     
             for(var i = 0; i < setValues.length ; i++) 
             { 
-                var rangeData = setValues[i].split('-');
-                var fromData=rangeData[0];
-                var toData=rangeData[1];
+                let rangeData = setValues[i].split('-');
+                let fromData=rangeData[0];
+                let toData=rangeData[1];
                 Log.Message("fromdata is"+fromData)
                 Log.Message("to data is"+toData)    
                 let browser = Aliases.browser;
@@ -98,8 +98,9 @@ var Picture_To_Log = require("Picture_To_Log");
                 page.FindElement("//dcn-domain-input[@placeholder='to']//button").Click()
                //page.formF.form2.button3.ClickButton();
                 SelectingOptionfromDropDown.SelectingOptionfromDropdown(toData,"No");
-                button.button5.ClickButton();      
-                                
+                
+                Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]").Click();           
+                          
             }
         
           }
@@ -156,7 +157,8 @@ var Picture_To_Log = require("Picture_To_Log");
             for(var i = 0; i < str_array.length; i++) 
               { 
                 SelectingOptionfromDropDown.SelectingOptionfromDropdown(str_array[i],'Yes');
-                 Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+                Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]"),5000)
+                 Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]").Click();
                            
               }
         
@@ -174,8 +176,11 @@ var Picture_To_Log = require("Picture_To_Log");
         Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.Click();
       
         Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.SetText(str_array[i]);
+        
+        Delay(2000)
      
-        Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+        Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]"),5000)
+        Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]").Click();
         }
         }
      
@@ -198,7 +203,8 @@ var Picture_To_Log = require("Picture_To_Log");
             for(var i = 0; i < str_array.length; i++) 
               { 
                 SelectingOptionfromDropDown.SelectingOptionfromDropdown(str_array[i],'Yes');
-                 Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+                Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]"),5000)
+                 Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]").Click();
                            
               }
         
@@ -218,7 +224,8 @@ var Picture_To_Log = require("Picture_To_Log");
           
           Aliases.browser.pageSapiensDecision.form.form2.form4.textbox4.SetText(str_array[i]);
           
-          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
+          Aliases.browser.pageSapiensDecision.WaitElement(Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]"),5000)
+          Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'add-btn')]").Click();
           
         }
         
