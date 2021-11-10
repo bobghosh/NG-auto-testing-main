@@ -26,6 +26,9 @@
 				<child name="Navigate_To_Repository" key="{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" path="Navigate_To_Repository.tcKDTest" />
 				<child name="Navigate_To_TaskQueue" key="{C82CDA71-2A65-452F-B36B-F91B6A846799}" path="Navigate_To_TaskQueue.tcKDTest" />
 				<child name="Nav_Repo_Community_VG_Select" key="{EEE38769-1781-466F-8688-8D9FC3B91612}" path="Nav_Repo_Community_VG_Select.tcKDTest" />
+				<child name="Nav_MyTasks_SpecificTask" key="{B7D864C2-0CDD-4F6E-9D7F-35B5345E94C9}" path="Nav_MyTasks_SpecificTask.tcKDTest" />
+				<child name="Repo_Comm_VG_Flow_Open" key="{CD0EE186-786F-4BDC-A6F8-762C04A61448}" path="Repo_Comm_VG_Flow_Open.tcKDTest" />
+				<child name="Repo_Comm_VG_Decision_Open" key="{12944006-2734-4B7C-8116-3783C782B726}" path="Repo_Comm_VG_Decision_Open.tcKDTest" />
 			</folder>
 			<folder name="Tasks_Menu_Navigations" />
 			<folder name="Repository Navigation">
@@ -255,6 +258,9 @@
 					<child name="AI_Repo_Decision_Not_Present_Btndisabled" key="{2D512C8E-9436-468C-8411-FFAFC7C8AD00}" path="AI_Repo_Decision_Not_Present_Btndisabled.tcKDTest" />
 					<child name="AI_Repo_Switch_Decision_To_FT" key="{0946A9B5-B13A-4466-B31F-3E322512FD76}" path="AI_Repo_Switch_Decision_To_FT.tcKDTest" />
 					<child name="AI_Repo_Switch_Decision_To_RF" key="{FF901B4A-94D3-4EBF-9BCE-BB9419D6917C}" path="AI_Repo_Switch_Decision_To_RF.tcKDTest" />
+					<child name="AI_Tasks_DecisionScreen_FT" key="{E661EAEE-B999-4E7C-AB6A-D40802295D74}" path="AI_Tasks_DecisionScreen_FT.tcKDTest" />
+					<child name="AI_Repo_Decisions_SwitchTabs" key="{58468C1D-A9A3-49BE-881B-C9B6A27FDFA1}" path="AI_Repo_Decisions_SwitchTabs.tcKDTest" />
+					<child name="AI_Tasks_Decisions_SwitchTabs" key="{BDA761AA-6EFD-4DC7-99AB-2153A27FBFCC}" path="AI_Tasks_Decisions_SwitchTabs.tcKDTest" />
 				</folder>
 				<folder name="Flow">
 					<child name="AI_Repo_Present_Click" key="{84E23426-855D-4B49-B31E-1334A3880F8D}" path="AI_Repo_Present_Click.tcKDTest" />
@@ -263,8 +269,17 @@
 					<child name="AI_Task_Flow_Not_Present_Btndisabled" key="{D1968065-82AB-4266-A9C5-0C6BA32F4041}" path="AI_Task_Flow_Not_Present_Btndisabled.tcKDTest" />
 					<child name="AI_Repo_Switch_Flow_To_Decision" key="{AD638014-4D84-4B77-873C-1CE1560CDD83}" path="AI_Repo_Switch_Flow_To_Decision.tcKDTest" />
 					<child name="AI_Repo_Switch_Flow_To_GW_FT" key="{A06640CD-C7F5-4B0F-B7F8-607D685B96EA}" path="AI_Repo_Switch_Flow_To_GW_FT.tcKDTest" />
+					<child name="AI_Task_Flow_Breadcrumb_Nav" key="{2A970482-1264-4BFE-93FB-68B3910F8349}" path="AI_Task_Flow_Breadcrumb_Nav.tcKDTest" />
+					<child name="AI_Repo_Flow_Breadcrumb_Nav" key="{C04C54C5-9D24-4ECB-9A8E-BE411CE322E6}" path="AI_Repo_Flow_Breadcrumb_Nav.tcKDTest" />
+					<child name="AI_Repo_Flow_SwitchTabs" key="{046A5217-CD4A-4C85-BEAE-84FA29084C78}" path="AI_Repo_Flow_SwitchTabs.tcKDTest" />
+					<child name="AI_Tasks_Flow_SwitchTabs" key="{F5BEF6F6-F540-4F5A-9C3E-56FE1202F6D2}" path="AI_Tasks_Flow_SwitchTabs.tcKDTest" />
+					<child name="Repo_AI_Details_Switch_SubTabs" key="{28236774-5F34-4B17-AE4C-5BED212FC24F}" path="Repo_AI_Details_Switch_SubTabs.tcKDTest" />
+					<child name="Tasks_AI_Details_Switch_SubTabs" key="{1891C23D-2F3F-4FB7-BDC9-CBA5181D87DE}" path="Tasks_AI_Details_Switch_SubTabs.tcKDTest" />
 				</folder>
-				<folder name="Generic" />
+				<folder name="Generic">
+					<child name="Switch_between_Task_tabs_Verify" key="{E4CD3483-03BE-48EC-A2DA-E67488B7E56F}" path="Switch_between_Task_tabs_Verify.tcKDTest" />
+					<child name="Switch_between_Asset_to_repository_" key="{495601B0-8609-43FE-AFC7-0742FEC538C1}" path="Switch_between_Asset_to_repository_.tcKDTest" />
+				</folder>
 				<folder name="Fact Types" />
 				<folder name="Knowledge Source" />
 				<folder name="RuleFamilies" />
