@@ -114,6 +114,7 @@
 			</folder>
 			<folder name="Decision Flow">
 				<child name="FlowScreen_Add_Draft_Decision" key="{F9A40E76-DD26-40E9-B5D5-5ED83A93F1D2}" path="FlowScreen_Add_Draft_Decision.js" />
+				<child name="Decision_RClick_Open" key="{8CDB6007-95C3-4F8E-B7DF-57F503F94A87}" path="Decision_RClick_Open.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks Queue">

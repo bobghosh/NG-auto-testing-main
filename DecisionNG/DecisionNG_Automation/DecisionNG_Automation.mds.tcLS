@@ -164,6 +164,9 @@
 					<Node name="var36">
 						<Prp name="name" type="S" value="Environment_URL"/>
 					</Node>
+					<Node name="var37">
+						<Prp name="name" type="S" value="Var2"/>
+					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>
 					</Node>

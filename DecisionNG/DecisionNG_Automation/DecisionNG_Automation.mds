@@ -1162,6 +1162,134 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
+									<testItem name="Test ID 8073_Additional Info Panel, Switch_between_Task_tabs" key="{DB58F5FE-1F5E-4B7A-8399-C46B2901092B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E4CD3483-03BE-48EC-A2DA-E67488B7E56F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="Verify_Enabled_Disabled" type="1" localVarName="" value="Enabled" />
+											<param3 name="Asset_Type_1" type="1" localVarName="" value="Decision" />
+											<param4 name="Asset_Name_1" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param5 name="TaskName" type="1" localVarName="" value="Additional Info Task" />
+											<param6 name="Select_Dec_Tab" type="1" localVarName="" value="Decisions" />
+											<param7 name="Asset_Type_2" type="1" localVarName="" value="Flow" />
+											<param8 name="Asset_Name_2" type="1" localVarName="" value="Test1 [V0]" />
+											<param9 name="Select_Flow_Tab" type="1" localVarName="" value="Decision Flows" />
+											<param10 name="Select_Rulefamily_Tab" type="1" localVarName="" value="Rule Families" />
+											<param11 name="Asset_Type_3" type="1" localVarName="" value="Rule Family" />
+											<param12 name="Asset_Name_3" type="1" localVarName="" value="Policy Underwriting Risk (View: Base) [V1.0]" />
+											<param13 name="Select_FactType_Tab" type="1" localVarName="" value="Fact Types" />
+											<param14 name="Asset_Type_4" type="1" localVarName="" value="Fact Type" />
+											<param15 name="Asset_Name_4" type="1" localVarName="" value="FactType [V0]" />
+											<param16 name="Select_KS_Tab" type="1" localVarName="" value="Knowledge Sources" />
+											<param17 name="Asset_Type_5" type="1" localVarName="" value="Knowledge Source" />
+											<param18 name="Asset_Name_5" type="1" localVarName="" value="test [Vs]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8111_Additional Info Panel, Navigation using breadcrumb, Draft Flow" key="{1BFBAD82-AF77-4147-AD9C-810F1176E3FF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2A970482-1264-4BFE-93FB-68B3910F8349}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TaskName" type="1" localVarName="" value="Additional Info Task" />
+											<param1 name="SelectTab" type="1" localVarName="" value="Decision Flows" />
+											<param2 name="Verify_Enabled_Disabled" type="1" localVarName="" value="Enabled" />
+											<param3 name="FlowName" type="1" localVarName="" value="Test1 [V0]" />
+											<param4 name="Wait_Element" type="1" localVarName="" value="//canvas" />
+											<param5 name="RightClick_Open_DecisionName" type="1" localVarName="" value="Policy Renewal Method" />
+											<param6 name="DRF_DBClick_Open" type="1" localVarName="" value="Policy Renewal Method" />
+											<param7 name="Asset_Type_RF" type="1" localVarName="" value="Rule Family" />
+											<param8 name="Asset_Name_RFName" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param9 name="BreadCrumb_To_verify" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param10 name="Asset_Type_Decision" type="1" localVarName="" value="Decision" />
+											<param11 name="Asset_Name_Decision" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param12 name="BreadCrumb_To_verify2" type="1" localVarName="" value="Test1 [V0]" />
+											<param13 name="Asset_Type_Flow" type="1" localVarName="" value="Flow" />
+											<param14 name="Asset_Name_Flow" type="1" localVarName="" value="Test1 [V0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8112_Additional Info Panel, Navigation using breadcrumb, Approved Flow " key="{05903A35-47AD-4639-99C7-75495D19FDEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C04C54C5-9D24-4ECB-9A8E-BE411CE322E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Community_to_Expand" type="1" localVarName="" value="WORLD,Insurance" />
+											<param1 name="SelectOption_Community_VG" type="1" localVarName="" value="Community" />
+											<param2 name="Community_VG_Foldername" type="1" localVarName="" value="P&amp;C Underwriting Community" />
+											<param3 name="Select_Tab_Flow" type="1" localVarName="" value="Decision Flows" />
+											<param4 name="Flow_Name" type="1" localVarName="" value="Policy Renewal Method Flow [V1.3]" />
+											<param5 name="RightClick_Open_DecisionName" type="1" localVarName="" value="Policy Renewal Method" />
+											<param6 name="DRF_DBClick_Open" type="1" localVarName="" value="Policy Renewal Method" />
+											<param7 name="Asset_Type_RF" type="1" localVarName="" value="Rule Family" />
+											<param8 name="Asset_Name_RFName" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param9 name="BreadCrumb_To_verify" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param10 name="Asset_Type_Decision" type="1" localVarName="" value="Decision" />
+											<param11 name="Asset_Name_Decision" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param12 name="BreadCrumb_To_verify2" type="1" localVarName="" value="Policy Renewal Method Flow [V1.3]" />
+											<param13 name="Asset_Type_Flow" type="1" localVarName="" value="Flow" />
+											<param14 name="Asset_Name_Flow" type="1" localVarName="" value="Policy Renewal Method Flow [V1.3]" />
+											<param15 name="Verify_Enabled_Disabled" type="1" localVarName="" value="Enabled" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8157 _Additional Info Panel, Task, Decision Diagram Screen, Fact Type" key="{4ECEBC2A-9CEB-42B6-A73D-B99F810FA42A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E661EAEE-B999-4E7C-AB6A-D40802295D74}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TaskName" type="1" localVarName="" value="Additional Info Task" />
+											<param1 name="Open_Decision" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+											<param2 name="DecisionScreen_SelectFT" type="1" localVarName="" value="Policy Renewal Method" />
+											<param3 name="Asset_Type" type="1" localVarName="" value="Fact Type" />
+											<param4 name="Asset_Name" type="1" localVarName="" value="Policy Renewal Method [V1.0]" />
+											<param5 name="waitElement" type="1" localVarName="" value="//canvas" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8159 _Additional Info panel, Repository, Flows, Switch Tabs " key="{63D5B24D-C647-4B07-A810-5977B125422B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{046A5217-CD4A-4C85-BEAE-84FA29084C78}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Insurance" />
+											<param1 name="SelectOption_Community_VG" type="1" localVarName="" value="Community" />
+											<param2 name="Community_VG_Foldername" type="1" localVarName="" value="P&amp;C Underwriting Community" />
+											<param3 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+											<param4 name="FlowName" type="1" localVarName="" value="Policy Renewal Method Flow [V1.3]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8160_Additional Info panel,Task, Draft Flows, Switch Tabs" key="{0FA69C77-EEA7-4163-890F-1DCF52CD7B0E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F5BEF6F6-F540-4F5A-9C3E-56FE1202F6D2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TaskName" type="1" localVarName="" value="Additional Info Task" />
+											<param1 name="FlowName" type="1" localVarName="" value="Test1 [V0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8161_Additional Info panel, Repository, Decision, Switch Tabs" key="{B921C98F-C1D5-4CAD-85AB-4B50F1B4B7A3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{58468C1D-A9A3-49BE-881B-C9B6A27FDFA1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
+											<param1 name="SelectOption_Community_VG" type="1" localVarName="" value="VG" />
+											<param2 name="Community_VG_Foldername" type="1" localVarName="" value="P&amp;C Underwriting ViewGroup" />
+											<param3 name="DecisionName" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8162 _Additional Info panel, Task, Draft Decision, Switch Tabs " key="{040FE90B-F9BC-4B7B-9483-EF20208F8FD6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BDA761AA-6EFD-4DC7-99AB-2153A27FBFCC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TaskName" type="1" localVarName="" value="Additional Info Task" />
+											<param1 name="DecisionName" type="1" localVarName="" value="Policy Renewal Method (View: Base) [V1.3]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Test ID 8163 _Additional Info Panel, Repository, Flows, Details Tab, Switch Sub-Tabs" key="{8F9A771C-81D3-4463-BB51-DAD463770023}" group="False" parallel="False" enabled="True" testMoniker="KDT\{28236774-5F34-4B17-AE4C-5BED212FC24F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Insurance" />
+											<param1 name="SelectOption_Community_VG" type="1" localVarName="" value="Community" />
+											<param2 name="Community_VG_Foldername" type="1" localVarName="" value="P&amp;C Underwriting Community" />
+											<param3 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+											<param4 name="FlowName" type="1" localVarName="" value="Policy Renewal Method Flow [V1.3]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
 								</children>
 							</testItem>
 						</children>
@@ -2419,6 +2547,12 @@
 				</Variable>
 				<Variable Name="Environment_URL" Type="String" Local="False">
 					<DefValue StrValue="http://bdmsuat75:5893/dm/login.jsp" />
+				</Variable>
+				<Variable Name="Var2" Type="Table" Local="False">
+					<DefValue RowCount="50" ColumnCount="2">
+						<Columns ColumnName0="TestID_Name" ColumnName1="Test_Data" />
+						<Row No="0" Cell0="8046 Additional Info Panel, Repository, Flow, Present, Enabled, Click" />
+					</DefValue>
 				</Variable>
 			</Items>
 		</data>
