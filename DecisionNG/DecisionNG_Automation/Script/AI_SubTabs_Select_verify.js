@@ -1,6 +1,5 @@
 ﻿function AdditionalInfo_SubTab_Select_Verify(selectSubTab)
 { 
-  
   let page = Aliases.browser.pageSapiensDecision2;
   
   let subTabs = page.FindElements("//*[@aria-hidden='false']//ul//li//span");
@@ -13,7 +12,7 @@
 
     let tabText = subTabs[i].textContent;
     
-    tabTextLowcase = tabText.substr(3).toLowerCase().trim();
+    tabTextLowcase = tabText.substr(2).toLowerCase().trim();
     
     if(tabTextLowcase == selectSubTab.toLowerCase())
     {
@@ -27,7 +26,11 @@
       {
       
       subTabs[i].Click();
-      page.panel28.WaitProperty("VisibleOnScreen",false,50000);
+      if(!i==subTabs.length-1)
+      {
+        page.panel28.WaitProperty("VisibleOnScreen",false,50000);
+      }
+      
       let attr= subTabs[i].getAttribute("class");
 
       if(attr.includes('tabs--selected'))

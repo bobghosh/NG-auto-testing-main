@@ -93,6 +93,7 @@
 				<child name="DecisionScreen_EditFT" key="{2EF515F3-64F6-418A-A1D2-DE836103986F}" path="DecisionScreen_EditFT.js" />
 				<child name="Select_Desired_RF" key="{243D7B9D-61DB-4C04-9CD7-C94A31E59F61}" path="Select_Desired_RF.js" />
 				<child name="Deselect_RF_DecisionScreen" key="{3FCD5EF7-C948-4CDE-92ED-5C18BC333764}" path="Deselect_RF_DecisionScreen.js" />
+				<child name="DecisionScreen_FT_Enable_Editing" key="{A4184A46-4A9E-4591-9618-29612BDFD2C7}" path="DecisionScreen_FT_Enable_Editing.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
@@ -260,6 +261,7 @@
 				<child name="AI_Click_Close" key="{09AD2EE4-4592-42C5-8806-B53CE23D1BB3}" path="AI_Click_Close.js" />
 				<child name="AI_Verify_Tab_Selected" key="{82D6ADE3-2269-4299-B581-08D7AC104F21}" path="AI_Verify_Tab_Selected.js" />
 				<child name="AI_Verify_Icon_Title" key="{31873D81-1127-4CD8-9880-745367F43DA8}" path="AI_Verify_Icon_Title.js" />
+				<child name="AI_Reg_Create_New_Task" key="{E7FB7474-6268-4C56-86BE-324945C18C65}" path="AI_Reg_Create_New_Task.js" />
 			</folder>
 		</folder>
 		<folder name="Page Navigations">
@@ -295,6 +297,7 @@
 			<folder name="Generic">
 				<child name="Select_Community" key="{26A3DA5A-3283-4CB8-9FD0-9A86DBF25D60}" path="Select_Community.js" />
 				<child name="Repository_Select_SubTabs" key="{18D0C724-ED91-42A1-8C7F-2B57BA0A3FF8}" path="Repository_Select_SubTabs.js" />
+				<child name="Repository_Select_Asset" key="{BB3971C2-EC81-40CA-9C68-8265A58B4B54}" path="Repository_Select_Asset.js" />
 			</folder>
 			<folder name="Community Tree">
 				<child name="Community_VG_Folder_Select" key="{CB489412-FCD0-45DB-A247-A1C981FF2543}" path="Community_VG_Folder_Select.js" />
