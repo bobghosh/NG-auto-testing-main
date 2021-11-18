@@ -41,3 +41,4 @@ function DecisionScreen_EditFT(FacttypeName)
   }
 
 }
+module.exports.DecisionScreen_EditFT = DecisionScreen_EditFT;

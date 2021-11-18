@@ -13,7 +13,7 @@
 
     let tabText = subTabs[i].textContent;
     
-    tabTextLowcase = tabText.substr(3).toLowerCase().trim();
+    tabTextLowcase = tabText.substr(2).toLowerCase().trim();
     
     if(tabTextLowcase == selectSubTab.toLowerCase())
     {
