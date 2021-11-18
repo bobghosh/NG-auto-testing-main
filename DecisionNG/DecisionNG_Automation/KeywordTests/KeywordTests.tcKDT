@@ -286,22 +286,7 @@
 					<child name="Switch_between_Asset_to_repository_" key="{495601B0-8609-43FE-AFC7-0742FEC538C1}" path="Switch_between_Asset_to_repository_.tcKDTest" />
 					<child name="AI_Reg_Pre_requisite" key="{E2E40A34-A146-4857-95F4-AB8390F58E81}" path="AI_Reg_Pre_requisite.tcKDTest" />
 				</folder>
-				<folder name="Fact Types">
-					<child name="AI_Repo_FT_Not_Present_Btndisabled" key="{C8027C5C-C8F2-45C2-A540-6A8DC4BA1D0F}" path="C:\Users\Ashapraveena.v\Downloads\NG-auto-testing-main\NG-auto-testing-main\DecisionNG\DecisionNG_Automation\KeywordTests\AI_Repo_FT_Not_Present_Btndisabled.tcKDTest" />
-					<child name="AI_Repo_Flow_GW_FT_Present_Click" key="{37080330-A457-47CD-8D2E-B46943E2135A}" path="C:\Users\Ashapraveena.v\Downloads\NG-auto-testing-main\NG-auto-testing-main\DecisionNG\DecisionNG_Automation\KeywordTests\AI_Repo_Flow_GW_FT_Present_Click.tcKDTest" />
-					<child name="AI_Task_FT_Not_Present_Btndisabled" key="{053FCD2E-1F46-4AC4-997D-6E0A96F06E4F}" path="C:\Users\Ashapraveena.v\Downloads\NG-auto-testing-main\NG-auto-testing-main\DecisionNG\DecisionNG_Automation\KeywordTests\AI_Task_FT_Not_Present_Btndisabled.tcKDTest" />
-					<child name="AI_Repo_Decision_FT_Present_Click" key="{FED0F2B4-C4C1-4F51-8A81-FDEFDA83C968}" path="C:\Users\Ashapraveena.v\Downloads\NG-auto-testing-main\NG-auto-testing-main\DecisionNG\DecisionNG_Automation\KeywordTests\AI_Repo_Decision_FT_Present_Click.tcKDTest" />
-					<child name="AI_Task_FT_Present_Click" key="{586CF365-66E6-41CF-8E61-5A6CC93F552D}" path="C:\Users\Ashapraveena.v\Downloads\NG-auto-testing-main\NG-auto-testing-main\DecisionNG\DecisionNG_Automation\KeywordTests\AI_Task_FT_Present_Click.tcKDTest" />
-					<child name="AI_Repo_Decision_FT_SwitchTabs" key="{F1B335C7-5D8B-4DB7-B396-3C724DA3CA6F}" path="AI_Repo_Decision_FT_SwitchTabs.tcKDTest" />
-					<child name="AI_Repo_Flow_GW_FT_SwitchTabs" key="{68C00098-F04D-4C13-BE14-65FF166C894C}" path="AI_Repo_Flow_GW_FT_SwitchTabs.tcKDTest" />
-					<child name="AI_Repo_Decision_FT_Details_SwitchSubTabs" key="{F4427053-697B-4C75-91CF-6286908FCD89}" path="AI_Repo_Decision_FT_Details_SwitchSubTabs.tcKDTest" />
-					<child name="AI_Repo_Flow_GW_FT_Details_SwitchSubTabs" key="{21CF03B3-605F-4856-B92A-E7778B58D88F}" path="AI_Repo_Flow_GW_FT_Details_SwitchSubTabs.tcKDTest" />
-					<child name="AI_Task_FT_SwitchTabs" key="{2CA4D7D2-7425-4EC7-A229-EBB93E3F5DDD}" path="AI_Task_FT_SwitchTabs.tcKDTest" />
-					<child name="AI_Task_FT_Details_SwitchSubTabs" key="{33B4AD47-01EA-46E8-BCD7-E51FEFFA59E2}" path="AI_Task_FT_Details_SwitchSubTabs.tcKDTest" />
-					<child name="AI_Repo_FT_Associations_SwitchSubTabs" key="{1DD5F9F8-B248-464C-BF28-37817B6722A5}" path="AI_Repo_FT_Associations_SwitchSubTabs.tcKDTest" />
-					<child name="AI_Task_FT_Associations_SwitchSubTabs" key="{0BEF8A6C-9AB1-4EF0-85F3-A4A42EEC9F2C}" path="AI_Task_FT_Associations_SwitchSubTabs.tcKDTest" />
-					<child name="AI_Repo_FT_Associations_Decisions" key="{A079C080-791F-4047-935A-5F229CF0F1AF}" path="AI_Repo_FT_Associations_Decisions.tcKDTest" />
-				</folder>
+				<folder name="Fact Types" />
 				<folder name="Knowledge Source" />
 				<folder name="RuleFamilies" />
 			</folder>
