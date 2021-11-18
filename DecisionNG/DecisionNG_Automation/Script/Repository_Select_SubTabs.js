@@ -23,6 +23,7 @@
       if(attr == 'true')
       {
         Log.Checkpoint(""+selectSubTab+" Tab is selected successfully");
+        Delay(1000)
         break;
       }
       

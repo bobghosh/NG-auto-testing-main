@@ -58,6 +58,7 @@
             {
               page.FindElement("//*[contains(@class,'i-paginator-next')]").click(); 
               Delay(1000);        
+
             }
           }
           else
@@ -91,3 +92,6 @@ switch (Asset_Type){
 }
   
 }
+
+
+

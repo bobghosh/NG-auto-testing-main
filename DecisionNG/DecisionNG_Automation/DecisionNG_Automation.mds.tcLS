@@ -165,7 +165,19 @@
 						<Prp name="name" type="S" value="Environment_URL"/>
 					</Node>
 					<Node name="var37">
-						<Prp name="name" type="S" value="Var2"/>
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F0077006900740068005F0061007300730065007400730020003300330031003100390031003700"/>
+						</Node>
+						<Prp name="name" type="S" value="Additional_Info_Task_with_assets"/>
+					</Node>
+					<Node name="var38">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F0077006900740068006F00750074005F0061007300730065007400730020003800340037003100390031003800"/>
+						</Node>
+						<Prp name="name" type="S" value="Additional_Info_Task_without_assets"/>
+					</Node>
+					<Node name="var39">
+						<Prp name="name" type="S" value="TestData_Additional_Info"/>
 					</Node>
 					<Node name="var38">
 						<Prp name="name" type="S" value="TestData_Additional_Info"/>
@@ -180,10 +192,9 @@
 						<Prp name="name" type="S" value="Create_New_FactType"/>
 					</Node>
 					<Node name="var40">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F005400610073006B005F0077006900740068006F00750074005F00610073007300650074007300"/>
-						</Node>
-						<Prp name="name" type="S" value="Additional_Info_Task_without_assets"/>
+
+						<Prp name="name" type="S" value="Add_Info_Pre_Requisite"/>
+
 					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>
