@@ -1131,6 +1131,10 @@
 											</testItem>
 										</children>
 									</testItem>
+									<testItem name="AI_TestCases" key="{1AE172C0-9E5E-4207-9751-B0B1E1CEB61E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children />
+									</testItem>
 								</children>
 							</testItem>
 						</children>
