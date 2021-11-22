@@ -22,4 +22,3 @@
     }
   }
 }
-module.exports.Breadcrumb_Verify_Navigation = Breadcrumb_Verify_Navigation;

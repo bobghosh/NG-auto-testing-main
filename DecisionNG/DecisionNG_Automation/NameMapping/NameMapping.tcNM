@@ -5823,6 +5823,39 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkEnableEditing" Key="{4CB5E855-6342-4185-9521-E5335C2309B2}">
+										<Image FileName="1454606261" Left="541" Top="201" Right="620" Bottom="218" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Enable Editing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;action-panel__action-item__action-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-39&apos;]//dcn-action-panel//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//dcn-action-panel//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDraft" Key="{959F55D9-6929-4CAD-BE19-128D1F7AD2A2}">
+										<Image FileName="737339944" Left="283" Top="196" Right="1083" Bottom="219" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fact-type-form/form//dcn-laundry-line/div[contains(@class, &apos;laundry-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-41&apos;]//dcn-laundry-line/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form/form//dcn-laundry-line/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6972,6 +7005,8 @@
 					<Child Name="submitbuttonLogin" Owner="{82D28E10-C376-4D95-9651-035B07237BAD}" />
 					<Child Name="form" Owner="{8477D2DE-6CF1-49F3-9119-C7F6F9BA7AED}">
 						<Child Name="linkMoreDetails" Owner="{BBDA99DF-D588-46A7-9688-7FDDD256643A}" />
+						<Child Name="linkEnableEditing" Owner="{4CB5E855-6342-4185-9521-E5335C2309B2}" />
+						<Child Name="panelDraft" Owner="{959F55D9-6929-4CAD-BE19-128D1F7AD2A2}" />
 					</Child>
 					<Child Name="textboxSorName" Owner="{30EC02B6-8E75-4C44-94F0-E0B85D1BB01D}" />
 					<Child Name="textboxSorId" Owner="{7F1FC68C-1ED4-425E-B141-A366BF157BCE}" />
@@ -7307,6 +7342,7 @@
 				</Child>
 				<Child Name="textnode7_new8" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new9" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new10" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

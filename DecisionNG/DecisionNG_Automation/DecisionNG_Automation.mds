@@ -993,75 +993,138 @@
 							<testItem name="Additional Information" key="{7A657D54-EB62-451E-92FE-3B0007830375}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="AI_FT" key="{85956444-091F-4263-A46B-431B42843C90}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="AI_TestCases" key="{6573733C-7FCA-48A6-8037-905C58749EF3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Test ID 8198_Additional Info Panel, Approved, Asset, Fact type, Switch between Tabs -from Approved Decision_1" key="{012041C1-80C3-4C50-963E-FD9A2F5841C8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1B335C7-5D8B-4DB7-B396-3C724DA3CA6F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Additional Information Regression Suite Pre-Requisites" key="{D964309B-E09A-468C-9C0B-81F8B7201BCE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E2E40A34-A146-4857-95F4-AB8390F58E81}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters>
+													<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+												</testParameters>
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8046_Additional Info Panel, Repository, Flow, Present, Enabled, Click " key="{C9D8B9F3-5763-4B44-A6C9-FD2B13B1F2B0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{84E23426-855D-4B49-B31E-1334A3880F8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8198_Additional Info Panel, Approved, Asset, Fact type, Switch between Tabs -from Approved Flow GWFT_1" key="{3F6A2D80-9A6E-410E-9202-61D6137D0C5E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{68C00098-F04D-4C13-BE14-65FF166C894C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8047_Additional Info Panel, Task, Flow, Present, Enabled, Click" key="{4FABCA1D-040F-476F-AEA0-EB1D0BED8FB3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F7FC41C1-02C6-40F9-9342-985AE2E1A481}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8201_Additional Info Panel, Approved, Asset, Fact type, Details tab, Switch between Sub Tabs -from Approved Decision_1" key="{5E02BFF0-3E0F-4905-9B03-AB24A95E7925}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F4427053-697B-4C75-91CF-6286908FCD89}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8048_Additional Info Panel, Repository, Decision, Present, Enabled, Click " key="{60E379B2-C395-4EB2-80B8-D19D4BC8E14A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABECFF6D-7B27-425D-A62C-2A924C32E5D3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8201_Additional Info Panel, Approved, Asset, Fact type, Details tab, Switch between Sub Tabs -from Approved Flow GWFT_1" key="{770E917B-9CFC-4D43-85D6-7599DC690160}" group="False" parallel="False" enabled="True" testMoniker="KDT\{21CF03B3-605F-4856-B92A-E7778B58D88F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8049_Additional Info Panel, Task, Decision, Present, Enabled, Click" key="{43FDE925-9D4B-4D7B-88FF-6815B7999F83}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3FC541E4-B904-47D1-B51D-F8591870B5C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8202_Additional Info Panel, Task, Fact Type tab, Switch Between tabs_1" key="{17733143-5BD4-480B-A6B4-E76738BBB751}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2CA4D7D2-7425-4EC7-A229-EBB93E3F5DDD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8062_Additional Info Panel, Repository, Flow, Not present, Button Disabled" key="{2F9B4769-5438-4225-9A6D-84DCFF0CEA8E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2BA41095-9141-410A-8C30-DBAB21D77A9B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8203_Additional Info Panel, Task, Fact Type tab, Switch Between Sub Tabs _1" key="{9D93496B-0B48-4306-99D1-94A13B58A643}" group="False" parallel="False" enabled="True" testMoniker="KDT\{33B4AD47-01EA-46E8-BCD7-E51FEFFA59E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8063_Additional Info Panel, Task, Flow, Not present, Button Disabled" key="{4406EB23-8172-4E64-9EE0-E4ECE35EE6DD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D1968065-82AB-4266-A9C5-0C6BA32F4041}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8232_Additional Info Panel, Repository, Approved Fact type, Associations tab, Verify/switch sub-tabs_1" key="{6CAEDDB4-04AF-42E6-8BE1-5D856E7002F0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DD5F9F8-B248-464C-BF28-37817B6722A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8065_Additional Info Panel, Decision,Task, Not present, Button Disabled" key="{AF8DDD67-2F0D-405B-8EC9-AF0C825F12D6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C16B55FF-773F-4909-AC3A-86851BD28318}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8233_Additional Info Panel, Task, Draft Fact Type, Association Tab, Verify/switch sub-tabs_1" key="{018A03D0-958F-4EEE-8B34-00CFA97CBCA8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0BEF8A6C-9AB1-4EF0-85F3-A4A42EEC9F2C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8066_Additional Info Panel, Decision, Repository, Not present, Button Disabled " key="{54B147E7-A9E3-4FA2-9C42-A56EB18E3630}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2D512C8E-9436-468C-8411-FFAFC7C8AD00}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8196_Additional Info Panel, Task, Draft Decision, Fact Type, Switch between Tabs" key="{6CE3B2DB-74EA-4146-9BF4-87D8CD9AAB82}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2387A834-7275-4695-BDC1-02CFAD970C71}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8069_Additional Info Panel, Switch, Flow to Decision" key="{CC991DC0-3884-423F-8D21-39B2B4DCAAE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD638014-4D84-4B77-873C-1CE1560CDD83}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test&#32;&#32;ID 8197_Additional Info Panel, Task, Draft Flow, Gateway Fact Type, Switch between Tabs " key="{5189CD1B-BC1F-4968-8F96-73A6649BD836}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DB9E5626-794B-458B-905B-AF5A96663E2D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8070_Additional Info Panel, Switch, Flow to Gateway Fact Type" key="{1AEF904B-5744-4653-BF40-05C5F8625512}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A06640CD-C7F5-4B0F-B7F8-607D685B96EA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8199_Additional Info Panel, Task, Draft Decision, Fact Type, Details tab, Switch between Sub Tabs" key="{E7003527-B7ED-4D46-93A9-B5415484B27A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7AC1655D-0A28-4ECE-B6CA-924303452465}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8071_Additional Info Panel, Switch, Decision to Fact Type" key="{CDCEBAB3-A5EA-45B9-9143-1B85BAE1233F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0946A9B5-B13A-4466-B31F-3E322512FD76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8200_Additional Info Panel, Task, Draft Flow, Gateway Fact Type, Details tab, Switch between Sub Tabs" key="{38383811-D0E0-450A-85F1-C1A67DF040BB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C6424794-0AFF-468E-846E-A1B512E31FED}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8072_Additional Info Panel, Switch, Decision to Rule Family" key="{50C76209-7743-4477-91DC-E4304FD3B05F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF901B4A-94D3-4EBF-9BCE-BB9419D6917C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8399_Additional info panel, Repository, Approved Fact type, Used in Multiple Views and Versions of Decisions, AssociationsTab, Decision Sub-tab,Verify Functionality" key="{E14CB997-79C4-4116-8365-9BED7B81937F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A079C080-791F-4047-935A-5F229CF0F1AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8073_Additional Info Panel, Switch_between_Task_tabs" key="{DB58F5FE-1F5E-4B7A-8399-C46B2901092B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E4CD3483-03BE-48EC-A2DA-E67488B7E56F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
-											<testItem name="Test ID 8570_ Additional Info Panel, Repository, Approved Fact type, Associations tab, Versions sub-tab, Verify Functionality" key="{691D3FA4-0B45-4145-80A0-B44DA9DB766C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{69CA1E4B-60F0-4B58-A288-C46FA7CEA2AE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Test ID 8111_Additional Info Panel, Navigation using breadcrumb, Draft Flow" key="{1BFBAD82-AF77-4147-AD9C-810F1176E3FF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2A970482-1264-4BFE-93FB-68B3910F8349}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8112_Additional Info Panel, Navigation using breadcrumb, Approved Flow " key="{05903A35-47AD-4639-99C7-75495D19FDEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C04C54C5-9D24-4ECB-9A8E-BE411CE322E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8157 _Additional Info Panel, Task, Decision Diagram Screen, Fact Type" key="{4ECEBC2A-9CEB-42B6-A73D-B99F810FA42A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E661EAEE-B999-4E7C-AB6A-D40802295D74}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8159 _Additional Info panel, Repository, Flows, Switch Tabs " key="{63D5B24D-C647-4B07-A810-5977B125422B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{046A5217-CD4A-4C85-BEAE-84FA29084C78}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8160_Additional Info panel,Task, Draft Flows, Switch Tabs" key="{0FA69C77-EEA7-4163-890F-1DCF52CD7B0E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F5BEF6F6-F540-4F5A-9C3E-56FE1202F6D2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8161_Additional Info panel, Repository, Decision, Switch Tabs" key="{B921C98F-C1D5-4CAD-85AB-4B50F1B4B7A3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{58468C1D-A9A3-49BE-881B-C9B6A27FDFA1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8162 _Additional Info panel, Task, Draft Decision, Switch Tabs " key="{040FE90B-F9BC-4B7B-9483-EF20208F8FD6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BDA761AA-6EFD-4DC7-99AB-2153A27FBFCC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8163 _Additional Info Panel, Repository, Flows, Details Tab, Switch Sub-Tabs" key="{8F9A771C-81D3-4463-BB51-DAD463770023}" group="False" parallel="False" enabled="True" testMoniker="KDT\{28236774-5F34-4B17-AE4C-5BED212FC24F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters>
+													<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Insurance" />
+													<param1 name="SelectOption_Community_VG" type="1" localVarName="" value="Community" />
+													<param2 name="Community_VG_Foldername" type="1" localVarName="" value="P&amp;C Underwriting Community" />
+													<param3 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+													<param4 name="FlowName" type="1" localVarName="" value="Policy Renewal Method Flow [V1.3]" />
+												</testParameters>
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8165_Additional Info Panel,Task, Flows, Details Tab, Switch Sub-Tabs" key="{2B38C4C8-54AA-43DD-83FB-B5CB4CEA2746}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5F912624-E7D9-4672-A97C-481B3DAA3DDB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8166_Additional Info Panel,Repository, Decision, Details Tab, Switch Sub-Tabs" key="{3A5C1C54-7F29-441D-B37C-AD3CF065867C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0BA5050E-BD9A-4CC8-A49C-063B95C71EC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8167_Additional Info Panel,Task,Decision, Details Tab, Switch Sub-Tabs" key="{E7603B84-EEC2-476C-897B-6A029707E848}" group="False" parallel="False" enabled="True" testMoniker="KDT\{61E15FB5-6067-4341-8C21-A88C3942A166}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
@@ -2189,11 +2252,6 @@
 						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="TaskNames$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
-				<Variable Name="Var1" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\Test_Data.xlsx" Table="CreateNewFactTypeData$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
 				<Variable Name="Details_TestValues_StringValues" Type="Table" Local="False">
 					<DefValue RowCount="2" ColumnCount="1">
 						<Columns ColumnName0="TestValues" />
@@ -2324,12 +2382,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Environment_URL" Type="String" Local="False">
-					<DefValue StrValue="http://bdmsuat75:5893/dm/login.jsp" />
-				</Variable>
-				<Variable Name="TestData_Additional_Info" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\TestData_Additional_Info.xlsx" Table="Additional_Info_Reg$" HasColumnNames="True" />
-					</DefValue>
+					<DefValue StrValue="http://bdmsuat7:1121/dm/login.jsp" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />
@@ -2337,11 +2390,21 @@
 				<Variable Name="Additional_Info_Task_without_assets" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="TestData_Additional_Info" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\TestData_Additional_Info.xlsx" Table="Additional_Info_Reg$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Add_Info_Pre_Requisite" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Test_Data.xlsx" Table="&apos;Add_Info_Reg_Pre-Requisite$&apos;" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{02A77E4B-D105-4DE1-91B8-F09122987DDF}">
-		<settingsVersion value="14.93" />
+		<settingsVersion value="14.92" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
