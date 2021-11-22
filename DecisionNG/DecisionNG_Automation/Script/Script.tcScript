@@ -252,6 +252,8 @@
 			</folder>
 			<folder name="Associations">
 				<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
+				<child name="AI_Subtabs_details_Verify1" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify1.js" />
+				<child name="AI_Subtabs_Open_Asset1" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset1.js" />
 			</folder>
 			<folder name="Deployments" />
 			<folder name="Generic">
@@ -261,6 +263,7 @@
 				<child name="AI_Click_Close" key="{09AD2EE4-4592-42C5-8806-B53CE23D1BB3}" path="AI_Click_Close.js" />
 				<child name="AI_Verify_Tab_Selected" key="{82D6ADE3-2269-4299-B581-08D7AC104F21}" path="AI_Verify_Tab_Selected.js" />
 				<child name="AI_Verify_Icon_Title" key="{31873D81-1127-4CD8-9880-745367F43DA8}" path="AI_Verify_Icon_Title.js" />
+				<child name="AI_Click_Open1" key="{CBA6E44A-4B30-4CBE-A9D0-5B63764EE1B2}" path="AI_Click_Open1.js" />
 				<child name="AI_Reg_Create_New_Task" key="{E7FB7474-6268-4C56-86BE-324945C18C65}" path="AI_Reg_Create_New_Task.js" />
 			</folder>
 		</folder>
