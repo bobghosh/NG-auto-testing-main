@@ -190,6 +190,7 @@
 				<child name="DF_Edit" key="{4F53194F-ED13-41F7-93DC-0708FDAA5CDC}" path="DF_Edit.tcKDTest" />
 				<child name="DF_CopytoWb_Edit" key="{AC990E07-3932-41E3-ADA1-E7C5704836C3}" path="DF_CopytoWb_Edit.tcKDTest" />
 				<child name="Breadcrumb_Navigate_OpenDF" key="{54220118-4EA2-4FC6-B7B5-8A9675684656}" path="Breadcrumb_Navigate_OpenDF.tcKDTest" />
+				<child name="Repo_Nav_DF_CopytoWb" key="{7887136C-827D-427B-A417-5861303910CD}" path="Repo_Nav_DF_CopytoWb.tcKDTest" />
 			</folder>
 			<folder name="Generic Steps">
 				<folder name="Fact Type Approval">
@@ -261,6 +262,8 @@
 					<child name="AI_Tasks_DecisionScreen_FT" key="{E661EAEE-B999-4E7C-AB6A-D40802295D74}" path="AI_Tasks_DecisionScreen_FT.tcKDTest" />
 					<child name="AI_Repo_Decisions_SwitchTabs" key="{58468C1D-A9A3-49BE-881B-C9B6A27FDFA1}" path="AI_Repo_Decisions_SwitchTabs.tcKDTest" />
 					<child name="AI_Tasks_Decisions_SwitchTabs" key="{BDA761AA-6EFD-4DC7-99AB-2153A27FBFCC}" path="AI_Tasks_Decisions_SwitchTabs.tcKDTest" />
+					<child name="AI_Repo_DV_DetailsTab_Switch_SubTabs" key="{0BA5050E-BD9A-4CC8-A49C-063B95C71EC0}" path="AI_Repo_DV_DetailsTab_Switch_SubTabs.tcKDTest" />
+					<child name="AI_Tasks_DV_Details_Switch_SubTabs" key="{61E15FB5-6067-4341-8C21-A88C3942A166}" path="AI_Tasks_DV_Details_Switch_SubTabs.tcKDTest" />
 				</folder>
 				<folder name="Flow">
 					<child name="AI_Repo_Present_Click" key="{84E23426-855D-4B49-B31E-1334A3880F8D}" path="AI_Repo_Present_Click.tcKDTest" />
@@ -275,10 +278,13 @@
 					<child name="AI_Tasks_Flow_SwitchTabs" key="{F5BEF6F6-F540-4F5A-9C3E-56FE1202F6D2}" path="AI_Tasks_Flow_SwitchTabs.tcKDTest" />
 					<child name="Repo_AI_Details_Switch_SubTabs" key="{28236774-5F34-4B17-AE4C-5BED212FC24F}" path="Repo_AI_Details_Switch_SubTabs.tcKDTest" />
 					<child name="Tasks_AI_Details_Switch_SubTabs" key="{1891C23D-2F3F-4FB7-BDC9-CBA5181D87DE}" path="Tasks_AI_Details_Switch_SubTabs.tcKDTest" />
+					<child name="AI_Tasks_Details_SwitchSubtabs" key="{5F912624-E7D9-4672-A97C-481B3DAA3DDB}" path="AI_Tasks_Details_SwitchSubtabs.tcKDTest" />
+					<child name="AI_Repo_Flow_Association_Switch_SubTab" key="{E5F8D637-2180-42FC-9D40-7A7D2E695522}" path="AI_Repo_Flow_Association_Switch_SubTab.tcKDTest" />
 				</folder>
 				<folder name="Generic">
 					<child name="Switch_between_Task_tabs_Verify" key="{E4CD3483-03BE-48EC-A2DA-E67488B7E56F}" path="Switch_between_Task_tabs_Verify.tcKDTest" />
 					<child name="Switch_between_Asset_to_repository_" key="{495601B0-8609-43FE-AFC7-0742FEC538C1}" path="Switch_between_Asset_to_repository_.tcKDTest" />
+          <child name="AI_Reg_Pre_requisite" key="{E2E40A34-A146-4857-95F4-AB8390F58E81}" path="AI_Reg_Pre_requisite.tcKDTest" />
 				</folder>
 				<folder name="Fact Types">
 					<child name="AI_Repo_Decision_FT_SwitchTabs1" key="{F1B335C7-5D8B-4DB7-B396-3C724DA3CA6F}" path="AI_Repo_Decision_FT_SwitchTabs1.tcKDTest" />
@@ -295,7 +301,7 @@
 					<child name="AI_Task_Decision_FT_Details_SwitchsubTabs1" key="{7AC1655D-0A28-4ECE-B6CA-924303452465}" path="AI_Task_Decision_FT_Details_SwitchsubTabs1.tcKDTest" />
 					<child name="AI_Task_Flow_GW_FT_Details_SwitchSubTabs1" key="{C6424794-0AFF-468E-846E-A1B512E31FED}" path="AI_Task_Flow_GW_FT_Details_SwitchSubTabs1.tcKDTest" />
 					<child name="AI_Repo_FT_Associations_Versions1" key="{69CA1E4B-60F0-4B58-A288-C46FA7CEA2AE}" path="AI_Repo_FT_Associations_Versions1.tcKDTest" />
-				</folder>
+        </folder>
 				<folder name="Knowledge Source" />
 				<folder name="RuleFamilies" />
 			</folder>
