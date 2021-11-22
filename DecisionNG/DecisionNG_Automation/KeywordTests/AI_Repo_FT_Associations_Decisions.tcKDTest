@@ -88,15 +88,7 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="AI_Subtab_Open_Asset" Unit="AI_Subtabs_Open_Asset">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="SubTabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decisions" />
-								<Parameter Name="Open_Asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Open Asset_From Association tab" />
-								<Parameter Name="context_of_asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Context of Asset opening from AI" />
-							</Parameters>
-						</Data>
-					</Operation>
+					
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="AI_Click_Close" Unit="AI_Click_Close" />
 					</Operation>
