@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
-	<TestData Description="" Key="{476FAD6F-1E07-4389-ADD7-AFC4E356B15A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{03BB90B7-45D4-478D-A9FA-22668BCD29F5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -9,7 +9,7 @@
 		<Children>
 			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 				<Data VariableType="2" VariableName="TestData_Additional_Info">
-					<Records FromBegin="False" ToEnd="False" StartRecord="77" StopIndex="77" />
+					<Records FromBegin="False" ToEnd="False" StartRecord="103" StopIndex="103" />
 				</Data>
 				<Children>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
@@ -74,16 +74,9 @@
 						</Data>
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="AdditionalInfo_SubTab_Select_Verify" Unit="AI_SubTabs_Select_verify">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="selectSubTab" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decisions" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="AI_Verify_Subtab_Details_Assets" Unit="AI_Subtabs_details_Verify">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="SubTabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decisions" />
+								<Parameter Name="SubTabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Fact Types" />
 								<Parameter Name="Compared_Assets" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Compared Asset Name_1" />
 							</Parameters>
 						</Data>
@@ -91,7 +84,7 @@
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="AI_Subtab_Open_Asset" Unit="AI_Subtabs_Open_Asset">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="SubTabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decisions" />
+								<Parameter Name="SubTabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Fact Types" />
 								<Parameter Name="Open_Asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Open Asset_From Association tab" />
 								<Parameter Name="context_of_asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Context of Asset opening from AI" />
 							</Parameters>
@@ -104,5 +97,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{51E64132-415E-4AD7-9478-7663C046C7DD}" />
+	<Parameters Key="{CD24B9F5-B4FF-494C-B868-377B75D661FF}" />
 </Root>
