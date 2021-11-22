@@ -286,7 +286,6 @@
 					<child name="Switch_between_Asset_to_repository_" key="{495601B0-8609-43FE-AFC7-0742FEC538C1}" path="Switch_between_Asset_to_repository_.tcKDTest" />
 					<child name="AI_Reg_Pre_requisite" key="{E2E40A34-A146-4857-95F4-AB8390F58E81}" path="AI_Reg_Pre_requisite.tcKDTest" />
 				</folder>
-				<folder name="Fact Types" />
 				<folder name="Knowledge Source" />
 				<folder name="RuleFamilies" />
 			</folder>
