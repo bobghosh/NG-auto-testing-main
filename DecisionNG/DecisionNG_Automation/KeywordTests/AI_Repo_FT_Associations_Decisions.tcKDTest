@@ -88,7 +88,6 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="AI_Click_Close" Unit="AI_Click_Close" />
 					</Operation>
