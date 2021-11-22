@@ -1,6 +1,7 @@
 ﻿var Breadcrumb_Verify_Navigation = require("Breadcrumb_Verify_Navigation");
 function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_asset,classname)
 {
+  // Function for Opening asset from subtabs
   let page =Aliases.browser.pageSapiensDecision2
   Delay(1000);
   let source_assets_array_xpath="//div[contains(@class,'sub-tab__list')]/dcn-link-label/parent::div";

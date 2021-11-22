@@ -1,5 +1,6 @@
 ﻿function AI_Click_Open()
 {
+  //to OPen the assets AI without title verification
   var page = Aliases.browser.pageSapiensDecision2;
  
  let add_Info_Panel=page.FindElement("//dcn-additional-info-side-bar//button");

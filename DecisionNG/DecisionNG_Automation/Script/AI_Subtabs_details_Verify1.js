@@ -1,5 +1,6 @@
 ﻿function Versions_Assets_withClassname(Asset_Type,compared_assets,classname)
 {
+  //Function for verifying details of subtabs
   let page =Aliases.browser.pageSapiensDecision2
   Delay(1000);
   let source_assets_array_xpath="//div[contains(@class,'sub-tab__list')]/dcn-link-label/parent::div";
