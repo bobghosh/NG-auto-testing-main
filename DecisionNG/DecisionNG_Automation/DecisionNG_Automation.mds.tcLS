@@ -179,22 +179,11 @@
 					<Node name="var39">
 						<Prp name="name" type="S" value="TestData_Additional_Info"/>
 					</Node>
-					<Node name="var38">
-						<Prp name="name" type="S" value="TestData_Additional_Info"/>
-					</Node>
-					<Node name="var39">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F005400610073006B005F0077006900740068005F00610073007300650074007300"/>
-						</Node>
-						<Prp name="name" type="S" value="Additional_Info_Task_with_assets"/>
-					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>
 					</Node>
 					<Node name="var40">
-
 						<Prp name="name" type="S" value="Add_Info_Pre_Requisite"/>
-
 					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>
