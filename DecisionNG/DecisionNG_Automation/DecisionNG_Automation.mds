@@ -1066,6 +1066,61 @@
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
+											<testItem name="Test ID 8153_Additional Info Panel, Task, Fact Type tab, Enabled" key="{20A869B5-D7F0-4E63-85A7-7BAEEECD9C3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{296A63E5-51D6-4888-99EB-C1777ED2A374}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8154_Additional Info Panel, Task, Fact Type tab, Disabled" key="{14635C5A-683D-4A80-8D88-5E5A5239915B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F5E56C90-7FC6-4E74-8F21-A58ED2AD2713}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID CH01_Additional Info Panel, Repository, FactTypes,Not present, Button Disabled" key="{52F2A94A-262F-43E5-81B3-F9095EAB618F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93221794-355E-4262-913A-A2894AFA7A81}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8155_Additional Info Panel, Approved, Asset, Fact type-From Approved Decision" key="{FA01708C-C2EF-4A73-96CF-BBE4EBE09CFB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F122016F-711B-4AEF-8476-DC3EC7D898E0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8155_Additional Info Panel, Approved, Asset, Fact type-from Approved Flow GWFT" key="{74B71501-C5C1-4893-B3F8-3B43423C85E2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9EB412C5-1D92-49F1-A848-D8840E1D23CF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8571_ Additional Info Panel, Task, Draft Fact type, Associations tab, Versions sub-tab, Verify Functionality" key="{3128CD6D-56FB-43D6-BEB9-E6ED2FDC903A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{30D12D1D-1CC6-45FA-B90F-DCE45CC2FB47}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8782_Additional info panel, Draft Fact Type, Fact Type page" key="{D0B272B3-A566-424B-8F54-75BC753BC80D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D19B8AC5-CD0B-4114-A684-1A2DFB41A417}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8783_Additional info panel, Approved Fact Type, Fact Type page" key="{1DF38903-4E8D-4EB9-A79A-4B25284D273E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{28D5C56E-42FF-48B9-B93A-7F49543AC0F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8459_Additional info panel, Approved/Draft Fact type, Not used in any decision, Associations Tab, Decision Sub-tab,Verify Functionality" key="{DB940418-E321-424F-9BEC-46C71890889C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7EEAF7DB-D633-486A-81EF-B020DACBCD90}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID CH02_Additional info panel, Repository, Draft Fact type, Used in Multiple Views and Versions of Decisions, AssociationsTab, Decision Sub-tab,Verify Functionality" key="{308F0D9F-0BA7-410A-AF7F-9560135CCFE6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{28907704-AC53-4C0C-B223-4B4AF9E6E3B8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 9805_Additional Info Panel, Approved Fact Type, Different approved Fact Type Version, More Details" key="{C776530F-4221-4B7C-9A3E-D0A03BFD0EEC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8B4E3140-AB29-4FFD-B88E-DEDE014A5188}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
 										</children>
 									</testItem>
 									<testItem name="AI_TestCases" key="{6573733C-7FCA-48A6-8037-905C58749EF3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

@@ -74,10 +74,10 @@ for(let i=0;i<compared_assets_array.length;i++)
 
 if(Flag=="true")
 {
-  Log.Checkpoint(compared_asset_status[0] +" exist in the list of versions with Stauts as "+ compared_asset_status[1]);
+  Log.Checkpoint(compared_asset_status[0] +" exist in the list of assets with Stauts as "+ compared_asset_status[1]);
 }
 else{
-   Log.Error(compared_asset_status[0]+" doesn't exist in the list of versions with Status"+ compared_asset_status[1]);
+   Log.Error(compared_asset_status[0]+" doesn't exist in the list of assets with Status"+ compared_asset_status[1]);
    }
 }
 

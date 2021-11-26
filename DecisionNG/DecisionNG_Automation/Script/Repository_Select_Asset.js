@@ -1,8 +1,9 @@
 ﻿function Select_Asset_Xpath(Asset_path,Asset_Name)
 {
-  let Paginator;
   let page =Aliases.browser.pageSapiensDecision2;
-  if(page.FindElements("//dcn-paginator//p-paginator//div").length >0)
+    let flag = "0";
+    let Paginator;  
+    if(page.FindElements("//p-paginator/div").length > 0)
     {
       Paginator = "Yes";
     }
@@ -12,42 +13,37 @@
     }
     
     Log.Message(Paginator);
+    
+    let hasNext = "true";
+    
+    do{
   
-    
- var ItemCount;
-    var flag = 0;
-    var ItemName = Asset_Name
-    var hasNext = true
-    
-   do{
+          ItemCount = page.FindElements("//dcn-expandable-selectable-list-item//i[contains(@class,'"+Asset_path+"')]/following-sibling::div/a");
+          //Log.Message(ItemCount.length);
+          for(var j = 0; j < ItemCount.length ; j++)
+          {
+          let k=j+1;
+                let HighlightedItemName = ItemCount[j].textContent.trim();
 
-    ItemCount = page.FindElements("//dcn-expandable-selectable-list-item//i[contains(@class,'"+Asset_path+"')]/following-sibling::div/a");
-    
-    //Iterate through all the rows and finding the desired Task
-    for(let j = 1; j <= ItemCount.length ; j++)
-    {
-          //Log.Message(ItemCount.length)
-          let HighlightedItemName = page.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'"+Asset_path+"')]/following-sibling::div/a");
-          //If the Item Name matches 
+                //If the Item Name matches 
+                if(HighlightedItemName == Asset_Name.trim())
+                {          
+                        //To select amy row click on any icon available on the row
+                        page.FindElement("//dcn-expandable-selectable-list-item["+k+"]//i[contains(@class,'"+Asset_path+"')]").click();
+                        flag ="1";
+                        //class="ui-selectable-row ng-star-inserted ui-state-highlight"
+                        Log.Message("Asset is Selected")  
+                 }
+                 if(flag == "1")
+                 {
+                    break;
+                 }
+            }
+            if(flag =="1")
+            {
+              break;
+            }
           
-          if(HighlightedItemName.textContent.trim()== Asset_Name )
-          {          
-           //Delay(1000);
-           Log.Message(HighlightedItemName.textContent);
-           page.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'"+Asset_path+"')]").click();
-           Delay(1000);
-           flag =1;
-           break;
-           }
-           
-           
-   }
-   if(flag ==1)
-      {
-        break;
-      }
-
-
           if(Paginator == "Yes")
           {
             if(page.FindElement("//*[contains(@class,'i-paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
@@ -56,18 +52,18 @@
             }
             else
             {
-              page.FindElement("//*[contains(@class,'i-paginator-next')]").click(); 
-              Delay(1000);    
-              break;    
+              page.FindElement("//*[contains(@class,'i-paginator-next')]").click();  
+              Delay(2000);       
             }
           }
           else
           {
             hasNext = "false";
           }
-       
-        
-      }while (hasNext==true)
+      
+
+    }while(hasNext == "true")
+    
 }
 
 function Select_SingleAsset(Asset_Type,Asset_Name){
@@ -75,20 +71,29 @@ function Select_SingleAsset(Asset_Type,Asset_Name){
 switch (Asset_Type){
   
   case "Decision Flows":
+  {
     AssetXpath= "icon-flow";
     Select_Asset_Xpath(AssetXpath,Asset_Name);
-    
+    break;
+  }
   case "Decisions":
+  {
     AssetXpath= "icon-decision_view";
      Select_Asset_Xpath(AssetXpath,Asset_Name);
-     
+     break;
+   }  
   case "Fact Types":
+  {
     AssetXpath="icon-fact_type";
     Select_Asset_Xpath(AssetXpath,Asset_Name);
-    
+    break;
+   } 
   default:
+  {
     AssetXpath="icon-knowledge_source";
     Select_Asset_Xpath(AssetXpath,Asset_Name);
+    break;
+    }
 }
   
 }
