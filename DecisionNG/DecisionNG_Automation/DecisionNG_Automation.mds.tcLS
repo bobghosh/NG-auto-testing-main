@@ -88,19 +88,19 @@
 					</Node>
 					<Node name="var23">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003300360030003100380032003500"/>
+							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003700310033003100310035003600"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065003100340034003100380032003700"/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065003800320037003100310035003800"/>
 						</Node>
 						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="3800320039003100380032003700"/>
+							<Prp name="strvalue" type="H" value="3600360031003100310035003800"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
@@ -124,7 +124,7 @@
 					</Node>
 					<Node name="var29">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003500320035003300330035003000390031003900"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003700360034003900320031003200320037003400"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_Decision"/>
 					</Node>
@@ -133,13 +133,13 @@
 					</Node>
 					<Node name="var30">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003500320035003300340033003200310037003300"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003700360034003900330032003800340037003200"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_DecisionFlow"/>
 					</Node>
 					<Node name="var31">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003900310033003100380033003900"/>
+							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003200350038003100320031003100"/>
 						</Node>
 						<Prp name="name" type="S" value="Release_Project_Name"/>
 					</Node>

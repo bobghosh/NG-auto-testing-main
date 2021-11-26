@@ -103,6 +103,7 @@ if((Flag=="true")&&((Asset_Type=="Decision Flow")||(Asset_Type=="Decision View")
 {
      page.WaitElement(page.FindElement("//div[contains(@class,'breadcrumb ng-star')]"));
   //Verify the opened Asset's breadcrumb
+  Delay(5000);
  Breadcrumb_Verify_Navigation.Breadcrumb_Verify_Navigation(compared_asset_status[0]);
   Log.Checkpoint(compared_asset_status[0] +" with "+ compared_asset_status[1]+" status is opened");
 }
@@ -115,7 +116,6 @@ else if((Flag=="true")&&((Asset_Type=="Knowledge Source")||(Asset_Type=="Fact Ty
     
     Log.Message("Heading of the Dialog is "+heading_dialog);
     Delay(1000);
-    //page.FindElement("//button//i[@class='icon-close']").click();
  
 }
 

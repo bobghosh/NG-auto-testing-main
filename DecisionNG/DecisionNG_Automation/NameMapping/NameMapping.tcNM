@@ -5856,6 +5856,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelMoreDetails" Key="{112C199B-9865-412C-BC70-C65C46AF0CED}">
+										<Image FileName="432224343" Left="8" Top="267" Right="188" Bottom="317" />
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;More Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;navigation-menu__item__details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/dcn-fact-type-page//dcn-navigation-menu//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -7343,6 +7358,8 @@
 				<Child Name="textnode7_new8" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new9" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new10" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode7_new11" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="panelMoreDetails" Owner="{112C199B-9865-412C-BC70-C65C46AF0CED}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

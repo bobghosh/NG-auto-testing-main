@@ -22,7 +22,6 @@
     if(tabTextLowcase == selectSubTab.toLowerCase())
     {
       let classofSubTasbs = subTabs[i].getAttribute('class')
-     // Log.Message(classofSubTasbs)
       if(classofSubTasbs.includes('tabs--selected'))
         {
           Log.Checkpoint(selectSubTab+"Tab is already selected")
