@@ -103,6 +103,7 @@ if((Flag=="true")&&((Asset_Type=="Decision Flow")||(Asset_Type=="Decision View")
 {
      page.WaitElement(page.FindElement("//div[contains(@class,'breadcrumb ng-star')]"));
   //Verify the opened Asset's breadcrumb
+  Delay(5000)
  Breadcrumb_Verify_Navigation.Breadcrumb_Verify_Navigation(compared_asset_status[0]);
   Log.Checkpoint(compared_asset_status[0] +" with "+ compared_asset_status[1]+" status is opened");
 }
@@ -129,9 +130,9 @@ else{
 
 
 
-function AI_Subtab_Open_Asset(SubTabName,Open_Asset,context_of_asset){
+function AI_Subtab_Open_Asset(Asset_Type,Open_Asset,context_of_asset){
   let classname;
-switch(SubTabName)
+switch(Asset_Type)
 {
   case "Flows":
    classname="icon-flow";
@@ -155,7 +156,7 @@ switch(SubTabName)
   
   default :
   classname="icon-knowledge_source";
-   Versions_Assets_withClassname("Knowledge Source",Compared_Assets,context_of_asset,classname);
+   Versions_Assets_withClassname("Knowledge Source",Open_Asset,context_of_asset,classname);
    break;
   
 }

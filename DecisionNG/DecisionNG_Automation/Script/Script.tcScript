@@ -252,8 +252,8 @@
 			</folder>
 			<folder name="Associations">
 				<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
-				<child name="AI_Subtabs_details_Verify1" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify1.js" />
-				<child name="AI_Subtabs_Open_Asset1" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset1.js" />
+				<child name="AI_Subtabs_details_Verify" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify.js" />
+				<child name="AI_Subtabs_Open_Asset" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset.js" />
 			</folder>
 			<folder name="Deployments" />
 			<folder name="Generic">

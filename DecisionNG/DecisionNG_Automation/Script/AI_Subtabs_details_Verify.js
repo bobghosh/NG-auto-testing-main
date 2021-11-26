@@ -83,9 +83,9 @@ else{
 
 }
 
-function AI_Verify_Subtab_Details_Assets(SubTabName,Compared_Assets){
+function AI_Verify_Subtab_Details_Assets(Asset_Type,Compared_Assets){
   let classname;
-switch(SubTabName)
+switch(Asset_Type)
 {
   case "Flows":
    classname="icon-flow";
