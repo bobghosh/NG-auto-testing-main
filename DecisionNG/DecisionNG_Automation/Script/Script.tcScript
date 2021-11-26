@@ -248,12 +248,15 @@
 				<folder name="General" />
 				<folder name="Custom Properties">
 					<child name="AI_Enter_CustomProperties" key="{F8E720BA-329A-44CD-8656-5DB8A2E7A8CC}" path="AI_Enter_CustomProperties.js" />
+					<child name="Verify_If_Properties_Exists" key="{C8ACE3B9-90BA-4546-9518-5C8C18E3CD2D}" path="Verify_If_Properties_Exists.js" />
 				</folder>
 			</folder>
 			<folder name="Associations">
 				<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
-				<child name="AI_Subtabs_details_Verify1" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify1.js" />
-				<child name="AI_Subtabs_Open_Asset1" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset1.js" />
+				<child name="AI_Subtabs_details_Verify" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify.js" />
+				<child name="AI_Subtabs_Open_Asset" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset.js" />
+				<child name="AI_Associations_Subtabs_Counter_Verify" key="{F926858A-C0A1-4AF2-8BCA-EF7CA16C7166}" path="AI_Associations_Subtabs_Counter_Verify.js" />
+				<child name="AI_No_Assets_Verify" key="{6B04C971-9F2D-49F1-85CF-99BA30F46085}" path="AI_No_Assets_Verify.js" />
 			</folder>
 			<folder name="Deployments" />
 			<folder name="Generic">
@@ -263,8 +266,9 @@
 				<child name="AI_Click_Close" key="{09AD2EE4-4592-42C5-8806-B53CE23D1BB3}" path="AI_Click_Close.js" />
 				<child name="AI_Verify_Tab_Selected" key="{82D6ADE3-2269-4299-B581-08D7AC104F21}" path="AI_Verify_Tab_Selected.js" />
 				<child name="AI_Verify_Icon_Title" key="{31873D81-1127-4CD8-9880-745367F43DA8}" path="AI_Verify_Icon_Title.js" />
-				<child name="AI_Click_Open1" key="{CBA6E44A-4B30-4CBE-A9D0-5B63764EE1B2}" path="AI_Click_Open1.js" />
+				<child name="AI_Click_Open" key="{CBA6E44A-4B30-4CBE-A9D0-5B63764EE1B2}" path="AI_Click_Open.js" />
 				<child name="AI_Reg_Create_New_Task" key="{E7FB7474-6268-4C56-86BE-324945C18C65}" path="AI_Reg_Create_New_Task.js" />
+				<child name="AI_Details_Subtabs_Counter_Verify" key="{AF5C9D20-8D5A-4945-AFCF-E98EF422DB9D}" path="AI_Details_Subtabs_Counter_Verify.js" />
 			</folder>
 		</folder>
 		<folder name="Page Navigations">
@@ -301,6 +305,7 @@
 				<child name="Select_Community" key="{26A3DA5A-3283-4CB8-9FD0-9A86DBF25D60}" path="Select_Community.js" />
 				<child name="Repository_Select_SubTabs" key="{18D0C724-ED91-42A1-8C7F-2B57BA0A3FF8}" path="Repository_Select_SubTabs.js" />
 				<child name="Repository_Select_Asset" key="{BB3971C2-EC81-40CA-9C68-8265A58B4B54}" path="Repository_Select_Asset.js" />
+				<child name="Repository_Open_Asset" key="{23EA2AF2-24B8-4220-A3B2-87AC77BC155C}" path="Repository_Open_Asset.js" />
 			</folder>
 			<folder name="Community Tree">
 				<child name="Community_VG_Folder_Select" key="{CB489412-FCD0-45DB-A247-A1C981FF2543}" path="Community_VG_Folder_Select.js" />

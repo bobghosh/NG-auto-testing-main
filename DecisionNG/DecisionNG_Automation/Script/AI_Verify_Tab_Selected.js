@@ -26,7 +26,7 @@ function AI_Verify_MainTab_Selected(selectMainTab)
 
 function AI_Verify_SubTab_Selected(selectSubTab)
 {
-  let subTabs = page.FindElements("//*[@aria-hidden='false']//ul//li//span");
+  let subTabs = page.FindElements("//div[contains(@aria-hidden,'false')]//a[contains(@class,'additional-info-container')]//parent::span");
   
  // Log.Message(subTabs.length);
   
@@ -34,7 +34,12 @@ function AI_Verify_SubTab_Selected(selectSubTab)
   {
     let tabText = subTabs[i].textContent;
     
-    tabTextLowcase = tabText.substr(2).toLowerCase().trim();
+    tabTextLowcase = tabText.replace(/[^a-z]/gi, '').toLowerCase().trim();
+    //https://stackoverflow.com/questions/18624457/how-do-i-extract-only-alphabet-from-a-alphanumeric-string
+    // [^a-z] matches everything but a-z
+// the flag `g` means it should match multiple occasions
+// the flag `i` is in case sensitive which means that `A` and `a` is treated as the same character ( and `B,b`, `C,c` etc )  
+        
     
     if(tabTextLowcase == selectSubTab.toLowerCase())
     {

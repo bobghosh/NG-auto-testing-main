@@ -2,9 +2,9 @@
 { 
   let page = Aliases.browser.pageSapiensDecision2;
   
-  let subTabs = page.FindElements("//*[@aria-hidden='false']//ul//li//span");
+  let subTabs = page.FindElements("//div[contains(@aria-hidden,'false')]//a[contains(@class,'additional-info-container')]//parent::span");
   
-  Log.Message(subTabs.length);
+  //Log.Message(subTabs.length);
   
   for(let i=0 ; i< subTabs.length; i++)
   {
@@ -12,12 +12,17 @@
 
     let tabText = subTabs[i].textContent;
     
-    tabTextLowcase = tabText.substr(2).toLowerCase().trim();
+    tabTextLowcase = tabText.replace(/[^a-z]/gi, '').toLowerCase().trim();
+    //https://stackoverflow.com/questions/18624457/how-do-i-extract-only-alphabet-from-a-alphanumeric-string
+    // [^a-z] matches everything but a-z
+// the flag `g` means it should match multiple occasions
+// the flag `i` is in case sensitive which means that `A` and `a` is treated as the same character ( and `B,b`, `C,c` etc )  
+    
     
     if(tabTextLowcase == selectSubTab.toLowerCase())
     {
       let classofSubTasbs = subTabs[i].getAttribute('class')
-      Log.Message(classofSubTasbs)
+     // Log.Message(classofSubTasbs)
       if(classofSubTasbs.includes('tabs--selected'))
         {
           Log.Checkpoint(selectSubTab+"Tab is already selected")
@@ -25,7 +30,7 @@
       else
       {
       
-      subTabs[i].Click();
+      subTabs[i].click();
       if(!i==subTabs.length-1)
       {
         page.panel28.WaitProperty("VisibleOnScreen",false,50000);

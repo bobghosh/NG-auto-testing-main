@@ -115,7 +115,7 @@ else if((Flag=="true")&&((Asset_Type=="Knowledge Source")||(Asset_Type=="Fact Ty
     
     Log.Message("Heading of the Dialog is "+heading_dialog);
     Delay(1000);
-    page.FindElement("//button//i[@class='icon-close']").click();
+    //page.FindElement("//button//i[@class='icon-close']").click();
  
 }
 
@@ -129,9 +129,9 @@ else{
 
 
 
-function AI_Subtab_Open_Asset(SubTabName,Open_Asset,context_of_asset){
+function AI_Subtab_Open_Asset(Asset_Type,Open_Asset,context_of_asset){
   let classname;
-switch(SubTabName)
+switch(Asset_Type)
 {
   case "Flows":
    classname="icon-flow";
@@ -155,7 +155,7 @@ switch(SubTabName)
   
   default :
   classname="icon-knowledge_source";
-   Versions_Assets_withClassname("Knowledge Source",Compared_Assets,context_of_asset,classname);
+   Versions_Assets_withClassname("Knowledge Source",Open_Asset,context_of_asset,classname);
    break;
   
 }

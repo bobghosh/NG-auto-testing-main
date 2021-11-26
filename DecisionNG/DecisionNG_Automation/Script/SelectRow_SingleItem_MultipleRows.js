@@ -21,7 +21,7 @@
     do{
   
           ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr");
-          
+          Log.Message(ItemCount.length);
           for(var j = 1; j <= ItemCount.length ; j++)
           {
                 var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");

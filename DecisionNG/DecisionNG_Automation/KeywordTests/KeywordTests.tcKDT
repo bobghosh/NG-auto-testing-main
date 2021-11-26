@@ -52,6 +52,7 @@
 			<folder name="Fact Type">
 				<folder name="General">
 					<child name="FactTypeSummary_MoreDetailsLink_Click" key="{767BC81F-1D5E-41C3-B864-D2C489A15E92}" path="FactTypeSummary_MoreDetailsLink_Click.tcKDTest" />
+					<child name="FT_Approved_MoreDetails_Click" key="{2F83980E-1305-4A84-A831-D95E994B44D2}" path="FT_Approved_MoreDetails_Click.tcKDTest" />
 				</folder>
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
@@ -284,7 +285,7 @@
 				<folder name="Generic">
 					<child name="Switch_between_Task_tabs_Verify" key="{E4CD3483-03BE-48EC-A2DA-E67488B7E56F}" path="Switch_between_Task_tabs_Verify.tcKDTest" />
 					<child name="Switch_between_Asset_to_repository_" key="{495601B0-8609-43FE-AFC7-0742FEC538C1}" path="Switch_between_Asset_to_repository_.tcKDTest" />
-          <child name="AI_Reg_Pre_requisite" key="{E2E40A34-A146-4857-95F4-AB8390F58E81}" path="AI_Reg_Pre_requisite.tcKDTest" />
+					<child name="AI_Reg_Pre_requisite" key="{E2E40A34-A146-4857-95F4-AB8390F58E81}" path="AI_Reg_Pre_requisite.tcKDTest" />
 				</folder>
 				<folder name="Fact Types">
 					<child name="AI_Repo_Decision_FT_SwitchTabs1" key="{F1B335C7-5D8B-4DB7-B396-3C724DA3CA6F}" path="AI_Repo_Decision_FT_SwitchTabs1.tcKDTest" />
@@ -301,9 +302,24 @@
 					<child name="AI_Task_Decision_FT_Details_SwitchsubTabs1" key="{7AC1655D-0A28-4ECE-B6CA-924303452465}" path="AI_Task_Decision_FT_Details_SwitchsubTabs1.tcKDTest" />
 					<child name="AI_Task_Flow_GW_FT_Details_SwitchSubTabs1" key="{C6424794-0AFF-468E-846E-A1B512E31FED}" path="AI_Task_Flow_GW_FT_Details_SwitchSubTabs1.tcKDTest" />
 					<child name="AI_Repo_FT_Associations_Versions1" key="{69CA1E4B-60F0-4B58-A288-C46FA7CEA2AE}" path="AI_Repo_FT_Associations_Versions1.tcKDTest" />
-        </folder>
+					<child name="AI_Task_FT_Present_Click" key="{296A63E5-51D6-4888-99EB-C1777ED2A374}" path="AI_Task_FT_Present_Click.tcKDTest" />
+					<child name="AI_Task_FT_Not_Present_Btndisabled" key="{F5E56C90-7FC6-4E74-8F21-A58ED2AD2713}" path="AI_Task_FT_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Repo_FT_Not_Present_Btndisabled" key="{93221794-355E-4262-913A-A2894AFA7A81}" path="AI_Repo_FT_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Repo_Decision_FT_Present_Click" key="{F122016F-711B-4AEF-8476-DC3EC7D898E0}" path="AI_Repo_Decision_FT_Present_Click.tcKDTest" />
+					<child name="AI_Repo_Flow_GW_FT_Present_Click" key="{9EB412C5-1D92-49F1-A848-D8840E1D23CF}" path="AI_Repo_Flow_GW_FT_Present_Click.tcKDTest" />
+					<child name="AI_Task_FT_Associations_Versions" key="{30D12D1D-1CC6-45FA-B90F-DCE45CC2FB47}" path="AI_Task_FT_Associations_Versions.tcKDTest" />
+					<child name="AI_Task_FT_More_Details_AI_Verify" key="{D19B8AC5-CD0B-4114-A684-1A2DFB41A417}" path="AI_Task_FT_More_Details_AI_Verify.tcKDTest" />
+					<child name="AI_Repo_FT_More_Details_AI_Verify" key="{28D5C56E-42FF-48B9-B93A-7F49543AC0F7}" path="AI_Repo_FT_More_Details_AI_Verify.tcKDTest" />
+					<child name="AI_Repo_FT_Unused_Associations_Decisions" key="{7EEAF7DB-D633-486A-81EF-B020DACBCD90}" path="AI_Repo_FT_Unused_Associations_Decisions.tcKDTest" />
+					<child name="AI_Task_FT_Associations_Decisions" key="{28907704-AC53-4C0C-B223-4B4AF9E6E3B8}" path="AI_Task_FT_Associations_Decisions.tcKDTest" />
+					<child name="AI_Repo_FT_Versions_Open_Different_Version" key="{8B4E3140-AB29-4FFD-B88E-DEDE014A5188}" path="AI_Repo_FT_Versions_Open_Different_Version.tcKDTest" />
+				</folder>
 				<folder name="Knowledge Source" />
-				<folder name="RuleFamilies" />
+				<folder name="RuleFamilies">
+					<child name="AI_Task_RF_Present_Click" key="{ECF1E723-19C3-45DD-95C8-493ED3C01785}" path="AI_Task_RF_Present_Click.tcKDTest" />
+					<child name="AI_Task_RF_Not_Present_Btndisabled" key="{84E8D3AB-6151-4A4D-A874-609E5F36DE9D}" path="AI_Task_RF_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Present_Click" key="{8E42F25A-E9C8-4234-B539-0B0E1D304C04}" path="AI_Repo_Decision_RF_Present_Click.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Generic" />
 		</folder>
