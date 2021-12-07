@@ -41,6 +41,7 @@
 					<child name="DetailsTab_testValues_StringMultipleInput" key="{29130691-266F-441F-9EFC-F7842440A8FB}" path="DetailsTab_testValues_StringMultipleInput.js" />
 					<child name="Facttype_Availablility_Check" key="{2B585453-BCE2-46EF-89E1-967BDC17D297}" path="Facttype_Availablility_Check.js" />
 					<child name="FTSummary_Edit_Details" key="{77EBEE54-5626-4AD0-B295-11AEF2B1E76C}" path="FTSummary_Edit_Details.js" />
+					<child name="FT_EnableEditing_click" key="{13C44106-27B0-463A-B226-600C3C09249C}" path="FT_EnableEditing_click.js" />
 				</folder>
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{C513C999-C98D-4BE6-86C4-C6B46428A70D}" path="FactTypeTab_AddNewFactType_Verify.js" />
@@ -85,6 +86,7 @@
 				<child name="Message_Category_Add_Message" key="{00D6CB10-0259-4F6D-8967-A2540AD700A1}" path="Message_Category_Add_Message.js" />
 				<child name="Message_Category_AddColumn" key="{8760DD97-A102-4619-9304-1D7134A0CCF8}" path="Message_Category_AddColumn.js" />
 				<child name="Message_Catagory_Remove_Column" key="{E36F2E38-2C8C-431C-9D5B-0600BCFD5A03}" path="Message_Catagory_Remove_Column.js" />
+				<child name="RF_Select_Row_OR_Column_OR_Cell" key="{43732BD9-15E2-40A4-A0CD-90E3B255B45F}" path="RF_Select_Row_OR_Column_OR_Cell.js" />
 			</folder>
 			<folder name="Decision">
 				<child name="DRF_DBLClick_Open" key="{A8992DD3-ED1A-4E68-B880-4E8CDBFBC8CC}" path="DRF_DBLClick_Open.js" />
@@ -112,6 +114,8 @@
 				<child name="Add_Existing_Knowledge_Source" key="{3D6C596A-3D62-488F-8888-B4771B947689}" path="Add_Existing_Knowledge_Source.js" />
 				<child name="KS_Details_and_Associations" key="{17A498A1-0FDE-4C42-BC04-67A0128E22A8}" path="KS_Details_and_Associations.js" />
 				<child name="Verify_KS_Heading" key="{DAFC8042-3E63-49A4-AFDD-8E694B44605A}" path="Verify_KS_Heading.js" />
+				<child name="Existing_KS_Select_Edit" key="{D3718EAB-EA9F-4669-9575-1D9FF25D9C50}" path="Existing_KS_Select_Edit.js" />
+				<child name="KS_Edit_Details" key="{CAF4837E-30F2-4A99-9809-414D0A56BF0F}" path="KS_Edit_Details.js" />
 			</folder>
 			<folder name="Decision Flow">
 				<child name="FlowScreen_Add_Draft_Decision" key="{F9A40E76-DD26-40E9-B5D5-5ED83A93F1D2}" path="FlowScreen_Add_Draft_Decision.js" />
@@ -244,8 +248,14 @@
 					<child name="Verify_Version_User_Date_Sub_Text" key="{277DCB9A-27A8-4D6D-B046-ABFE6CE9B82C}" path="Verify_Version_User_Date_Sub_Text.js" />
 					<child name="Remove_Note" key="{CBBB5420-4DEA-40B1-B15D-3EE9F6D0714B}" path="Remove_Note.js" />
 					<child name="Verify_Subject_Text" key="{7F122013-B55F-4E15-BC07-7D013106F7E1}" path="Verify_Subject_Text.js" />
+					<child name="Edit_Existing_Notes_Subject_Text" key="{6C275B73-5501-4E08-AFD3-FB5430C4D93C}" path="Edit_Existing_Notes_Subject_Text.js" />
+					<child name="RF_Notes_Header_Label" key="{74EDA48E-BCD2-481A-ADE3-A06CA6512CC7}" path="RF_Notes_Header_Label.js" />
+					<child name="RF_Notes_Icon_Verify_RF_Row_Column_Cell" key="{F9F547E7-7D9D-4E95-95D7-7147EDF6148F}" path="RF_Notes_Icon_Verify_RF_Row_Column_Cell.js" />
 				</folder>
-				<folder name="General" />
+				<folder name="General">
+					<child name="Originating_Task_Open_OR_Verify" key="{7021F5D9-3AE1-4BF8-968B-1BA05311AE39}" path="Originating_Task_Open_OR_Verify.js" />
+					<child name="Location_in_Repo_Open_OR_Verify" key="{6564ABB1-099A-477B-9E63-81333E88AB45}" path="Location_in_Repo_Open_OR_Verify.js" />
+				</folder>
 				<folder name="Custom Properties">
 					<child name="AI_Enter_CustomProperties" key="{F8E720BA-329A-44CD-8656-5DB8A2E7A8CC}" path="AI_Enter_CustomProperties.js" />
 					<child name="Verify_If_Properties_Exists" key="{C8ACE3B9-90BA-4546-9518-5C8C18E3CD2D}" path="Verify_If_Properties_Exists.js" />

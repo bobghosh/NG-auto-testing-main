@@ -2065,6 +2065,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelDraft" Key="{4DC1DE2C-C913-4A63-99F1-5AA1A29D0D55}">
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//dcn-knowledge-source-form/dcn-laundry-line/div[contains(@class, &apos;laundry-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-31&apos;]//dcn-laundry-line/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-knowledge-source-form/dcn-laundry-line/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{2D9E57DA-D5F4-4439-B4DF-EDE3B93AAAD8}" ExtendedFind="True">
@@ -5871,6 +5885,34 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeTablecolumnheader4" Key="{E7A21073-0CC9-4AFE-84D5-D56A35CC9579}">
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tableColumnHeader4" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Institution Eligibility&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/div/div/dcn-fact-type-status-view//span[contains(@class, &apos;spec-fact-type-status-view__ft-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//div[5]//dcn-fact-type-status-view//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelInstitutionEligibility" Key="{1D2F16C0-7B06-432D-AE4A-F1BBC0096261}">
+										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//div[5]//div[contains(@class, &apos;u-flex-inline-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/div/div[5]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6935,6 +6977,7 @@
 					<Child Name="buttonCancel" Owner="{4B2D37F7-E678-496F-B00F-A9D3D17D55CA}" />
 					<Child Name="textboxName2" Owner="{19C3B489-BBFA-4D18-97A3-214EA1192090}" />
 					<Child Name="label2" Owner="{414433E8-16EA-4F8D-9EDC-2A8830ABCBA5}" />
+					<Child Name="panelDraft" Owner="{4DC1DE2C-C913-4A63-99F1-5AA1A29D0D55}" />
 				</Child>
 				<Child Name="panel2" Owner="{56CADA4F-3653-43DA-A3BD-9A729010ECE4}" />
 				<Child Name="panel3" Owner="{B4074330-8C03-41D7-A181-4A11B694B3FB}" />
@@ -7360,6 +7403,9 @@
 				<Child Name="textnode7_new10" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="textnode7_new11" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="panelMoreDetails" Owner="{112C199B-9865-412C-BC70-C65C46AF0CED}" />
+				<Child Name="textnode7_new12" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnodeTablecolumnheader4" Owner="{E7A21073-0CC9-4AFE-84D5-D56A35CC9579}" />
+				<Child Name="panelInstitutionEligibility" Owner="{1D2F16C0-7B06-432D-AE4A-F1BBC0096261}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">

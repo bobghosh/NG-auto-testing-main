@@ -7,7 +7,7 @@
   for(let i=0 ; i< mainTabs.length; i++)
   {
     let tabText = mainTabs[i].textContent;
-    Log.Message(tabText)
+   // Log.Message(tabText)
     if(tabText.toLowerCase() == selectMainTab.toLowerCase())
     {
       var istabSelected = mainTabs[i].getAttribute('aria-selected');

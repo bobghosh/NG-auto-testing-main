@@ -6,7 +6,7 @@
   let source_assets_array_xpath="//div[contains(@class,'sub-tab__list')]/dcn-link-label/parent::div";
   let source_assets_array= page.FindElements(source_assets_array_xpath);
   
-  Log.Message("No of Versions displayed in Additional info"+source_assets_array.length);
+  Log.Message("No of assets displayed in Additional info"+source_assets_array.length);
   let Flag;
   let compared_assets_array=compared_assets.toString().split(",");
 for(let i=0;i<compared_assets_array.length;i++)

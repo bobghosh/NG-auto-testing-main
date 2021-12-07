@@ -6,3 +6,4 @@
   //(//*[@class='breadcrumb ng-star-inserted']//dcn-breadcrumb-popup)[1] - dropdown
 
 }
+module.exports.Breadcrumb = Breadcrumb;
