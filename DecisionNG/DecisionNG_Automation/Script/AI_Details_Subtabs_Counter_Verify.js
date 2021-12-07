@@ -2,7 +2,7 @@
   let page= Aliases.browser.pageSapiensDecision;
   let Counter=page.findElements(Xpath_SubTab);
   let Counter_len=Counter.length;
- // Log.Message(Counter_len);
+ //Log.Message(Counter_len);
   let subTabs=page.FindElements("//div[contains(@aria-hidden,'false')]//a[contains(@class,'additional-info-container')]");
   
  for(let i=0 ; i< subTabs.length; i++)
@@ -10,7 +10,7 @@
    let tabText = subTabs[i].textContent;
     let tabTextLowcase = tabText.replace(/[^a-z\s]/gi, '').toLowerCase().trim() 
     //https://stackoverflow.com/questions/18624457/how-do-i-extract-only-alphabet-from-a-alphanumeric-string
-    // [^a-z] matches everything but a-z
+    // [^a-z] matches everything but a-z and \s for space
 // the flag `g` means it should match multiple occasions
 // the flag `i` is in case sensitive which means that `A` and `a` is treated as the same character ( and `B,b`, `C,c` etc )   
     

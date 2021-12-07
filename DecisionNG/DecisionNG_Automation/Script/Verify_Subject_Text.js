@@ -5,7 +5,7 @@
   var firstNoteSubjectTextarea = page.FindElement("//div[@class='note-list additional-info-notes-list__form']/div[1]//label[text()=' Subject ']//following-sibling::div");
   var subjectText = OCR.Recognize(firstNoteSubjectTextarea).FullText.trim();
   
-  Log.Message(subjectText);
+  //Log.Message(subjectText);
   
   if(subjectText == Subject)
   {
@@ -25,9 +25,10 @@ function Verify_Text(Text)
   var firstNoteTextTextarea = page.FindElement("//div[@class='note-list additional-info-notes-list__form']/div[1]//label[text()=' Text ']//following-sibling::div");
   var text = OCR.Recognize(firstNoteTextTextarea).FullText.trim();
   
-  Log.Message(text);
+//  Log.Message(text);
+//  Log.Message(Text)
   
-  if(text == Text)
+  if(text == Text.trim())
   {
     Log.Checkpoint("Text is updated as expected");
   }
