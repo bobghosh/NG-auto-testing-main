@@ -3,11 +3,11 @@
   let page = Aliases.browser.pageSapiensDecision2;
   
   let mainTabs = page.FindElements("//p-tabview/div/ul/li[@role='presentation']/a")
-  Log.Message(mainTabs.length)
+  //Log.Message(mainTabs.length)
   for(let i=0 ; i< mainTabs.length; i++)
   {
     let tabText = mainTabs[i].textContent;
-    Log.Message(tabText)
+    //Log.Message(tabText)
     if(tabText.toLowerCase() == selectMainTab.toLowerCase())
     {
       var istabSelected = mainTabs[i].getAttribute('aria-selected');
@@ -21,7 +21,7 @@
       //page.panel28.WaitProperty("VisibleOnScreen",false,30000);
       Delay(1000)
       let attr= mainTabs[i].getAttribute("aria-selected");
-      Log.Message(attr);
+      //Log.Message(attr);
       if(attr == 'true')
       {
         Log.Checkpoint(""+selectMainTab+" Tab is selected successfully");

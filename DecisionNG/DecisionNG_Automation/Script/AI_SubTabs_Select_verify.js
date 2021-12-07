@@ -12,12 +12,11 @@
 
     let tabText = subTabs[i].textContent;
     
-    tabTextLowcase = tabText.replace(/[^a-z]/gi, '').toLowerCase().trim();
+   tabTextLowcase = tabText.replace(/[^a-z\s]/gi, '').toLowerCase().trim();
     //https://stackoverflow.com/questions/18624457/how-do-i-extract-only-alphabet-from-a-alphanumeric-string
     // [^a-z] matches everything but a-z
 // the flag `g` means it should match multiple occasions
 // the flag `i` is in case sensitive which means that `A` and `a` is treated as the same character ( and `B,b`, `C,c` etc )  
-    
     
     if(tabTextLowcase == selectSubTab.toLowerCase())
     {
