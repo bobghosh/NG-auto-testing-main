@@ -26,6 +26,7 @@ function GetTextBlockCustom(anObject, aPattern)
     {
       let re = new RegExp(aPattern);
       Log.Message(re)
+      Log.Message(obj.Block(i).Text);
       Matches = obj.Block(i).Text.match(re);
       if (Matches != null)
       {

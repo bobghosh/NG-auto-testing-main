@@ -12,7 +12,7 @@
       Paginator = "No";
     }
     
-    Log.Message(Paginator);
+    //Log.Message(Paginator);
     
     let hasNext = "true";
     
@@ -32,7 +32,7 @@
                         page.FindElement("//dcn-expandable-selectable-list-item["+k+"]//i[contains(@class,'"+Asset_path+"')]").click();
                         flag ="1";
                         //class="ui-selectable-row ng-star-inserted ui-state-highlight"
-                        Log.Message("Asset is Selected")  
+                        //Log.Message("Asset is Selected")  
                  }
                  if(flag == "1")
                  {
@@ -52,8 +52,16 @@
             }
             else
             {
-              page.FindElement("//*[contains(@class,'i-paginator-next')]").click();  
-              Delay(2000);       
+              if(page.FindElement("//*[contains(@class,'i-paginator-next')]").VisibleOnScreen)
+              {
+                page.FindElement("//*[contains(@class,'i-paginator-next')]").click();  
+                Delay(2000)
+              }
+              else
+              {
+                hasNext="fasle";
+                break;
+              }
             }
           }
           else

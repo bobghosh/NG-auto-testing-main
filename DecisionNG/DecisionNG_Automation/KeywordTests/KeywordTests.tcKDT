@@ -272,6 +272,13 @@
 					<child name="AI_Tasks_DV_Associations_Switch_SubTabs" key="{B2F8B28F-9CDB-4516-8FDC-C291B9FE3D5E}" path="AI_Tasks_DV_Associations_Switch_SubTabs.tcKDTest" />
 					<child name="AI_Repo_DV_Deployments_Switch_SubTab" key="{321ED025-9B67-4C97-855D-369592DBEF32}" path="AI_Repo_DV_Deployments_Switch_SubTab.tcKDTest" />
 					<child name="AI_Tasks_DV_Deployments_Switch_SubTab" key="{C3B08657-786D-405A-BAA6-FDCED5E04304}" path="AI_Tasks_DV_Deployments_Switch_SubTab.tcKDTest" />
+					<child name="AI_Repo_Dec_Open_RF_Context" key="{0D080CE5-71E7-42CB-A08B-CB6FD1BBF6DD}" path="AI_Repo_Dec_Open_RF_Context.tcKDTest" />
+					<child name="AI_Tasks_Decision_Open_Draft_RF" key="{2FDFC399-16AD-40DC-96AD-5DAFA60DE8A9}" path="AI_Tasks_Decision_Open_Draft_RF.tcKDTest" />
+					<child name="AI_Repo_DV_Open_Another_Version" key="{F0D08D6D-E24F-43D6-B397-8E8E4E3189E9}" path="AI_Repo_DV_Open_Another_Version.tcKDTest" />
+					<child name="AI_Repo_DV_Views_Open_Decision" key="{33E17EF1-97B6-44BF-B8BF-33942E67686C}" path="AI_Repo_DV_Views_Open_Decision.tcKDTest" />
+					<child name="AI_Tasks_DV_Expand_Collapse" key="{B12D7C91-CE74-45DC-9E50-0A514F70F6F5}" path="AI_Tasks_DV_Expand_Collapse.tcKDTest" />
+					<child name="AI_Tasks_DV_Details_Origination_Task" key="{8EDDB1DF-EBAF-4EB8-85E5-B8FE337C32AC}" path="AI_Tasks_DV_Details_Origination_Task.tcKDTest" />
+					<child name="AI_Tasks_Decision_Details_Add_Edit_Notes" key="{C4F21618-1AC7-4E5E-A25E-A6D95C1525B5}" path="AI_Tasks_Decision_Details_Add_Edit_Notes.tcKDTest" />
 				</folder>
 				<folder name="Flow">
 					<child name="AI_Repo_Present_Click" key="{84E23426-855D-4B49-B31E-1334A3880F8D}" path="AI_Repo_Present_Click.tcKDTest" />
@@ -291,6 +298,15 @@
 					<child name="AI_Tasks_Draft_Flow_Association_Switch_SubTab" key="{CF697710-1FCA-4F59-8865-67DE724744FF}" path="AI_Tasks_Draft_Flow_Association_Switch_SubTab.tcKDTest" />
 					<child name="AI_Repo_Flow_Deployments_Switch_SubTab" key="{F18C70A9-6899-4F6B-B1DA-8560C35B2CF1}" path="AI_Repo_Flow_Deployments_Switch_SubTab.tcKDTest" />
 					<child name="AI_Tasks_Flow_Deployments_Switch_SubTab" key="{F8C438E8-E315-46C7-BF64-149CAD994FC9}" path="AI_Tasks_Flow_Deployments_Switch_SubTab.tcKDTest" />
+					<child name="AI_Repo_DecisionTab_Approved_Decision_Open" key="{F47FA716-4961-4A5C-83B2-C4BC983FFD89}" path="AI_Repo_DecisionTab_Approved_Decision_Open.tcKDTest" />
+					<child name="AI_Tasks_Flow_DecisionTab_Open_Draft_Decision" key="{DFD90545-6E6B-47BB-8480-1AA72FC08676}" path="AI_Tasks_Flow_DecisionTab_Open_Draft_Decision.tcKDTest" />
+					<child name="AI_Repo_Flow_Open_ApprovedFlow" key="{753EDD7C-6BFE-40E4-BFA7-98C6475A06EB}" path="AI_Repo_Flow_Open_ApprovedFlow.tcKDTest" />
+					<child name="AI_Tasks_Flow_Details_Origination_Task" key="{A7BACADA-05A7-46C2-B9B1-10FE0CDBBD17}" path="AI_Tasks_Flow_Details_Origination_Task.tcKDTest" />
+					<child name="AI_Tasks_Flow_DecisionTab_Open_Approved_Decision" key="{794F9F6C-46BB-4690-94EB-5AB3A5BB2E6C}" path="AI_Tasks_Flow_DecisionTab_Open_Approved_Decision.tcKDTest" />
+					<child name="AI_Repo_Flow_SubFlow_Verifiction" key="{DADA02E7-42FE-4D33-9125-D7AEE92FE12A}" path="AI_Repo_Flow_SubFlow_Verifiction.tcKDTest" />
+					<child name="AI_Tasks_Flow_Details_Add_Edit_Notes" key="{DE992A84-EE61-402B-B736-DF9549137BED}" path="AI_Tasks_Flow_Details_Add_Edit_Notes.tcKDTest" />
+					<child name="AI_Repo_Flow_Properties_Edit_Delete" key="{EA7A2B6E-A5E5-4429-BAF5-2A44D88B6930}" path="AI_Repo_Flow_Properties_Edit_Delete.tcKDTest" />
+					<child name="AI_Tasks_Flow_Properties_Edit_Delete" key="{A85FB29F-BCA8-4953-AF34-7CDC9798D0B3}" path="AI_Tasks_Flow_Properties_Edit_Delete.tcKDTest" />
 				</folder>
 				<folder name="Generic">
 					<child name="Switch_between_Task_tabs_Verify" key="{E4CD3483-03BE-48EC-A2DA-E67488B7E56F}" path="Switch_between_Task_tabs_Verify.tcKDTest" />

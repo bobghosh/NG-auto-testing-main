@@ -1,5 +1,4 @@
 ﻿function Edit_Existing_Notes(Sub_Existing_Notes,Sub_Updated_Notes,Text_to_Update){
-  
 let page = Aliases.browser.pageSapiensDecision2;
 let Sub_Elements=page.FindElements("//div[contains(@class,'note-list additional-info')]//label[contains(text(),'Subject')]//following-sibling::div//input");
 let flag="false";

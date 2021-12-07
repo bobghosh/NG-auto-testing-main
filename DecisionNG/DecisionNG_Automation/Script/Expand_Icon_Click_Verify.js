@@ -1,7 +1,7 @@
 ﻿function Community_Expand_Verify(CommunityName)
 { 
   CommunityArray= CommunityName.toString().split(",");
-  Log.Message(CommunityArray.length);
+  //Log.Message(CommunityArray.length);
   for(let i=0;i<CommunityArray.length;i++)
   {
     Delay(500);

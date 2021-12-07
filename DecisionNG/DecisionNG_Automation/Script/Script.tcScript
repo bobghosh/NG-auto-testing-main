@@ -268,7 +268,12 @@
 				<child name="AI_Associations_Subtabs_Counter_Verify" key="{F926858A-C0A1-4AF2-8BCA-EF7CA16C7166}" path="AI_Associations_Subtabs_Counter_Verify.js" />
 				<child name="AI_No_Assets_Verify" key="{6B04C971-9F2D-49F1-85CF-99BA30F46085}" path="AI_No_Assets_Verify.js" />
 			</folder>
-			<folder name="Deployments" />
+			<folder name="Deployments">
+				<child name="AI_Latest_Revisions_Verify" key="{C1BD68D3-DFE2-46BF-9920-DD3DFC106D85}" path="AI_Latest_Revisions_Verify.js" />
+				<child name="AI_Tags_Verify" key="{C84B94E3-3151-4738-8302-E5268B8CF1CA}" path="AI_Tags_Verify.js" />
+				<child name="AI_LatestRevisions_Open" key="{8CF60B8B-9932-44FF-A82B-60B670961997}" path="AI_LatestRevisions_Open.js" />
+				<child name="AI_Tags_OpenTag" key="{F0363064-4D03-4A08-B794-8267D00BE76C}" path="AI_Tags_OpenTag.js" />
+			</folder>
 			<folder name="Generic">
 				<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
 				<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
@@ -279,6 +284,9 @@
 				<child name="AI_Click_Open" key="{CBA6E44A-4B30-4CBE-A9D0-5B63764EE1B2}" path="AI_Click_Open.js" />
 				<child name="AI_Reg_Create_New_Task" key="{E7FB7474-6268-4C56-86BE-324945C18C65}" path="AI_Reg_Create_New_Task.js" />
 				<child name="AI_Details_Subtabs_Counter_Verify" key="{AF5C9D20-8D5A-4945-AFCF-E98EF422DB9D}" path="AI_Details_Subtabs_Counter_Verify.js" />
+				<child name="AI_Expand_Icon_Click_Verify" key="{8742C331-AC45-40C2-BC6E-C6615E8D80B0}" path="AI_Expand_Icon_Click_Verify.js" />
+				<child name="AI_Collapse_Icon_Click_Verify" key="{280A5B08-35FE-4230-8053-C513BE009B21}" path="AI_Collapse_Icon_Click_Verify.js" />
+				<child name="AI_Cust_Properties_Edit" key="{84F1E012-15AB-4A64-BBBB-0DC45F5330EF}" path="AI_Cust_Properties_Edit.js" />
 			</folder>
 		</folder>
 		<folder name="Page Navigations">
