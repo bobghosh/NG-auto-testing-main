@@ -9,7 +9,7 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
   
   let expander_icon_assets=page.FindElements(source_assets_array_xpath+"//parent::div//div[contains(@class,'item__expander-icon--wrapper')]");
   
-  Log.Message("No of Versions displayed in Additional info"+source_assets_array.length);
+  //Log.Message("No of Versions displayed in Additional info"+source_assets_array.length);
   let Flag;
   //let compared_assets_array=compared_assets.toString().split(",");
 //for(let i=0;i<compared_assets_array.length;i++)

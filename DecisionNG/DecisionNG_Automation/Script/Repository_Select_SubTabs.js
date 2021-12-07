@@ -5,13 +5,13 @@
   
   let subTabs = page.FindElements("//*[@aria-hidden='false']//ul//li//span//parent::a");
   
-  Log.Message(subTabs.length);
+  //Log.Message(subTabs.length);
   
   for(let i=0 ; i< subTabs.length; i++)
   {
     
     let tabText = subTabs[i].textContent;
-    Log.Message(tabText)
+    //Log.Message(tabText)
     tabTextLowcase = tabText.toLowerCase().trim();
     
     if(tabTextLowcase == selectSubTab.toLowerCase())

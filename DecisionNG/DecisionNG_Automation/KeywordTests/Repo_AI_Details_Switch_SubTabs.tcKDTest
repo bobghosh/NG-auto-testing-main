@@ -89,11 +89,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{99D9B85B-0A21-40E4-B11E-09AE285DC321}">
-		<Parameter0 Name="CommunityName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD,Insurance" Description="" />
-		<Parameter1 Name="SelectOption_Community_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Community" Description="" />
-		<Parameter2 Name="Community_VG_Foldername" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="P&amp;C Underwriting Community" Description="" />
-		<Parameter3 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decision Flows" Description="" />
-		<Parameter4 Name="FlowName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Policy Renewal Method Flow [V1.3]" Description="" />
-	</Parameters>
+	<Parameters Key="{99D9B85B-0A21-40E4-B11E-09AE285DC321}" />
 </Root>
