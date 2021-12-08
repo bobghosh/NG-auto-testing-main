@@ -108,7 +108,9 @@
 				<folder name="Pre-requisite" />
 			</folder>
 			<folder name="Knowledge Source">
-				<folder name="General" />
+				<folder name="General">
+					<child name="Edit_Existing_KS_from_Asset" key="{D6CF0BB3-493E-43F0-9FD5-09D6746D2295}" path="Edit_Existing_KS_from_Asset.tcKDTest" />
+				</folder>
 				<folder name="Test Case Specific" />
 				<folder name="Pre-requisite" />
 			</folder>
@@ -312,20 +314,20 @@
 					<child name="AI_Reg_Pre_requisite" key="{E2E40A34-A146-4857-95F4-AB8390F58E81}" path="AI_Reg_Pre_requisite.tcKDTest" />
 				</folder>
 				<folder name="Fact Types">
-					<child name="AI_Repo_Decision_FT_SwitchTabs1" key="{F1B335C7-5D8B-4DB7-B396-3C724DA3CA6F}" path="AI_Repo_Decision_FT_SwitchTabs1.tcKDTest" />
-					<child name="AI_Repo_Flow_GW_FT_SwitchTabs1" key="{68C00098-F04D-4C13-BE14-65FF166C894C}" path="AI_Repo_Flow_GW_FT_SwitchTabs1.tcKDTest" />
-					<child name="AI_Repo_Decision_FT_Details_SwitchSubTabs1" key="{F4427053-697B-4C75-91CF-6286908FCD89}" path="AI_Repo_Decision_FT_Details_SwitchSubTabs1.tcKDTest" />
-					<child name="AI_Repo_Flow_GW_FT_Details_SwitchSubTabs1" key="{21CF03B3-605F-4856-B92A-E7778B58D88F}" path="AI_Repo_Flow_GW_FT_Details_SwitchSubTabs1.tcKDTest" />
-					<child name="AI_Task_FT_SwitchTabs1" key="{2CA4D7D2-7425-4EC7-A229-EBB93E3F5DDD}" path="AI_Task_FT_SwitchTabs1.tcKDTest" />
-					<child name="AI_Task_FT_Details_SwitchSubTabs1" key="{33B4AD47-01EA-46E8-BCD7-E51FEFFA59E2}" path="AI_Task_FT_Details_SwitchSubTabs1.tcKDTest" />
-					<child name="AI_Repo_FT_Associations_SwitchSubTabs1" key="{1DD5F9F8-B248-464C-BF28-37817B6722A5}" path="AI_Repo_FT_Associations_SwitchSubTabs1.tcKDTest" />
-					<child name="AI_Task_FT_Associations_SwitchSubTabs1" key="{0BEF8A6C-9AB1-4EF0-85F3-A4A42EEC9F2C}" path="AI_Task_FT_Associations_SwitchSubTabs1.tcKDTest" />
-					<child name="AI_Repo_FT_Associations_Decisions1" key="{A079C080-791F-4047-935A-5F229CF0F1AF}" path="AI_Repo_FT_Associations_Decisions1.tcKDTest" />
-					<child name="AI_Task_Decision_FT_SwitchTabs1" key="{2387A834-7275-4695-BDC1-02CFAD970C71}" path="AI_Task_Decision_FT_SwitchTabs1.tcKDTest" />
-					<child name="AI_Task_Flow_GW_FT_SwitchTabs1" key="{DB9E5626-794B-458B-905B-AF5A96663E2D}" path="AI_Task_Flow_GW_FT_SwitchTabs1.tcKDTest" />
-					<child name="AI_Task_Decision_FT_Details_SwitchsubTabs1" key="{7AC1655D-0A28-4ECE-B6CA-924303452465}" path="AI_Task_Decision_FT_Details_SwitchsubTabs1.tcKDTest" />
-					<child name="AI_Task_Flow_GW_FT_Details_SwitchSubTabs1" key="{C6424794-0AFF-468E-846E-A1B512E31FED}" path="AI_Task_Flow_GW_FT_Details_SwitchSubTabs1.tcKDTest" />
-					<child name="AI_Repo_FT_Associations_Versions1" key="{69CA1E4B-60F0-4B58-A288-C46FA7CEA2AE}" path="AI_Repo_FT_Associations_Versions1.tcKDTest" />
+					<child name="AI_Repo_Decision_FT_SwitchTabs" key="{F1B335C7-5D8B-4DB7-B396-3C724DA3CA6F}" path="AI_Repo_Decision_FT_SwitchTabs.tcKDTest" />
+					<child name="AI_Repo_Flow_GW_FT_SwitchTabs" key="{68C00098-F04D-4C13-BE14-65FF166C894C}" path="AI_Repo_Flow_GW_FT_SwitchTabs.tcKDTest" />
+					<child name="AI_Repo_Decision_FT_Details_SwitchSubTabs" key="{F4427053-697B-4C75-91CF-6286908FCD89}" path="AI_Repo_Decision_FT_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_Flow_GW_FT_Details_SwitchSubTabs" key="{21CF03B3-605F-4856-B92A-E7778B58D88F}" path="AI_Repo_Flow_GW_FT_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Task_FT_SwitchTabs" key="{2CA4D7D2-7425-4EC7-A229-EBB93E3F5DDD}" path="AI_Task_FT_SwitchTabs.tcKDTest" />
+					<child name="AI_Task_FT_Details_SwitchSubTabs" key="{33B4AD47-01EA-46E8-BCD7-E51FEFFA59E2}" path="AI_Task_FT_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_FT_Associations_SwitchSubTabs" key="{1DD5F9F8-B248-464C-BF28-37817B6722A5}" path="AI_Repo_FT_Associations_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Task_FT_Associations_SwitchSubTabs" key="{0BEF8A6C-9AB1-4EF0-85F3-A4A42EEC9F2C}" path="AI_Task_FT_Associations_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_FT_Associations_Decisions" key="{A079C080-791F-4047-935A-5F229CF0F1AF}" path="AI_Repo_FT_Associations_Decisions.tcKDTest" />
+					<child name="AI_Task_Decision_FT_SwitchTabs" key="{2387A834-7275-4695-BDC1-02CFAD970C71}" path="AI_Task_Decision_FT_SwitchTabs.tcKDTest" />
+					<child name="AI_Task_Flow_GW_FT_SwitchTabs" key="{DB9E5626-794B-458B-905B-AF5A96663E2D}" path="AI_Task_Flow_GW_FT_SwitchTabs.tcKDTest" />
+					<child name="AI_Task_Decision_FT_Details_SwitchsubTabs" key="{7AC1655D-0A28-4ECE-B6CA-924303452465}" path="AI_Task_Decision_FT_Details_SwitchsubTabs.tcKDTest" />
+					<child name="AI_Task_Flow_GW_FT_Details_SwitchSubTabs" key="{C6424794-0AFF-468E-846E-A1B512E31FED}" path="AI_Task_Flow_GW_FT_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_FT_Associations_Versions" key="{69CA1E4B-60F0-4B58-A288-C46FA7CEA2AE}" path="AI_Repo_FT_Associations_Versions.tcKDTest" />
 					<child name="AI_Task_FT_Present_Click" key="{296A63E5-51D6-4888-99EB-C1777ED2A374}" path="AI_Task_FT_Present_Click.tcKDTest" />
 					<child name="AI_Task_FT_Not_Present_Btndisabled" key="{F5E56C90-7FC6-4E74-8F21-A58ED2AD2713}" path="AI_Task_FT_Not_Present_Btndisabled.tcKDTest" />
 					<child name="AI_Repo_FT_Not_Present_Btndisabled" key="{93221794-355E-4262-913A-A2894AFA7A81}" path="AI_Repo_FT_Not_Present_Btndisabled.tcKDTest" />
@@ -337,15 +339,52 @@
 					<child name="AI_Repo_FT_Unused_Associations_Decisions" key="{7EEAF7DB-D633-486A-81EF-B020DACBCD90}" path="AI_Repo_FT_Unused_Associations_Decisions.tcKDTest" />
 					<child name="AI_Task_FT_Associations_Decisions" key="{28907704-AC53-4C0C-B223-4B4AF9E6E3B8}" path="AI_Task_FT_Associations_Decisions.tcKDTest" />
 					<child name="AI_Repo_FT_Versions_Open_Different_Version" key="{8B4E3140-AB29-4FFD-B88E-DEDE014A5188}" path="AI_Repo_FT_Versions_Open_Different_Version.tcKDTest" />
+					<child name="AI_Task_FT_OriginatingTask_Open" key="{D810E118-F329-4F85-9189-385175C89C05}" path="AI_Task_FT_OriginatingTask_Open.tcKDTest" />
+					<child name="AI_Repo_FT_Details_Location_in_Repo" key="{EC871800-3DD5-42CB-A2C2-26CE88EDC23E}" path="AI_Repo_FT_Details_Location_in_Repo.tcKDTest" />
+					<child name="AI_Task_FT_Details_Notes" key="{68B5C6D3-C0F6-4505-8F29-CB7B728BB2F4}" path="AI_Task_FT_Details_Notes.tcKDTest" />
 				</folder>
-				<folder name="Knowledge Source" />
+				<folder name="Knowledge Source">
+					<child name="AI_Task_KS_Present_Click" key="{440FCE14-5A2E-445A-93A4-EB2E76D0B603}" path="AI_Task_KS_Present_Click.tcKDTest" />
+					<child name="AI_Task_KS_Not_Present_Btndisabled" key="{6D7D3A85-6E54-4BCD-B7CB-3E345BE14D28}" path="AI_Task_KS_Not_Present_Btndisabled.tcKDTest" />
+					<child name="AI_Task_KS_SwitchTabs" key="{A9976301-7A24-414F-B988-B4D942A97694}" path="AI_Task_KS_SwitchTabs.tcKDTest" />
+					<child name="AI_Task_KS_Details_SwitchSubTabs" key="{FAA471BB-3301-4236-B671-B6AD56983AFB}" path="AI_Task_KS_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Task_KS_Associations_SwitchSubTabs" key="{66423E44-612B-4C95-B2D5-406B2C168C8A}" path="AI_Task_KS_Associations_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_KS_Associations_SwitchSubTabs" key="{78B4B708-89AF-473F-81C6-4F525FBAB68C}" path="AI_Repo_KS_Associations_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Task_KS_Associations_Decisions" key="{6EB13AC9-72F6-46CB-865F-F86BE88D3531}" path="AI_Task_KS_Associations_Decisions.tcKDTest" />
+					<child name="AI_Repo_KS_Associations_Decisions" key="{308A3EE2-0196-4028-A85F-02773CB53965}" path="AI_Repo_KS_Associations_Decisions.tcKDTest" />
+					<child name="AI_Repo_KS_No_Associated_Decisions" key="{CE7D532F-342A-4D06-812D-875344F3F64B}" path="AI_Repo_KS_No_Associated_Decisions.tcKDTest" />
+					<child name="AI_Repo_KS_Associations_Versions" key="{EBE9B325-5B02-41F7-B424-523DAAE210E9}" path="AI_Repo_KS_Associations_Versions.tcKDTest" />
+					<child name="AI_Task_KS_Associations_Versions" key="{B1F2D0F7-E6F8-4FDE-824B-3F4CF29911EA}" path="AI_Task_KS_Associations_Versions.tcKDTest" />
+				</folder>
 				<folder name="RuleFamilies">
 					<child name="AI_Task_RF_Present_Click" key="{ECF1E723-19C3-45DD-95C8-493ED3C01785}" path="AI_Task_RF_Present_Click.tcKDTest" />
 					<child name="AI_Task_RF_Not_Present_Btndisabled" key="{84E8D3AB-6151-4A4D-A874-609E5F36DE9D}" path="AI_Task_RF_Not_Present_Btndisabled.tcKDTest" />
 					<child name="AI_Repo_Decision_RF_Present_Click" key="{8E42F25A-E9C8-4234-B539-0B0E1D304C04}" path="AI_Repo_Decision_RF_Present_Click.tcKDTest" />
+					<child name="AI_Task_Decision_Approved_RF_SwitchTabs" key="{48454F6B-4550-49FB-9170-7165FBA7E68B}" path="AI_Task_Decision_Approved_RF_SwitchTabs.tcKDTest" />
+					<child name="AI_Task_Draft_RF_SwitchTabs" key="{CD759835-887B-4A0D-BFC1-A1865EE094FD}" path="AI_Task_Draft_RF_SwitchTabs.tcKDTest" />
+					<child name="AI_Task_DV_Approved_RF_Details_SwitchSubTabs" key="{ED6A7286-E7A6-45A2-B5A8-771031CF6CAA}" path="AI_Task_DV_Approved_RF_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Task_Draft_RF_Details_SwitchSubTabs" key="{9C640996-18F3-44EA-9EB4-FDE596AC79DB}" path="AI_Task_Draft_RF_Details_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_DV_RF_Multiple_Views_Different_Versions" key="{2935E8B7-48FE-41F5-8FF1-AB0F9BB88F4B}" path="AI_Repo_DV_RF_Multiple_Views_Different_Versions.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Associations_SwitchSubTabs" key="{7B2B58A8-718F-4252-9FAE-F092C9E8FC41}" path="AI_Repo_Decision_RF_Associations_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Task_RF_Associations_SwitchSubTabs" key="{E23B2495-5A43-48CA-8979-5EF7554F0FEB}" path="AI_Task_RF_Associations_SwitchSubTabs.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Associations_Versions" key="{DEDD5B66-94AD-403E-A4F5-29C97359C4C7}" path="AI_Repo_Decision_RF_Associations_Versions.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Associations_Views" key="{B3817BC6-FF13-4A7E-8A44-9DA9BE5F79B5}" path="AI_Repo_Decision_RF_Associations_Views.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Associations_Decisions" key="{4634D59C-BD4F-4D00-A003-CE114E46D88A}" path="AI_Repo_Decision_RF_Associations_Decisions.tcKDTest" />
+					<child name="AI_Task_RF_Associations_Versions" key="{D0610A07-5478-4EE5-B8A6-D12CDB10F269}" path="AI_Task_RF_Associations_Versions.tcKDTest" />
+					<child name="AI_Task_RF_Associations_Views" key="{D5BA2992-6F63-41EE-9292-5627AA991155}" path="AI_Task_RF_Associations_Views.tcKDTest" />
+					<child name="AI_Task_RF_Associations_FT_Open_Approved_FT" key="{E540F2A0-2E65-4EC8-9D7D-0531232D63AA}" path="AI_Task_RF_Associations_FT_Open_Approved_FT.tcKDTest" />
+					<child name="AI_Task_RF_Associations_FactTypes_Open_Draft_FT" key="{8E602793-D6F9-4FAB-A7DA-7853BB5BACDB}" path="AI_Task_RF_Associations_FactTypes_Open_Draft_FT.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Associations_FT_Open_FT" key="{E67C6334-6891-48A2-BD76-AFB3059F8BBE}" path="AI_Repo_Decision_RF_Associations_FT_Open_FT.tcKDTest" />
+					<child name="AI_Task_RF_OriginatingTask_Open" key="{981F779B-5F1D-45C9-9D88-19223384F07B}" path="AI_Task_RF_OriginatingTask_Open.tcKDTest" />
+					<child name="AI_Task_RF_Details_Notes" key="{80E32B21-7C55-4436-9AAE-9F58004FCD61}" path="AI_Task_RF_Details_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Row_Details_Notes" key="{834FBFE8-68D9-4CBE-B7D1-ED4FEFFAD051}" path="AI_Task_RF_Row_Details_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Column_Details_Notes" key="{77E6049E-1C17-44D0-BE8C-66BA4C2DE3D1}" path="AI_Task_RF_Column_Details_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Cell_Details_Notes" key="{955C01C8-B5EE-4139-8E9F-7AF76A600DA8}" path="AI_Task_RF_Cell_Details_Notes.tcKDTest" />
 				</folder>
 			</folder>
-			<folder name="Generic" />
+			<folder name="Generic">
+				<child name="Add_New_Notes" key="{16EE1518-9348-470B-ADE2-5E86A544E8E9}" path="Add_New_Notes.tcKDTest" />
+			</folder>
 		</folder>
 	</children>
 </Root>

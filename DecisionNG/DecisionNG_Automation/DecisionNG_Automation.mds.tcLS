@@ -88,7 +88,7 @@
 					</Node>
 					<Node name="var23">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003700310033003100310035003600"/>
+							<Prp name="strvalue" type="H" value="410049005F00540065007300740020004300610073006500200049004400200038003800320038005F00390036003000310031003800"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
@@ -181,6 +181,12 @@
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="Create_New_FactType"/>
+					</Node>
+					<Node name="var40">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2000560061006C00690064006100740065002000540075006900740069006F006E00200046006500650020004C006F0061006E005F004B0053005F004100750074006F005F004100640064005F0049006E0066006F0020005B003100300039002E0030005D00"/>
+						</Node>
+						<Prp name="name" type="S" value="Additional_Info_Draft_KS_Name"/>
 					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>
