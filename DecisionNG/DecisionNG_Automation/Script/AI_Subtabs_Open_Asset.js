@@ -4,7 +4,7 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
   // Function for Opening asset from subtabs
   let page =Aliases.browser.pageSapiensDecision2
   Delay(1000);
-  let source_assets_array_xpath="//dcn-additional-info//i[contains(@class,'"+classname+" icon')]//ancestor::div[contains(@class,'sub-tab__list')]"; 
+  let source_assets_array_xpath="//dcn-additional-info//i[contains(@class,'"+classname+"')]//ancestor::div[contains(@class,'sub-tab__list')]"; 
   let source_assets_array= page.FindElements(source_assets_array_xpath);
   
   let expander_icon_assets=page.FindElements("//div[contains(@class,'item__expander-icon--wrapper')]");
@@ -49,8 +49,7 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
      }
   //ends verification on status icon 
   
-      
-     
+
      if((source_asset==compared_asset_status[0]) && (Asset_Status_AI==compared_asset_status[1]))
      {
        Flag="true";
@@ -62,9 +61,12 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
             {
               
               Log.Checkpoint(Asset_Type+" icon is Present");
+              if(expander_icon_assets.length>0)
+              {
+                
               let expander_icon=expander_icon_assets[j].lastChild; //to check plus expander icon exists
               //to Check Expander icon
-                if(expander_icon=="[HTMLElement]")
+                if(expander_icon_assets[j].lastChild=="[HTMLElement]")
                     {
                         if(expander_icon.getAttribute('class').includes('expander-icon icon-link_plus'))
                         {
@@ -86,7 +88,8 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
                            }
                          }
                         }
-         } 
+                  }         
+              }
                 else{
               source_assets_array[j].click();
               }           
@@ -126,7 +129,7 @@ else if((Flag=="true")&&((Asset_Type=="Knowledge Source")||(Asset_Type=="Fact Ty
 }
 
 else{
-   Log.Error(compared_asset_status[0] +" with status "+ compared_asset_status[1]+" doesn't exist");
+      Log.Error(compared_asset_status[0] +" with status "+ compared_asset_status[1]+" doesn't exist");
    }
   
    

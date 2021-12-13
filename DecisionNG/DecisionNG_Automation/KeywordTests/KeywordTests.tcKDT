@@ -194,6 +194,7 @@
 				<child name="DF_CopytoWb_Edit" key="{AC990E07-3932-41E3-ADA1-E7C5704836C3}" path="DF_CopytoWb_Edit.tcKDTest" />
 				<child name="Breadcrumb_Navigate_OpenDF" key="{54220118-4EA2-4FC6-B7B5-8A9675684656}" path="Breadcrumb_Navigate_OpenDF.tcKDTest" />
 				<child name="Repo_Nav_DF_CopytoWb" key="{7887136C-827D-427B-A417-5861303910CD}" path="Repo_Nav_DF_CopytoWb.tcKDTest" />
+				<child name="Tasks_Open_DV_DF_Open_verify" key="{BAEA316C-ED6E-43E8-B155-4231D52CEB42}" path="Tasks_Open_DV_DF_Open_verify.tcKDTest" />
 			</folder>
 			<folder name="Generic Steps">
 				<folder name="Fact Type Approval">

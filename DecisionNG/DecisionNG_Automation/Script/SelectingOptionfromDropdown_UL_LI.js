@@ -13,7 +13,7 @@
         //Log.Message(Optiontext)
         if(Optiontext == option)
           {
-            Option[i].Click();
+            Option[i].Click(2,2);
             break;
           }
         
