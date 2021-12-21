@@ -383,7 +383,7 @@
 					<child name="AI_Task_RF_Associations_Views" key="{D5BA2992-6F63-41EE-9292-5627AA991155}" path="AI_Task_RF_Associations_Views.tcKDTest" />
 					<child name="AI_Task_RF_Associations_FT_Open_Approved_FT" key="{E540F2A0-2E65-4EC8-9D7D-0531232D63AA}" path="AI_Task_RF_Associations_FT_Open_Approved_FT.tcKDTest" />
 					<child name="AI_Task_RF_Associations_FactTypes_Open_Draft_FT" key="{8E602793-D6F9-4FAB-A7DA-7853BB5BACDB}" path="AI_Task_RF_Associations_FactTypes_Open_Draft_FT.tcKDTest" />
-				  <child name="AI_Repo_Decision_RF_Associations_FactTypes_Open_FT" key="{E67C6334-6891-48A2-BD76-AFB3059F8BBE}" path="AI_Repo_Decision_RF_Associations_FactTypes_Open_FT.tcKDTest" />
+					<child name="AI_Repo_DV_RF_Associations_FactTypes_Open_FT" key="{E67C6334-6891-48A2-BD76-AFB3059F8BBE}" path="AI_Repo_DV_RF_Associations_FactTypes_Open_FT.tcKDTest" />
 					<child name="AI_Task_RF_OriginatingTask_Open" key="{981F779B-5F1D-45C9-9D88-19223384F07B}" path="AI_Task_RF_OriginatingTask_Open.tcKDTest" />
 					<child name="AI_Task_RF_Details_Add_Edit_Notes" key="{80E32B21-7C55-4436-9AAE-9F58004FCD61}" path="AI_Task_RF_Details_Add_Edit_Notes.tcKDTest" />
 					<child name="AI_Task_RF_Row_Details_Add_Edit_Notes" key="{834FBFE8-68D9-4CBE-B7D1-ED4FEFFAD051}" path="AI_Task_RF_Row_Details_Add_Edit_Notes.tcKDTest" />
