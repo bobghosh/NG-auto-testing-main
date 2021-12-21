@@ -343,7 +343,9 @@
 					<child name="AI_Repo_FT_Versions_Open_Different_Version" key="{8B4E3140-AB29-4FFD-B88E-DEDE014A5188}" path="AI_Repo_FT_Versions_Open_Different_Version.tcKDTest" />
 					<child name="AI_Task_FT_OriginatingTask_Open" key="{D810E118-F329-4F85-9189-385175C89C05}" path="AI_Task_FT_OriginatingTask_Open.tcKDTest" />
 					<child name="AI_Repo_FT_Details_Location_in_Repo" key="{EC871800-3DD5-42CB-A2C2-26CE88EDC23E}" path="AI_Repo_FT_Details_Location_in_Repo.tcKDTest" />
-					<child name="AI_Task_FT_Details_Notes" key="{68B5C6D3-C0F6-4505-8F29-CB7B728BB2F4}" path="AI_Task_FT_Details_Notes.tcKDTest" />
+					<child name="AI_Task_FT_Details_Add_Edit_Notes" key="{68B5C6D3-C0F6-4505-8F29-CB7B728BB2F4}" path="AI_Task_FT_Details_Add_Edit_Notes.tcKDTest" />
+					<child name="AI_Repo_FT_Details_Edit_Delete_Properties" key="{81F49D98-3682-43E2-9D0A-6EFA0103CBC5}" path="AI_Repo_FT_Details_Edit_Delete_Properties.tcKDTest" />
+					<child name="AI_Task_FT_Details_Edit_Delete_Properties" key="{1DEE37F3-52E9-46CC-8B9A-C1865E960725}" path="AI_Task_FT_Details_Edit_Delete_Properties.tcKDTest" />
 				</folder>
 				<folder name="Knowledge Source">
 					<child name="AI_Task_KS_Present_Click" key="{440FCE14-5A2E-445A-93A4-EB2E76D0B603}" path="AI_Task_KS_Present_Click.tcKDTest" />
@@ -357,6 +359,9 @@
 					<child name="AI_Repo_KS_No_Associated_Decisions" key="{CE7D532F-342A-4D06-812D-875344F3F64B}" path="AI_Repo_KS_No_Associated_Decisions.tcKDTest" />
 					<child name="AI_Repo_KS_Associations_Versions" key="{EBE9B325-5B02-41F7-B424-523DAAE210E9}" path="AI_Repo_KS_Associations_Versions.tcKDTest" />
 					<child name="AI_Task_KS_Associations_Versions" key="{B1F2D0F7-E6F8-4FDE-824B-3F4CF29911EA}" path="AI_Task_KS_Associations_Versions.tcKDTest" />
+					<child name="AI_Repo_KS_Details_Location_in_Repo" key="{A1C0F76E-8675-47AB-ACDD-F83DAD04467D}" path="AI_Repo_KS_Details_Location_in_Repo.tcKDTest" />
+					<child name="AI_Task_KS_OriginatingTask_Open" key="{4B2273DB-107C-4A7F-85A1-306766D1EC3B}" path="AI_Task_KS_OriginatingTask_Open.tcKDTest" />
+					<child name="AI_Task_KS_Details_Add_Edit_Notes" key="{B884D8B2-DBE7-4D0C-BA8D-DA6054F9E1CB}" path="AI_Task_KS_Details_Add_Edit_Notes.tcKDTest" />
 				</folder>
 				<folder name="RuleFamilies">
 					<child name="AI_Task_RF_Present_Click" key="{ECF1E723-19C3-45DD-95C8-493ED3C01785}" path="AI_Task_RF_Present_Click.tcKDTest" />
@@ -364,9 +369,11 @@
 					<child name="AI_Repo_Decision_RF_Present_Click" key="{8E42F25A-E9C8-4234-B539-0B0E1D304C04}" path="AI_Repo_Decision_RF_Present_Click.tcKDTest" />
 					<child name="AI_Task_Decision_Approved_RF_SwitchTabs" key="{48454F6B-4550-49FB-9170-7165FBA7E68B}" path="AI_Task_Decision_Approved_RF_SwitchTabs.tcKDTest" />
 					<child name="AI_Task_Draft_RF_SwitchTabs" key="{CD759835-887B-4A0D-BFC1-A1865EE094FD}" path="AI_Task_Draft_RF_SwitchTabs.tcKDTest" />
+
 					<child name="AI_Task_DV_Approved_RF_Details_SwitchSubTabs" key="{ED6A7286-E7A6-45A2-B5A8-771031CF6CAA}" path="AI_Task_DV_Approved_RF_Details_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Task_Draft_RF_Details_SwitchSubTabs" key="{9C640996-18F3-44EA-9EB4-FDE596AC79DB}" path="AI_Task_Draft_RF_Details_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_DV_RF_Multiple_Views_Different_Versions" key="{2935E8B7-48FE-41F5-8FF1-AB0F9BB88F4B}" path="AI_Repo_DV_RF_Multiple_Views_Different_Versions.tcKDTest" />
+
 					<child name="AI_Repo_Decision_RF_Associations_SwitchSubTabs" key="{7B2B58A8-718F-4252-9FAE-F092C9E8FC41}" path="AI_Repo_Decision_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Task_RF_Associations_SwitchSubTabs" key="{E23B2495-5A43-48CA-8979-5EF7554F0FEB}" path="AI_Task_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_Decision_RF_Associations_Versions" key="{DEDD5B66-94AD-403E-A4F5-29C97359C4C7}" path="AI_Repo_Decision_RF_Associations_Versions.tcKDTest" />
@@ -376,12 +383,12 @@
 					<child name="AI_Task_RF_Associations_Views" key="{D5BA2992-6F63-41EE-9292-5627AA991155}" path="AI_Task_RF_Associations_Views.tcKDTest" />
 					<child name="AI_Task_RF_Associations_FT_Open_Approved_FT" key="{E540F2A0-2E65-4EC8-9D7D-0531232D63AA}" path="AI_Task_RF_Associations_FT_Open_Approved_FT.tcKDTest" />
 					<child name="AI_Task_RF_Associations_FactTypes_Open_Draft_FT" key="{8E602793-D6F9-4FAB-A7DA-7853BB5BACDB}" path="AI_Task_RF_Associations_FactTypes_Open_Draft_FT.tcKDTest" />
-					<child name="AI_Repo_Decision_RF_Associations_FT_Open_FT" key="{E67C6334-6891-48A2-BD76-AFB3059F8BBE}" path="AI_Repo_Decision_RF_Associations_FT_Open_FT.tcKDTest" />
+				  <child name="AI_Repo_Decision_RF_Associations_FactTypes_Open_FT" key="{E67C6334-6891-48A2-BD76-AFB3059F8BBE}" path="AI_Repo_Decision_RF_Associations_FactTypes_Open_FT.tcKDTest" />
 					<child name="AI_Task_RF_OriginatingTask_Open" key="{981F779B-5F1D-45C9-9D88-19223384F07B}" path="AI_Task_RF_OriginatingTask_Open.tcKDTest" />
-					<child name="AI_Task_RF_Details_Notes" key="{80E32B21-7C55-4436-9AAE-9F58004FCD61}" path="AI_Task_RF_Details_Notes.tcKDTest" />
-					<child name="AI_Task_RF_Row_Details_Notes" key="{834FBFE8-68D9-4CBE-B7D1-ED4FEFFAD051}" path="AI_Task_RF_Row_Details_Notes.tcKDTest" />
-					<child name="AI_Task_RF_Column_Details_Notes" key="{77E6049E-1C17-44D0-BE8C-66BA4C2DE3D1}" path="AI_Task_RF_Column_Details_Notes.tcKDTest" />
-					<child name="AI_Task_RF_Cell_Details_Notes" key="{955C01C8-B5EE-4139-8E9F-7AF76A600DA8}" path="AI_Task_RF_Cell_Details_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Details_Add_Edit_Notes" key="{80E32B21-7C55-4436-9AAE-9F58004FCD61}" path="AI_Task_RF_Details_Add_Edit_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Row_Details_Add_Edit_Notes" key="{834FBFE8-68D9-4CBE-B7D1-ED4FEFFAD051}" path="AI_Task_RF_Row_Details_Add_Edit_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Column_Details_Add_Edit_Notes" key="{77E6049E-1C17-44D0-BE8C-66BA4C2DE3D1}" path="AI_Task_RF_Column_Details_Add_Edit_Notes.tcKDTest" />
+					<child name="AI_Task_RF_Cell_Details_Add_Edit_Notes" key="{955C01C8-B5EE-4139-8E9F-7AF76A600DA8}" path="AI_Task_RF_Cell_Details_Add_Edit_Notes.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Generic">
