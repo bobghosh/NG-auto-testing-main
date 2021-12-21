@@ -38,7 +38,7 @@
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="Select_Single_Row" Unit="SelectRow_SingleItem_MultipleRows">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Name of the Asset (Source Asset)" />
+								<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Additional_Info_Draft_KS_Name" />
 							</Parameters>
 						</Data>
 					</Operation>

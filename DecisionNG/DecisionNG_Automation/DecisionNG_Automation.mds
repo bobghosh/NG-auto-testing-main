@@ -108,12 +108,12 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="TestCase# - Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:7272/dm/login.jsp" />
+															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
 															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
@@ -1302,6 +1302,26 @@
 												<children />
 											</testItem>
 											<testItem name="Test ID 8849_Additional Info Panel, Task, Draft Rule Family, Rule Family Cell, Details Tab, Notes sub-tab, Add and Edit New Notes" key="{49570A38-947C-4BA4-86E1-23E293E9E317}" group="False" parallel="False" enabled="True" testMoniker="KDT\{955C01C8-B5EE-4139-8E9F-7AF76A600DA8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8844_Additional Info Panel, Repository, Approved Fact Type, Details Tab, Properties sub-tab, View, Update,Edit &amp; Delete Properties Value" key="{B91F73D2-E3CA-4CD3-84A9-B50C8B2032E7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{81F49D98-3682-43E2-9D0A-6EFA0103CBC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8845_Additional Info Panel, Task, Draft Fact Type, Details Tab, Properties sub-tab, View, Update,Edit &amp; Delete Properties Value" key="{15D82E80-FCBD-43C2-8C02-A62BA509A095}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DEE37F3-52E9-46CC-8B9A-C1865E960725}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8582_Additional Info Panel, Repository,&#32;&#32;Approved Knowledge Source, Details tab, General sub-tab, Originating Task, Location In the Repository, Verify Functionality" key="{641FA4E7-BB42-44FC-8406-C8A31A7FD70E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1C0F76E-8675-47AB-ACDD-F83DAD04467D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+											<testItem name="Test ID 8583_Additional Info Panel, Task, Draft Knowledge Source, Details tab, General sub-tab, Originating Task,Verify Functionality" key="{974E7E71-C209-4261-90DF-B3273E19D222}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4B2273DB-107C-4A7F-85A1-306766D1EC3B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
@@ -2838,7 +2858,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Environment_URL" Type="String" Local="False">
-					<DefValue StrValue="http://bdmsuat8:40231/dm/login.jsp" />
+					<DefValue StrValue="${envURLl}" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />

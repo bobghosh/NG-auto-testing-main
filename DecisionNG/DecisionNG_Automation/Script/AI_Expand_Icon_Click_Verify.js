@@ -12,9 +12,9 @@
         let statusOfAsset = page.FindElement("//*[text()="+"'"+""+expectedAssetName+""+"'"+"]//ancestor::div[contains(@class,'sub-tab__list')]")
         
         let Plus_Minus_Icon = page.FindElement("//*[text()="+"'"+""+expectedAssetName+""+"'"+"]//ancestor::dcn-additional-info//div[contains(@class,'item__expander-icon--wrapper')]//i")
-        
+
         let className = Plus_Minus_Icon.getAttribute('class')
-    
+         
         if(className.includes("icon-link_plus"))
         {
           Plus_Minus_Icon.Click();

@@ -4,7 +4,9 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
   // Function for Opening asset from subtabs
   let page =Aliases.browser.pageSapiensDecision2
   Delay(1000);
-  let source_assets_array_xpath="//dcn-additional-info//i[contains(@class,'"+classname+"')]//ancestor::div[contains(@class,'sub-tab__list')]"; 
+
+  let source_assets_array_xpath="//dcn-additional-info//i[contains(@class,'"+classname+" icon')]//ancestor::div[contains(@class,'sub-tab__list')]"; 
+
   let source_assets_array= page.FindElements(source_assets_array_xpath);
   
   let expander_icon_assets=page.FindElements("//div[contains(@class,'item__expander-icon--wrapper')]");
@@ -63,8 +65,9 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
               Log.Checkpoint(Asset_Type+" icon is Present");
               if(expander_icon_assets.length>0)
               {
-                
+
               let expander_icon=expander_icon_assets[j].lastChild; //to check plus expander icon exists
+
               //to Check Expander icon
                 if(expander_icon_assets[j].lastChild=="[HTMLElement]")
                     {
@@ -88,8 +91,9 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
                            }
                          }
                         }
-                  }         
-              }
+
+                    } 
+                  }
                 else{
               source_assets_array[j].click();
               }           
