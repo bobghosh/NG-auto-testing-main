@@ -1,8 +1,9 @@
-﻿function AI_Collapse_Icon_Click_Verify()
-{let AssetNames ="asset1,asset2"
+﻿function AI_Collapse_Icon_Click_Verify(AssetNames)
+{//let AssetNames ="asset1,asset2"
     var page =  Aliases.browser.pageSapiensDecision2;
     AssetName = AssetNames.toString().split(",");
-    for(let i=0;i<AssetName.length;i++)
+    
+for(let i=0;i<AssetName.length;i++)
     {    
         Plus_Minus_Icon = page.FindElement("//*[text()="+"'"+""+AssetName[i]+""+"'"+"]//ancestor::dcn-additional-info//div[contains(@class,'item__expander-icon--wrapper')]//i")
   
