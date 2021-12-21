@@ -34,6 +34,7 @@
 			<child name="GenerateRandomNumber" key="{21BC5768-6BA3-4941-8760-BD3A002D03FE}" path="GenerateRandomNumber.js" />
 			<child name="CloseBrowsers" key="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}" path="CloseBrowsers.js" />
 			<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
+			<child name="BrowserBack_Action" key="{37C7687E-C7F8-4EC4-961F-F9F28A50965B}" path="BrowserBack_Action.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">

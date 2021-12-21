@@ -60,7 +60,7 @@
               if(page.FindElement("//*[contains(@class,'i-paginator-next')]").Visible)
               {
                 page.FindElement("//*[contains(@class,'i-paginator-next')]").click();  
-                Delay(2000)
+                Delay(2000);
               }
               else
               {

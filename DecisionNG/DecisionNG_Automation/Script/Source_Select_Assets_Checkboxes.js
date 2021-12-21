@@ -34,7 +34,7 @@
       }
     }
     
-    if(AssetType == "DecisionFlows")
+    if(AssetType == "Flows")
     {     
       Aliases.browser.pageSapiensDecision2.FindElement("//*[text()='Decision Flows']").Click();
       

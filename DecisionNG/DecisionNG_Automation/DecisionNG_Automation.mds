@@ -425,7 +425,7 @@
 									<testItem name="Login_4" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
-											<param1 name="UserName" type="1" localVarName="" value="Asha_su" />
+											<param1 name="UserName" type="1" localVarName="" value="DG" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
 										<environments activeCloud="CBT" />
@@ -1732,7 +1732,7 @@
 									</testItem>
 									<testItem name="AssetChangeType" key="{276E8343-6785-4ECA-8D83-DF9C3D70F0B6}" group="False" parallel="False" enabled="True" testMoniker="{A9BB5C2E-BE55-4B32-A389-D0468BA781D1}AssetChangeType" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="changeType" type="3" localVarName="" varType="0" value="" />
+											<param0 name="changeType" type="3" localVarName="" varType="8" value="" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1819,9 +1819,9 @@
 										<testParameters>
 											<param0 name="Community" type="1" localVarName="" value="P&amp;C Underwriting Community" />
 											<param1 name="TaskName" type="1" localVarName="" value="Gils Demo" />
-											<param2 name="ModelingProjectName" type="1" localVarName="" value="Asha" />
-											<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo Asset Flow_Latest" />
-											<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow_Latest" />
+											<param2 name="ModelingProjectName" type="1" localVarName="" value="Gil&apos;s Demo" />
+											<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+											<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1876,7 +1876,7 @@
 									<testItem name="DecisionScreen_RF_Add_FT" key="{553D3706-0A36-4114-98D7-6781F3C1AD3E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2096DA67-7536-4CA2-AAE5-13B96A8B9938}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="RF_Name" type="1" localVarName="" value="Policy Renewal Method" />
-											<param1 name="Facttype_Name" type="1" localVarName="" value="Flood_Zoning Change" />
+											<param1 name="Facttype_Name" type="1" localVarName="" value="Flood_Zoning Change_" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1988,7 +1988,7 @@
 											<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Insurance" />
 											<param1 name="Community_To_Select" type="1" localVarName="" value="P&amp;C Underwriting Community" />
 											<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-											<param3 name="Flow" type="1" localVarName="" value="Policy Renewal Method Flow [V1.0]" />
+											<param3 name="Flow" type="1" localVarName="GillsDemoFlowName" localVarLevel="1" value="" />
 											<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
 											<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 											<param6 name="DVSearchPattern" type="1" localVarName="" value="Policy Renewal Method" />
@@ -2034,7 +2034,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="FactType_Send_For_Approval" key="{26BC3340-E899-4D8C-A85F-C9F97ED1CDCC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{29C4D1E8-A9AA-432A-B805-0D829F186040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="FactType_Send_For_Approval" key="{26BC3340-E899-4D8C-A85F-C9F97ED1CDCC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{29C4D1E8-A9AA-432A-B805-0D829F186040}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments activeCloud="CBT" />
 										<children />
@@ -2109,6 +2109,16 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
+									<testItem name="Tasks_Open_DV_DF_Open_verify_as_BOA" key="{71582045-4C14-41D1-AFAA-8BB22ED015E9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BAEA316C-ED6E-43E8-B155-4231D52CEB42}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+											<param1 name="DecisionName" type="1" localVarName="GilsDemoAssetNextLevelDecision" localVarLevel="1" value="" />
+											<param2 name="FlowName" type="1" localVarName="GilsDemoAssetNextLevelFlow" localVarLevel="1" value="" />
+											<param3 name="MainTabSelection" type="1" localVarName="" value="Group Tasks" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
 									<testItem name="Claim_and_Open_Task_BOA" key="{53CFB6E6-AB4C-4DFF-9CE3-A94F39E04128}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
@@ -2133,6 +2143,16 @@
 											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
 											<param1 name="UserName" type="1" localVarName="" value="Revision Manager" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Tasks_Open_DV_DF_Open_verify_as_RM" key="{CD724FD7-F4BD-4DB3-B420-CC1E37C9D45F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BAEA316C-ED6E-43E8-B155-4231D52CEB42}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+											<param1 name="DecisionName" type="1" localVarName="GilsDemoAssetNextLevelDecision" localVarLevel="1" value="" />
+											<param2 name="FlowName" type="1" localVarName="GilsDemoAssetNextLevelFlow" localVarLevel="1" value="" />
+											<param3 name="MainTabSelection" type="1" localVarName="" value="Group Tasks" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -2171,10 +2191,10 @@
 									</testItem>
 									<testItem name="Add_Assets" key="{3AC58349-E900-4D09-B492-74F14D0EF929}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Policy Renewal Method (View: Base) [V1.5]" />
+											<param0 name="TabAssets" type="1" localVarName="Gils_Demo_Revision_Add_Assets" localVarLevel="1" value="" />
 											<param1 name="Expand_CommunityName" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
 											<param2 name="CommunityName" type="1" localVarName="" value="P&amp;C Underwriting Community" />
-											<param3 name="Month" type="1" localVarName="" value="Nov" />
+											<param3 name="Month" type="1" localVarName="" value="Dec" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -2198,6 +2218,13 @@
 									<testItem name="Create_New_Tag" key="{07EDB499-0814-4080-8B43-079178514860}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9F66C028-8737-428F-92CA-ED121C14DEC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="TagName" type="1" localVarName="" value="NewTag" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Revisions_Assets_Click_Open_Back" key="{62F9778D-D5B8-491E-852D-EE75B90FE2D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00044D6C-1984-4750-B22F-DFFF7C319EFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="AssetName" type="1" localVarName="GilsDemoAssetNextLevelDecision" localVarLevel="1" value="" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -2831,7 +2858,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Environment_URL" Type="String" Local="False">
-					<DefValue StrValue="http://bdmsuat75:45329/dm/login.jsp" />
+					<DefValue StrValue="http://bdmsuat8:40231/dm/login.jsp" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />
@@ -2850,6 +2877,18 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Additional_Info_Draft_KS_Name" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="GillsDemoFlowName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="GilsDemoAssetNextLevelDecision" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="GilsDemoAssetNextLevelFlow" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="Gils_Demo_Revision_Add_Assets" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 			</Items>
@@ -3234,9 +3273,9 @@
 				<row val0="Breadth-first" />
 			</data>
 		</setting>
-		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="30000" />
-		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="1" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
