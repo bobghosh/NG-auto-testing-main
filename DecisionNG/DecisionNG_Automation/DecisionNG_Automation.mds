@@ -114,8 +114,8 @@
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
-															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
-															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+															<param1 name="UserName" type="1" localVarName="UserName" localVarLevel="1" value="" />
+															<param2 name="Password" type="1" localVarName="Password" localVarLevel="1" value="" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
@@ -2710,10 +2710,10 @@
 					<DefValue StrValue="${URL}" />
 				</Variable>
 				<Variable Name="UserName" Type="String" Local="False" Descr="SuperUser">
-					<DefValue StrValue="sumant" />
+					<DefValue StrValue="${username}" />
 				</Variable>
 				<Variable Name="Password" Type="String" Local="False" Descr="SuperUser">
-					<DefValue StrValue="Decision1" />
+					<DefValue StrValue="${password}" />
 				</Variable>
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue StrValue="38003900360031003900330044003300460034004400380046003300460034004500430039003800410037003900310044004100460043004500330031004600350043003000350035003400320034003800320032003100310041003600430034004400330031004400360035003200" />
