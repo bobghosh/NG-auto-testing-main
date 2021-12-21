@@ -88,25 +88,25 @@
 					</Node>
 					<Node name="var23">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F003600320039003100380035003800"/>
+							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F00390036003600310033003200"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
 					<Node name="var24">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E0067006500380032003700310039003000"/>
+							<Prp name="strvalue" type="H" value="46006C006F006F0064005F005A006F006E0069006E00670020004300680061006E00670065005F0032003600310033003400"/>
 						</Node>
 						<Prp name="name" type="S" value="FTCreatedFromDVScreen"/>
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="390036003200310039003000"/>
+							<Prp name="strvalue" type="H" value="310032003900310033003400"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
 					<Node name="var26">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0035005D00"/>
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0030005D00"/>
 						</Node>
 						<Prp name="name" type="S" value="GillsDemoAssetName"/>
 					</Node>
@@ -124,7 +124,7 @@
 					</Node>
 					<Node name="var29">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003700360034003900320031003200320037003400"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003900370032003600390032003000370032003700"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_Decision"/>
 					</Node>
@@ -133,13 +133,13 @@
 					</Node>
 					<Node name="var30">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003700360034003900330032003800340037003200"/>
+							<Prp name="strvalue" type="H" value="540047003100360033003900370032003700300031003800320031003200"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_DecisionFlow"/>
 					</Node>
 					<Node name="var31">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003200350038003100320031003100"/>
+							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003100360036003100330032003200"/>
 						</Node>
 						<Prp name="name" type="S" value="Release_Project_Name"/>
 					</Node>
@@ -190,9 +190,27 @@
 					</Node>
 					<Node name="var41">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F006400200046006C006F00770020005B00560031002E0035005D00"/>
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F006400200046006C006F00770020005B00560031002E0030005D00"/>
 						</Node>
 						<Prp name="name" type="S" value="GillsDemoFlowName"/>
+					</Node>
+					<Node name="var42">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0033005D00"/>
+						</Node>
+						<Prp name="name" type="S" value="GilsDemoAssetNextLevelDecision"/>
+					</Node>
+					<Node name="var43">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="50006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F006400200046006C006F00770020005B00560031002E0033005D00"/>
+						</Node>
+						<Prp name="name" type="S" value="GilsDemoAssetNextLevelFlow"/>
+					</Node>
+					<Node name="var44">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4400650063006900730069006F006E002D0050006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0033005D002C0046006C006F00770073002D0050006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F006400200046006C006F00770020005B00560031002E0033005D00"/>
+						</Node>
+						<Prp name="name" type="S" value="Gils_Demo_Revision_Add_Assets"/>
 					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>

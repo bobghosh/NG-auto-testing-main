@@ -36,7 +36,13 @@ function DecisionScreen_EditFT(FacttypeName)
   var b = GetTextBlockCustom(obj,FacttypeName);
   if (b != null)
   {
-    b.ClickR();
+    b.HoverMouse(10,7);
+    let x = Sys.Desktop.MouseX
+    let y = Sys.Desktop.MouseY
+    let w = Sys.ObjectFromPoint(x, y);
+    // Convert screen-relative coordinates to object-relative
+    let p = w.ScreenToWindow(x, y);
+    w.ClickR(p.X, p.Y);
     SelectingOptionfromDropdown.SelectingOptionfromDropdown("Open Fact Type Summary","No");
   }
 

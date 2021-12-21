@@ -145,7 +145,7 @@ function Send_to_RM()
                    
 //     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
                 
-     Delay(3000);
+     Delay(5000);
      
      //Check for Asset to be sent in Candidate Status
      if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "APPROVED")

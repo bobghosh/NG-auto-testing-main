@@ -212,6 +212,7 @@
 					<child name="Approve_Revision_Task_All" key="{9E534EF2-B646-4FAC-BF27-CEF60CBE3520}" path="Approve_Revision_Task_All.tcKDTest" />
 					<child name="Approve_Revision_Task_Any" key="{9C29478E-289E-416F-9A59-FA5B6743DC58}" path="Approve_Revision_Task_Any.tcKDTest" />
 					<child name="Search_Open_Release_Project" key="{4436A098-EDE6-4C6D-83B6-619F0C02704B}" path="Search_Open_Release_Project.tcKDTest" />
+					<child name="Revisions_Assets_Click_Open_Back" key="{00044D6C-1984-4750-B22F-DFFF7C319EFE}" path="Revisions_Assets_Click_Open_Back.tcKDTest" />
 				</folder>
 				<folder name="Search">
 					<child name="Search_Assets" key="{39B709CB-38F9-4965-A085-E7591633FE60}" path="Search_Assets.tcKDTest" />
