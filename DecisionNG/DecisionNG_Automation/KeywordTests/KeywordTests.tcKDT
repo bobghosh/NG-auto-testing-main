@@ -376,7 +376,7 @@
 					<child name="AI_Task_RF_Associations_SwitchSubTabs" key="{E23B2495-5A43-48CA-8979-5EF7554F0FEB}" path="AI_Task_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_Decision_RF_Associations_Versions" key="{DEDD5B66-94AD-403E-A4F5-29C97359C4C7}" path="AI_Repo_Decision_RF_Associations_Versions.tcKDTest" />
 					<child name="AI_Repo_Decision_RF_Associations_Views" key="{B3817BC6-FF13-4A7E-8A44-9DA9BE5F79B5}" path="AI_Repo_Decision_RF_Associations_Views.tcKDTest" />
-					<child name="AI_Repo_DV_RF_Associations_Decisions" key="{4634D59C-BD4F-4D00-A003-CE114E46D88A}" path="AI_Repo_DV_RF_Associations_Decisions.tcKDTest" />
+					<child name="AI_Repo_Decision_RF_Associations_Decisions" key="{4634D59C-BD4F-4D00-A003-CE114E46D88A}" path="AI_Repo_Decision_RF_Associations_Decisions.tcKDTest" />
 					<child name="AI_Task_RF_Associations_Versions" key="{D0610A07-5478-4EE5-B8A6-D12CDB10F269}" path="AI_Task_RF_Associations_Versions.tcKDTest" />
 					<child name="AI_Task_RF_Associations_Views" key="{D5BA2992-6F63-41EE-9292-5627AA991155}" path="AI_Task_RF_Associations_Views.tcKDTest" />
 					<child name="AI_Task_RF_Associations_FT_Open_Approved_FT" key="{E540F2A0-2E65-4EC8-9D7D-0531232D63AA}" path="AI_Task_RF_Associations_FT_Open_Approved_FT.tcKDTest" />
