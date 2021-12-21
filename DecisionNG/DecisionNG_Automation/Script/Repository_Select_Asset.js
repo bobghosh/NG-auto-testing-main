@@ -1,8 +1,9 @@
 ﻿function Select_Asset_Xpath(Asset_path,Asset_Name)
 {
   let page =Aliases.browser.pageSapiensDecision2;
-    let flag = "0";
+    
     let Paginator;  
+    let flag = "0";
     if(page.FindElements("//p-paginator/div").length > 0)
     {
       Paginator = "Yes";
@@ -17,13 +18,16 @@
     let hasNext = "true";
     
     do{
-  
+         
           ItemCount = page.FindElements("//dcn-expandable-selectable-list-item//i[contains(@class,'"+Asset_path+"')]/following-sibling::div/a");
-          //Log.Message(ItemCount.length);
+//          Log.Message(ItemCount.length);
+//           Log.Message(Asset_Name);
           for(var j = 0; j < ItemCount.length ; j++)
           {
+            
           let k=j+1;
                 let HighlightedItemName = ItemCount[j].textContent.trim();
+// Log.Message(HighlightedItemName);
 
                 //If the Item Name matches 
                 if(HighlightedItemName == Asset_Name.trim())
@@ -48,11 +52,12 @@
           {
             if(page.FindElement("//*[contains(@class,'i-paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
             { 
+            
               hasNext = "false";
             }
             else
             {
-              if(page.FindElement("//*[contains(@class,'i-paginator-next')]").VisibleOnScreen)
+              if(page.FindElement("//*[contains(@class,'i-paginator-next')]").Visible)
               {
                 page.FindElement("//*[contains(@class,'i-paginator-next')]").click();  
                 Delay(2000)

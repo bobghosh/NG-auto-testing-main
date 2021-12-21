@@ -62,7 +62,11 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
             {
               
               Log.Checkpoint(Asset_Type+" icon is Present");
+              if(expander_icon_assets.length>0)
+              {
               let expander_icon=expander_icon_assets[j].lastChild; //to check plus expander icon exists
+              
+              
               //to Check Expander icon
                 if(expander_icon=="[HTMLElement]")
                     {
@@ -86,7 +90,8 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
                            }
                          }
                         }
-         } 
+                    } 
+                  }
                 else{
               source_assets_array[j].click();
               }           
