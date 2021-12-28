@@ -88,7 +88,7 @@
 					</Node>
 					<Node name="var23">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="470069006C0073002000440065006D006F00390036003600310033003200"/>
+							<Prp name="strvalue" type="H" value="450032004500200035003100350020002D003500360031003100300033003100"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>
@@ -100,7 +100,7 @@
 					</Node>
 					<Node name="var25">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="310032003900310033003400"/>
+							<Prp name="strvalue" type="H" value="370036003100390031003400"/>
 						</Node>
 						<Prp name="name" type="S" value="RandomNumber"/>
 					</Node>
@@ -124,7 +124,7 @@
 					</Node>
 					<Node name="var29">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="540047003100360033003900370032003600390032003000370032003700"/>
+							<Prp name="strvalue" type="H" value="540047003100360034003000330032003200390031003000300037003100"/>
 						</Node>
 						<Prp name="name" type="S" value="TestGroup_Name_Decision"/>
 					</Node>
@@ -139,7 +139,7 @@
 					</Node>
 					<Node name="var31">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003100360036003100330032003200"/>
+							<Prp name="strvalue" type="H" value="520065006C006500610073006500500072006F006A0065006300740031003600340030003100330035003300"/>
 						</Node>
 						<Prp name="name" type="S" value="Release_Project_Name"/>
 					</Node>
@@ -211,6 +211,9 @@
 							<Prp name="strvalue" type="H" value="4400650063006900730069006F006E002D0050006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F0064002000280056006900650077003A0020004200610073006500290020005B00560031002E0033005D002C0046006C006F00770073002D0050006F006C006900630079002000520065006E006500770061006C0020004D006500740068006F006400200046006C006F00770020005B00560031002E0033005D00"/>
 						</Node>
 						<Prp name="name" type="S" value="Gils_Demo_Revision_Add_Assets"/>
+					</Node>
+					<Node name="var45">
+						<Prp name="name" type="S" value="AssetName_E2E_515"/>
 					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>

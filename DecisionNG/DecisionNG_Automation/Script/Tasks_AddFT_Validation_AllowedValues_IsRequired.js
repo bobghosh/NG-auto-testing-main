@@ -21,3 +21,4 @@
   
   Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
 }
+module.exports.Tasks_AddFT_Validation_AllowedValues_IsRequired = Tasks_AddFT_Validation_AllowedValues_IsRequired;

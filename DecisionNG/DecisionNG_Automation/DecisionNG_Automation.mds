@@ -114,19 +114,19 @@
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
-															<param1 name="UserName" type="1" localVarName="UserName" localVarLevel="1" value="" />
-															<param2 name="Password" type="1" localVarName="Password" localVarLevel="1" value="" />
+															<param1 name="UserName" type="1" localVarName="" value="Sumant" />
+															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Create_A_New_Task" key="{17233E4B-DBAA-400B-881D-14D65308C6EC}" group="False" parallel="False" enabled="True" testMoniker="{5A5E9887-B20B-427B-B993-80D96FF62C90}Create_A_New_Task" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="Community" type="3" localVarName="" varType="8" value="Sample Community" />
-															<param1 name="TaskName" type="3" localVarName="" varType="8" value="Task" />
-															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Asha MP" />
-															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Simple Task Approval Process" />
-															<param4 name="FactTypeApprovalProcess" type="3" localVarName="" varType="8" value="RT_QuickFT" />
+															<param0 name="Community" type="3" localVarName="" varType="8" value="Automation_Assets" />
+															<param1 name="TaskName" type="3" localVarName="" varType="8" value="Create New FactType" />
+															<param2 name="ModelingProjectName" type="3" localVarName="" varType="8" value="Gil&apos;s Demo" />
+															<param3 name="AssetApprovalProcess" type="3" localVarName="" varType="8" value="Gil&apos;s Demo_Asset Flow" />
+															<param4 name="FactTypeApprovalProcess" type="3" localVarName="" varType="8" value="Gil&apos;s Demo FT Flow" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
@@ -474,7 +474,7 @@
 												<children>
 													<testItem name="Login_5" key="{8E399E04-E177-4088-9E66-70B456B89B3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:7272/dm/login.jsp" />
+															<param0 name="URL" type="1" localVarName="" value="http://bdmsuat8:40231/dm/login.jsp" />
 															<param1 name="UserName" type="1" localVarName="" value="sumant" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
@@ -1592,8 +1592,8 @@
 								<children>
 									<testItem name="Login_MPM_515" key="{C696129B-A02D-40F2-92D8-0AB5F3CCD6BB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="E2E_URL" localVarLevel="1" value="" />
-											<param1 name="UserName" type="1" localVarName="" value="Vars" />
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Modeling Project Manager" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
 										<environments activeCloud="CBT" />
@@ -1601,11 +1601,11 @@
 									</testItem>
 									<testItem name="HomeScreen_Create_New_task_515" key="{535E58D7-4937-49EB-843C-0C97B9118AB6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F80B6045-49B0-440E-B555-47A7633F2594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="Community" type="1" localVarName="" value="XYZ Bank" />
-											<param1 name="TaskName" type="1" localVarName="" value="E2E 385 " />
-											<param2 name="ModelingProjectName" type="1" localVarName="" value="Basic No Distinct" />
-											<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Standard Task Workflow No Distinct" />
-											<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Standard FactType Workflow No Distinct" />
+											<param0 name="Community" type="1" localVarName="" value="Automation_Assets" />
+											<param1 name="TaskName" type="1" localVarName="" value="E2E 515 -" />
+											<param2 name="ModelingProjectName" type="1" localVarName="" value="E2E_515" />
+											<param3 name="AssetApprovalProcess" type="1" localVarName="" value="E2E_515" />
+											<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Standard Fact Type Workflow" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1622,7 +1622,7 @@
 									</testItem>
 									<testItem name="Login_DA_515" key="{D6139CC2-DF4C-4259-8802-1F89CF24F4DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="URL" type="1" localVarName="E2E_URL" localVarLevel="1" value="" />
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
 											<param1 name="UserName" type="1" localVarName="" value="Decision Analyst" />
 											<param2 name="Password" type="1" localVarName="" value="Decision1" />
 										</testParameters>
@@ -1640,10 +1640,10 @@
 									</testItem>
 									<testItem name="Repository_DV_Edit_515" key="{16404F1F-CFCE-4A12-A231-2107B11A6338}" group="False" parallel="False" enabled="True" testMoniker="KDT\{75DD461F-BFF4-4820-9C62-3554F14F2AE4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Insurance,P&amp;C Underwriting Community" />
-											<param1 name="Community_To_Select" type="1" localVarName="" value="P&amp;C Underwriting ViewGroup" />
+											<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing,Automation_Assets" />
+											<param1 name="Community_To_Select" type="1" localVarName="" value="Auto_VG_Assets" />
 											<param2 name="Select_SubTab" type="1" localVarName="" value="Decisions" />
-											<param3 name="Decision" type="1" localVarName="GillsDemoAssetName" localVarLevel="1" value="" />
+											<param3 name="Decision" type="1" localVarName="AssetName_E2E_515" localVarLevel="1" value="" />
 											<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="VG" />
 											<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 										</testParameters>
@@ -1652,16 +1652,23 @@
 									</testItem>
 									<testItem name="RF_Enable_Editing_515" key="{58030277-154B-4F15-8DE6-A5F78ED662B6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B3BCC17D-40EB-43C2-A7CB-3818C5A66C25}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="RF_Name" type="1" localVarName="" value="Policy Renewal Method" />
+											<param0 name="RF_Name" type="1" localVarName="" value="Maintenance Loan Eligibility" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="SelectDesired_RF_from_DecisionScreen" key="{33C0E2AA-85FC-4041-B2CF-7C66AC5FB23E}" group="False" parallel="False" enabled="True" testMoniker="{243D7B9D-61DB-4C04-9CD7-C94A31E59F61}SelectDesired_RF_from_DecisionScreen" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+										<testParameters>
+											<param0 name="Name" type="3" localVarName="" varType="8" value="Maintenance Loan Eligibility" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
 									<testItem name="Add_Note" key="{349769E0-9FFC-46C0-91E0-6E7020843834}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93AB3695-32BA-48BF-BA80-FFCBA2BCA009}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="Select_RF" type="1" localVarName="" value="Condo Loan Documentation Requirements Compliance" />
+											<param0 name="Select_RF" type="1" localVarName="" value="Maintenance Loan Eligibility" />
 											<param1 name="AdditionalInfo_Asset" type="1" localVarName="" value="Rule Family" />
-											<param2 name="AdditionalInfo_AssetName" type="1" localVarName="" value="Condo Loan Documentation Requirements Compliance (View: Base) [V1.2]" />
+											<param2 name="AdditionalInfo_AssetName" type="1" localVarName="" value="Maintenance Loan Eligibility (View: Maintenance) [V1.0]" />
 											<param3 name="Select_Main_Tab" type="1" localVarName="" value="DETAILS" />
 											<param4 name="Select_Sub_Tab" type="1" localVarName="" value="Notes" />
 											<param5 name="Notes_Subject" type="1" localVarName="" value="Adding Notes Subject" />
@@ -1672,8 +1679,8 @@
 									</testItem>
 									<testItem name="DRF_Open_515" key="{747FA480-DC46-4581-A953-E0E6AC5AC888}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2B634DBB-0C99-43A9-964C-EB64287020AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="DRF" type="1" localVarName="" value="Policy Renewal Method" />
-											<param1 name="breadcrumb_verify" type="1" localVarName="GillsDemoAssetName" localVarLevel="1" value="" />
+											<param0 name="DRF" type="1" localVarName="" value="Maintenance Loan Eligibility" />
+											<param1 name="breadcrumb_verify" type="1" localVarName="" value="Maintenance Loan Eligibility (View: Maintenance) [V1.0]" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1699,7 +1706,7 @@
 									</testItem>
 									<testItem name="Breadcrumb_Navigate_Decision" key="{5DAC8927-5A53-46A7-939D-62554B67C55A}" group="False" parallel="False" enabled="True" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="BreadcrumbName" type="3" localVarName="" varType="8" value="CFPB Qualified Mortgage Service Process [V1.0]" />
+											<param0 name="BreadcrumbName" type="3" localVarName="AssetName_E2E_515" localVarLevel="1" value="" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
@@ -1725,15 +1732,275 @@
 									</testItem>
 									<testItem name="Breadcrumb_Navigate_Task" key="{1B35346C-0475-4C4D-AC81-D970F825A3DF}" group="False" parallel="False" enabled="True" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="BreadcrumbName" type="3" localVarName="" varType="8" value="CFPB Qualified Mortgage Service Process [V1.0]" />
+											<param0 name="BreadcrumbName" type="3" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Select Rule Family Tab " key="{8D3767FB-6B1A-4895-8CCA-8ECE5D633BAA}" group="False" parallel="False" enabled="True" testMoniker="{F44F4E76-7CC9-4E43-AB87-2B1FA0CDC4DA}Tab_Navigations_AllInOne_Click_verify" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="tabName" type="3" localVarName="" varType="8" value="Rule Families" />
 										</testParameters>
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
 									<testItem name="AssetChangeType" key="{276E8343-6785-4ECA-8D83-DF9C3D70F0B6}" group="False" parallel="False" enabled="True" testMoniker="{A9BB5C2E-BE55-4B32-A389-D0468BA781D1}AssetChangeType" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
-											<param0 name="changeType" type="3" localVarName="" varType="8" value="" />
+											<param0 name="changeType" type="3" localVarName="" varType="8" value="Non Version Change" />
 										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ConflictCheck_Resolve_515" key="{A7894EBF-CD85-403F-B978-44102B13FEDF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{970F243A-0F2B-43F7-AAC5-0DB130D4B856}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_DPR" key="{B7DAA420-CDCC-49AD-A3C5-44933314B541}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EEA890BA-B52A-479F-A64D-93833603A17C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_DA_515" key="{38F480EC-BBE3-4B8C-9C58-B8A774D3487D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_DPR_515" key="{DA661C68-A0A5-45C0-9887-866D5A11CD31}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Decision Peer Reviewer" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Claim_and_Open_Task_DPR_515" key="{5A6910BF-2586-4DDC-A142-584C0471D2B6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Task_Reject_Back_to_DA" key="{DD16B4AF-1EA7-4576-8C44-61440A91CA31}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2F5B7552-D783-478F-834D-FEBA50625559}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_DPR_515" key="{EFBA0423-86C1-4F57-89FB-35F178CC554E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_DA_515_2" key="{C6E9FD09-4A24-4A7D-A0FE-50D7E5BBC76A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Decision Analyst" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Nav_MyTasks_SpecificTask" key="{5A6A6DEE-CEE9-4487-8D0C-FDEB63293925}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B7D864C2-0CDD-4F6E-9D7F-35B5345E94C9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+											<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Specific_Task_Open_DV" key="{62800C44-6DD8-492B-BC38-58DFBAF770A2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{06864C48-3073-457A-A0CA-32800ACABCD5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="DecisionName" type="1" localVarName="" value="Maintenance Loan Eligibility (View: Auto_Add_Info) [V1.0]" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Add_Note_1" key="{82869AEC-4076-4A38-A1FF-5DB5596B0359}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93AB3695-32BA-48BF-BA80-FFCBA2BCA009}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Select_RF" type="1" localVarName="" value="" />
+											<param1 name="AdditionalInfo_Asset" type="1" localVarName="" value="Decision" />
+											<param2 name="AdditionalInfo_AssetName" type="1" localVarName="AssetName_E2E_515" localVarLevel="1" value="" />
+											<param3 name="Select_Main_Tab" type="1" localVarName="" value="DETAILS" />
+											<param4 name="Select_Sub_Tab" type="1" localVarName="" value="Notes" />
+											<param5 name="Notes_Subject" type="1" localVarName="" value="Adding Notes Subject" />
+											<param6 name="Notes_Text" type="1" localVarName="" value="Adding Notes Text" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validation_Button_DV_515_1" key="{289FAB1B-7C05-493B-96DF-9BB58DB750B9}" group="False" parallel="False" enabled="True" testMoniker="{27E9323D-1453-41D4-9BDF-DAFEE6198BC7}Validation_Button" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Breadcrumb_Navigate_Task_1" key="{CFEF087B-CB1B-4802-A9CF-4D8F5445691F}" group="False" parallel="False" enabled="True" testMoniker="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}Breadcrumb" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="BreadcrumbName" type="3" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_DPR_1" key="{0723F666-F15F-4EB5-BC51-D5859BC3E383}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EEA890BA-B52A-479F-A64D-93833603A17C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_DA_515_1" key="{4B5B4366-A662-4792-B26B-633CBE4A4FA5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_DPR_515_1" key="{BA018353-7C8E-4D44-8B87-8F208A20DB80}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Decision Peer Reviewer" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Claim_and_Open_Task_DPR_1" key="{37DE4F45-B2E6-44A6-AF66-0F7A7D56232D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_BOA_Enabled_1" key="{83B686F1-0315-42E2-83EF-27AFF9D219AC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2373236C-1BCC-47EB-8F62-0573F69C6A6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_DPR_515_1" key="{8C83E09B-75EC-4FAF-AD5D-391F9D3DB32F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_BOA_1" key="{8668B341-F368-42CF-9DC9-0EF582D5F14B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Business Owner Approver" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Claim_and_Open_Task_BOA_1" key="{A809F1D3-8CAE-49F0-A2AF-5462FD313476}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Send_to_RM_1" key="{AEEC1F34-CECE-4C2E-8413-1142AA94AAD9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{62A43E8B-4193-4D81-9A13-D333973D631F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_BOA_1" key="{9F2B1C89-2EA0-4EBE-B6AA-0DC8A53DC82B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Login_RM_1" key="{250E730C-90DD-402D-AA36-85BF21B452D3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+											<param1 name="UserName" type="1" localVarName="" value="Revision Manager" />
+											<param2 name="Password" type="1" localVarName="" value="Decision1" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Claim_and_Open_Task_RM_1" key="{E8B04299-91DF-4E3C-A2CB-28314E875689}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E13C6919-AE74-4E45-AC90-6FD623F345FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabName" type="1" localVarName="" value="Group Tasks" />
+											<param1 name="SubTabName" type="1" localVarName="" value="Tasks" />
+											<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Complete_Task_1" key="{6519BE23-EA10-4F15-8036-3ABE2317F69E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D9C94161-D6C4-4573-841C-8459878F67ED}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Navigate_To_Repository_2_1" key="{F4D11352-3F39-4E5B-AD2C-5628B7ADE67F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB95AFFC-55DC-49F7-81A1-636D08FEC4CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Add_Open_ReleaseProject_Open_Branches_1" key="{9EBF98FF-304C-4003-9B14-5F228E5D1E21}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52B036DA-2BD4-470A-83F1-9D0A88831146}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Create" type="1" localVarName="" value="Yes" />
+											<param1 name="BranchName" type="1" localVarName="" value="Main" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Create_Revision_Task_1" key="{69FD3D6D-DACC-4B0A-A5EB-20B82587D586}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A28769B9-E214-43E5-AF13-E0CF77C3746F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Add_Assets_1" key="{3C1CA837-50BF-4D0F-B1FE-D959A7824894}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C323C8A-EFC6-46EB-8DB2-A9A5E1956C79}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TabAssets" type="1" localVarName="" value="Decision-Maintenance Loan Eligibility (View: Auto_Add_Info) [V1.0]" />
+											<param1 name="Expand_CommunityName" type="1" localVarName="" value="WORLD,Automation Testing" />
+											<param2 name="CommunityName" type="1" localVarName="" value="Automation_Assets" />
+											<param3 name="Month" type="1" localVarName="" value="Dec" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Edit_Deployment_Descriptor_1" key="{C8146540-58FA-41DB-876D-5D34CCC6F335}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8FFF5EC5-A32F-4F0C-920E-ED1BC4EBEB86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="DescriptiveView" type="1" localVarName="" value="On" />
+											<param1 name="AssetName" type="1" localVarName="AssetName_E2E_515" localVarLevel="1" value="" />
+											<param2 name="Month" type="1" localVarName="" value="Dec" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Submit_Revision_Task_1" key="{3398A4C6-AE45-4C07-958B-DE459E7DB918}" group="False" parallel="False" enabled="True" testMoniker="KDT\{822521FE-5542-4AB7-B418-EC19B891D365}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="ApprovalStrategy" type="1" localVarName="" value="None" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Create_New_Tag_1" key="{160DC5A4-3A27-41B3-9268-6C58B2EE89D6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9F66C028-8737-428F-92CA-ED121C14DEC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="TagName" type="1" localVarName="" value="NewTag" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Revisions_Assets_Click_Open_Back_1" key="{428B9E4F-9351-4137-B443-74842C830398}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00044D6C-1984-4750-B22F-DFFF7C319EFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="AssetName" type="1" localVarName="AssetName_E2E_515" localVarLevel="1" value="" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Deploy_Tag_Verify_History_1" key="{1D4AF82C-58B1-4767-946A-3EA8051A2DDD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91A84CAC-1D24-4DDF-9B26-EEBBECB94138}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters>
+											<param0 name="Deploymet_Environment" type="1" localVarName="" value="DE" />
+											<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
+										</testParameters>
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Logout_RM_1" key="{6786E6C0-ED99-4504-BF78-B5935B8F27BF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
@@ -2858,7 +3125,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Environment_URL" Type="String" Local="False">
-					<DefValue StrValue="${envURLl}" />
+					<DefValue StrValue="http://bdmsuat7:1121/dm/login.jsp" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />
@@ -2890,6 +3157,9 @@
 				</Variable>
 				<Variable Name="Gils_Demo_Revision_Add_Assets" Type="String" Local="True">
 					<DefValue />
+				</Variable>
+				<Variable Name="AssetName_E2E_515" Type="String" Local="False">
+					<DefValue StrValue="Maintenance Loan Eligibility (View: Auto_Add_Info) [V1.0]" />
 				</Variable>
 			</Items>
 		</data>
