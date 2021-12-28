@@ -1,4 +1,6 @@
-﻿var Details_Audit = require("Details_Audit");
+﻿var WaitElement_ispresent = require("WaitElement_ispresent");
+
+var Details_Audit = require("Details_Audit");
 var Navigate_to_Details_Audit = require("Navigate_to_Details_Audit");
 var Navigate_to_Details_General = require("Navigate_to_Details_General");
 var Navigate_to_Details_Tab = require("Navigate_to_Details_Tab");
@@ -71,6 +73,13 @@ function Discard_or_Reject_button()
 {
   Split_button();
   Aliases.browser.pageSapiensDecision.FindElement("//p-splitbutton//ul//li").Click();
+  Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");  
+                
+//     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+
+      Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+                
+     Delay(5000);
 
 }
 
@@ -212,6 +221,52 @@ function Complete_Task()
   
 }
 
+
+function Send_to_DPR()
+{
+//  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
+//  Delay(5000);
+  WaitElement_ispresent.Wait_Until_Element_ispresent("//*[(text()='Decision Peer Reviewer')]")
+  let DPR_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Decision Peer Reviewer')]");
+  
+  Log.Message(DPR_Button.length);
+  
+  if(DPR_Button.length>0)
+  {
+     Aliases.browser.pageSapiensDecision2.FindElement("//*[(text()='Decision Peer Reviewer')]").Click();
+     
+     Delay(200);
+                
+//     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Submit task to 'Business Owner Approver'");
+     aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpContains, "Submit task to 'Decision Peer Reviewer'");
+
+     
+//     Aliases.browser.pageSapiensDecision..Keys("Please Approve the Request");
+     Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//*[@name='message']").Keys("Please Approve the Request");  
+                
+//     Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+
+      Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+                
+     Delay(5000);
+     
+     //Check for Asset to be sent in Candidate Status
+     if(Aliases.browser.pageSapiensDecision.FindElement("//dcn-laundry-line//span").textContent == "CANDIDATE")
+     {
+       Log.Checkpoint("Task is successfully sent to Decision Peer Reviewer and Status of Task is CANDIDATE");
+       
+     }
+     else
+     {
+       Log.Error("Task is still with Decision Analyst");
+     }
+  }
+  else
+  {
+    Log.Error("Button is disabled/does not exist");
+  }
+  
+}
 //Generic Approval Button without any specific Role
 //function Send_For_Approval_Button(Role)
 //{//p-splitbutton//button[1]

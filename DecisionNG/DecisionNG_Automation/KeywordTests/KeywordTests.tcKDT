@@ -29,6 +29,7 @@
 				<child name="Nav_MyTasks_SpecificTask" key="{B7D864C2-0CDD-4F6E-9D7F-35B5345E94C9}" path="Nav_MyTasks_SpecificTask.tcKDTest" />
 				<child name="Repo_Comm_VG_Flow_Open" key="{CD0EE186-786F-4BDC-A6F8-762C04A61448}" path="Repo_Comm_VG_Flow_Open.tcKDTest" />
 				<child name="Repo_Comm_VG_Decision_Open" key="{12944006-2734-4B7C-8116-3783C782B726}" path="Repo_Comm_VG_Decision_Open.tcKDTest" />
+				<child name="Nav_MyTasks_Selecttask" key="{52F7E04A-0413-49D6-AE36-C17740CE943F}" path="Nav_MyTasks_Selecttask.tcKDTest" />
 			</folder>
 			<folder name="Tasks_Menu_Navigations" />
 			<folder name="Repository Navigation">
@@ -224,6 +225,8 @@
 					<child name="Complete_Task" key="{D9C94161-D6C4-4573-841C-8459878F67ED}" path="Complete_Task.tcKDTest" />
 					<child name="Claim_and_Open_Task" key="{E13C6919-AE74-4E45-AC90-6FD623F345FB}" path="Claim_and_Open_Task.tcKDTest" />
 					<child name="ConflictCheck_Resolve" key="{970F243A-0F2B-43F7-AAC5-0DB130D4B856}" path="ConflictCheck_Resolve.tcKDTest" />
+					<child name="Send_to_DPR" key="{EEA890BA-B52A-479F-A64D-93833603A17C}" path="Send_to_DPR.tcKDTest" />
+					<child name="Task_Reject" key="{2F5B7552-D783-478F-834D-FEBA50625559}" path="Task_Reject.tcKDTest" />
 				</folder>
 				<folder name="Testing">
 					<child name="Testing_Step" key="{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" path="Testing_Step.tcKDTest" />
@@ -236,6 +239,7 @@
 				</folder>
 				<folder name="Generic">
 					<child name="Breadcrumb_Navigations" key="{F54BD3A4-E264-4F77-B2F6-D4C1DBCA94CD}" path="Breadcrumb_Navigations.tcKDTest" />
+					<child name="Specific_Task_Open_DV" key="{06864C48-3073-457A-A0CA-32800ACABCD5}" path="Specific_Task_Open_DV.tcKDTest" />
 				</folder>
 				<folder name="Deploy">
 					<child name="Approve_Deployment_All" key="{99186513-26E4-434F-A6E3-F3956CA3C296}" path="Approve_Deployment_All.tcKDTest" />

@@ -6487,6 +6487,68 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="WorkerW" Key="{3282DE28-1444-4341-9C69-898AB34E3AE9}">
+										<Image FileName="513780768" Left="8" Top="31" Right="675" Bottom="73" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ReBarWindow32" Key="{F5500E7A-A6B8-4D7C-80E2-8A5C1A1BC76A}">
+												<Image FileName="513780768" Left="8" Top="31" Right="675" Bottom="73" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ReBarWindow32" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="AddressBandRoot" Key="{753CE6A7-D1C5-48FC-9296-09A4C28AF91B}">
+														<Image FileName="513780768" Left="113" Top="31" Right="450" Bottom="70" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Address Band Root" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="progress" Key="{2F5919AB-1F4B-469F-AB9F-060DB91A5A8F}">
+																<Image FileName="513780768" Left="115" Top="36" Right="448" Bottom="66" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="msctls_progress32" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="BreadcrumbParent" Key="{C718BB50-43DB-42BE-9DF5-4281F5353A6B}">
+																		<Image FileName="513780768" Left="115" Top="36" Right="382" Bottom="66" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Breadcrumb Parent" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="toolbarAddressDocuments" Key="{7B2521D5-0780-4BAD-BC4C-7061984B94AD}">
+																				<Image FileName="513780768" Left="115" Top="36" Right="382" Bottom="66" />
+																				<TypeInfo Item0="{0796E100-83B4-41A8-9FA0-DDEDE425F9FE}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="ToolbarWindow32" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="Address: Documents" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="dlgConfirmSaveAs" Key="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}" ExtendedFind="True">
@@ -7420,6 +7482,17 @@
 						</Child>
 					</Child>
 					<Child Name="btnSave" Owner="{3946C1DF-5BFA-4A55-90D2-59D27623F765}" />
+					<Child Name="WorkerW" Owner="{3282DE28-1444-4341-9C69-898AB34E3AE9}">
+						<Child Name="ReBarWindow32" Owner="{F5500E7A-A6B8-4D7C-80E2-8A5C1A1BC76A}">
+							<Child Name="AddressBandRoot" Owner="{753CE6A7-D1C5-48FC-9296-09A4C28AF91B}">
+								<Child Name="progress" Owner="{2F5919AB-1F4B-469F-AB9F-060DB91A5A8F}">
+									<Child Name="BreadcrumbParent" Owner="{C718BB50-43DB-42BE-9DF5-4281F5353A6B}">
+										<Child Name="toolbarAddressDocuments" Owner="{7B2521D5-0780-4BAD-BC4C-7061984B94AD}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="dlgConfirmSaveAs" Owner="{49C88C37-9A18-4366-B4E5-E2640D44A3E2}">
 					<Child Name="DirectUIHWND" Owner="{664A8447-2160-4B35-A5CA-885DCC4DBCAE}">

@@ -274,7 +274,7 @@ var Picture_To_Log = require("Picture_To_Log");
       
         if (UnusedFTCheck == "Unused")
         {
-        Log.Checkpoint("FactType Created Successfully & the FT is Unused "+UnusedFTCheck);
+        Log.Checkpoint("FactType Created Successfully & the FT is "+UnusedFTCheck);
         }
       
         else
@@ -289,7 +289,7 @@ var Picture_To_Log = require("Picture_To_Log");
 
         Log.Checkpoint("Facttype is Invalid");
       
-        Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]//td[1]").Click();
+        Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]//td[1]//a").Click();
         
         let FTSummaryErrorMessage=Aliases.browser.pageSapiensDecision.form.form2.panel10.textContent;
        
@@ -322,7 +322,7 @@ var Picture_To_Log = require("Picture_To_Log");
       
         Log.Checkpoint("FactType Is valid");
       
-        Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]//td[1]").Click();
+        Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr[1]//td[1]//a").Click();
       
         let browser = Aliases.browser;
         let page = browser.pageSapiensDecision;
