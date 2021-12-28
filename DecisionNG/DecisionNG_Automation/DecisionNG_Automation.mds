@@ -2002,7 +2002,13 @@
 									<testItem name="Logout_RM_1" key="{6786E6C0-ED99-4504-BF78-B5935B8F27BF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments activeCloud="CBT" />
-										<children />
+										<children>
+											<testItem name="Logout_RM_1_1" key="{4F9E93E0-A5FC-4816-8AE9-FCA95F11A2AB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<environments activeCloud="CBT" />
+												<children />
+											</testItem>
+										</children>
 									</testItem>
 								</children>
 							</testItem>
