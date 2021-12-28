@@ -25,8 +25,7 @@ PropNames = new Array("processname", "index");
   page.Close();
   Delay(5000)
   Picture_To_Log.PictureToLog();
-  Browsers.Item(btChrome).Run("chrome://extensions/");
-Delay(5000)
+
   //Aliases.browser.Navigate("chrome://extensions/")
 
 }
