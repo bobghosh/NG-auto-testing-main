@@ -410,9 +410,11 @@
 					<child name="AI_Repo_Decision_RF_Present_Click" key="{8E42F25A-E9C8-4234-B539-0B0E1D304C04}" path="AI_Repo_Decision_RF_Present_Click.tcKDTest" />
 					<child name="AI_Task_Decision_Approved_RF_SwitchTabs" key="{48454F6B-4550-49FB-9170-7165FBA7E68B}" path="AI_Task_Decision_Approved_RF_SwitchTabs.tcKDTest" />
 					<child name="AI_Task_Draft_RF_SwitchTabs" key="{CD759835-887B-4A0D-BFC1-A1865EE094FD}" path="AI_Task_Draft_RF_SwitchTabs.tcKDTest" />
+
 					<child name="AI_Task_DV_Approved_RF_Details_SwitchSubTabs" key="{ED6A7286-E7A6-45A2-B5A8-771031CF6CAA}" path="AI_Task_DV_Approved_RF_Details_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Task_Draft_RF_Details_SwitchSubTabs" key="{9C640996-18F3-44EA-9EB4-FDE596AC79DB}" path="AI_Task_Draft_RF_Details_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_DV_RF_Multiple_Views_Different_Versions" key="{2935E8B7-48FE-41F5-8FF1-AB0F9BB88F4B}" path="AI_Repo_DV_RF_Multiple_Views_Different_Versions.tcKDTest" />
+
 					<child name="AI_Repo_Decision_RF_Associations_SwitchSubTabs" key="{7B2B58A8-718F-4252-9FAE-F092C9E8FC41}" path="AI_Repo_Decision_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Task_RF_Associations_SwitchSubTabs" key="{E23B2495-5A43-48CA-8979-5EF7554F0FEB}" path="AI_Task_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_Decision_RF_Associations_Versions" key="{DEDD5B66-94AD-403E-A4F5-29C97359C4C7}" path="AI_Repo_Decision_RF_Associations_Versions.tcKDTest" />

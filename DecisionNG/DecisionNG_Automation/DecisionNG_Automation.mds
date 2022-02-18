@@ -11,10 +11,10 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{87F182F7-AA82-47A5-A515-B46EB955171A}" version="14">
 		<children>
-			<testItem name="Decision_UAT" key="{256D4802-2F49-4A9E-B2EA-33F28FE08796}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Decision_UAT" key="{256D4802-2F49-4A9E-B2EA-33F28FE08796}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Regression" key="{49900889-D128-46D1-89C0-6F731335DC3C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Modelling" key="{F72CD93A-143D-4229-884F-C2AF6FC53C3D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -473,7 +473,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -510,10 +510,10 @@
 											</testItem>
 										</children>
 									</testItem>
-									<testItem name="Release Projets" key="{34D9318A-63F5-4737-8A8E-C9173679C5DA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Release Projets" key="{34D9318A-63F5-4737-8A8E-C9173679C5DA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Deploy Assets" key="{FB5682F3-0A2C-47B8-8DA4-BB483222F4EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Deploy Assets" key="{FB5682F3-0A2C-47B8-8DA4-BB483222F4EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Login_Release Manager" key="{F06D6E74-4B23-4A05-A137-26964D1CF6EC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3749,6 +3749,36 @@
 										<children />
 									</testItem>
 								</children>
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Jenkins Job" key="{5E7B4379-1494-48E4-A966-CE2CE2B8A4ED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Login_Admin" key="{98BA615B-52F6-4157-81FA-78AB4C452741}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="URL" type="1" localVarName="E2E_URL" localVarLevel="1" value="" />
+									<param1 name="UserName" type="1" localVarName="UserName" localVarLevel="1" value="" />
+									<param2 name="Password" type="1" localVarName="Password" localVarLevel="1" value="" />
+								</testParameters>
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="HomeScreen_Create_New_Task" key="{D2EDE056-B2DA-4510-A44B-312817F47892}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F80B6045-49B0-440E-B555-47A7633F2594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="Community" type="1" localVarName="" value="Automation_Assets" />
+									<param1 name="TaskName" type="1" localVarName="" value="Jenkins Job Verify" />
+									<param2 name="ModelingProjectName" type="1" localVarName="" value="Gil&apos;s Demo" />
+									<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+									<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+								</testParameters>
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Logout_Admin" key="{4C6BC0B1-0126-44C4-B0F7-5744566F968D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
 							</testItem>
 						</children>
 					</testItem>
