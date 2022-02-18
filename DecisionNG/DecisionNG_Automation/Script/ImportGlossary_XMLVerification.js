@@ -115,7 +115,7 @@ function ImportGlossaryXMLVerification()
         
                     wndNotepad.MainMenu.Click("File|Save As...");
                     let dlgSaveAs = notepad.dlgSaveAs;
-                    dlgSaveAs.DUIViewWndClassName.DirectUIHWND.FloatNotifySink.ComboBox.SetText(("C:\Users\sumant.pattanshetti\Desktop\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name") + ".xml"));
+                    dlgSaveAs.DUIViewWndClassName.DirectUIHWND.FloatNotifySink.ComboBox.SetText(("C:\\Users\\sumant.pattanshetti\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name") + ".xml"));
                     dlgSaveAs.btnSave.ClickButton();
                     if((notepad.dlgConfirmSaveAs.DirectUIHWND.CtrlNotifySink.btnYes).Exists)
                     {
@@ -132,7 +132,7 @@ function ImportGlossaryXMLVerification()
       
                 Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//button[text()='Browse']").ClickButton();
          
-                Aliases.browser.dlgOpen.OpenFile(("C:\Users\sumant.pattanshetti\Desktop\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name")), "Custom Files");
+                Aliases.browser.dlgOpen.OpenFile(("C:\\Users\\sumant.pattanshetti\\Desktop\\Import Files\\"+Project.Variables.ImportGlossary.Value("Import File Name")), "Custom Files");
 
                 if (Project.Variables.ImportGlossary.Value("AllowUpdateSOR") == "Yes")
                 {          

@@ -2,7 +2,7 @@
 {
 var page= Aliases.browser.pageSapiensDecision2
 let RepoPathElement = page.FindElement("//h2[contains(text(),'Location')]/parent::div//dcn-link-label//div//a")
-let RepoPathText = RepoPathElement.textContent;
+let RepoPathText = RepoPathElement.textContent.trim();
 
 if(verify_Asset == "Yes"&& !verify_Asset == "")
 {

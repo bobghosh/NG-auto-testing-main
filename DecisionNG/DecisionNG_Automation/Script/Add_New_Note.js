@@ -3,6 +3,7 @@ var addNoteBtn = page.FindElement("//dcn-additional-info-notes-list-tab//button[
 function Add_New_Note(Subject,Text)
 {
 //click on add new note button and enter subject and text
+  Delay(2000)
   aqObject.CheckProperty(addNoteBtn,'disabled',cmpEqual ,false);
   addNoteBtn.ClickButton();
   var addNoteDialogueTitle = page.FindElement("//dcn-note-dialog//h1");

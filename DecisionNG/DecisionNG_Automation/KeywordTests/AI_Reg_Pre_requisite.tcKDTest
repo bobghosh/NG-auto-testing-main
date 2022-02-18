@@ -102,6 +102,16 @@
 						</Data>
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Edit_Existing_KS_from_Asset">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Select_KS" DefVarType="8" DefValueType="6" DefValueValue=" Validate Tuition Fee Loan_KS_Auto_Add_Info [2.0]" VarType="8" ValueType="6" ValueValue=" Validate Tuition Fee Loan_KS_Auto_Add_Info [2.0]" />
+								<Parameter Name="Edit_KS_Name" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Edit_Version_Identifier" DefVarType="8" DefValueType="6" DefValueValue="109.0" VarType="8" ValueType="6" ValueValue="109.0" />
+								<Parameter Name="Description" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Repo_Nav_DF_CopytoWb">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Communities_To_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD" VarType="8" ValueType="6" ValueValue="WORLD,Automation Testing" />

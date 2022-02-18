@@ -23,7 +23,7 @@ if(VersionIdentifier != null && VersionIdentifier != "")
         page.FindElement("//label[contains(text(),'Description')]//following-sibling::div//textarea").Keys(Description);        
        }   
 
- page.FindElement("//button[contains(text(),'Save')]").Click();
+ page.FindElement("//button[contains(text(),' OK ')]").Click();
  Delay(1000);
  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.panelDraft, "contentText", cmpEqual, "DRAFT");
  Project.Variables.Additional_Info_Draft_KS_Name=page.FindElement("//div[@class='knowledge-source__asset-links--list']//*[contains(@class,'component__selected')]/span").textContent;

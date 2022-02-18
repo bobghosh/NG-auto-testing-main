@@ -11,6 +11,9 @@
 			</folder>
 		</folder>
 		<folder name="Generic">
+			<folder name="Buttons and Actions">
+				<child name="Buttons_Actions" key="{B049C067-D853-439F-B205-E6D26129DB43}" path="Buttons_Actions.js" />
+			</folder>
 			<child name="SelectingDateFromCalendar" key="{1C228B8F-429C-4585-993D-33F48E0A2C40}" path="SelectingDateFromCalendar.js" />
 			<child name="SelectingOptionfromDropDown_Role" key="{16C9A004-789F-45C0-8DDA-22255D4A6CCF}" path="SelectingOptionfromDropDown_Role.js" />
 			<child name="SelectingItem_SingleItem_Match_MultipleRows" key="{B9E11F6A-C297-4A3F-B2A8-7B05F1449819}" path="SelectingItem_SingleItem_Match_MultipleRows.js" />
@@ -35,6 +38,7 @@
 			<child name="CloseBrowsers" key="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}" path="CloseBrowsers.js" />
 			<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 			<child name="BrowserBack_Action" key="{37C7687E-C7F8-4EC4-961F-F9F28A50965B}" path="BrowserBack_Action.js" />
+			<child name="Verify_DialogueBox_Open_Closed" key="{996CCC48-6D36-4937-8585-38D10B3EA771}" path="Verify_DialogueBox_Open_Closed.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -167,6 +171,32 @@
 		</folder>
 		<folder name="Administration">
 			<folder name="Security">
+				<folder name="Permission Groups">
+					<child name="Add_New_Permission" key="{2880ACB6-2586-4381-B6DB-9F70ACC7E504}" path="Add_New_Permission.js" />
+					<child name="Verify_PermissionGrp_and_Permissions" key="{C370E26F-D7EB-44B8-9645-F926D53718BE}" path="Verify_PermissionGrp_and_Permissions.js" />
+					<child name="Verify_PermissionGrp_Exists_NotExists" key="{E0EB88A2-277C-4438-8AAB-E416AF1C1A3B}" path="Verify_PermissionGrp_Exists_NotExists.js" />
+					<child name="PermissionGrp_Name_Validation" key="{1E222059-6843-483A-9695-40A4FB76580D}" path="PermissionGrp_Name_Validation.js" />
+					<child name="Edit_Existing_PG" key="{9237AAB3-84E3-43F8-9B96-DB76587F06B2}" path="Edit_Existing_PG.js" />
+					<child name="PG_Remove_Verify_Message" key="{C9FDA2E3-96B4-4051-83A1-40B8C2E64251}" path="PG_Remove_Verify_Message.js" />
+				</folder>
+				<folder name="Generic">
+					<child name="Global_Filter_EnterText_Verify" key="{978476EE-A9E9-4278-943E-ACC7A5D40FF4}" path="Global_Filter_EnterText_Verify.js" />
+					<child name="Popup_SearchFilter_CheckBox_Verify" key="{486B2BDB-128E-4707-B5D5-986DB227EB77}" path="Popup_SearchFilter_CheckBox_Verify.js" />
+				</folder>
+				<folder name="Users">
+					<child name="Add_New_User" key="{B4F87A70-8788-44E8-8259-73B416FD3D04}" path="Add_New_User.js" />
+					<child name="Verify_Createduser_and_Roles" key="{767D6BE8-4D34-451B-AF71-0DCBE9DAFAA3}" path="Verify_Createduser_and_Roles.js" />
+					<child name="User_ManageRoles_Verify_Role_Exists" key="{E5EF298D-9C7E-4C93-873A-EB9826EF96A3}" path="User_ManageRoles_Verify_Role_Exists.js" />
+				</folder>
+				<folder name="Roles">
+					<child name="Roles_Manage_PG_Verify_PG_Exists" key="{2649DE61-CA7E-4019-B064-713C2118FE6E}" path="Roles_Manage_PG_Verify_PG_Exists.js" />
+					<child name="Add_New_Roles" key="{BA8E2736-61C9-4EF5-B9AB-9296FDC303B3}" path="Add_New_Roles.js" />
+					<child name="Verify_Roles_Permission_Groups" key="{99224AFA-A7D1-4B73-AD7C-9BF9E236BE03}" path="Verify_Roles_Permission_Groups.js" />
+					<child name="Verify_Role_Exists_Not_Exists" key="{D6D22382-EAAE-469B-A2FE-80E4904ABED5}" path="Verify_Role_Exists_Not_Exists.js" />
+					<child name="Role_Existing_ValidationMessage" key="{28D6DF52-DCDB-4C97-84F9-2384D22F3A3E}" path="Role_Existing_ValidationMessage.js" />
+					<child name="Edit_Existing_Roles" key="{1522F3ED-B00A-4181-97FE-732E8B741B8C}" path="Edit_Existing_Roles.js" />
+					<child name="Role_Remove_Verify_Message" key="{450BB003-2599-4AE5-B7F8-6300E869A85B}" path="Role_Remove_Verify_Message.js" />
+				</folder>
 				<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{3C8E41B2-DCF6-4DA6-84C2-6539E9A17B88}" path="Permission_Matrix_Set_Permission_PermissionGroups.js" />
 				<child name="Permission_Matrix_Set_PermissionGroups_Roles" key="{4DDFF3EB-B3A4-4215-BB62-9E150458650E}" path="Permission_Matrix_Set_PermissionGroups_Roles.js" />
 				<child name="Administration_Security_AddUser" key="{5FEBE74D-714D-44D3-9E35-0139D92A150A}" path="Administration_Security_AddUser.js" />
@@ -355,6 +385,7 @@
 						<child name="Deploy_Tag" key="{3C22F930-C60C-4CAF-AF23-121728F7A249}" path="Deploy_Tag.js" />
 						<child name="Verify_Deployment_History" key="{BFD03147-88C4-4ABF-81A4-BB996C4241E1}" path="Verify_Deployment_History.js" />
 						<child name="Deployment_Validation_Revision" key="{9940552D-FA70-4B38-8BCF-0FB60A331D2F}" path="Deployment_Validation_Revision.js" />
+						<child name="Deploy_Snapshot" key="{22BE4C14-48BC-42C5-A530-67B308D1191E}" path="Deploy_Snapshot.js" />
 					</folder>
 					<folder name="Revision Task">
 						<child name="Revision_Task_EditDepolymentDescriptor" key="{4BB0A535-3962-4819-BBA5-F6CDFCB686D3}" path="Revision_Task_EditDepolymentDescriptor.js" />

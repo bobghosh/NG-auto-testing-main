@@ -163,13 +163,13 @@
 					</Node>
 					<Node name="var36">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F005400610073006B005F0077006900740068005F00610073007300650074007300"/>
+							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F0077006900740068005F0061007300730065007400730020003100310033003100350032003600"/>
 						</Node>
 						<Prp name="name" type="S" value="Additional_Info_Task_with_assets"/>
 					</Node>
 					<Node name="var37">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F005400610073006B005F0077006900740068006F00750074005F00610073007300650074007300"/>
+							<Prp name="strvalue" type="H" value="4100640064006900740069006F006E0061006C005F0049006E0066006F005F0077006900740068006F00750074005F006100730073006500740073002000370031003100350032003600"/>
 						</Node>
 						<Prp name="name" type="S" value="Additional_Info_Task_without_assets"/>
 					</Node>
@@ -215,8 +215,35 @@
 					<Node name="var45">
 						<Prp name="name" type="S" value="AssetName_E2E_515"/>
 					</Node>
+					<Node name="var46">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4100640064005500730065007200310020003300310038003400"/>
+						</Node>
+						<Prp name="name" type="S" value="Security_NewUser_Created"/>
+					</Node>
+					<Node name="var47">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5000650072006D0069007300730069006F006E002000470072006F007500700020003900380038003700"/>
+						</Node>
+						<Prp name="name" type="S" value="Security_New_PermissionGrp"/>
+					</Node>
+					<Node name="var48">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4100640064005500730065007200310020003300310038003400"/>
+						</Node>
+						<Prp name="name" type="S" value="Security_New_DisplayName"/>
+					</Node>
+					<Node name="var49">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4E0065007700200052006F006C00650020004100640064006500640020003500390036003100"/>
+						</Node>
+						<Prp name="name" type="S" value="Security_New_Role_Added"/>
+					</Node>
 					<Node name="var5">
 						<Prp name="name" type="S" value="TaskName"/>
+					</Node>
+					<Node name="var50">
+						<Prp name="name" type="S" value="Open_Project_Reg_Deploy"/>
 					</Node>
 					<Node name="var6">
 						<Prp name="name" type="S" value="Details_TestValues_StringValues"/>

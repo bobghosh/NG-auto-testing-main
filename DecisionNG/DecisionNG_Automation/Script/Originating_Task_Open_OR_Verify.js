@@ -2,7 +2,7 @@
 {
   var page= Aliases.browser.pageSapiensDecision2
   let originationgTaskElement = page.FindElement("//dcn-additional-info-asset-general-tab//dcn-link-label//a")
-  let originationgTaskText = originationgTaskElement.textContent;
+  let originationgTaskText = originationgTaskElement.textContent.trim();
   
   if(verify_Asset == "Yes"&& !verify_Asset == "")
   {

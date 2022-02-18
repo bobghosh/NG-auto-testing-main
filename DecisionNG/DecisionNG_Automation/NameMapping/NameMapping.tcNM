@@ -136,6 +136,9 @@
 												<Value Value="//h1[contains(text(), &apos; Choose task to edit Decision &apos;)]" />
 											</Selector>
 											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Permission Groups&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="#mat-dialog-title-17" />
 											</Selector>
 											<Selector>
@@ -4414,10 +4417,10 @@
 										<TypeInfo Item0="{F32CB30B-AADA-48D6-98A1-1B266CA6180D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-dialog-title-1" />
+												<Value Value="//h1[contains(text(), &apos;Delete&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//h1[contains(text(), &apos;Delete&apos;)]" />
+												<Value Value="#mat-dialog-title-1" />
 											</Selector>
 											<Selector>
 												<Value Value="//h1[@id=&apos;mat-dialog-title-1&apos;]" />
@@ -5913,6 +5916,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkMoreDetails2" Key="{4CAFEAAD-113E-4863-A69F-C86CC7339D0D}">
+										<Image FileName="1401929361" Left="965" Top="273" Right="1067" Bottom="292" />
+										<TypeInfo Item0="{556F109B-69C6-4719-A3E0-E0ACCF56F14E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;More Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form/form//dcn-link-label//a[contains(@class, &apos;link-label__text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]//form//dcn-link-label//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form/form//dcn-link-label//a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -7029,6 +7050,7 @@
 						<Child Name="button9" Owner="{0087ECC1-0893-4E8F-84B5-49AC06348567}">
 							<Child Name="textnode4" Owner="{6FD8681B-D253-4DC1-883D-58E9B2014698}" />
 						</Child>
+						<Child Name="linkMoreDetails2" Owner="{4CAFEAAD-113E-4863-A69F-C86CC7339D0D}" />
 					</Child>
 					<Child Name="buttonOk" Owner="{344A0124-2B69-4FA7-8DB9-C24B40304A13}" />
 					<Child Name="textnodeFactTypeSummarySd" Owner="{47308BB4-292F-4D35-BA36-2C4C9E607F72}" />

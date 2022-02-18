@@ -20,6 +20,7 @@
 				<child name="Navigate_Administration_Roles" key="{CD6F6F65-8E73-4AD0-AE37-2EE89A95A809}" path="Navigate_Administration_Roles.tcKDTest" />
 				<child name="Navigate_Model_Definition" key="{DDB6E7A1-5DC4-4E53-9E55-B88F31D5631E}" path="Navigate_Model_Definition.tcKDTest" />
 				<child name="Navigate_Administration_PermissionGroup" key="{8082AEBA-9DBF-427F-BA95-E6BD43872716}" path="Navigate_Administration_PermissionGroup.tcKDTest" />
+				<child name="Navigate_Administration_Users" key="{82A881E1-F22A-4C75-9581-5BBBA3EBBC52}" path="Navigate_Administration_Users.tcKDTest" />
 			</folder>
 			<folder name="Generic">
 				<child name="Navigate_To_Administration" key="{A01F8E2D-8845-4E80-825F-B2CAD4E631A8}" path="Navigate_To_Administration.tcKDTest" />
@@ -132,9 +133,39 @@
 		</folder>
 		<folder name="Administration">
 			<folder name="Security">
+				<folder name="Users">
+					<child name="CreateNew_User" key="{0FDD3009-A8A7-4F66-8982-42B1CCD2CB2D}" path="CreateNew_User.tcKDTest" />
+				</folder>
+				<folder name="Permission Groups">
+					<child name="Add_New_Permission_Click_Ok" key="{C78F36C9-691B-4CC5-BEAC-75C03E6E5511}" path="Add_New_Permission_Click_Ok.tcKDTest" />
+					<child name="Add_New_Permission_Click_Cancel" key="{D17F186A-E81D-48A7-9A9A-73F28CEA28CA}" path="Add_New_Permission_Click_Cancel.tcKDTest" />
+					<child name="Add_Existing_PG_ValidateError" key="{4866FB23-56B1-4330-B5D0-8ACE0DCE2EAD}" path="Add_Existing_PG_ValidateError.tcKDTest" />
+					<child name="Search_Existing_PG_Verify" key="{0E418865-38E1-4AE3-8C85-668BD6C14973}" path="Search_Existing_PG_Verify.tcKDTest" />
+					<child name="Edit_Existing_PG_Permissions" key="{88414CD5-081F-4345-8986-3EB394FCC4DC}" path="Edit_Existing_PG_Permissions.tcKDTest" />
+					<child name="Remove_Used_PG_Verify" key="{DDFA31A2-70B9-4319-BC86-9A51BBEC262F}" path="Remove_Used_PG_Verify.tcKDTest" />
+					<child name="Add_New_PG_NoPermissions" key="{9EE89802-0D0C-4DEE-B6BB-C8D480D6A225}" path="Add_New_PG_NoPermissions.tcKDTest" />
+					<child name="Add_New_PG_Verify_In_Roles" key="{C532D95C-963E-49B6-87D9-F12E78B4BFD4}" path="Add_New_PG_Verify_In_Roles.tcKDTest" />
+					<child name="PG_Remove_PG_Verify_In_Roles" key="{1C650289-A9D8-4FD3-9870-7EAE4E2CF8F0}" path="PG_Remove_PG_Verify_In_Roles.tcKDTest" />
+					<child name="PG_Select_Deselect_all_Permissions" key="{857612D9-4580-4F73-AA2E-C902DC97D3D4}" path="PG_Select_Deselect_all_Permissions.tcKDTest" />
+				</folder>
+				<folder name="Roles">
+					<child name="Add_New_Role_ClickOk_Verify" key="{130F62B3-503A-4B20-9048-F26FA469F151}" path="Add_New_Role_ClickOk_Verify.tcKDTest" />
+					<child name="Add_New_Role_Click_Cancel" key="{96DB94CA-AB9C-4541-BDFF-2A5FCE05CAAF}" path="Add_New_Role_Click_Cancel.tcKDTest" />
+					<child name="Duplicate_Role_ValidationError_Check" key="{9D6965F8-8A44-42BE-B412-9F2851AB49D2}" path="Duplicate_Role_ValidationError_Check.tcKDTest" />
+					<child name="Roles_Search_Verify_Exists" key="{0CDC7BA1-BDBC-4253-85C6-69DCCDD2B362}" path="Roles_Search_Verify_Exists.tcKDTest" />
+					<child name="Edit_Existing_Roles" key="{3DB79379-EEA6-4684-AE43-2E686C8B5F35}" path="Edit_Existing_Roles.tcKDTest" />
+					<child name="Remove_Existing_Roles_Verify" key="{1C52F48E-9C9E-4BE5-A4D5-8A83BF1FFD53}" path="Remove_Existing_Roles_Verify.tcKDTest" />
+					<child name="Add_New_Role_Without_PG" key="{5B8A000B-0CC2-4465-9CEF-738B7EAC3947}" path="Add_New_Role_Without_PG.tcKDTest" />
+					<child name="Add_New_Role_VerifyIn_Users" key="{5BB2807D-43C1-4331-B73B-8B8054113514}" path="Add_New_Role_VerifyIn_Users.tcKDTest" />
+					<child name="Remove_Existing_Role_Verify_Users" key="{5DB39EE3-B5F7-48FC-99BE-C3FF658692A1}" path="Remove_Existing_Role_Verify_Users.tcKDTest" />
+					<child name="Roles_PG_Select_Deselect_all_Permissions" key="{F5E91B3F-44AB-4E03-BD68-06439BCB7563}" path="Roles_PG_Select_Deselect_all_Permissions.tcKDTest" />
+					<child name="Roles_Search_Checkbox_Select_PG" key="{E362A40C-C142-44DC-828F-F0BA46C869AF}" path="Roles_Search_Checkbox_Select_PG.tcKDTest" />
+					<child name="Role_Search_PG_UnCheck" key="{741CD6AA-D179-4579-98AE-F7CF3EE47AE3}" path="Role_Search_PG_UnCheck.tcKDTest" />
+				</folder>
 				<child name="Permission_Matrix_Set_Permission_PermissionGroups" key="{7AF76191-B92B-4D24-B644-2EFA018B3507}" path="Permission_Matrix_Set_Permission_PermissionGroups.tcKDTest" />
 				<child name="Administration_Security_AddUser" key="{A8892FD3-715F-40AD-9481-83C185953814}" path="Administration_Security_AddUser.tcKDTest" />
 				<child name="Administration_Community_AssignUser" key="{DB8EF98B-E26E-4AC4-BE2C-84F5E2D77C27}" path="Administration_Community_AssignUser.tcKDTest" />
+				<child name="Pre_Requisites" key="{E43DB32F-13CF-4463-9680-7A2F924E9879}" path="Pre_Requisites.tcKDTest" />
 			</folder>
 			<folder name="Settings">
 				<folder name="Model Definition">
@@ -167,6 +198,12 @@
 			<folder name="Page_Navigations">
 				<child name="Navigate_Decisions_Tab" key="{02DEAC22-2641-495C-A669-03B73B106BC0}" path="Navigate_Decisions_Tab.tcKDTest" />
 				<child name="Navigate_DecisionFlows_Tab" key="{938C085D-7650-408C-83F0-372ED333ACEB}" path="Navigate_DecisionFlows_Tab.tcKDTest" />
+			</folder>
+			<folder name="Release Projects">
+				<folder name="Deploy Assets">
+					<child name="Deploy_Snapshot_None" key="{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" path="Deploy_Snapshot_None.tcKDTest" />
+					<child name="Deploy_Tag_None" key="{15660A40-F707-43F4-B588-9688133E0796}" path="Deploy_Tag_None.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Generic">
