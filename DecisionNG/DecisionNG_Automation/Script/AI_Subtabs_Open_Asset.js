@@ -27,8 +27,34 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
    //To Verify draft/Candidate asset
      
       let childElements=source_assets_array[j].childCount;
-   
-     if (childElements==1)
+   if(Asset_Type == "Rule Family" || Asset_Type == "Knowledge Source")
+   {
+       if(childElements == 1)
+       {
+          Asset_Status_AI="Approved";
+       } 
+       
+            else 
+     {
+       
+       let statusicon=page.FindElement("("+source_assets_array_xpath+")["+k+"]//dcn-asset-state//dcn-entity-state");
+ 
+     if (statusicon.getAttribute('class').includes("asset__status--draft"))
+     {
+        Asset_Status_AI="Draft";
+         
+     }
+     else if (statusicon.getAttribute('class').includes("asset__status--candidate"))
+     {
+       Asset_Status_AI="Candidate";
+            
+     }
+       
+     }
+   }
+   else{
+
+     if (childElements==2)
     {
       Asset_Status_AI="Approved";
      }
@@ -49,15 +75,15 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
      }
        
      }
+     }
   //ends verification on status icon 
   
-
+    //Log.Message(source_asset+' '+compared_asset_status[0]+' '+Asset_Status_AI+' '+compared_asset_status[1])
      if((source_asset==compared_asset_status[0]) && (Asset_Status_AI==compared_asset_status[1]))
      {
        Flag="true";
       //Verify Asset icon in additional info
        
-    
       let iconclass=page.FindElement("("+source_assets_array_xpath+"//i)["+k+"]").getAttribute('class');
       if(iconclass.includes(classname))
             {
@@ -65,20 +91,22 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
               Log.Checkpoint(Asset_Type+" icon is Present");
               if(expander_icon_assets.length>0)
               {
-
+                Log.Message("Expander")
               let expander_icon=expander_icon_assets[j].lastChild; //to check plus expander icon exists
 
               //to Check Expander icon
                 if(expander_icon_assets[j].lastChild=="[HTMLElement]")
                     {
+                        Log.Message("lastchild")
                         if(expander_icon.getAttribute('class').includes('expander-icon icon-link_plus'))
                         {
+                          Log.Message("Expander pluss")
                          expander_icon.click();
                          let context_Elements=page.FindElements("//div[contains(@class,'sub-tab__list')]/dcn-link-label/parent::div//i[contains(@class,'context icon')]//following-sibling::div/a");
                          for(let index=0;index<context_Elements.length;index++)
                          {
                            context_element_text=context_Elements[index].TextContent.trim();
-                           //Log.Message(context_element_text)
+                           Log.Message(context_element_text)
                            
                            if(context_element_text==context_of_asset)
                            {
@@ -92,10 +120,15 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
                          }
                         }
 
-                    } 
+                    } else
+                    {
+                      source_assets_array[j].click();
+                      Log.Message("No context1")
+                    }
                   }
                 else{
               source_assets_array[j].click();
+              Log.Message("No context")
               }           
             }
        else
@@ -155,6 +188,7 @@ switch(Asset_Type)
   case "Decisions":
    classname="icon-decision_view";
    Versions_Assets_withClassname("Decision View",Open_Asset,context_of_asset,classname);
+   //Log.Message("case decisions")
    break;
    
   case "Rule Families":

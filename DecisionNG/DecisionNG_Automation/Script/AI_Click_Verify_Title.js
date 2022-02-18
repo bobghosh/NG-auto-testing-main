@@ -30,7 +30,7 @@ function AdditionalInfo_Click_Verify_Title(asset,assetName)
             {
               Log.Error("Decision View Icon is Not Present")
             }
-            if(assetText== assetName)
+            if(assetText.trim()== assetName.trim())
             {
               Log.Checkpoint("Decision View Name "+assetName+" matches with "+assetText+"");
             }
@@ -57,7 +57,7 @@ function AdditionalInfo_Click_Verify_Title(asset,assetName)
             {
               Log.Error("Decision Flow Icon is not Present")
             }
-            if(assetText== assetName)
+            if(assetText.trim()== assetName.trim())
             {
               Log.Checkpoint("Decision Flow Name "+assetName+" matches with "+assetText+"");
             }
@@ -84,7 +84,7 @@ function AdditionalInfo_Click_Verify_Title(asset,assetName)
             {
               Log.Error("Rule Family Icon is not Present")
             }
-            if(assetText== assetName)
+            if(assetText.trim()== assetName.trim())
             {
               Log.Checkpoint("Rule Family Name "+assetName+" matches with "+assetText+"");
             }
@@ -112,7 +112,7 @@ function AdditionalInfo_Click_Verify_Title(asset,assetName)
             {
               Log.Error("Knowledge Source Icon is not Present")
             }
-            if(assetText== assetName)
+            if(assetText.trim()== assetName.trim())
             {
               Log.Checkpoint("Knowledge Source Name "+assetName+" matches with "+assetText+"");
             }
@@ -141,7 +141,7 @@ function AdditionalInfo_Click_Verify_Title(asset,assetName)
               Log.Error("FactType Icon is Not Present");
             }
             
-            if(assetText== assetName)
+            if(assetText.trim()== assetName.trim())
             {
               Log.Checkpoint("FactType Name "+assetName+" matches with "+assetText+"");
             }

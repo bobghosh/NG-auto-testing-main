@@ -7,7 +7,7 @@
   
   let hasNext = "true";
   
-  Delay(10000);
+  //Delay(10000);
   
   do
   {
@@ -17,7 +17,12 @@
       {
         Log.Message("Tag is deployed");
         hasNext = false;
-      }  
+      }
+      if(Status.textContent == "EXPORTED")
+      {
+        Log.Message("Tag is EXPORTED");
+        hasNext = false;
+      }   
       else if(Status.textContent == "FAILED")
       {
         Log.Message("Tag is failed");

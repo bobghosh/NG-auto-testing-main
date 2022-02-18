@@ -24,13 +24,13 @@
 // the flag `i` is in case sensitive which means that `A` and `a` is treated as the same character ( and `B,b`, `C,c` etc )  
     
     
-  // Log.Message(tabTextLowcase)
+  //Log.Message(tabTextLowcase)
     
     if(tabTextLowcase == SubTabName.toLowerCase())
     { 
     let tabText_value=parseInt(tabText,10);
-   // Log.Message(tabText_value);
-      if(source_elements==tabText_value)
+    //Log.Message('asha'+tabText_value+"asha");
+      if(source_elements == tabText_value)
       {
         Log.Checkpoint("Counter of "+SubTabName+" tab is matching with list of assets and no of elements are "+tabText_value);
       }

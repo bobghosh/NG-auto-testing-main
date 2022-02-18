@@ -2,10 +2,10 @@
 {
   //Function for verifying details of subtabs
   let page =Aliases.browser.pageSapiensDecision2
-  Delay(1000);
+  Delay(2000);
   let source_assets_array_xpath="//div[contains(@class,'sub-tab__list')]/dcn-link-label/parent::div";
   let source_assets_array= page.FindElements(source_assets_array_xpath);
-  
+  //Log.Message(classname)
   Log.Message("No of assets displayed in Additional info"+source_assets_array.length);
   let Flag;
   let compared_assets_array=compared_assets.toString().split(",");
@@ -24,8 +24,34 @@ for(let i=0;i<compared_assets_array.length;i++)
    //To Verify draft/Candidate asset
      
       let childElements=source_assets_array[j].childCount;
-   
-     if (childElements==1)
+    if(Asset_Type == "Rule Family"||Asset_Type == "Knowledge Source")
+   {
+       if(childElements == 1)
+       {
+          Asset_Status_AI="Approved";
+       } 
+       
+            else 
+     {
+       
+       let statusicon=page.FindElement("("+source_assets_array_xpath+")["+k+"]//dcn-asset-state//dcn-entity-state");
+ 
+     if (statusicon.getAttribute('class').includes("asset__status--draft"))
+     {
+        Asset_Status_AI="Draft";
+         
+     }
+     else if (statusicon.getAttribute('class').includes("asset__status--candidate"))
+     {
+       Asset_Status_AI="Candidate";
+            
+     }
+       
+     }
+   }
+   else{
+
+     if (childElements==2)
     {
       Asset_Status_AI="Approved";
      }
@@ -42,18 +68,18 @@ for(let i=0;i<compared_assets_array.length;i++)
      else if (statusicon.getAttribute('class').includes("asset__status--candidate"))
      {
        Asset_Status_AI="Candidate";
-     
+            
      }
        
+     }
      }
   //ends verification on status icon 
   
       
-     
+     Log.Message(source_asset+compared_asset_status[0]+Asset_Status_AI+compared_asset_status[1])
      if((source_asset==compared_asset_status[0]) && (Asset_Status_AI==compared_asset_status[1]))
      {
        Flag="true";
-       
     //Verify Asset icon in additional info
      
       let iconclass=page.FindElement("("+source_assets_array_xpath+"//i)["+k+"]").getAttribute('class');

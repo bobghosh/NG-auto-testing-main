@@ -10,7 +10,7 @@
     
     let KS_ElementText =KS_List_Elements[i].textContent.trim();
     
-    if(AssetName == KS_ElementText)
+    if(AssetName.trim() == KS_ElementText)
     {
       //Log.Message("i value is "+ i);
       flag="1";

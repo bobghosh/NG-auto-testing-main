@@ -28,7 +28,7 @@ do{
     //Iterate through all the rows and finding the desired Task
     for(let j = 1; j <= ItemCount.length ; j++)
     {
-          Log.Message(ItemCount.length)
+          //Log.Message(ItemCount.length)
           let HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//dcn-expandable-selectable-list-item["+j+"]//i[contains(@class,'icon-decision_view')]/following-sibling::div/a");
 
           //If the Item Name matches 

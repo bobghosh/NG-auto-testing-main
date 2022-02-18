@@ -21,7 +21,7 @@
   }
   else
     {
-      Log.warning("Community is already Expanded");
+      Log.Checkpoint("Community is already Expanded");
     }
   }
 }
@@ -49,7 +49,7 @@ function ViewGroup_Expand_Verify(VGName)
   }
   else
     {
-      Log.warning("View Group is already Expanded");
+      Log.Checkpoint("View Group is already Expanded");
     }
   }
 }
