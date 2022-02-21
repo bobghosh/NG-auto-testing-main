@@ -198,6 +198,7 @@
 			<folder name="Page_Navigations">
 				<child name="Navigate_Decisions_Tab" key="{02DEAC22-2641-495C-A669-03B73B106BC0}" path="Navigate_Decisions_Tab.tcKDTest" />
 				<child name="Navigate_DecisionFlows_Tab" key="{938C085D-7650-408C-83F0-372ED333ACEB}" path="Navigate_DecisionFlows_Tab.tcKDTest" />
+				<child name="Nav_Comm_ReleaseProj_Proj_Branch" key="{2E0CFB12-A707-4602-A6B0-787706017DAE}" path="Nav_Comm_ReleaseProj_Proj_Branch.tcKDTest" />
 			</folder>
 			<folder name="Release Projects">
 				<folder name="Deploy Assets">
