@@ -19,6 +19,7 @@ function Deploy_Snapshot_Verify_Deployed_Status(deployment_Environment,ApprovalS
     Log.Warning("Revision is not snapshot it is Tagged")
     tagUntagBtn.Click()
     Buttons_Actions.okButtonClick();
+    Delay(1000)
     WaitElement_ispresent.Wait_Until_Element_ispresent("//*[text()='Deploy ']")
   }
   //Click on Deploy button for Revision

@@ -525,364 +525,290 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10562_ Deploy_Snapshot_Java_Prod_AllDec_CSV_Regression_None" key="{BC99DCB2-5FFE-4658-9DC9-CF60221D5DFD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Navigation_Repository, Select Comunity,Select Release Project,Select Project,Select Branch" key="{2B8A8739-8929-42A7-B702-9803A4DBB6FF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2E0CFB12-A707-4602-A6B0-787706017DAE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
 															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10562_ Deploy_Snapshot_Java_Prod_AllDec_CSV_Regression_None" key="{BC99DCB2-5FFE-4658-9DC9-CF60221D5DFD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_AllDec_CSV_All_TG_None" key="{C7C355A7-9C2A-4556-AD60-0528532DD1C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_AllDec_Json_Regression_None" key="{6E33A105-4FA9-4890-B3A1-B44114603217}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_Json_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_Json_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_AllDec_Json_All_TG_None" key="{1FDFD161-AEC6-4A3E-8838-0728D04CA627}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_Json_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_Json_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_AllDec_XML_Regression_None" key="{288CD38B-4646-419A-B81C-27A1FC4D54D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_XML_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_XML_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_AllDec_XML_All_TG_None" key="{B447520D-5FAB-4AE6-8A7F-752ADC1FA650}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_XML_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_XML_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_AllDec_No_TG_None" key="{1FD0D1FB-E2D2-4264-8781-40E442FFAFED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_No_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_No_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_CSV_Regression_None" key="{7BC1F2F9-C48E-4E3C-962F-2463077D5656}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_CSV_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_CSV_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_CSV_All_TG_None" key="{E8F56CB0-4205-4460-82C6-6E57736F4C88}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_CSV_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_CSV_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_Json_Regression_None" key="{E06CD870-71B9-4C63-BC99-4B511153F1BB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_Json_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_Json_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_Json_All_TG_None" key="{BDF9BD4C-5AA6-48B3-8C75-EFDE18885724}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_Json_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_Json_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_XML_Regression_None" key="{92090F2D-6897-4B61-9445-11CA4A360A3E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_XML_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_XML_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_XML_All_TG_None" key="{16A5C798-4789-445D-B956-79665737AF76}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_XML_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_XML_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_EachDec_Sep_Jar_No_TG_None" key="{AFEB2392-2201-4E4D-B1DC-F002639E0496}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_No_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_EachDec_Sep_Jar_No_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_CSV_Regression_None" key="{FCFFA932-13D8-4CA7-847B-C1A255310DB0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_CSV_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_CSV_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_CSV_All_TG_None" key="{F0E89DE6-E814-4358-B321-69C7BEED8AD3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_CSV_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_CSV_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_Json_Regression_None" key="{9D15951A-D65F-43E3-BBE3-57B239BB41AC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_Json_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_Json_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_Json_All_TG_None" key="{C21A993F-5230-498F-903D-ED2EF913A6C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_Json_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_Json_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_XML_Regression_None" key="{ED3B309B-24FF-4196-89EA-539F9A631263}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_XML_Reg" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_XML_Reg" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_XML_All_TG_None" key="{FF048814-77AB-4B9B-AC80-E6DC342F8330}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_XML_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_XML_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Deploy_Snapshot_Java_Prod_WithoutJars_No_TG_None" key="{B154D5AC-F495-4083-BCE2-CBD2313283DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_No_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_WithoutJars_No_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10563_Repository, Revision, Deploy, Snapshot, DE, approval strategy &quot;None&quot; " key="{106874F4-6677-4EE7-87E2-7BC8B933A305}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="DE" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="DE" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10565_Repository, Revision, Deploy, Snapshot, Model Mapping " key="{99DCC93A-C78A-4FCD-B4AA-12C22FA9D030}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10566_Repository, Revision, Deploy, Tag, With Repository " key="{0E87B2DB-1258-4CE3-AFFE-3019BA6B67C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="JAVA" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="JAVA" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10567_Repository, Revision, Deploy, snapshot, Modular xml " key="{BD460452-EFB2-459C-B797-606E887A17C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Modular XML" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Modular XML" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10568_Repository, Revision, Deploy, Snapshot, Modular csv " key="{4D01291E-AC0C-49F7-B1A5-E1C53AF4DDAE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Modular CSV" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Modular CSV" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10569_Repository, Revision, Deploy, Snapshot, Modular xls " key="{21BEEF87-214B-4ABA-8649-4884FB3570FE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Modular XLS" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Modular XLS" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10570_Repository, Revision, Deploy, Snapshot, Minimal csv" key="{AA9FBED5-4D21-4CA9-9C6E-D1665BF9C8EE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{848A66BD-D9BB-4AC8-87F4-E4E2C7A9D76D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Minimal CSV" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Navigate_to_Assets" key="{1602E451-12C9-48C7-93DD-E02FC51CBDE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F598D90A-1AEC-4066-A906-CD676687A579}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Create_New_Tag_Deploy" key="{BFDF080A-702C-4940-B962-C773C368AD8F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9F66C028-8737-428F-92CA-ED121C14DEC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-														<testParameters>
-															<param0 name="TagName" type="1" localVarName="" value="NewTag" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Minimal CSV" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10575_Repository, Revision, Deploy, Tag, Java, approval strategy &quot;None&quot;" key="{3E1863E7-1E6A-4A62-9423-FA6470D0A598}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10576_Repository, Revision, Deploy, Tag, DE, approval strategy &quot;None&quot;" key="{F651EE9F-BB3D-4A99-910E-6D29AF05800B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="DE" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="DE" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10578_Repository, Revision, Deploy, Tag, Model Mapping" key="{39DF9E44-1618-4055-8A00-2B02EFE5AA12}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="Open_Project_Reg_Deploy" localVarLevel="1" value="" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Java_Prod_AllDec_CSV_All_TG" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10580_Repository, Revision, Deploy, Tag, Modular xml" key="{0501CBAC-D781-4076-95E5-7F24EA1F09B6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Modular XML" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Modular XML" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10581_Repository, Revision, Deploy, Tag, Modular csv" key="{572BB238-672D-41B5-8746-9770988AA0A7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Modular CSV" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Modular CSV" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10582_Repository, Revision, Deploy, Tag, Modular xls" key="{36F9E9A7-518F-4E19-8390-5CDD7C9A06A7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Modular XLS" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Modular XLS" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10583_Repository, Revision, Deploy, Tag, Minimal csv" key="{39ED2494-7677-4020-BA66-278A7013DDCB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15660A40-F707-43F4-B588-9688133E0796}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="OpenProject" type="1" localVarName="" value="Issue" />
-															<param1 name="BranchName" type="1" localVarName="" value="Main" />
-															<param2 name="Deployment_Env" type="1" localVarName="" value="Minimal CSV" />
-															<param3 name="Approval_Strategy" type="1" localVarName="" value="None" />
+															<param0 name="Deployment_Env" type="1" localVarName="" value="Minimal CSV" />
+															<param1 name="Approval_Strategy" type="1" localVarName="" value="None" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
@@ -3990,7 +3916,7 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="Open_Project_Reg_Deploy" Type="String" Local="False">
-					<DefValue StrValue="Issue" />
+					<DefValue StrValue="Deploy Reg" />
 				</Variable>
 			</Items>
 		</data>

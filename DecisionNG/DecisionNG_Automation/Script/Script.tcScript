@@ -39,6 +39,7 @@
 			<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 			<child name="BrowserBack_Action" key="{37C7687E-C7F8-4EC4-961F-F9F28A50965B}" path="BrowserBack_Action.js" />
 			<child name="Verify_DialogueBox_Open_Closed" key="{996CCC48-6D36-4937-8585-38D10B3EA771}" path="Verify_DialogueBox_Open_Closed.js" />
+			<child name="Perform_Click_On_Element" key="{5B7CA46D-0BA7-4BF4-A052-8B48E42CE277}" path="Perform_Click_On_Element.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
