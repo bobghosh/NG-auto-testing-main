@@ -37,6 +37,7 @@ function DecisionScreen_EditFT(FacttypeName)
   if (b != null)
   {
     b.HoverMouse(10,7);
+
     let x = Sys.Desktop.MouseX
     let y = Sys.Desktop.MouseY
     let w = Sys.ObjectFromPoint(x, y);
@@ -47,4 +48,5 @@ function DecisionScreen_EditFT(FacttypeName)
   }
 
 }
+
 module.exports.DecisionScreen_EditFT = DecisionScreen_EditFT;

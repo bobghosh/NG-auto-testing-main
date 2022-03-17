@@ -88,7 +88,7 @@
 					</Node>
 					<Node name="var23">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="450032004500200035003100350020002D003500360031003100300033003100"/>
+							<Prp name="strvalue" type="H" value="5400610073006B004E00650077003600380033003400"/>
 						</Node>
 						<Prp name="name" type="S" value="NewTaskName"/>
 					</Node>

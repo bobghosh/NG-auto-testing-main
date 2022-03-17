@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{FFEEA37A-09CF-48D4-9862-B71E5338D6E8}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44392.2844212963" objectName="Aliases.browser.pageSapiensDecision.form.buttonCancel" objectLeft="718" objectTop="616" objectRight="818" objectBottom="650" clickPointX="785" clickPointY="633" imageFileName="tcvi245612046155240.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="44392.2855208333" objectName="Aliases.browser.pageSapiensDecision.form.buttonOk" objectLeft="960" objectTop="616" objectRight="1083" objectBottom="650" clickPointX="1042" clickPointY="635" imageFileName="tcvi245706703155240.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>

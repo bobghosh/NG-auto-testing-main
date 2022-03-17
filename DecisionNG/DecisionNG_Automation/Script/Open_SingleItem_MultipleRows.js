@@ -180,7 +180,7 @@ function Open_SingleItem_MultipleRows(Item)
                 var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
 
                 //If the Item Name matches 
-                if(HighlightedItemName.textContent.trim() == Item )
+                if(HighlightedItemName.textContent.trim() == Item.trim())
                 {          
                        HighlightedItemName.click();
                        flag =1;

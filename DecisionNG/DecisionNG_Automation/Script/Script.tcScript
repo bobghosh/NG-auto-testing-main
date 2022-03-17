@@ -54,6 +54,9 @@
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{609A5D24-0146-41B5-8011-2A5022CAB044}" path="FT_Tab_FTSummary_DetailsTab_Verify.js" />
 					<child name="FactTypeTab_AddNewFactType_Verify_Single" key="{BD1AD8FF-4504-445B-B24F-5DE2917583B5}" path="FactTypeTab_AddNewFactType_Verify_Single.js" />
 					<child name="FactTypeTab_Remove_FT_Verify" key="{2A9D6567-13CF-4F46-B4E7-434EF8EE6D82}" path="FactTypeTab_Remove_FT_Verify.js" />
+					<child name="FT_Tab_AllFields_Disabled_Verify" key="{6372FD90-1CAA-46A0-9D86-586CA5F2A2A2}" path="FT_Tab_AllFields_Disabled_Verify.js" />
+					<child name="FT_Tab_AllFields_Enabled_Verify" key="{9675B99C-028D-4D96-8A35-5767116D7848}" path="FT_Tab_AllFields_Enabled_Verify.js" />
+					<child name="FT_Tab_UpdateDesc_And_ClickMoreDetails" key="{CD54B248-29FD-4643-9EC5-13F4217E1CBB}" path="FT_Tab_UpdateDesc_And_ClickMoreDetails.js" />
 				</folder>
 				<folder name="ModelMapping">
 					<child name="Generic_code" key="{172D5B38-7179-4200-A670-87841D7813EF}" path="Generic_code.js" />
@@ -93,6 +96,8 @@
 				<child name="Message_Category_AddColumn" key="{8760DD97-A102-4619-9304-1D7134A0CCF8}" path="Message_Category_AddColumn.js" />
 				<child name="Message_Catagory_Remove_Column" key="{E36F2E38-2C8C-431C-9D5B-0600BCFD5A03}" path="Message_Catagory_Remove_Column.js" />
 				<child name="RF_Select_Row_OR_Column_OR_Cell" key="{43732BD9-15E2-40A4-A0CD-90E3B255B45F}" path="RF_Select_Row_OR_Column_OR_Cell.js" />
+				<child name="RF_RightClick_HeaderColumns_SelectSubMenu" key="{ECC4B551-D2D1-44CB-ACBE-FEF6158FD79A}" path="RF_RightClick_HeaderColumns_SelectSubMenu.js" />
+				<child name="RF_Logic_Build_Row_Specific" key="{8366AE8D-63F6-4457-BD11-2D374ECE2002}" path="RF_Logic_Build_Row_Specific.js" />
 			</folder>
 			<folder name="Decision">
 				<child name="DRF_DBLClick_Open" key="{A8992DD3-ED1A-4E68-B880-4E8CDBFBC8CC}" path="DRF_DBLClick_Open.js" />
@@ -102,6 +107,7 @@
 				<child name="Select_Desired_RF" key="{243D7B9D-61DB-4C04-9CD7-C94A31E59F61}" path="Select_Desired_RF.js" />
 				<child name="Deselect_RF_DecisionScreen" key="{3FCD5EF7-C948-4CDE-92ED-5C18BC333764}" path="Deselect_RF_DecisionScreen.js" />
 				<child name="DecisionScreen_FT_Enable_Editing" key="{A4184A46-4A9E-4591-9618-29612BDFD2C7}" path="DecisionScreen_FT_Enable_Editing.js" />
+				<child name="DRF_RightClick_SelectSubOption" key="{465DDF0A-4CBA-4C89-AFCE-304AF56D0A66}" path="DRF_RightClick_SelectSubOption.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />

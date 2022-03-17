@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{B887F89C-660A-4F5F-BBD0-F32BC1C808E5}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44410.2183796296" objectName="Aliases.browser.pageSapiensDecision2.textnodeWeather" objectLeft="289" objectTop="280" objectRight="346" objectBottom="299" clickPointX="316" clickPointY="294" imageFileName="tcvi260781140155960.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="44410.2183912037" objectName="Aliases.browser.pageSapiensDecision2.textnode2.textnodeStartANewTask.linkStartANewTask.textnodeUnmarkForDelete" objectLeft="327" objectTop="336" objectRight="419" objectBottom="355" clickPointX="378" clickPointY="347" imageFileName="tcvi260783015155961.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="44410.2184143519" objectName="Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName" objectLeft="280" objectTop="269" objectRight="447" objectBottom="305" clickPointX="337" clickPointY="289" imageFileName="tcvi260785015155962.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="12" kind="0" dateTime="44410.2184375" objectName="Aliases.browser.pageSapiensDecision.form.form2.form3.textboxName" objectLeft="280" objectTop="269" objectRight="447" objectBottom="305" clickPointX="-1" clickPointY="-1" imageFileName="tcvi260786687155963.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>

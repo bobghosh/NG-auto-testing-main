@@ -59,6 +59,11 @@
 				<folder name="Test Case Specific">
 					<child name="FactTypeTab_AddNewFactType_Verify" key="{BD2047B3-0CF9-4C8C-B3A8-7AFF1707900F}" path="FactTypeTab_AddNewFactType_Verify.tcKDTest" />
 					<child name="FT_Tab_FTSummary_DetailsTab_Verify" key="{DAB888C5-CAB8-41FF-9C20-02BA739956E7}" path="FT_Tab_FTSummary_DetailsTab_Verify.tcKDTest" />
+					<child name="FT_Tab_ApprovedSummary_EnableEditing" key="{363B380C-042E-43C4-AE8A-8CBEA10B69A7}" path="FT_Tab_ApprovedSummary_EnableEditing.tcKDTest" />
+					<child name="FT_Tab_MoreDetailsPage_VerifyUpdatedDetails" key="{BB2CB4E5-2F37-4AD1-A321-CEC199A5B084}" path="FT_Tab_MoreDetailsPage_VerifyUpdatedDetails.tcKDTest" />
+					<child name="FT_Tab_Navigate_ThroughBreadcrumb" key="{9DD165D9-CDCA-4887-8C1B-F90227E7C064}" path="FT_Tab_Navigate_ThroughBreadcrumb.tcKDTest" />
+					<child name="FT_Tab_SummaryPopUp_Description_Verify" key="{D1291FD9-03D5-4677-BD2B-76E5A6CE289E}" path="FT_Tab_SummaryPopUp_Description_Verify.tcKDTest" />
+					<child name="FactType_RevertFactType_From_DecisionDiagram" key="{D12DF219-1617-4745-8172-045B3528822F}" path="FactType_RevertFactType_From_DecisionDiagram.tcKDTest" />
 				</folder>
 				<folder name="ModelMapping">
 					<folder name="TestCases">
@@ -106,7 +111,28 @@
 				<folder name="General">
 					<child name="Insert_Column_From_Conclusion_Column" key="{0C696659-7C1E-46A8-8A9A-39AB399F6924}" path="Insert_Column_From_Conclusion_Column.tcKDTest" />
 				</folder>
-				<folder name="Test Case Specific" />
+				<folder name="Test Case Specific">
+					<folder name="Conclusion Operator">
+						<child name="RF_Change_FTNumeric_MultipleToSingle" key="{9F06F495-CAF8-4EE5-A731-026A0EFBD257}" path="RF_Change_FTNumeric_MultipleToSingle.tcKDTest" />
+						<child name="RF_Change_FTNumeric_SingleToMultiple" key="{1774B1CB-5F11-4465-AAED-A6D5CA9EF32A}" path="RF_Change_FTNumeric_SingleToMultiple.tcKDTest" />
+						<child name="RF_Change_FTText_MultipleToSingle" key="{54045B23-9760-4ED7-9ED3-D3557101F12E}" path="RF_Change_FTText_MultipleToSingle.tcKDTest" />
+						<child name="RF_Change_FTText_SingleToMultiple" key="{D1AA60E3-EBBA-4CAA-912F-524E58C6209E}" path="RF_Change_FTText_SingleToMultiple.tcKDTest" />
+						<child name="RF_Change_MultipleDate_ToTextSingle" key="{FF39ECC0-BFD2-49E4-A10A-BD304F799CB1}" path="RF_Change_MultipleDate_ToTextSingle.tcKDTest" />
+						<child name="RF_Change_MultipleNumeric_ToDataSingle" key="{CCF30E53-2F0C-4D1A-8DEF-D920BCB66687}" path="RF_Change_MultipleNumeric_ToDataSingle.tcKDTest" />
+						<child name="RF_Change_MultipleNumeric_ToMultipleText" key="{52B96A57-071E-411D-A368-0BB0EEFE44EC}" path="RF_Change_MultipleNumeric_ToMultipleText.tcKDTest" />
+						<child name="RF_Change_MultipleNumeric_ToNumericSingle" key="{0C3CB3C5-62C5-42A6-AA23-1FDC7D7893DD}" path="RF_Change_MultipleNumeric_ToNumericSingle.tcKDTest" />
+						<child name="RF_Change_SingleDate_ToSingleNumeric" key="{588D9D2F-92FB-4F71-A4B5-776F409EFDC5}" path="RF_Change_SingleDate_ToSingleNumeric.tcKDTest" />
+						<child name="RF_Change_SingleText_ToMultipleNumeric" key="{4D757D1D-CBF8-46E7-8A26-26AA3EDF708C}" path="RF_Change_SingleText_ToMultipleNumeric.tcKDTest" />
+						<child name="RF_Draft_ConclusionColumn_ChangeOperator_Verify" key="{E7DED25B-DA6C-4885-9A0B-673EB5451613}" path="RF_Draft_ConclusionColumn_ChangeOperator_Verify.tcKDTest" />
+						<child name="RF_UpdateToLatest_FromDecisionScreen" key="{CECB52AA-4D70-4A57-A36A-06CF2ECA9ACB}" path="RF_UpdateToLatest_FromDecisionScreen.tcKDTest" />
+						<child name="RF_UpdateToLatest_FromRFScreen" key="{C4DBC970-FC65-47D2-8550-1EC0FAD3A156}" path="RF_UpdateToLatest_FromRFScreen.tcKDTest" />
+						<child name="SupportingRFV_UpdateToLatest_FromDecisionScreen" key="{2559145A-94C9-4486-95DC-166F5286CFC7}" path="SupportingRFV_UpdateToLatest_FromDecisionScreen.tcKDTest" />
+						<child name="SupportingRFV_UpdateToLatest_FromRFScreen" key="{BA01E87F-5558-40F2-AC78-3421544C4FFF}" path="SupportingRFV_UpdateToLatest_FromRFScreen.tcKDTest" />
+					</folder>
+					<folder name="Operand Formula">
+						<child name="Test5" key="{FF836C59-2793-4C3B-85CB-EF2BC140DF0F}" path="Test5.tcKDTest" />
+					</folder>
+				</folder>
 				<folder name="Pre-requisite" />
 			</folder>
 			<folder name="Knowledge Source">
@@ -411,11 +437,9 @@
 					<child name="AI_Repo_Decision_RF_Present_Click" key="{8E42F25A-E9C8-4234-B539-0B0E1D304C04}" path="AI_Repo_Decision_RF_Present_Click.tcKDTest" />
 					<child name="AI_Task_Decision_Approved_RF_SwitchTabs" key="{48454F6B-4550-49FB-9170-7165FBA7E68B}" path="AI_Task_Decision_Approved_RF_SwitchTabs.tcKDTest" />
 					<child name="AI_Task_Draft_RF_SwitchTabs" key="{CD759835-887B-4A0D-BFC1-A1865EE094FD}" path="AI_Task_Draft_RF_SwitchTabs.tcKDTest" />
-
 					<child name="AI_Task_DV_Approved_RF_Details_SwitchSubTabs" key="{ED6A7286-E7A6-45A2-B5A8-771031CF6CAA}" path="AI_Task_DV_Approved_RF_Details_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Task_Draft_RF_Details_SwitchSubTabs" key="{9C640996-18F3-44EA-9EB4-FDE596AC79DB}" path="AI_Task_Draft_RF_Details_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_DV_RF_Multiple_Views_Different_Versions" key="{2935E8B7-48FE-41F5-8FF1-AB0F9BB88F4B}" path="AI_Repo_DV_RF_Multiple_Views_Different_Versions.tcKDTest" />
-
 					<child name="AI_Repo_Decision_RF_Associations_SwitchSubTabs" key="{7B2B58A8-718F-4252-9FAE-F092C9E8FC41}" path="AI_Repo_Decision_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Task_RF_Associations_SwitchSubTabs" key="{E23B2495-5A43-48CA-8979-5EF7554F0FEB}" path="AI_Task_RF_Associations_SwitchSubTabs.tcKDTest" />
 					<child name="AI_Repo_Decision_RF_Associations_Versions" key="{DEDD5B66-94AD-403E-A4F5-29C97359C4C7}" path="AI_Repo_Decision_RF_Associations_Versions.tcKDTest" />
