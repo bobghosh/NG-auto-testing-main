@@ -72,27 +72,19 @@ function RuleFamily_Logic(string,rowNumbertoEnterData)
         
             switch(type){
                 case "%":{
-                    page.FindElement(("//dcn-round-robin//div")).Click();
+                    selectingOperandType("icon-fact_type")
                     page.FindElement("//dcn-autocomplete//input").keys(logicValues[noOfValues - 1].substr(1));
                     Delay(3000)
                     SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(logicValues[noOfValues - 1].substr(1),'No');
                     page.FindElement("//dcn-string-input//child::input").keys('[Tab]');
-                    //await common.enterTextValueAndTabOut(element(by.xpath("//dcn-autocomplete//input")), rowValues[1].substr(1));
+
                     break;
                 }
                 case "&":{
-                    //browser.sleep(2000)
-                    page.FindElement("//dcn-round-robin//div").click();
-                    //await browser.sleep(2000);
-                    page.FindElement("//dcn-round-robin//div").click();
-                    //await common.enterTextValue(element(by.xpath("//input[contains(@class,'ng-star-inserted')]")), logicValues[0].substr(1));
-                    //await common.enterTextValue(element(by.xpath("//dcn-formula//dcn-codemirror/textarea")), rowValues[1].substr(1));
-                    //await common.clickOnElement(element(by.xpath("//dcn-formula//dcn-codemirror//textarea")));
+                    
+                    selectingOperandType("icon-formula_fact_type")
                     page.FindElement("//dcn-formula//dcn-codemirror").click();
-                    page.FindElement("//dcn-formula//dcn-codemirror").Keys(['^']);
-                    
-                    //page.FindElement("//ul//li//span[contains(text(),'YEAR_DIFF')]").click();
-                    
+                    page.FindElement("//dcn-formula//dcn-codemirror").Keys(['^a[BS]']);
                     page.FindElement("(//dcn-formula//textarea)[1]").settext(logicValues[noOfValues - 1].substr(1));
                     page.FindElement("//dcn-fact-type-status-view//span").click();
                     break;
@@ -138,37 +130,26 @@ function RuleFamily_Logic(string,rowNumbertoEnterData)
                  Log.Message(type) 
                 switch(type){
                     case "%":{
-                         Log.Message("1")
-                         page.FindElement("//dcn-round-robin//div").click();
-                         page.FindElement("//dcn-autocomplete//input").keys(rowValues[1].substr(1));
-                         Delay(3000)
-                         SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(rowValues[1].substr(1),'No')
-                         Delay(2000)
-                         page.FindElement("//dcn-autocomplete//input").keys('[Tab]');
-                        //await common.enterTextValueAndTabOut(element(by.xpath("//dcn-autocomplete//input")), rowValues[1].substr(1));
-                        
-                        break;
+                       Log.Message("FactType Case")
+                       selectingOperandType("icon-fact_type")
+                       page.FindElement("//dcn-autocomplete//input").keys(rowValues[1].substr(1));
+                       Delay(3000)
+                       SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(rowValues[1].substr(1),'No')
+                       Delay(2000)
+                       page.FindElement("//dcn-autocomplete//input").keys('[Tab]');
+
+                     break;
                     }
                     case "&":{
-                         Log.Message("Formula case") 
-                         page.FindElement("//dcn-round-robin//div").click();
-                         
-                         page.FindElement("//dcn-round-robin//div").click();
-                         
-//                         page.FindElement("//dcn-formula//dcn-codemirror").keys(rowValues[1].substr(1));
-//                        //await common.enterTextValue(element(by.xpath("//dcn-formula//dcn-codemirror/textarea")), rowValues[1].substr(1));
-//                         page.FindElement("//dcn-formula//dcn-codemirror").click();
-//                         page.FindElement("//dcn-formula//dcn-codemirror").keys('[Enter]');
-                    page.FindElement("//dcn-formula//dcn-codemirror").click();
-//                    page.FindElement("//dcn-formula//dcn-codemirror").Keys(['^']);
-                    page.FindElement("//dcn-formula//dcn-codemirror").Keys(['^a[BS]']);
-                    //page.FindElement("//ul//li//span[contains(text(),'YEAR_DIFF')]").click();
-                    
-                    page.FindElement("(//dcn-formula//textarea)[1]").keys(rowValues[1].substr(1));
-                    page.FindElement("//dcn-fact-type-status-view//span").click();
+                      Log.Message("Formula case") 
+                      selectingOperandType("icon-formula_fact_type")
+                      page.FindElement("//dcn-formula//dcn-codemirror").click();
+                      page.FindElement("//dcn-formula//dcn-codemirror").Keys(['^a[BS]']);
+                      page.FindElement("(//dcn-formula//textarea)[1]").Keys(rowValues[1].substr(1));
+                      page.FindElement("//dcn-fact-type-status-view//span").click();
                          
                          
-                        break;
+                      break;
                     }
                     default:{ 
                         //await common.enterTextValueAndEnter(element(by.xpath("//input[contains(@class,'ng-star-inserted')]")), rowValues[1]);
@@ -245,7 +226,7 @@ function selectingOperandType(operandClass){
     
     sAttr = page.FindElement("//*[contains(@class, 'btn btn--secondary btn--sm btn--has-icon')]/i").getAttribute("class")
     Log.Message(sAttr)
-    if(sAttr.includes(operandClass)) //"icon-formula_fact_type"
+    if(sAttr.includes(operandClass))
       flag = false;
     else
       page.FindElement("//*[contains(@class, 'btn btn--secondary btn--sm btn--has-icon')]/i").Click();

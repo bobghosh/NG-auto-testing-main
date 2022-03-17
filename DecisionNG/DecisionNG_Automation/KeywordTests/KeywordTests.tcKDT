@@ -130,7 +130,9 @@
 						<child name="SupportingRFV_UpdateToLatest_FromRFScreen" key="{BA01E87F-5558-40F2-AC78-3421544C4FFF}" path="SupportingRFV_UpdateToLatest_FromRFScreen.tcKDTest" />
 					</folder>
 					<folder name="Operand Formula">
-						<child name="Test5" key="{FF836C59-2793-4C3B-85CB-EF2BC140DF0F}" path="Test5.tcKDTest" />
+						<child name="UpdateOperand_Absolute_NumericValue" key="{FF836C59-2793-4C3B-85CB-EF2BC140DF0F}" path="UpdateOperand_Absolute_NumericValue.tcKDTest" />
+						<child name="UpdateOperand_Absolute_FactType" key="{13F468F8-E8B1-4563-83BB-CF35B5D27DD5}" path="UpdateOperand_Absolute_FactType.tcKDTest" />
+						<child name="UpdateOperand_Average_NumericValue" key="{88145699-3E37-4D0E-B53C-1B0F7F33198A}" path="UpdateOperand_Average_NumericValue.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="Pre-requisite" />

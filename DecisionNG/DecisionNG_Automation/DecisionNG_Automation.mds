@@ -448,142 +448,191 @@
 									<testItem name="Rule Family" key="{D27C930D-405F-47C6-8DAC-A7B0B4D1B8E3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Test ID 6185_RF, Update to Latest, DRFV, From Decision Screen" key="{B799A45C-B618-4137-9ED9-59088AFF745D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CECB52AA-4D70-4A57-A36A-06CF2ECA9ACB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Automation Testing,Automation_Assets" />
-													<param1 name="AssetName" type="1" localVarName="" value="Tuition Fee Loan Eligibility__ (View: Auto_Add_Info) [V1.1]" />
-													<param2 name="DRF_Name" type="1" localVarName="" value="Tuition Fee Loan Eligibility" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
+											<testItem name="Conclusion Operator" key="{66A8E601-A5D0-45C5-8CDD-BAD2E22EE66D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 6185_RF, Update to Latest, DRFV, From Decision Screen" key="{D42AC360-5638-4F7C-B51C-780D8C2FE115}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CECB52AA-4D70-4A57-A36A-06CF2ECA9ACB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Automation Testing,Automation_Assets" />
+															<param1 name="AssetName" type="1" localVarName="" value="Tuition Fee Loan Eligibility__ (View: Auto_Add_Info) [V1.1]" />
+															<param2 name="DRF_Name" type="1" localVarName="" value="Tuition Fee Loan Eligibility" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6191_RF, Update to Latest, DRFV, from RF Screen" key="{E045FC92-338B-44F1-8C88-657BBD6DD25A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C4DBC970-FC65-47D2-8550-1EC0FAD3A156}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Automation Testing,Automation_Assets" />
+															<param1 name="AssetName" type="1" localVarName="" value="Tuition Fee Loan Eligibility__ (View: Auto_Add_Info) [V1.1]" />
+															<param2 name="DRF_Name" type="1" localVarName="" value="Tuition Fee Loan Eligibility" />
+															<param3 name="EllipsesOption" type="1" localVarName="" value="Update to latest" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6778_RF, Create RF, Change conc FT(Text) from Single value to Multiple values" key="{A73E9A10-A886-4D04-B9B9-E327FFAD87E1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D1AA60E3-EBBA-4CAA-912F-524E58C6209E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6780_RF, Create RFV,Change conc FT(Numeric) from Multiple value to Single value" key="{8C1807A7-527E-4CA8-9147-B58DE3B24946}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9F06F495-CAF8-4EE5-A731-026A0EFBD257}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6779_RF, Create RFV,Change conc FT(Text) from Multiple value to Single value" key="{A20C9E2B-DBDF-4210-BF9B-3058A680E193}" group="False" parallel="False" enabled="True" testMoniker="KDT\{54045B23-9760-4ED7-9ED3-D3557101F12E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6781_RF, Create RFV,Change conc FT(Numeric) from Single value to Multiple values" key="{B83204DC-F0EC-412E-99CD-1457A052B3AB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1774B1CB-5F11-4465-AAED-A6D5CA9EF32A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6782_RF, Create RFV,Change conc FT,Text- Single value to Numeric- Multiple value" key="{B9D8577D-CED4-4FA2-A0D5-ABF895EC52D4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4D757D1D-CBF8-46E7-8A26-26AA3EDF708C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6783_RF, Create RFV,Change conc FT,Date- Single value to Numeric- Single value" key="{614655EF-1706-42FC-A2FE-2BEAF0A9FFD0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{588D9D2F-92FB-4F71-A4B5-776F409EFDC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6784_RF, Create RFV,Change conc FT,Numeric- Multiple value to Date - Single value" key="{4D06CDA4-CF7A-469E-8CD4-3B303B397761}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CCF30E53-2F0C-4D1A-8DEF-D920BCB66687}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6785_RF, Create RFV,Change conc FT,Numeric- Multiple value to Text - Multiple value" key="{FC886902-B900-4361-9C13-6CE94E20F3D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52B96A57-071E-411D-A368-0BB0EEFE44EC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6787_RF, Create RFV,Change conc FT,Text- Multiple value to Numeric- Single value" key="{6E4DF4B5-A458-43A9-A637-949E3FF7676D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0C3CB3C5-62C5-42A6-AA23-1FDC7D7893DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6788_RF, Create RFV,Change conc FT,Date- Multiple value to Text- Single value" key="{677A2315-51AF-4324-BAF1-1E78EB8C773D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF39ECC0-BFD2-49E4-A10A-BD304F799CB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 7260_RF, Draft, Add, Numeric Fact Type, Conclusion Column" key="{993C6AA0-4396-4D04-A66F-557964CDE440}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E7DED25B-DA6C-4885-9A0B-673EB5451613}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6187_RF, Update to Latest, supporting RFV, From Decision Screen" key="{C443445E-C941-42BA-B8D8-9B92B76CAB8F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2559145A-94C9-4486-95DC-166F5286CFC7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="CommunityName" type="1" localVarName="" value="WORLD,QM" />
+															<param1 name="AssetName" type="1" localVarName="" value="Included Discount Points Cost (View: Base) [V1.1]" />
+															<param2 name="DRF_Name" type="1" localVarName="" value="Rate Spread Before Points" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6198_RF, Update to Latest, Supporting RFV, From RF screen" key="{AFC61A27-9A4D-432D-BF95-DB8B72CFBC8D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BA01E87F-5558-40F2-AC78-3421544C4FFF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="CommunityName" type="1" localVarName="" value="WORLD,QM" />
+															<param1 name="AssetName" type="1" localVarName="" value="Included Discount Points Cost (View: Base) [V1.1]" />
+															<param2 name="EllipsesOption" type="1" localVarName="" value="Update to latest" />
+															<param3 name="DRF_Name" type="1" localVarName="" value="Rate Spread Before Points" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
-											<testItem name="Test ID 6191_RF, Update to Latest, DRFV, from RF Screen" key="{976BC86C-3C52-46B5-8D58-05EADC23B5BB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C4DBC970-FC65-47D2-8550-1EC0FAD3A156}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="CommunityName" type="1" localVarName="" value="WORLD,Automation Testing,Automation_Assets" />
-													<param1 name="AssetName" type="1" localVarName="" value="Tuition Fee Loan Eligibility__ (View: Auto_Add_Info) [V1.1]" />
-													<param2 name="DRF_Name" type="1" localVarName="" value="Tuition Fee Loan Eligibility" />
-													<param3 name="EllipsesOption" type="1" localVarName="" value="Update to latest" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6778_RF, Create RF, Change conc FT(Text) from Single value to Multiple values" key="{29249313-2899-4A06-9712-DFF92B9EDE1C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D1AA60E3-EBBA-4CAA-912F-524E58C6209E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6780_RF, Create RFV,Change conc FT(Numeric) from Multiple value to Single value" key="{8EA0288E-2CA3-4814-990C-85509E173113}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9F06F495-CAF8-4EE5-A731-026A0EFBD257}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6779_RF, Create RFV,Change conc FT(Text) from Multiple value to Single value" key="{EE2D5CC2-A24A-47EF-9D3A-225290EDA763}" group="False" parallel="False" enabled="True" testMoniker="KDT\{54045B23-9760-4ED7-9ED3-D3557101F12E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6781_RF, Create RFV,Change conc FT(Numeric) from Single value to Multiple values" key="{CAAD6CA7-41DB-4312-9827-CF9DD15236FF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1774B1CB-5F11-4465-AAED-A6D5CA9EF32A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6782_RF, Create RFV,Change conc FT,Text- Single value to Numeric- Multiple value" key="{BFD49D76-29DE-4331-82DB-B8FD55062478}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4D757D1D-CBF8-46E7-8A26-26AA3EDF708C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6783_RF, Create RFV,Change conc FT,Date- Single value to Numeric- Single value" key="{8BCA6D1C-8DDD-4051-BB24-B1BEE2FD83B9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{588D9D2F-92FB-4F71-A4B5-776F409EFDC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6784_RF, Create RFV,Change conc FT,Numeric- Multiple value to Date - Single value" key="{B1F809DC-A0E5-4D16-AD2F-4A436010229D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CCF30E53-2F0C-4D1A-8DEF-D920BCB66687}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6785_RF, Create RFV,Change conc FT,Numeric- Multiple value to Text - Multiple value" key="{32670808-BE6A-44FD-A3E6-74CBCBDE3E06}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52B96A57-071E-411D-A368-0BB0EEFE44EC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6787_RF, Create RFV,Change conc FT,Text- Multiple value to Numeric- Single value" key="{B4F2EBA9-C02D-4A9F-9B74-1D4E91DF1634}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0C3CB3C5-62C5-42A6-AA23-1FDC7D7893DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6788_RF, Create RFV,Change conc FT,Date- Multiple value to Text- Single value" key="{536DCDDF-7320-4FA0-9285-DF83364E7D50}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF39ECC0-BFD2-49E4-A10A-BD304F799CB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 7260_RF, Draft, Add, Numeric Fact Type, Conclusion Column" key="{8E6B5AF3-F21F-4D7A-9A3F-15DF43749C48}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E7DED25B-DA6C-4885-9A0B-673EB5451613}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
-													<param1 name="OpenDecision" type="1" localVarName="" value="Decision For Modelling RF (View: Base) [V0]" />
-													<param2 name="DRFName" type="1" localVarName="" value="Decision For Modelling RF" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6187_RF, Update to Latest, supporting RFV, From Decision Screen" key="{FE6F232C-5FEC-41FA-8DD3-6875E53464B7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2559145A-94C9-4486-95DC-166F5286CFC7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="CommunityName" type="1" localVarName="" value="WORLD,QM" />
-													<param1 name="AssetName" type="1" localVarName="" value="Included Discount Points Cost (View: Base) [V1.1]" />
-													<param2 name="DRF_Name" type="1" localVarName="" value="Rate Spread Before Points" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 6198_RF, Update to Latest, Supporting RFV, From RF screen" key="{9EF02696-EC67-4296-A6B4-8315EEA1645E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BA01E87F-5558-40F2-AC78-3421544C4FFF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="CommunityName" type="1" localVarName="" value="WORLD,QM" />
-													<param1 name="AssetName" type="1" localVarName="" value="Included Discount Points Cost (View: Base) [V1.1]" />
-													<param2 name="EllipsesOption" type="1" localVarName="" value="Update to latest" />
-													<param3 name="DRF_Name" type="1" localVarName="" value="Rate Spread Before Points" />
-												</testParameters>
-												<environments testedURL="" />
-												<children />
+											<testItem name="Operand Formula" key="{086EA797-B203-46F5-BE43-2D970C6693C0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 6365_RFV Update Operand Formula &apos;Absolute&apos; with Numeric Value" key="{2DE146C3-0CD8-488E-8724-31FB77AD7CB9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF836C59-2793-4C3B-85CB-EF2BC140DF0F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Tuition Fee Loan Amount" />
+															<param3 name="LogicBuildString" type="1" localVarName="" value="Is:1;Is:10;Is:&amp;ABS(15);" />
+															<param4 name="RFRowNumber" type="1" localVarName="" value="1" />
+															<param5 name="Column1" type="1" localVarName="" value="Study Scope Code" />
+															<param6 name="Column2" type="1" localVarName="" value="Applied Tuition Fee Loan" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6366_RFV Update Operand Formula &apos;Absolute&apos; with Fact Type" key="{52BEF2EA-58A2-4248-B452-03F50C251402}" group="False" parallel="False" enabled="True" testMoniker="KDT\{13F468F8-E8B1-4563-83BB-CF35B5D27DD5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Tuition Fee Loan Amount" />
+															<param3 name="LogicBuildString" type="1" localVarName="" value="Is:1;:;Is:&amp;ABS($&quot;Study Scope Code&quot;);" />
+															<param4 name="RFRowNumber" type="1" localVarName="" value="1" />
+															<param5 name="Column1" type="1" localVarName="" value="Study Scope Code" />
+															<param6 name="Column2" type="1" localVarName="" value="Applied Tuition Fee Loan" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6368_RFV Update Operand Formula &apos;Average&apos; with Numeric Value" key="{30ACAF7A-DD94-4160-885D-90249270D237}" group="False" parallel="False" enabled="True" testMoniker="KDT\{88145699-3E37-4D0E-B53C-1B0F7F33198A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TaskName" type="1" localVarName="" value="Task_Modelling_RF" />
+															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+															<param2 name="DRFName" type="1" localVarName="" value="Tuition Fee Loan Amount" />
+															<param3 name="LogicBuildString" type="1" localVarName="" value=":;:;Is:&amp;AVERAGE(25,30);" />
+															<param4 name="RFRowNumber" type="1" localVarName="" value="1" />
+															<param5 name="Column1" type="1" localVarName="" value="Study Scope Code" />
+															<param6 name="Column2" type="1" localVarName="" value="Applied Tuition Fee Loan" />
+														</testParameters>
+														<environments testedURL="" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
 										</children>
 									</testItem>

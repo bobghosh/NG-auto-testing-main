@@ -14,7 +14,7 @@
   
   if(ValidationIcon.getAttribute("class").includes("icon-invalid_warning"))
   {
-    Log.Checkpoint("Asset has Warnings");
+    Log.Warning("Asset has Warnings");
     assetHasWarning =true;
     
   }
@@ -44,7 +44,7 @@
   {    
     if(assetHasWarning == true)
     {
-      Log.Checkpoint("Warning Messages: "+validationMessage[i].textcontent);
+      Log.Warning("Warning Messages: "+validationMessage[i].textcontent);
     }
     
     else if(isAssetInvalid == true)
